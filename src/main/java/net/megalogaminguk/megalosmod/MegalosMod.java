@@ -1,7 +1,8 @@
 package net.megalogaminguk.megalosmod;
 
+import net.megalogaminguk.megalosmod.block.ModBlocks;
 import net.megalogaminguk.megalosmod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
+import net.megalogaminguk.megalosmod.tabs.ModTabs;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.api.distmarker.Dist;
@@ -28,7 +29,10 @@ public class MegalosMod
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
 
+        ModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 
@@ -42,9 +46,7 @@ public class MegalosMod
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.ALUMINIUM_INGOT);
-        }
+
     }
 
     @SubscribeEvent
