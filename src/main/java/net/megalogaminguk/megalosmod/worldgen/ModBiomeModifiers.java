@@ -34,44 +34,44 @@ public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_ZIRCONIUM_ORE = registerKey("add_zirconium_ore");
 
     //Deepslate
-    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_ANTIMONY_ORE = registerKey("add_antimony_ore");
-    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_BISMUTH_ORE = registerKey("add_bismuth_ore");
-    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_CADMIUM_ORE = registerKey("add_cadmium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_CHROMIUM_ORE = registerKey("add_chromium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_COBALT_ORE = registerKey("add_cobalt_ore");
-    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_GALLIUM_ORE = registerKey("add_gallium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_IRIDIUM_ORE = registerKey("add_iridium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_MANGANESE_ORE = registerKey("add_manganese_ore");
-    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_MOLYBDENUM_ORE = registerKey("add_molybdenum_ore");
-    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_PALLADIUM_ORE = registerKey("add_palladium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_RUTHENIUM_ORE = registerKey("add_ruthenium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_THALLIUM_ORE = registerKey("add_thallium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_TUNGSTEN_ORE = registerKey("add_tungsten_ore");
+    public static final ResourceKey<BiomeModifier> ADD_ANTIMONY_ORE = registerKey("add_antimony_ore");
+    public static final ResourceKey<BiomeModifier> ADD_BISMUTH_ORE = registerKey("add_bismuth_ore");
+    public static final ResourceKey<BiomeModifier> ADD_CADMIUM_ORE = registerKey("add_cadmium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_CHROMIUM_ORE = registerKey("add_chromium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_COBALT_ORE = registerKey("add_cobalt_ore");
+    public static final ResourceKey<BiomeModifier> ADD_GALLIUM_ORE = registerKey("add_gallium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_IRIDIUM_ORE = registerKey("add_iridium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_MANGANESE_ORE = registerKey("add_manganese_ore");
+    public static final ResourceKey<BiomeModifier> ADD_MOLYBDENUM_ORE = registerKey("add_molybdenum_ore");
+    public static final ResourceKey<BiomeModifier> ADD_PALLADIUM_ORE = registerKey("add_palladium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_RUTHENIUM_ORE = registerKey("add_ruthenium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_THALLIUM_ORE = registerKey("add_thallium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_TUNGSTEN_ORE = registerKey("add_tungsten_ore");
 
     //Nether
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_ARSENIC_ORE = registerKey("add_arsenic_ore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_BARIUM_ORE = registerKey("add_barium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_BERYLLIUM_ORE = registerKey("add_beryllium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_CAESIUM_ORE = registerKey("add_caesium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_GERMANIUM_ORE = registerKey("add_germanium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_HAFNIUM_ORE = registerKey("add_hafnium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_INDIUM_ORE = registerKey("add_indium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_NIOBIUM_ORE = registerKey("add_niobium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_PHOSPHORUS_ORE = registerKey("add_phosphorus_ore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_RHENIUM_ORE = registerKey("add_rhenium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_RHODIUM_ORE = registerKey("add_rhodium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_SELENIUM_ORE = registerKey("add_selenium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_TECHNETIUM_ORE = registerKey("add_technetium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_TELLURIUM_ORE = registerKey("add_tellurium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_ARSENIC_ORE = registerKey("add_arsenic_ore");
+    public static final ResourceKey<BiomeModifier> ADD_BARIUM_ORE = registerKey("add_barium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_BERYLLIUM_ORE = registerKey("add_beryllium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_CAESIUM_ORE = registerKey("add_caesium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_GERMANIUM_ORE = registerKey("add_germanium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_HAFNIUM_ORE = registerKey("add_hafnium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_INDIUM_ORE = registerKey("add_indium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_NIOBIUM_ORE = registerKey("add_niobium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_PHOSPHORUS_ORE = registerKey("add_phosphorus_ore");
+    public static final ResourceKey<BiomeModifier> ADD_RHENIUM_ORE = registerKey("add_rhenium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_RHODIUM_ORE = registerKey("add_rhodium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_SELENIUM_ORE = registerKey("add_selenium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_TECHNETIUM_ORE = registerKey("add_technetium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_TELLURIUM_ORE = registerKey("add_tellurium_ore");
 
     //End
-    public static final ResourceKey<BiomeModifier> ADD_END_LITHIUM_ORE = registerKey("add_lithium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_END_RUBIDIUM_ORE = registerKey("add_rubidium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_END_SCANDIUM_ORE = registerKey("add_scandium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_END_STRONTIUM_ORE = registerKey("add_strontium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_END_TANTALUM_ORE = registerKey("add_tantalum_ore");
-    public static final ResourceKey<BiomeModifier> ADD_END_VANADIUM_ORE = registerKey("add_vanadium_ore");
-    public static final ResourceKey<BiomeModifier> ADD_END_YTTRIUM_ORE = registerKey("add_yttrium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_LITHIUM_ORE = registerKey("add_lithium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_RUBIDIUM_ORE = registerKey("add_rubidium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_SCANDIUM_ORE = registerKey("add_scandium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_STRONTIUM_ORE = registerKey("add_strontium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_TANTALUM_ORE = registerKey("add_tantalum_ore");
+    public static final ResourceKey<BiomeModifier> ADD_VANADIUM_ORE = registerKey("add_vanadium_ore");
+    public static final ResourceKey<BiomeModifier> ADD_YTTRIUM_ORE = registerKey("add_yttrium_ore");
 
     public static void bootstrap(BootstrapContext<BiomeModifier> context) {
         // CF -> PF -> BM
@@ -140,145 +140,145 @@ public class ModBiomeModifiers {
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
         //Deepslate
-        context.register(ADD_DEEPSLATE_ANTIMONY_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_ANTIMONY_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEEPSLATE_ANTIMONY_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.ANTIMONY_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_DEEPSLATE_BISMUTH_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_BISMUTH_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEEPSLATE_BISMUTH_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.BISMUTH_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_DEEPSLATE_CADMIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_CADMIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEEPSLATE_CADMIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.CADMIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_DEEPSLATE_CHROMIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_CHROMIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEEPSLATE_CHROMIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.CHROMIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_DEEPSLATE_COBALT_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_COBALT_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEEPSLATE_COBALT_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.COBALT_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_DEEPSLATE_GALLIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_GALLIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEEPSLATE_GALLIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.GALLIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_DEEPSLATE_IRIDIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_IRIDIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEEPSLATE_IRIDIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.IRIDIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_DEEPSLATE_MANGANESE_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_MANGANESE_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEEPSLATE_MANGANESE_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.MANGANESE_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_DEEPSLATE_MOLYBDENUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_MOLYBDENUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEEPSLATE_MOLYBDENUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.MOLYBDENUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_DEEPSLATE_PALLADIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_PALLADIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEEPSLATE_PALLADIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.PALLADIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_DEEPSLATE_RUTHENIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_RUTHENIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEEPSLATE_RUTHENIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.RUTHENIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_DEEPSLATE_THALLIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_THALLIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEEPSLATE_THALLIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.THALLIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_DEEPSLATE_TUNGSTEN_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_TUNGSTEN_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEEPSLATE_TUNGSTEN_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.TUNGSTEN_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
         //Nether
-        context.register(ADD_NETHER_ARSENIC_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_ARSENIC_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_ARSENIC_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.ARSENIC_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_NETHER_BARIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_BARIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_BARIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.BARIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_NETHER_BERYLLIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_BERYLLIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_BERYLLIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.BERYLLIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_NETHER_CAESIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_CAESIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_CAESIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.CAESIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_NETHER_GERMANIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_GERMANIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_GERMANIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.GERMANIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_NETHER_HAFNIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_HAFNIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_HAFNIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HAFNIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_NETHER_INDIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_INDIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_INDIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.INDIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_NETHER_NIOBIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_NIOBIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_NIOBIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NIOBIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_NETHER_PHOSPHORUS_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_PHOSPHORUS_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_PHOSPHORUS_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.PHOSPHORUS_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_NETHER_RHENIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_RHENIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_RHENIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.RHENIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_NETHER_RHODIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_RHODIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_RHODIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.RHODIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_NETHER_SELENIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_SELENIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_SELENIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.SELENIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_NETHER_TECHNETIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_TECHNETIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_TECHNETIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.TECHNETIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_NETHER_TELLURIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_TELLURIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_TELLURIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.TELLURIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
         //End
-        context.register(ADD_END_LITHIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_LITHIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_END),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.END_LITHIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.LITHIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_END_RUBIDIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_RUBIDIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_END),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.END_RUBIDIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.RUBIDIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_END_SCANDIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_SCANDIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_END),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.END_SCANDIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.SCANDIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_END_STRONTIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_STRONTIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_END),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.END_STRONTIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.STRONTIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_END_TANTALUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_TANTALUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_END),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.END_TANTALUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.TANTALUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_END_VANADIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_VANADIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_END),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.END_VANADIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.VANADIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
-        context.register(ADD_END_YTTRIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_YTTRIUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_END),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.END_YTTRIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.YTTRIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
     }
