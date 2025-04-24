@@ -105,47 +105,47 @@ public class ModConfiguredFeatures {
 
         //Deepslate
         register(context, ANTIMONY_ORE_KEY, Feature.ORE, new OreConfiguration(deepslateReplaceables, ModBlocks.ANTIMONY_ORE.get().defaultBlockState(),9));
-        register(context, BISMUTH_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.BISMUTH_ORE.get().defaultBlockState(),9));
-        register(context, CADMIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.CADMIUM_ORE.get().defaultBlockState(),9));
-        register(context, CHROMIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.CHROMIUM_ORE.get().defaultBlockState(),9));
-        register(context, COBALT_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.COBALT_ORE.get().defaultBlockState(),9));
+        register(context, BISMUTH_ORE_KEY, Feature.ORE, new OreConfiguration(deepslateReplaceables, ModBlocks.BISMUTH_ORE.get().defaultBlockState(),9));
+        register(context, CADMIUM_ORE_KEY, Feature.ORE, new OreConfiguration(deepslateReplaceables, ModBlocks.CADMIUM_ORE.get().defaultBlockState(),9));
+        register(context, CHROMIUM_ORE_KEY, Feature.ORE, new OreConfiguration(deepslateReplaceables, ModBlocks.CHROMIUM_ORE.get().defaultBlockState(),9));
+        register(context, COBALT_ORE_KEY, Feature.ORE, new OreConfiguration(deepslateReplaceables, ModBlocks.COBALT_ORE.get().defaultBlockState(),9));
 
-        register(context, GALLIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.GALLIUM_ORE.get().defaultBlockState(),9));
-        register(context, IRIDIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.IRIDIUM_ORE.get().defaultBlockState(),9));
-        register(context, MANGANESE_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.MANGANESE_ORE.get().defaultBlockState(),9));
-        register(context, MOLYBDENUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.MOLYBDENUM_ORE.get().defaultBlockState(),9));
-        register(context, PALLADIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.PALLADIUM_ORE.get().defaultBlockState(),9));
+        register(context, GALLIUM_ORE_KEY, Feature.ORE, new OreConfiguration(deepslateReplaceables, ModBlocks.GALLIUM_ORE.get().defaultBlockState(),9));
+        register(context, IRIDIUM_ORE_KEY, Feature.ORE, new OreConfiguration(deepslateReplaceables, ModBlocks.IRIDIUM_ORE.get().defaultBlockState(),9));
+        register(context, MANGANESE_ORE_KEY, Feature.ORE, new OreConfiguration(deepslateReplaceables, ModBlocks.MANGANESE_ORE.get().defaultBlockState(),9));
+        register(context, MOLYBDENUM_ORE_KEY, Feature.ORE, new OreConfiguration(deepslateReplaceables, ModBlocks.MOLYBDENUM_ORE.get().defaultBlockState(),9));
+        register(context, PALLADIUM_ORE_KEY, Feature.ORE, new OreConfiguration(deepslateReplaceables, ModBlocks.PALLADIUM_ORE.get().defaultBlockState(),9));
 
-        register(context, RUTHENIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.RUTHENIUM_ORE.get().defaultBlockState(),9));
-        register(context, THALLIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.THALLIUM_ORE.get().defaultBlockState(),9));
-        register(context, TUNGSTEN_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.TUNGSTEN_ORE.get().defaultBlockState(),9));
+        register(context, RUTHENIUM_ORE_KEY, Feature.ORE, new OreConfiguration(deepslateReplaceables, ModBlocks.RUTHENIUM_ORE.get().defaultBlockState(),9));
+        register(context, THALLIUM_ORE_KEY, Feature.ORE, new OreConfiguration(deepslateReplaceables, ModBlocks.THALLIUM_ORE.get().defaultBlockState(),9));
+        register(context, TUNGSTEN_ORE_KEY, Feature.ORE, new OreConfiguration(deepslateReplaceables, ModBlocks.TUNGSTEN_ORE.get().defaultBlockState(),9));
 
         //Nether
         register(context, ARSENIC_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.ARSENIC_ORE.get().defaultBlockState(),9));
-        register(context, BARIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.BARIUM_ORE.get().defaultBlockState(),9));
-        register(context, BERYLLIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.BERYLLIUM_ORE.get().defaultBlockState(),9));
-        register(context, CAESIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.CAESIUM_ORE.get().defaultBlockState(),9));
-        register(context, GERMANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.GERMANIUM_ORE.get().defaultBlockState(),9));
+        register(context, BARIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.BARIUM_ORE.get().defaultBlockState(),9));
+        register(context, BERYLLIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.BERYLLIUM_ORE.get().defaultBlockState(),9));
+        register(context, CAESIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.CAESIUM_ORE.get().defaultBlockState(),9));
+        register(context, GERMANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.GERMANIUM_ORE.get().defaultBlockState(),9));
 
-        register(context, HAFNIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.HAFNIUM_ORE.get().defaultBlockState(),9));
-        register(context, INDIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.INDIUM_ORE.get().defaultBlockState(),9));
-        register(context, NIOBIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.NIOBIUM_ORE.get().defaultBlockState(),9));
-        register(context, PHOSPHORUS_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.PHOSPHORUS_ORE.get().defaultBlockState(),9));
-        register(context, RHENIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.RHENIUM_ORE.get().defaultBlockState(),9));
+        register(context, HAFNIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.HAFNIUM_ORE.get().defaultBlockState(),9));
+        register(context, INDIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.INDIUM_ORE.get().defaultBlockState(),9));
+        register(context, NIOBIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.NIOBIUM_ORE.get().defaultBlockState(),9));
+        register(context, PHOSPHORUS_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.PHOSPHORUS_ORE.get().defaultBlockState(),9));
+        register(context, RHENIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.RHENIUM_ORE.get().defaultBlockState(),9));
 
-        register(context, RHODIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.RHODIUM_ORE.get().defaultBlockState(),9));
-        register(context, SELENIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.SELENIUM_ORE.get().defaultBlockState(),9));
-        register(context, TECHNETIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.TECHNETIUM_ORE.get().defaultBlockState(),9));
-        register(context, TELLURIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.TELLURIUM_ORE.get().defaultBlockState(),9));
+        register(context, RHODIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.RHODIUM_ORE.get().defaultBlockState(),9));
+        register(context, SELENIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.SELENIUM_ORE.get().defaultBlockState(),9));
+        register(context, TECHNETIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.TECHNETIUM_ORE.get().defaultBlockState(),9));
+        register(context, TELLURIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, ModBlocks.TELLURIUM_ORE.get().defaultBlockState(),9));
 
         //End
         register(context, LITHIUM_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables, ModBlocks.LITHIUM_ORE.get().defaultBlockState(), 9));
-        register(context, RUBIDIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.RUBIDIUM_ORE.get().defaultBlockState(),9));
-        register(context, SCANDIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.SCANDIUM_ORE.get().defaultBlockState(),9));
-        register(context, STRONTIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.STRONTIUM_ORE.get().defaultBlockState(),9));
-        register(context, TANTALUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.TANTALUM_ORE.get().defaultBlockState(),9));
-        register(context, VANADIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.VANADIUM_ORE.get().defaultBlockState(),9));
-        register(context, YTTRIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables, ModBlocks.YTTRIUM_ORE.get().defaultBlockState(),9));
+        register(context, RUBIDIUM_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables, ModBlocks.RUBIDIUM_ORE.get().defaultBlockState(),9));
+        register(context, SCANDIUM_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables, ModBlocks.SCANDIUM_ORE.get().defaultBlockState(),9));
+        register(context, STRONTIUM_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables, ModBlocks.STRONTIUM_ORE.get().defaultBlockState(),9));
+        register(context, TANTALUM_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables, ModBlocks.TANTALUM_ORE.get().defaultBlockState(),9));
+        register(context, VANADIUM_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables, ModBlocks.VANADIUM_ORE.get().defaultBlockState(),9));
+        register(context, YTTRIUM_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables, ModBlocks.YTTRIUM_ORE.get().defaultBlockState(),9));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

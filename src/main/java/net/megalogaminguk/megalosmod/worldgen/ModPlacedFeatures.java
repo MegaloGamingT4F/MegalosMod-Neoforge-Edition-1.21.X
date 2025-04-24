@@ -32,46 +32,46 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> ZIRCONIUM_ORE_PLACED_KEY = registerKey("zirconium_ore_placed");
 
     //Deepslate
-    public static final ResourceKey<PlacedFeature> _ANTIMONY_ORE_PLACED_KEY = registerKey("antimony_ore_placed");
-    public static final ResourceKey<PlacedFeature> _BISMUTH_ORE_PLACED_KEY = registerKey("bismuth_ore_placed");
-    public static final ResourceKey<PlacedFeature> _CADMIUM_ORE_PLACED_KEY = registerKey("cadmium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _CHROMIUM_ORE_PLACED_KEY = registerKey("chromium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _COBALT_ORE_PLACED_KEY = registerKey("cobalt_ore_placed");
-    public static final ResourceKey<PlacedFeature> _GALLIUM_ORE_PLACED_KEY = registerKey("gallium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _IRIDIUM_ORE_PLACED_KEY = registerKey("iridium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _MANGANESE_ORE_PLACED_KEY = registerKey("manganese_ore_placed");
-    public static final ResourceKey<PlacedFeature> _MOLYBDENUM_ORE_PLACED_KEY = registerKey("molybdenum_ore_placed");
-    public static final ResourceKey<PlacedFeature> _PALLADIUM_ORE_PLACED_KEY = registerKey("palladium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _RUTHENIUM_ORE_PLACED_KEY = registerKey("ruthenium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _THALLIUM_ORE_PLACED_KEY = registerKey("thallium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _TUNGSTEN_ORE_PLACED_KEY = registerKey("tungsten_ore_placed");
+    public static final ResourceKey<PlacedFeature> ANTIMONY_ORE_PLACED_KEY = registerKey("antimony_ore_placed");
+    public static final ResourceKey<PlacedFeature> BISMUTH_ORE_PLACED_KEY = registerKey("bismuth_ore_placed");
+    public static final ResourceKey<PlacedFeature> CADMIUM_ORE_PLACED_KEY = registerKey("cadmium_ore_placed");
+    public static final ResourceKey<PlacedFeature> CHROMIUM_ORE_PLACED_KEY = registerKey("chromium_ore_placed");
+    public static final ResourceKey<PlacedFeature> COBALT_ORE_PLACED_KEY = registerKey("cobalt_ore_placed");
+    public static final ResourceKey<PlacedFeature> GALLIUM_ORE_PLACED_KEY = registerKey("gallium_ore_placed");
+    public static final ResourceKey<PlacedFeature> IRIDIUM_ORE_PLACED_KEY = registerKey("iridium_ore_placed");
+    public static final ResourceKey<PlacedFeature> MANGANESE_ORE_PLACED_KEY = registerKey("manganese_ore_placed");
+    public static final ResourceKey<PlacedFeature> MOLYBDENUM_ORE_PLACED_KEY = registerKey("molybdenum_ore_placed");
+    public static final ResourceKey<PlacedFeature> PALLADIUM_ORE_PLACED_KEY = registerKey("palladium_ore_placed");
+    public static final ResourceKey<PlacedFeature> RUTHENIUM_ORE_PLACED_KEY = registerKey("ruthenium_ore_placed");
+    public static final ResourceKey<PlacedFeature> THALLIUM_ORE_PLACED_KEY = registerKey("thallium_ore_placed");
+    public static final ResourceKey<PlacedFeature> TUNGSTEN_ORE_PLACED_KEY = registerKey("tungsten_ore_placed");
 
     //Nether
-    public static final ResourceKey<PlacedFeature> _ARSENIC_ORE_PLACED_KEY = registerKey("arsenic_ore_placed");
-    public static final ResourceKey<PlacedFeature> _BARIUM_ORE_PLACED_KEY = registerKey("barium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _BERYLLIUM_ORE_PLACED_KEY = registerKey("beryllium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _CAESIUM_ORE_PLACED_KEY = registerKey("caesium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _GERMANIUM_ORE_PLACED_KEY = registerKey("germanium_ore_placed");
+    public static final ResourceKey<PlacedFeature> ARSENIC_ORE_PLACED_KEY = registerKey("arsenic_ore_placed");
+    public static final ResourceKey<PlacedFeature> BARIUM_ORE_PLACED_KEY = registerKey("barium_ore_placed");
+    public static final ResourceKey<PlacedFeature> BERYLLIUM_ORE_PLACED_KEY = registerKey("beryllium_ore_placed");
+    public static final ResourceKey<PlacedFeature> CAESIUM_ORE_PLACED_KEY = registerKey("caesium_ore_placed");
+    public static final ResourceKey<PlacedFeature> GERMANIUM_ORE_PLACED_KEY = registerKey("germanium_ore_placed");
 
-    public static final ResourceKey<PlacedFeature> _HAFNIUM_ORE_PLACED_KEY = registerKey("hafnium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _INDIUM_ORE_PLACED_KEY = registerKey("indium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _NIOBIUM_ORE_PLACED_KEY = registerKey("niobium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _PHOSPHORUS_ORE_PLACED_KEY = registerKey("phosphorus_ore_placed");
-    public static final ResourceKey<PlacedFeature> _RHENIUM_ORE_PLACED_KEY = registerKey("rhenium_ore_placed");
+    public static final ResourceKey<PlacedFeature> HAFNIUM_ORE_PLACED_KEY = registerKey("hafnium_ore_placed");
+    public static final ResourceKey<PlacedFeature> INDIUM_ORE_PLACED_KEY = registerKey("indium_ore_placed");
+    public static final ResourceKey<PlacedFeature> NIOBIUM_ORE_PLACED_KEY = registerKey("niobium_ore_placed");
+    public static final ResourceKey<PlacedFeature> PHOSPHORUS_ORE_PLACED_KEY = registerKey("phosphorus_ore_placed");
+    public static final ResourceKey<PlacedFeature> RHENIUM_ORE_PLACED_KEY = registerKey("rhenium_ore_placed");
 
-    public static final ResourceKey<PlacedFeature> _RHODIUM_ORE_PLACED_KEY = registerKey("rhodium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _SELENIUM_ORE_PLACED_KEY = registerKey("selenium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _TECHNETIUM_ORE_PLACED_KEY = registerKey("technetium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _TELLURIUM_ORE_PLACED_KEY = registerKey("tellurium_ore_placed");
+    public static final ResourceKey<PlacedFeature> RHODIUM_ORE_PLACED_KEY = registerKey("rhodium_ore_placed");
+    public static final ResourceKey<PlacedFeature> SELENIUM_ORE_PLACED_KEY = registerKey("selenium_ore_placed");
+    public static final ResourceKey<PlacedFeature> TECHNETIUM_ORE_PLACED_KEY = registerKey("technetium_ore_placed");
+    public static final ResourceKey<PlacedFeature> TELLURIUM_ORE_PLACED_KEY = registerKey("tellurium_ore_placed");
 
     //End
-    public static final ResourceKey<PlacedFeature> _LITHIUM_ORE_PLACED_KEY = registerKey("lithium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _RUBIDIUM_ORE_PLACED_KEY = registerKey("rubidium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _SCANDIUM_ORE_PLACED_KEY = registerKey("scandium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _STRONTIUM_ORE_PLACED_KEY = registerKey("strontium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _TANTALUM_ORE_PLACED_KEY = registerKey("tantalum_ore_placed");
-    public static final ResourceKey<PlacedFeature> _VANADIUM_ORE_PLACED_KEY = registerKey("vanadium_ore_placed");
-    public static final ResourceKey<PlacedFeature> _YTTRIUM_ORE_PLACED_KEY = registerKey("yttrium_ore_placed");
+    public static final ResourceKey<PlacedFeature> LITHIUM_ORE_PLACED_KEY = registerKey("lithium_ore_placed");
+    public static final ResourceKey<PlacedFeature> RUBIDIUM_ORE_PLACED_KEY = registerKey("rubidium_ore_placed");
+    public static final ResourceKey<PlacedFeature> SCANDIUM_ORE_PLACED_KEY = registerKey("scandium_ore_placed");
+    public static final ResourceKey<PlacedFeature> STRONTIUM_ORE_PLACED_KEY = registerKey("strontium_ore_placed");
+    public static final ResourceKey<PlacedFeature> TANTALUM_ORE_PLACED_KEY = registerKey("tantalum_ore_placed");
+    public static final ResourceKey<PlacedFeature> VANADIUM_ORE_PLACED_KEY = registerKey("vanadium_ore_placed");
+    public static final ResourceKey<PlacedFeature> YTTRIUM_ORE_PLACED_KEY = registerKey("yttrium_ore_placed");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -137,142 +137,142 @@ public class ModPlacedFeatures {
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(10),VerticalAnchor.absolute(80))));
 
         //Deepslate
-        register(context, _ANTIMONY_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ANTIMONY_ORE_KEY),
+        register(context, ANTIMONY_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ANTIMONY_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(-8))));
 
-        register(context, _BISMUTH_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BISMUTH_ORE_KEY),
+        register(context, BISMUTH_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BISMUTH_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(-8))));
 
-        register(context, _CADMIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CADMIUM_ORE_KEY),
+        register(context, CADMIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CADMIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(-8))));
 
-        register(context, _CHROMIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CHROMIUM_ORE_KEY),
+        register(context, CHROMIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CHROMIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(-8))));
 
-        register(context, _COBALT_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.COBALT_ORE_KEY),
+        register(context, COBALT_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.COBALT_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(-8))));
 
-        register(context, _GALLIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.GALLIUM_ORE_KEY),
+        register(context, GALLIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.GALLIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(-8))));
 
-        register(context, _IRIDIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.IRIDIUM_ORE_KEY),
+        register(context, IRIDIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.IRIDIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(-8))));
 
-        register(context, _MANGANESE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MANGANESE_ORE_KEY),
+        register(context, MANGANESE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MANGANESE_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(-8))));
 
-        register(context, _MOLYBDENUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MOLYBDENUM_ORE_KEY),
+        register(context, MOLYBDENUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MOLYBDENUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(-8))));
 
-        register(context, _PALLADIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PALLADIUM_ORE_KEY),
+        register(context, PALLADIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PALLADIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(-8))));
 
-        register(context, _RUTHENIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RUTHENIUM_ORE_KEY),
+        register(context, RUTHENIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RUTHENIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(-8))));
 
-        register(context, _THALLIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.THALLIUM_ORE_KEY),
+        register(context, THALLIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.THALLIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(-8))));
 
-        register(context, _TUNGSTEN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TUNGSTEN_ORE_KEY),
+        register(context, TUNGSTEN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TUNGSTEN_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(-8))));
 
 
         //Nether
-        register(context, _ARSENIC_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ARSENIC_ORE_KEY),
+        register(context, ARSENIC_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ARSENIC_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
-        register(context, _BARIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BARIUM_ORE_KEY),
+        register(context, BARIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BARIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
-        register(context, _BERYLLIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERYLLIUM_ORE_KEY),
+        register(context, BERYLLIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERYLLIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
-        register(context, _CAESIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CAESIUM_ORE_KEY),
+        register(context, CAESIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CAESIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
-        register(context, _GERMANIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.GERMANIUM_ORE_KEY),
+        register(context, GERMANIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.GERMANIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
-        register(context, _HAFNIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.HAFNIUM_ORE_KEY),
+        register(context, HAFNIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.HAFNIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
-        register(context, _INDIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.INDIUM_ORE_KEY),
+        register(context, INDIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.INDIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
-        register(context, _NIOBIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NIOBIUM_ORE_KEY),
+        register(context, NIOBIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NIOBIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
-        register(context, _PHOSPHORUS_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PHOSPHORUS_ORE_KEY),
+        register(context, PHOSPHORUS_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PHOSPHORUS_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
-        register(context, _RHENIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RHENIUM_ORE_KEY),
+        register(context, RHENIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RHENIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
-        register(context, _RHODIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RHODIUM_ORE_KEY),
+        register(context, RHODIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RHODIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
-        register(context, _SELENIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SELENIUM_ORE_KEY),
+        register(context, SELENIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SELENIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
-        register(context, _TECHNETIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TECHNETIUM_ORE_KEY),
+        register(context, TECHNETIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TECHNETIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
-        register(context, _TELLURIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TELLURIUM_ORE_KEY),
+        register(context, TELLURIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TELLURIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(64),VerticalAnchor.absolute(8))));
 
         //End
-        register(context, _LITHIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LITHIUM_ORE_KEY),
+        register(context, LITHIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LITHIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(11),VerticalAnchor.absolute(80))));
 
-        register(context, _RUBIDIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RUBIDIUM_ORE_KEY),
+        register(context, RUBIDIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RUBIDIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(11),VerticalAnchor.absolute(80))));
 
-        register(context, _SCANDIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SCANDIUM_ORE_KEY),
+        register(context, SCANDIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SCANDIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(11,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(31),VerticalAnchor.absolute(80))));
 
-        register(context, _STRONTIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.STRONTIUM_ORE_KEY),
+        register(context, STRONTIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.STRONTIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(11,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(41),VerticalAnchor.absolute(80))));
 
-        register(context, _TANTALUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TANTALUM_ORE_KEY),
+        register(context, TANTALUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TANTALUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(11,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(51),VerticalAnchor.absolute(80))));
 
-        register(context, _VANADIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.VANADIUM_ORE_KEY),
+        register(context, VANADIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.VANADIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(11,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(60),VerticalAnchor.absolute(80))));
 
-        register(context, _YTTRIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.YTTRIUM_ORE_KEY),
+        register(context, YTTRIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.YTTRIUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(11,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(60),VerticalAnchor.absolute(80))));
 
