@@ -1,11 +1,13 @@
 package net.megalogaminguk.megalosmod.block;
 
 import net.megalogaminguk.megalosmod.MegalosMod;
+import net.megalogaminguk.megalosmod.block.custom.cropblocks.chilli.*;
 import net.megalogaminguk.megalosmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -376,7 +378,47 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     //Alloys - Blocks
+
     //Nature - Blocks
+    public static final DeferredBlock<Block> BHUT_JOLOKIA_CHILLI_CROP = BLOCKS.register("bhut_jolokia_chilli_crop",
+            () -> new BhutJolokiaChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    public static final DeferredBlock<Block> BIRDS_EYE_CHILLI_CROP = BLOCKS.register("chilli_birds_eye_crop",
+            () -> new BirdsEyeChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    public static final DeferredBlock<Block> CAROLINA_REAPER_CHILLI_CROP = BLOCKS.register("chilli_carolina_reaper_crop",
+            () -> new CarolinaReaperChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    public static final DeferredBlock<Block> CAYENNE_CHILLI_CROP = BLOCKS.register("chilli_cayenne_crop",
+            () -> new CayenneChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    public static final DeferredBlock<Block> HABANERO_CHILLI_CROP = BLOCKS.register("chilli_habanero_crop",
+            () -> new HabaneroChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    public static final DeferredBlock<Block> JALAPENO_CHILLI_CROP = BLOCKS.register("chilli_jalapeno_crop",
+            () -> new JalapenoChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    public static final DeferredBlock<Block> NAGA_GHOST_CHILLI_CROP = BLOCKS.register("chilli_naga_ghost_crop",
+            () -> new NagaGhostChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    public static final DeferredBlock<Block> PADRON_CHILLI_CROP = BLOCKS.register("chilli_padron_crop",
+            () -> new PadronChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    public static final DeferredBlock<Block> POBLANO_CHILLI_CROP = BLOCKS.register("chilli_poblano_crop",
+            () -> new PoblanoChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    public static final DeferredBlock<Block> SCOTCH_BONNET_CHILLI_CROP = BLOCKS.register("chilli_scotch_bonnet_crop",
+            () -> new ScotchBonnetChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    public static final DeferredBlock<Block> SILING_LABUYO_CHILLI_CROP = BLOCKS.register("chilli_siling_labuyo_crop",
+            () -> new SilingLabuyoChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    public static final DeferredBlock<Block> TABASCO_CHILLI_CROP = BLOCKS.register("chilli_tabasco_crop",
+            () -> new TabascoChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    public static final DeferredBlock<Block> TRINIDAD_SCORPION_CHILLI_CROP = BLOCKS.register("chilli_trinidad_scorpion_crop",
+            () -> new TrinidadScorpionChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

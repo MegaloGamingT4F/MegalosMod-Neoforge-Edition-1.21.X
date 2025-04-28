@@ -322,6 +322,22 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //Alloys - Dust
         basicItem(ModItems.AA_DUST.get());
+
+        //Nature - Cropa
+        //Nature - Seeds
+        basicItem(ModItems.BHUT_JOLOKIA_CHILLI_SEEDS.get());
+        basicItem(ModItems.BIRDS_EYE_CHILLI_SEEDS.get());
+        basicItem(ModItems.CAROLINA_REAPER_CHILLI_SEEDS.get());
+        basicItem(ModItems.CAYENNE_CHILLI_SEEDS.get());
+        basicItem(ModItems.HABANERO_CHILLI_SEEDS.get());
+        basicItem(ModItems.JALAPENO_CHILLI_SEEDS.get());
+        basicItem(ModItems.NAGA_GHOST_CHILLI_SEEDS.get());
+        basicItem(ModItems.PADRON_CHILLI_SEEDS.get());
+        basicItem(ModItems.POBLANO_CHILLI_SEEDS.get());
+        basicItem(ModItems.SCOTCH_BONNET_CHILLI_SEEDS.get());
+        basicItem(ModItems.SILING_LABUYO_CHILLI_SEEDS.get());
+        basicItem(ModItems.TABASCO_CHILLI_SEEDS.get());
+        basicItem(ModItems.TRINIDAD_SCORPION_CHILLI_SEEDS.get());
     }
     private void trimmedArmorItem(DeferredItem<ArmorItem> itemDeferredItem) {
         final String MOD_ID = MegalosMod.MOD_ID; // Change this to your mod id

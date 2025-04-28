@@ -2,8 +2,14 @@ package net.megalogaminguk.megalosmod.datagen;
 
 import net.megalogaminguk.megalosmod.MegalosMod;
 import net.megalogaminguk.megalosmod.block.ModBlocks;
+import net.megalogaminguk.megalosmod.block.custom.cropblocks.chilli.BhutJolokiaChilliCropBlock;
+import net.megalogaminguk.megalosmod.block.custom.cropblocks.chilli.BirdsEyeChilliCropBlock;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.CropBlock;
+import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
+import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -173,6 +179,23 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RAW_ZINC_BLOCK);
         blockWithItem(ModBlocks.RAW_ZIRCONIUM_BLOCK);
 
+        makeCrop(((CropBlock) ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get()), "bhut_jolokia_chilli_crop_stage", "bhut_jolokia_chilli_crop_stage");
+
+    }
+
+    public void makeCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> states(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] states(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((BhutJolokiaChilliCropBlock) block).getAgeProperty()),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((BhutJolokiaChilliCropBlock) block)
+                        .getAgeProperty()))).renderType("cutout"));
+
+        return models;
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

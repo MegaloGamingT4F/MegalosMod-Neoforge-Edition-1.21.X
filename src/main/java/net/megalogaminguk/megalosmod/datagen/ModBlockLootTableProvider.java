@@ -1,7 +1,9 @@
 package net.megalogaminguk.megalosmod.datagen;
 
 import net.megalogaminguk.megalosmod.block.ModBlocks;
+import net.megalogaminguk.megalosmod.block.custom.cropblocks.chilli.BhutJolokiaChilliCropBlock;
 import net.megalogaminguk.megalosmod.item.ModItems;
+import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
@@ -15,6 +17,8 @@ import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
+import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 
 import java.util.Set;
@@ -240,6 +244,12 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.RAW_YTTRIUM_BLOCK.get());
         dropSelf(ModBlocks.RAW_ZINC_BLOCK.get());
         dropSelf(ModBlocks.RAW_ZIRCONIUM_BLOCK.get());
+
+        LootItemCondition.Builder lootItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(BhutJolokiaChilliCropBlock.AGE, 6));
+
+        this.add(ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get(),
+                ModItems.BHUT_JOLOKIA_CHILLI.get(), ModItems.BHUT_JOLOKIA_CHILLI_SEEDS.get(), lootItemConditionBuilder));
 }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

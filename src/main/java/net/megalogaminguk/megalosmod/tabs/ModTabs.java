@@ -548,6 +548,7 @@ public class ModTabs
                         //Block
 
                         //Item
+                        output.accept(ModItems.BHUT_JOLOKIA_CHILLI_SEEDS);
                     }).build());
 
     public static void register(IEventBus eventBus){
