@@ -1,10 +1,12 @@
 package net.megalogaminguk.megalosmod.datagen;
 
 import net.megalogaminguk.megalosmod.MegalosMod;
+import net.megalogaminguk.megalosmod.block.ModBlocks;
 import net.megalogaminguk.megalosmod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -60,6 +62,15 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.TITANIUM_CHESTPLATE.get())
                 .add(ModItems.TITANIUM_LEGGINGS.get())
                 .add(ModItems.TITANIUM_BOOTS.get());
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.BLACK_ASH_LOG.get().asItem())
+                .add(ModBlocks.BLACK_ASH_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_BLACK_ASH_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_BLACK_ASH_WOOD.get().asItem());
+
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.BLACK_ASH_PLANKS.asItem());
 
     }
 }

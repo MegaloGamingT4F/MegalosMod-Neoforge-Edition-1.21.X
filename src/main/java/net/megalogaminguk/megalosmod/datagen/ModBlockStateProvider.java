@@ -2,11 +2,15 @@ package net.megalogaminguk.megalosmod.datagen;
 
 import net.megalogaminguk.megalosmod.MegalosMod;
 import net.megalogaminguk.megalosmod.block.ModBlocks;
-import net.megalogaminguk.megalosmod.block.custom.cropblocks.chilli.BhutJolokiaChilliCropBlock;
-import net.megalogaminguk.megalosmod.block.custom.cropblocks.chilli.BirdsEyeChilliCropBlock;
+import net.megalogaminguk.megalosmod.block.custom.nature.bush.GooseberryBushBlock;
+import net.megalogaminguk.megalosmod.block.custom.nature.crop.chilli.BhutJolokiaChilliCropBlock;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CropBlock;
+import net.minecraft.world.level.block.RotatedPillarBlock;
+import net.minecraft.world.level.block.SweetBerryBushBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
@@ -179,8 +183,38 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RAW_ZINC_BLOCK);
         blockWithItem(ModBlocks.RAW_ZIRCONIUM_BLOCK);
 
-        makeCrop(((CropBlock) ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get()), "bhut_jolokia_chilli_crop_stage", "bhut_jolokia_chilli_crop_stage");
+        //Tree - Black Ash
+        blockItem(ModBlocks.BLACK_ASH_LOG);
+        blockItem(ModBlocks.BLACK_ASH_WOOD);
+        blockItem(ModBlocks.STRIPPED_BLACK_ASH_LOG);
+        blockItem(ModBlocks.STRIPPED_BLACK_ASH_WOOD);
 
+        blockWithItem(ModBlocks.BLACK_ASH_PLANKS);
+
+        leavesBlock(ModBlocks.BLACK_ASH_LEAVES);
+        saplingBlock(ModBlocks.BLACK_ASH_SAPLING);
+
+        logBlock(((RotatedPillarBlock) ModBlocks.BLACK_ASH_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.BLACK_ASH_WOOD.get()), blockTexture(ModBlocks.BLACK_ASH_LOG.get()), blockTexture(ModBlocks.BLACK_ASH_LOG.get()));
+        logBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_BLACK_ASH_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_BLACK_ASH_WOOD.get()), blockTexture(ModBlocks.STRIPPED_BLACK_ASH_LOG.get()), blockTexture(ModBlocks.STRIPPED_BLACK_ASH_LOG.get()));
+
+        makeCrop(((CropBlock) ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get()), "chilli_bhut_jolokia_crop_stage", "chilli_bhut_jolokia_crop_stage");
+        makeBush(((SweetBerryBushBlock) ModBlocks.GOOSEBERRY_BUSH.get()), "gooseberry_berry_bush_stage", "gooseberry_berry_bush_stage");
+    }
+
+    public void makeBush(SweetBerryBushBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> states(state, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] states(BlockState state, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().cross(modelName + state.getValue(GooseberryBushBlock.AGE),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(GooseberryBushBlock.AGE))).renderType("cutout"));
+
+        return models;
     }
 
     public void makeCrop(CropBlock block, String modelName, String textureName) {
@@ -191,11 +225,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     private ConfiguredModel[] states(BlockState state, CropBlock block, String modelName, String textureName) {
         ConfiguredModel[] models = new ConfiguredModel[1];
-        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((BhutJolokiaChilliCropBlock) block).getAgeProperty()),
-                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((BhutJolokiaChilliCropBlock) block)
-                        .getAgeProperty()))).renderType("cutout"));
 
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((BhutJolokiaChilliCropBlock) block).getAgeProperty()),
+        ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((BhutJolokiaChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
         return models;
+    }
+
+    private void saplingBlock(DeferredBlock<Block> blockRegistryObject) {
+        simpleBlock(blockRegistryObject.get(), models().cross(BuiltInRegistries.BLOCK.getKey(blockRegistryObject.get()).getPath(),
+                blockTexture(blockRegistryObject.get())).renderType("cutout"));
+    }
+
+    private void leavesBlock(DeferredBlock<Block> blockRegistryObject) {
+        simpleBlockWithItem(blockRegistryObject.get(),
+                models().singleTexture(BuiltInRegistries.BLOCK.getKey(blockRegistryObject.get()).getPath(), ResourceLocation.parse("minecraft:block/leaves"),
+                        "all", blockTexture(blockRegistryObject.get())).renderType("cutout"));
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

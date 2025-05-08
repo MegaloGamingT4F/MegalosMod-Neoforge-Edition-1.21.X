@@ -1,7 +1,7 @@
 package net.megalogaminguk.megalosmod.datagen;
 
 import net.megalogaminguk.megalosmod.block.ModBlocks;
-import net.megalogaminguk.megalosmod.block.custom.cropblocks.chilli.BhutJolokiaChilliCropBlock;
+import net.megalogaminguk.megalosmod.block.custom.nature.crop.chilli.*;
 import net.megalogaminguk.megalosmod.item.ModItems;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.core.Holder;
@@ -13,6 +13,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SweetBerryBushBlock;
+import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
@@ -245,12 +247,88 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.RAW_ZINC_BLOCK.get());
         dropSelf(ModBlocks.RAW_ZIRCONIUM_BLOCK.get());
 
-        LootItemCondition.Builder lootItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get())
+        LootItemCondition.Builder bhutItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(BhutJolokiaChilliCropBlock.AGE, 6));
+        LootItemCondition.Builder birdsItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.BIRDS_EYE_CHILLI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(BirdsEyeChilliCropBlock.AGE, 6));
+        LootItemCondition.Builder carolinaReaperItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.CAROLINA_REAPER_CHILLI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CarolinaReaperChilliCropBlock.AGE, 6));
+        LootItemCondition.Builder cayenneItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.CAYENNE_CHILLI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CayenneChilliCropBlock.AGE, 6));
+        LootItemCondition.Builder habaneroItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.HABANERO_CHILLI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HabaneroChilliCropBlock.AGE, 6));
+        LootItemCondition.Builder jalapenoItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.JALAPENO_CHILLI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(JalapenoChilliCropBlock.AGE, 6));
+        LootItemCondition.Builder nagaGhostItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.NAGA_GHOST_CHILLI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(NagaGhostChilliCropBlock.AGE, 6));
+        LootItemCondition.Builder padronItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.PADRON_CHILLI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(PadronChilliCropBlock.AGE, 6));
+        LootItemCondition.Builder poblanoItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.POBLANO_CHILLI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(PoblanoChilliCropBlock.AGE, 6));
+        LootItemCondition.Builder scotchBonnetItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.SCOTCH_BONNET_CHILLI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(ScotchBonnetChilliCropBlock.AGE, 6));
+        LootItemCondition.Builder silingLabuyoItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.SILING_LABUYO_CHILLI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(SilingLabuyoChilliCropBlock.AGE, 6));
+        LootItemCondition.Builder tabascoItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.TABASCO_CHILLI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(TabascoChilliCropBlock.AGE, 6));
+        LootItemCondition.Builder trinidadScorpionItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.TRINIDAD_SCORPION_CHILLI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(TrinidadScorpionChilliCropBlock.AGE, 6));
 
         this.add(ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get(),
-                ModItems.BHUT_JOLOKIA_CHILLI.get(), ModItems.BHUT_JOLOKIA_CHILLI_SEEDS.get(), lootItemConditionBuilder));
-}
+                ModItems.BHUT_JOLOKIA_CHILLI.get(), ModItems.BHUT_JOLOKIA_CHILLI_SEEDS.get(), bhutItemConditionBuilder));
+        this.add(ModBlocks.BIRDS_EYE_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.BIRDS_EYE_CHILLI_CROP.get(),
+                ModItems.BIRDS_EYE_CHILLI.get(), ModItems.BIRDS_EYE_CHILLI_SEEDS.get(), birdsItemConditionBuilder));
+        this.add(ModBlocks.CAROLINA_REAPER_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.CAROLINA_REAPER_CHILLI_CROP.get(),
+                ModItems.CAROLINA_REAPER_CHILLI.get(), ModItems.CAROLINA_REAPER_CHILLI_SEEDS.get(), carolinaReaperItemConditionBuilder));
+        this.add(ModBlocks.CAYENNE_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.CAYENNE_CHILLI_CROP.get(),
+                ModItems.CAYENNE_CHILLI.get(), ModItems.CAYENNE_CHILLI_SEEDS.get(), cayenneItemConditionBuilder));
+        this.add(ModBlocks.HABANERO_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.HABANERO_CHILLI_CROP.get(),
+                ModItems.HABANERO_CHILLI.get(), ModItems.HABANERO_CHILLI_SEEDS.get(), habaneroItemConditionBuilder));
+        this.add(ModBlocks.JALAPENO_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.JALAPENO_CHILLI_CROP.get(),
+                ModItems.JALAPENO_CHILLI.get(), ModItems.JALAPENO_CHILLI_SEEDS.get(), jalapenoItemConditionBuilder));
+        this.add(ModBlocks.NAGA_GHOST_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.NAGA_GHOST_CHILLI_CROP.get(),
+                ModItems.NAGA_GHOST_CHILLI.get(), ModItems.NAGA_GHOST_CHILLI_SEEDS.get(), nagaGhostItemConditionBuilder));
+        this.add(ModBlocks.PADRON_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.PADRON_CHILLI_CROP.get(),
+                ModItems.PADRON_CHILLI.get(), ModItems.PADRON_CHILLI_SEEDS.get(), padronItemConditionBuilder));
+        this.add(ModBlocks.POBLANO_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.POBLANO_CHILLI_CROP.get(),
+                ModItems.POBLANO_CHILLI.get(), ModItems.POBLANO_CHILLI_SEEDS.get(), poblanoItemConditionBuilder));
+        this.add(ModBlocks.SCOTCH_BONNET_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.SCOTCH_BONNET_CHILLI_CROP.get(),
+                ModItems.SCOTCH_BONNET_CHILLI.get(), ModItems.SCOTCH_BONNET_CHILLI_SEEDS.get(), scotchBonnetItemConditionBuilder));
+        this.add(ModBlocks.SILING_LABUYO_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.SILING_LABUYO_CHILLI_CROP.get(),
+                ModItems.SILING_LABUYO_CHILLI.get(), ModItems.SILING_LABUYO_CHILLI_SEEDS.get(), silingLabuyoItemConditionBuilder));
+        this.add(ModBlocks.TABASCO_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.TABASCO_CHILLI_CROP.get(),
+                ModItems.TABASCO_CHILLI.get(), ModItems.TABASCO_CHILLI_SEEDS.get(), tabascoItemConditionBuilder));
+        this.add(ModBlocks.TRINIDAD_SCORPION_CHILLI_CROP.get(), this.createCropDrops(ModBlocks.TRINIDAD_SCORPION_CHILLI_CROP.get(),
+                ModItems.TRINIDAD_SCORPION_CHILLI.get(), ModItems.TRINIDAD_SCORPION_CHILLI_SEEDS.get(), trinidadScorpionItemConditionBuilder));
+
+        HolderLookup.RegistryLookup<Enchantment> registrylookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);
+
+
+        this.add(ModBlocks.GOOSEBERRY_BUSH.get(), block -> this.applyExplosionDecay(
+                block,LootTable.lootTable().withPool(LootPool.lootPool().when(
+                                        LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.GOOSEBERRY_BUSH.get())
+                                                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(SweetBerryBushBlock.AGE, 3))
+                                ).add(LootItem.lootTableItem(ModItems.GOOSEBERRY_BERRIES.get()))
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(2.0F, 3.0F)))
+                                .apply(ApplyBonusCount.addUniformBonusCount(registrylookup.getOrThrow(Enchantments.FORTUNE)))
+                ).withPool(LootPool.lootPool().when(
+                                LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.GOOSEBERRY_BUSH.get())
+                                        .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(SweetBerryBushBlock.AGE, 2))
+                        ).add(LootItem.lootTableItem(ModItems.GOOSEBERRY_BERRIES.get()))
+                        .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 2.0F)))
+                        .apply(ApplyBonusCount.addUniformBonusCount(registrylookup.getOrThrow(Enchantments.FORTUNE)))
+                )));
+
+        this.dropSelf(ModBlocks.BLACK_ASH_LOG.get());
+        this.dropSelf(ModBlocks.BLACK_ASH_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_BLACK_ASH_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_BLACK_ASH_WOOD.get());
+        this.dropSelf(ModBlocks.BLACK_ASH_SAPLING.get());
+        this.dropSelf(ModBlocks.BLACK_ASH_PLANKS.get());
+
+        this.add(ModBlocks.BLACK_ASH_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.BLACK_ASH_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+    }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
         HolderLookup.RegistryLookup<Enchantment> registryLookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);

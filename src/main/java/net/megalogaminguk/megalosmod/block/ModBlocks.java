@@ -1,16 +1,20 @@
 package net.megalogaminguk.megalosmod.block;
 
 import net.megalogaminguk.megalosmod.MegalosMod;
-import net.megalogaminguk.megalosmod.block.custom.cropblocks.chilli.*;
+import net.megalogaminguk.megalosmod.block.custom.misc.ModFlammableRotatedPillarBlock;
+import net.megalogaminguk.megalosmod.block.custom.nature.bush.GooseberryBushBlock;
+import net.megalogaminguk.megalosmod.block.custom.nature.crop.chilli.*;
+import net.megalogaminguk.megalosmod.worldgen.tree.ModTreeGrowers;
 import net.megalogaminguk.megalosmod.item.ModItems;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -379,8 +383,57 @@ public class ModBlocks {
 
     //Alloys - Blocks
 
-    //Nature - Blocks
-    public static final DeferredBlock<Block> BHUT_JOLOKIA_CHILLI_CROP = BLOCKS.register("bhut_jolokia_chilli_crop",
+    //Nature - Trees
+    public static final DeferredBlock<Block> BLACK_ASH_LOG = registerBlock("black_ash_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> BLACK_ASH_WOOD = registerBlock("black_ash_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
+    public static final DeferredBlock<Block> STRIPPED_BLACK_ASH_LOG = registerBlock("stripped_black_ash_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_BLACK_ASH_WOOD = registerBlock("stripped_black_ash_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_WOOD)));
+
+    public static final DeferredBlock<Block> BLACK_ASH_PLANKS = registerBlock("black_ash_planks",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 5;
+                }
+            });
+
+    public static final DeferredBlock<Block> BLACK_ASH_LEAVES = registerBlock("black_ash_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+
+    public static final DeferredBlock<Block> BLACK_ASH_SAPLING = registerBlock("black_ash_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.BLACK_ASH, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    //Nature - Crop Blocks
+    public static final DeferredBlock<Block> BHUT_JOLOKIA_CHILLI_CROP = BLOCKS.register("chilli_bhut_jolokia_crop",
             () -> new BhutJolokiaChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
 
     public static final DeferredBlock<Block> BIRDS_EYE_CHILLI_CROP = BLOCKS.register("chilli_birds_eye_crop",
@@ -418,6 +471,10 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> TRINIDAD_SCORPION_CHILLI_CROP = BLOCKS.register("chilli_trinidad_scorpion_crop",
             () -> new TrinidadScorpionChilliCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    //Bush
+    public static final DeferredBlock<Block> GOOSEBERRY_BUSH = BLOCKS.register("gooseberry_bush",
+            () -> new GooseberryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){

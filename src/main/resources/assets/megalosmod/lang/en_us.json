@@ -1314,9 +1314,17 @@
   "block.megalosmod.chilli_tabasco_crop": "Tabasco Chilli Crop",
   "block.megalosmod.chilli_trinidad_scorpion_crop": "Trinidad Scorpion Chilli Crop",
 
+  "block.megalosmod.black_ash_log": "Black Ash Log",
+  "block.megalosmod.black_ash_wood": "Black Ash Wood",
+  "block.megalosmod.black_ash_planks": "Black Ash Planks",
+  "block.megalosmod.stripped_black_ash_log": "Stripped Black Ash Log",
+  "block.megalosmod.stripped_black_ash_wood": "Stripped Black Ash Wood",
+  "block.megalosmod.black_ash_leaves": "Black Ash Leaves",
+
+  "block.megalosmod.black_ash_sapling": "Black Ash Sapling",
+
   "creativetab.megalosmod.metallurgy_core_tab": "Megalo's Mod - Metallurgy Core",
   "creativetab.megalosmod.metallurgy_alloys_tab": "Megalo's Mod - Metallurgy Alloys",
   "creativetab.megalosmod.hoplology_tab": "Megalo's Mod - Hoplology",
-  "creativetab.megalosmod.nature_crops_tab": "Megalo's Nature - Crops",
-  "creativetab.megalosmod.nature_trees_tab": "Megalo's Nature - Trees"
+  "creativetab.megalosmod.nature_tab": "Megalo's Mod - Nature"
 }

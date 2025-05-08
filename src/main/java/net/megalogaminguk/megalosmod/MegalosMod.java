@@ -2,7 +2,7 @@ package net.megalogaminguk.megalosmod;
 
 import net.megalogaminguk.megalosmod.block.ModBlocks;
 import net.megalogaminguk.megalosmod.item.ModItems;
-import net.megalogaminguk.megalosmod.tabs.ModTabs;
+import net.megalogaminguk.megalosmod.tabs.ModCreativeModeTabs;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.api.distmarker.Dist;
@@ -29,7 +29,7 @@ public class MegalosMod
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
 
-        ModTabs.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

@@ -1,6 +1,7 @@
 package net.megalogaminguk.megalosmod.datagen;
 
 import net.megalogaminguk.megalosmod.MegalosMod;
+import net.megalogaminguk.megalosmod.block.ModBlocks;
 import net.megalogaminguk.megalosmod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
@@ -9,10 +10,12 @@ import net.minecraft.server.packs.PackType;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.armortrim.TrimMaterial;
 import net.minecraft.world.item.armortrim.TrimMaterials;
+import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 
 import java.util.LinkedHashMap;
@@ -323,7 +326,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         //Alloys - Dust
         basicItem(ModItems.AA_DUST.get());
 
-        //Nature - Cropa
+        //Nature - Bush
+        basicItem(ModItems.GOOSEBERRY_BERRIES.get());
+
+        //Nature - Sapling
+        saplingItem(ModBlocks.BLACK_ASH_SAPLING);
+
         //Nature - Seeds
         basicItem(ModItems.BHUT_JOLOKIA_CHILLI_SEEDS.get());
         basicItem(ModItems.BIRDS_EYE_CHILLI_SEEDS.get());
@@ -338,6 +346,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.SILING_LABUYO_CHILLI_SEEDS.get());
         basicItem(ModItems.TABASCO_CHILLI_SEEDS.get());
         basicItem(ModItems.TRINIDAD_SCORPION_CHILLI_SEEDS.get());
+    }
+
+    private ItemModelBuilder saplingItem(DeferredBlock<Block> item){
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + item.getId().getPath()));
     }
     private void trimmedArmorItem(DeferredItem<ArmorItem> itemDeferredItem) {
         final String MOD_ID = MegalosMod.MOD_ID; // Change this to your mod id

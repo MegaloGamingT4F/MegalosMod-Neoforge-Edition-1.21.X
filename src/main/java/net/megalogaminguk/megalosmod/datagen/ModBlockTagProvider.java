@@ -337,5 +337,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
                 .remove(ModTags.Blocks.NEEDS_TITANIUM_TOOL);
 
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.BLACK_ASH_LOG.get())
+                .add(ModBlocks.BLACK_ASH_WOOD.get())
+                .add(ModBlocks.STRIPPED_BLACK_ASH_LOG.get())
+                .add(ModBlocks.STRIPPED_BLACK_ASH_WOOD.get());
+
     }
 }

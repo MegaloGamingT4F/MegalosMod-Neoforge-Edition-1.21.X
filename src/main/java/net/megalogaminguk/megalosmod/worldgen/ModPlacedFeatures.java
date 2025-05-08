@@ -1,9 +1,12 @@
 package net.megalogaminguk.megalosmod.worldgen;
 
 import net.megalogaminguk.megalosmod.MegalosMod;
+import net.megalogaminguk.megalosmod.block.ModBlocks;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
+import net.minecraft.data.worldgen.placement.PlacementUtils;
+import net.minecraft.data.worldgen.placement.VegetationPlacements;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
@@ -72,6 +75,8 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> TANTALUM_ORE_PLACED_KEY = registerKey("tantalum_ore_placed");
     public static final ResourceKey<PlacedFeature> VANADIUM_ORE_PLACED_KEY = registerKey("vanadium_ore_placed");
     public static final ResourceKey<PlacedFeature> YTTRIUM_ORE_PLACED_KEY = registerKey("yttrium_ore_placed");
+
+    public static final ResourceKey<PlacedFeature> BLACK_ASH_PLACED_KEY = registerKey("black_ash_placed");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -276,6 +281,10 @@ public class ModPlacedFeatures {
                 ModOrePlacement.commonOrePlacement(11,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(60),VerticalAnchor.absolute(80))));
 
+        //Nature - Tree
+        register(context, BLACK_ASH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BLACK_ASH_KEY),
+                        VegetationPlacements.treePlacement(PlacementUtils.countExtra(4, 0.1f, 2),
+                                ModBlocks.BLACK_ASH_SAPLING.get()));
     }
 
     private static ResourceKey<PlacedFeature> registerKey(String name) {

@@ -391,48 +391,76 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     //Nature - Crops
-    public static final DeferredItem<Item> BHUT_JOLOKIA_CHILLI = ITEMS.register("bhut_jolokia_chilli",
+    public static final DeferredItem<Item> BHUT_JOLOKIA_CHILLI = ITEMS.register("chilli_bhut_jolokia",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BIRDS_EYE_CHILLI = ITEMS.register("chilli_birds_eye",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CAROLINA_REAPER_CHILLI = ITEMS.register("chilli_carolina_reaper",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CAYENNE_CHILLI = ITEMS.register("chilli_cayenne",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HABANERO_CHILLI = ITEMS.register("chilli_habanero",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> JALAPENO_CHILLI = ITEMS.register("chilli_jalapeno",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NAGA_GHOST_CHILLI = ITEMS.register("chilli_naga_ghost",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PADRON_CHILLI = ITEMS.register("chilli_padron",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POBLANO_CHILLI = ITEMS.register("chilli_poblano",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SCOTCH_BONNET_CHILLI = ITEMS.register("chilli_scotch_bonnet",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SILING_LABUYO_CHILLI = ITEMS.register("chilli_siling_labuyo",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TABASCO_CHILLI = ITEMS.register("chilli_tabasco",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TRINIDAD_SCORPION_CHILLI = ITEMS.register("chilli_trinidad_scorpion",
             () -> new Item(new Item.Properties()));
 
     //Nature - Seeds
-    public static final DeferredItem<Item> BHUT_JOLOKIA_CHILLI_SEEDS = ITEMS.register("bhut_jolokia_chilli_seeds",
+    public static final DeferredItem<Item> BHUT_JOLOKIA_CHILLI_SEEDS = ITEMS.register("chilli_bhut_jolokia_seeds",
             () -> new ItemNameBlockItem(ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get(), new Item.Properties()));
     
-    public static final DeferredItem<Item> BIRDS_EYE_CHILLI_SEEDS = ITEMS.register("birds_eye_chilli_seeds",
+    public static final DeferredItem<Item> BIRDS_EYE_CHILLI_SEEDS = ITEMS.register("chilli_birds_eye_seeds",
             () -> new ItemNameBlockItem(ModBlocks.BIRDS_EYE_CHILLI_CROP.get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> CAROLINA_REAPER_CHILLI_SEEDS = ITEMS.register("carolina_reaper_chilli__seeds",
+    public static final DeferredItem<Item> CAROLINA_REAPER_CHILLI_SEEDS = ITEMS.register("chilli_carolina_reaper_seeds",
             () -> new ItemNameBlockItem(ModBlocks.CAROLINA_REAPER_CHILLI_CROP.get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> CAYENNE_CHILLI_SEEDS = ITEMS.register("cayenne_chilli_seeds",
+    public static final DeferredItem<Item> CAYENNE_CHILLI_SEEDS = ITEMS.register("chilli_cayenne_seeds",
             () -> new ItemNameBlockItem(ModBlocks.CAYENNE_CHILLI_CROP.get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> HABANERO_CHILLI_SEEDS = ITEMS.register("habanero_chilli_seeds",
+    public static final DeferredItem<Item> HABANERO_CHILLI_SEEDS = ITEMS.register("chilli_habanero_seeds",
             () -> new ItemNameBlockItem(ModBlocks.HABANERO_CHILLI_CROP.get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> JALAPENO_CHILLI_SEEDS = ITEMS.register("jalapeno_chilli_seeds",
+    public static final DeferredItem<Item> JALAPENO_CHILLI_SEEDS = ITEMS.register("chilli_jalapeno_seeds",
             () -> new ItemNameBlockItem(ModBlocks.JALAPENO_CHILLI_CROP.get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> NAGA_GHOST_CHILLI_SEEDS = ITEMS.register("naga_ghost_chilli_seeds",
+    public static final DeferredItem<Item> NAGA_GHOST_CHILLI_SEEDS = ITEMS.register("chilli_naga_ghost_seeds",
             () -> new ItemNameBlockItem(ModBlocks.NAGA_GHOST_CHILLI_CROP.get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> PADRON_CHILLI_SEEDS = ITEMS.register("padron_chilli_seeds",
+    public static final DeferredItem<Item> PADRON_CHILLI_SEEDS = ITEMS.register("chilli_padron_seeds",
             () -> new ItemNameBlockItem(ModBlocks.PADRON_CHILLI_CROP.get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> POBLANO_CHILLI_SEEDS = ITEMS.register("poblano_chilli_seeds",
+    public static final DeferredItem<Item> POBLANO_CHILLI_SEEDS = ITEMS.register("chilli_poblano_seeds",
             () -> new ItemNameBlockItem(ModBlocks.POBLANO_CHILLI_CROP.get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> SCOTCH_BONNET_CHILLI_SEEDS = ITEMS.register("scotch_bonnet_chilli_seeds",
+    public static final DeferredItem<Item> SCOTCH_BONNET_CHILLI_SEEDS = ITEMS.register("chilli_scotch_bonnet_seeds",
             () -> new ItemNameBlockItem(ModBlocks.SCOTCH_BONNET_CHILLI_CROP.get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> SILING_LABUYO_CHILLI_SEEDS = ITEMS.register("siling_labuyo_chilli_seeds",
+    public static final DeferredItem<Item> SILING_LABUYO_CHILLI_SEEDS = ITEMS.register("chilli_siling_labuyo_seeds",
             () -> new ItemNameBlockItem(ModBlocks.SILING_LABUYO_CHILLI_CROP.get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> TABASCO_CHILLI_SEEDS = ITEMS.register("tabasco_chilli_seeds",
+    public static final DeferredItem<Item> TABASCO_CHILLI_SEEDS = ITEMS.register("chilli_tabasco_seeds",
             () -> new ItemNameBlockItem(ModBlocks.TABASCO_CHILLI_CROP.get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> TRINIDAD_SCORPION_CHILLI_SEEDS = ITEMS.register("trinidad_scorpion_chilli_seeds",
+    public static final DeferredItem<Item> TRINIDAD_SCORPION_CHILLI_SEEDS = ITEMS.register("chilli_trinidad_scorpion_seeds",
             () -> new ItemNameBlockItem(ModBlocks.TRINIDAD_SCORPION_CHILLI_CROP.get(), new Item.Properties()));
+
+    public static final DeferredItem<Item> GOOSEBERRY_BERRIES = ITEMS.register("gooseberry_berries",
+            () -> new ItemNameBlockItem(ModBlocks.GOOSEBERRY_BUSH.get(), new Item.Properties().food(ModFoodProperties.GOOSEBERRY_BERRY)));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
