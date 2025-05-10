@@ -1,7 +1,6 @@
 package net.megalogaminguk.megalosmod.block;
 
 import net.megalogaminguk.megalosmod.MegalosMod;
-import net.megalogaminguk.megalosmod.block.custom.misc.MetallurgicFurnaceBlock;
 import net.megalogaminguk.megalosmod.block.custom.misc.ModFlammableRotatedPillarBlock;
 import net.megalogaminguk.megalosmod.block.custom.nature.bush.GooseberryBushBlock;
 import net.megalogaminguk.megalosmod.block.custom.nature.crop.chilli.*;
@@ -16,16 +15,11 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
-import net.minecraft.world.level.material.MapColor;
-import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
-
-import static net.megalogaminguk.megalosmod.block.custom.misc.MetallurgicFurnaceBlock.BLOCKSTATE;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
@@ -481,26 +475,6 @@ public class ModBlocks {
     //Bush
     public static final DeferredBlock<Block> GOOSEBERRY_BUSH = BLOCKS.register("gooseberry_bush",
             () -> new GooseberryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
-
-    //Technology
-    public static final DeferredBlock<Block> METALLURGIC_FURNACE = registerBlock("metallurgic_furnace",
-            () -> new MetallurgicFurnaceBlock(BlockBehaviour.Properties.of()
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-                    .mapColor(MapColor.METAL)
-                    .sound(SoundType.METAL)
-                    .strength(5f,6f)
-                    .lightLevel(s -> (new Object() {
-                        public int getLightLevel() {
-                            if (s.getValue(BLOCKSTATE) == 1)
-                                return 15;
-                            return 0;
-                        }
-                    }
-                            .getLightLevel()))
-                    .requiresCorrectToolForDrops()
-                    .noOcclusion()
-                    .pushReaction(PushReaction.BLOCK)
-                    .isRedstoneConductor((bs, br, bp)-> false)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
