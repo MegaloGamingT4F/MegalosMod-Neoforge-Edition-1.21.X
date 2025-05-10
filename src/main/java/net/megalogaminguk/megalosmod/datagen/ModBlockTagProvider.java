@@ -172,7 +172,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RAW_VANADIUM_BLOCK.get())
                 .add(ModBlocks.RAW_YTTRIUM_BLOCK.get())
                 .add(ModBlocks.RAW_ZINC_BLOCK.get())
-                .add(ModBlocks.RAW_ZIRCONIUM_BLOCK.get());
+                .add(ModBlocks.RAW_ZIRCONIUM_BLOCK.get())
+                .add(ModBlocks.METALLURGIC_FURNACE.get());
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.ALUMINIUM_ORE.get())
@@ -291,7 +292,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RAW_VANADIUM_BLOCK.get())
                 .add(ModBlocks.RAW_YTTRIUM_BLOCK.get())
                 .add(ModBlocks.RAW_ZINC_BLOCK.get())
-                .add(ModBlocks.RAW_ZIRCONIUM_BLOCK.get());
+                .add(ModBlocks.RAW_ZIRCONIUM_BLOCK.get())
+                .add(ModBlocks.METALLURGIC_FURNACE.get());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.ARSENIC_ORE.get())

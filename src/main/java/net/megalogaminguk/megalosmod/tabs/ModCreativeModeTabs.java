@@ -458,7 +458,7 @@ public class ModCreativeModeTabs
                 .title(Component.translatable("creativetab.megalosmod.metallurgy_alloys_tab"))
                 .displayItems((itemDisplayParameters, output) -> {
                     //Block
-
+                    output.accept(ModBlocks.METALLURGIC_FURNACE.get());
                     //Item
                     output.accept(ModItems.AA_INGOT);
                     output.accept(ModItems.AA_NUGGET);
@@ -561,33 +561,33 @@ public class ModCreativeModeTabs
 
                         //Nature - Crop
                         output.accept(ModItems.BHUT_JOLOKIA_CHILLI);
-                        output.accept(ModItems.BIRDS_EYE_CHILLI);
-                        output.accept(ModItems.CAROLINA_REAPER_CHILLI);
-                        output.accept(ModItems.CAYENNE_CHILLI);
-                        output.accept(ModItems.HABANERO_CHILLI);
-                        output.accept(ModItems.JALAPENO_CHILLI);
-                        output.accept(ModItems.NAGA_GHOST_CHILLI);
-                        output.accept(ModItems.PADRON_CHILLI);
-                        output.accept(ModItems.POBLANO_CHILLI);
-                        output.accept(ModItems.SCOTCH_BONNET_CHILLI);
-                        output.accept(ModItems.SILING_LABUYO_CHILLI);
-                        output.accept(ModItems.TABASCO_CHILLI);
-                        output.accept(ModItems.TRINIDAD_SCORPION_CHILLI);
+                        //output.accept(ModItems.BIRDS_EYE_CHILLI);
+                        //output.accept(ModItems.CAROLINA_REAPER_CHILLI);
+                        //output.accept(ModItems.CAYENNE_CHILLI);
+                        //output.accept(ModItems.HABANERO_CHILLI);
+                        //output.accept(ModItems.JALAPENO_CHILLI);
+                        //output.accept(ModItems.NAGA_GHOST_CHILLI);
+                        //output.accept(ModItems.PADRON_CHILLI);
+                        //output.accept(ModItems.POBLANO_CHILLI);
+                        //output.accept(ModItems.SCOTCH_BONNET_CHILLI);
+                        //output.accept(ModItems.SILING_LABUYO_CHILLI);
+                        //output.accept(ModItems.TABASCO_CHILLI);
+                        //output.accept(ModItems.TRINIDAD_SCORPION_CHILLI);
 
                         //Nature - Seeds
                         output.accept(ModItems.BHUT_JOLOKIA_CHILLI_SEEDS);
-                        output.accept(ModItems.BIRDS_EYE_CHILLI_SEEDS);
-                        output.accept(ModItems.CAROLINA_REAPER_CHILLI_SEEDS);
-                        output.accept(ModItems.CAYENNE_CHILLI_SEEDS);
-                        output.accept(ModItems.HABANERO_CHILLI_SEEDS);
-                        output.accept(ModItems.JALAPENO_CHILLI_SEEDS);
-                        output.accept(ModItems.NAGA_GHOST_CHILLI_SEEDS);
-                        output.accept(ModItems.PADRON_CHILLI_SEEDS);
-                        output.accept(ModItems.POBLANO_CHILLI_SEEDS);
-                        output.accept(ModItems.SCOTCH_BONNET_CHILLI);
-                        output.accept(ModItems.SILING_LABUYO_CHILLI_SEEDS);
-                        output.accept(ModItems.TABASCO_CHILLI_SEEDS);
-                        output.accept(ModItems.TRINIDAD_SCORPION_CHILLI_SEEDS);
+                        //output.accept(ModItems.BIRDS_EYE_CHILLI_SEEDS);
+                        //output.accept(ModItems.CAROLINA_REAPER_CHILLI_SEEDS);
+                        //output.accept(ModItems.CAYENNE_CHILLI_SEEDS);
+                        //output.accept(ModItems.HABANERO_CHILLI_SEEDS);
+                        //output.accept(ModItems.JALAPENO_CHILLI_SEEDS);
+                        //output.accept(ModItems.NAGA_GHOST_CHILLI_SEEDS);
+                        //output.accept(ModItems.PADRON_CHILLI_SEEDS);
+                        //output.accept(ModItems.POBLANO_CHILLI_SEEDS);
+                        //output.accept(ModItems.SCOTCH_BONNET_CHILLI);
+                        //output.accept(ModItems.SILING_LABUYO_CHILLI_SEEDS);
+                        //output.accept(ModItems.TABASCO_CHILLI_SEEDS);
+                        //output.accept(ModItems.TRINIDAD_SCORPION_CHILLI_SEEDS);
                     }).build());
 
     public static void register(IEventBus eventBus){

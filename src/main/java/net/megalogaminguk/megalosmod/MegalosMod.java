@@ -1,6 +1,7 @@
 package net.megalogaminguk.megalosmod;
 
 import net.megalogaminguk.megalosmod.block.ModBlocks;
+import net.megalogaminguk.megalosmod.block.entity.ModBlockEntities;
 import net.megalogaminguk.megalosmod.item.ModItems;
 import net.megalogaminguk.megalosmod.tabs.ModCreativeModeTabs;
 import org.slf4j.Logger;
@@ -33,6 +34,7 @@ public class MegalosMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 

@@ -3,11 +3,14 @@ package net.megalogaminguk.megalosmod.datagen;
 import net.megalogaminguk.megalosmod.MegalosMod;
 import net.megalogaminguk.megalosmod.block.ModBlocks;
 import net.megalogaminguk.megalosmod.item.ModItems;
+import net.megalogaminguk.megalosmod.util.ModTags;
+import net.minecraft.client.Minecraft;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -71,6 +74,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         this.tag(ItemTags.PLANKS)
                 .add(ModBlocks.BLACK_ASH_PLANKS.asItem());
+
+        this.tag(ModTags.Items.FUEL_ITEMS)
+                .add(Items.COAL)
+                .add(Items.COAL_BLOCK)
+                .add(Items.COAL);
 
     }
 }

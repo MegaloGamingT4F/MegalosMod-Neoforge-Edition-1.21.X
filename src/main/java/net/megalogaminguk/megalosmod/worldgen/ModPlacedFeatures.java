@@ -11,9 +11,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
-import net.minecraft.world.level.levelgen.placement.HeightRangePlacement;
-import net.minecraft.world.level.levelgen.placement.PlacedFeature;
-import net.minecraft.world.level.levelgen.placement.PlacementModifier;
+import net.minecraft.world.level.levelgen.placement.*;
 
 import java.util.List;
 
@@ -77,6 +75,7 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> YTTRIUM_ORE_PLACED_KEY = registerKey("yttrium_ore_placed");
 
     public static final ResourceKey<PlacedFeature> BLACK_ASH_PLACED_KEY = registerKey("black_ash_placed");
+    public static final ResourceKey<PlacedFeature> GOOSEBERRY_BUSH_PLACED_KEY = registerKey("gooseberry_bush_placed");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -285,6 +284,10 @@ public class ModPlacedFeatures {
         register(context, BLACK_ASH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BLACK_ASH_KEY),
                         VegetationPlacements.treePlacement(PlacementUtils.countExtra(4, 0.1f, 2),
                                 ModBlocks.BLACK_ASH_SAPLING.get()));
+
+        //Nature - Bush
+        register(context, GOOSEBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.GOOSEBERRY_BUSH_KEY),
+                List.of(RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE, BiomeFilter.biome()));
     }
 
     private static ResourceKey<PlacedFeature> registerKey(String name) {

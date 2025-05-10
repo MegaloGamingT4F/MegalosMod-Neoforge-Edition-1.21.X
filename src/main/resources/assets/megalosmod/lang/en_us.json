@@ -1281,7 +1281,7 @@
   "item.megalosmod.chilli_naga_ghost": "Naga Ghost Chilli",
   "item.megalosmod.chilli_padron": "Padron Chilli",
   "item.megalosmod.chilli_poblano": "Poblano Ancho Chilli",
-  "item.megalosmod.chilli_scotch_bonnet": "Scotch bonnet Chilli",
+  "item.megalosmod.chilli_scotch_bonnet": "Scotch Bonnet Chilli",
   "item.megalosmod.chilli_siling_labuyo": "Siling Labuyo Chilli",
   "item.megalosmod.chilli_tabasco": "Tabasco Chilli",
   "item.megalosmod.chilli_trinidad_scorpion": "Trinidad Scorpion Chilli",
@@ -1295,7 +1295,7 @@
   "item.megalosmod.chilli_naga_ghost_seeds": "Naga Ghost Chilli Seeds",
   "item.megalosmod.chilli_padron_seeds": "Padron Chilli Seeds",
   "item.megalosmod.chilli_poblano_seeds": "Poblano Ancho Chilli Seeds",
-  "item.megalosmod.chilli_scotch_bonnet_seeds": "Scotch bonnet Chilli Seeds",
+  "item.megalosmod.chilli_scotch_bonnet_seeds": "Scotch Bonnet Chilli Seeds",
   "item.megalosmod.chilli_siling_labuyo_seeds": "Siling Labuyo Chilli Seeds",
   "item.megalosmod.chilli_tabasco_seeds": "Tabasco Chilli Seeds",
   "item.megalosmod.chilli_trinidad_scorpion_seeds": "Trinidad Scorpion Chilli Seeds",
@@ -1309,10 +1309,13 @@
   "block.megalosmod.chilli_naga_ghost_crop": "Naga Ghost Chilli Crop",
   "block.megalosmod.chilli_padron_crop": "Padron Chilli Crop",
   "block.megalosmod.chilli_poblano_crop": "Poblano Ancho Chilli Crop",
-  "block.megalosmod.chilli_scotch_bonnet_crop": "Scotch bonnet Chilli Crop",
+  "block.megalosmod.chilli_scotch_bonnet_crop": "Scotch Bonnet Chilli Crop",
   "block.megalosmod.chilli_siling_labuyo_crop": "Siling Labuyo Chilli Crop",
   "block.megalosmod.chilli_tabasco_crop": "Tabasco Chilli Crop",
   "block.megalosmod.chilli_trinidad_scorpion_crop": "Trinidad Scorpion Chilli Crop",
+
+  "item.megalosmod.gooseberry_berry": "Gooseberry",
+  "block.megalosmod.gooseberry_bush": "Gooseberry Bush",
 
   "block.megalosmod.black_ash_log": "Black Ash Log",
   "block.megalosmod.black_ash_wood": "Black Ash Wood",
@@ -1320,8 +1323,9 @@
   "block.megalosmod.stripped_black_ash_log": "Stripped Black Ash Log",
   "block.megalosmod.stripped_black_ash_wood": "Stripped Black Ash Wood",
   "block.megalosmod.black_ash_leaves": "Black Ash Leaves",
-
   "block.megalosmod.black_ash_sapling": "Black Ash Sapling",
+
+  "block.megalosmod.metallurgic_furnace": "Metallurgic Furnace",
 
   "creativetab.megalosmod.metallurgy_core_tab": "Megalo's Mod - Metallurgy Core",
   "creativetab.megalosmod.metallurgy_alloys_tab": "Megalo's Mod - Metallurgy Alloys",

@@ -332,6 +332,21 @@ public class ModItemModelProvider extends ItemModelProvider {
         //Nature - Sapling
         saplingItem(ModBlocks.BLACK_ASH_SAPLING);
 
+        //Nature - Crop
+        basicItem(ModItems.BHUT_JOLOKIA_CHILLI.get());
+        basicItem(ModItems.BIRDS_EYE_CHILLI.get());
+        basicItem(ModItems.CAROLINA_REAPER_CHILLI.get());
+        basicItem(ModItems.CAYENNE_CHILLI.get());
+        basicItem(ModItems.HABANERO_CHILLI.get());
+        basicItem(ModItems.JALAPENO_CHILLI.get());
+        basicItem(ModItems.NAGA_GHOST_CHILLI.get());
+        basicItem(ModItems.PADRON_CHILLI.get());
+        basicItem(ModItems.POBLANO_CHILLI.get());
+        basicItem(ModItems.SCOTCH_BONNET_CHILLI.get());
+        basicItem(ModItems.SILING_LABUYO_CHILLI.get());
+        basicItem(ModItems.TABASCO_CHILLI.get());
+        basicItem(ModItems.TRINIDAD_SCORPION_CHILLI.get());
+
         //Nature - Seeds
         basicItem(ModItems.BHUT_JOLOKIA_CHILLI_SEEDS.get());
         basicItem(ModItems.BIRDS_EYE_CHILLI_SEEDS.get());

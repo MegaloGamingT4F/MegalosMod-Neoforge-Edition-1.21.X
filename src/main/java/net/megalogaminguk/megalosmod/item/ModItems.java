@@ -458,7 +458,7 @@ public class ModItems {
     public static final DeferredItem<Item> TRINIDAD_SCORPION_CHILLI_SEEDS = ITEMS.register("chilli_trinidad_scorpion_seeds",
             () -> new ItemNameBlockItem(ModBlocks.TRINIDAD_SCORPION_CHILLI_CROP.get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> GOOSEBERRY_BERRIES = ITEMS.register("gooseberry_berries",
+    public static final DeferredItem<Item> GOOSEBERRY_BERRIES = ITEMS.register("gooseberry_berry",
             () -> new ItemNameBlockItem(ModBlocks.GOOSEBERRY_BUSH.get(), new Item.Properties().food(ModFoodProperties.GOOSEBERRY_BERRY)));
 
 

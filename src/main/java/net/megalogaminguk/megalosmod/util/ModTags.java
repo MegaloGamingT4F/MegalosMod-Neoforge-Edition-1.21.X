@@ -24,6 +24,8 @@ public class ModTags {
 
     public static class Items {
 
+        public static final TagKey<Item>FUEL_ITEMS = createTag("fuel");
+
         private static TagKey<Item> createTag(String name){
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, name));
         }
