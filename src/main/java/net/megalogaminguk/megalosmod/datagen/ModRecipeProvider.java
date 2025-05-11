@@ -1802,6 +1802,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.WHITE_WOOL), has(Items.WHITE_WOOL))
                 .save(pRecipeOutput);
 
+        //Alloys Shaped Recipes
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AA_DUST.get())
+                .pattern("aaa")
+                .pattern("aaz")
+                .pattern("tms")
+                .define('a', ModItems.ALUMINIUM_DUST.get())
+                .define('z', ModItems.ZINC_DUST.get())
+                .define('t', ModItems.TITANIUM_DUST.get())
+                .define('m', ModItems.MANGANESE_DUST.get())
+                .define('s', ModItems.SILICON_DUST.get())
+                .unlockedBy(getHasName(ModItems.ALUMINIUM_DUST.get()), has(ModItems.ALUMINIUM_DUST.get()))
+                .save(pRecipeOutput);
+
         //Shapeless Recipes
         //Aluminium
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALUMINIUM_INGOT.get(), 9)

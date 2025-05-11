@@ -4,6 +4,7 @@ import net.megalogaminguk.megalosmod.MegalosMod;
 import net.megalogaminguk.megalosmod.block.custom.misc.ModFlammableRotatedPillarBlock;
 import net.megalogaminguk.megalosmod.block.custom.nature.bush.GooseberryBushBlock;
 import net.megalogaminguk.megalosmod.block.custom.nature.crop.chilli.*;
+import net.megalogaminguk.megalosmod.block.custom.technology.PedestalBlock;
 import net.megalogaminguk.megalosmod.worldgen.tree.ModTreeGrowers;
 import net.megalogaminguk.megalosmod.item.ModItems;
 import net.minecraft.core.BlockPos;
@@ -382,6 +383,396 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     //Alloys - Blocks
+    public static final DeferredBlock<Block> AA_BLOCK = registerBlock("al_aa_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> AL_LI_BLOCK = registerBlock("al_alli_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ALNICO_BLOCK = registerBlock("al_alnico_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ALUMINIUM_SCANDIUM_BLOCK = registerBlock("al_aluminium_scandium_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> BIRMABRIGHT_BLOCK = registerBlock("al_birmabright_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> DEVARDA_BLOCK = registerBlock("al_devarda_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> DURALUMIN_BLOCK = registerBlock("al_duralumin_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> HIDUMINIUM_BLOCK = registerBlock("al_hiduminium_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> HYDRONALIUM_BLOCK = registerBlock("al_hydronalium_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ITALMA_BLOCK = registerBlock("al_italma_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> MAGNALIUM_BLOCK = registerBlock("al_magnalium_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> MAGNOX_BLOCK = registerBlock("al_magnox_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> NAMBE_BLOCK = registerBlock("al_nambe_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> NITIAL_BLOCK = registerBlock("al_nitial_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> SILUMIN_BLOCK = registerBlock("al_silumin_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> Y_ALLOY_BLOCK = registerBlock("al_yalloy_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ZAMAK_BLOCK = registerBlock("al_zamak_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Beryllium
+    public static final DeferredBlock<Block> LOCKALLOY_BLOCK = registerBlock("be_lockalloy_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Bismuth
+    public static final DeferredBlock<Block> BISMANOL_BLOCK = registerBlock("bi_bismanol_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CERROBEND_BLOCK = registerBlock("bi_cerrobend_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CERROSAFE_BLOCK = registerBlock("bi_cerrosafe_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> FIELDS_METAL_BLOCK = registerBlock("bi_fields_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ROSE_METAL_BLOCK = registerBlock("bi_rose_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> WOODS_METAL_BLOCK = registerBlock("bi_woods_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Chromium
+    public static final DeferredBlock<Block> CHROMIUM_HYDRIDE_BLOCK = registerBlock("cr_chromium_hydride_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CRNISZWTI_BLOCK = registerBlock("cr_crniszwti_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> NICHROME_BLOCK = registerBlock("cr_nichrome_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Cobalt
+    public static final DeferredBlock<Block> ELGILOY_BLOCK = registerBlock("co_elgiloy_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> MEGALLIUM_BLOCK = registerBlock("co_megallium_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> STELLITE_BLOCK = registerBlock("co_stellite_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> TALONITE_BLOCK = registerBlock("co_talonite_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ULTIMET_BLOCK = registerBlock("co_ultimet_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> VITALLIUM_BLOCK = registerBlock("co_vitallium_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Copper
+    public static final DeferredBlock<Block> ALUMINIUM_BRONZE_BLOCK = registerBlock("cu_aluminium_bronze_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ARSENICAL_BRONZE_BLOCK = registerBlock("cu_arsenical_bronze_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ARSENICAL_COPPER_BLOCK = registerBlock("cu_arsenical_copper_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> BELL_METAL_BLOCK = registerBlock("cu_bell_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> BERYLLIUM_COPPER_BLOCK = registerBlock("cu_beryllium_copper_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> BILLON_BLOCK = registerBlock("cu_billon_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> BRASS_BLOCK = registerBlock("cu_brass_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> BRONZE_BLOCK = registerBlock("cu_bronze_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CALAMINE_BRASS_BLOCK = registerBlock("cu_calamine_brass_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CHINESE_SILVER_BLOCK = registerBlock("cu_chinese_silver_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CONSTANTAN_BLOCK = registerBlock("cu_constantan_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> COPPER_HYDRIDE_BLOCK = registerBlock("cu_copper_hydride_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> COPPER_TUNGSTEN_BLOCK = registerBlock("cu_copper_tungsten_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CORINTHIAN_BRONZE_BLOCK = registerBlock("cu_corinthian_bronze_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CUNIFE_BLOCK = registerBlock("cu_cunife_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CUAG_BLOCK = registerBlock("cu_cuag_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CYMBAL_ALLOY_BLOCK = registerBlock("cu_cymbal_alloy_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> DUTCH_METAL_BLOCK = registerBlock("cu_dutch_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> FLORENTINE_BRONZE_BLOCK = registerBlock("cu_florentine_bronze_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> GILDING_METAL_BLOCK = registerBlock("cu_gilding_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> GLUCYDUR_BLOCK = registerBlock("cu_glucydur_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> GUANIN_BLOCK = registerBlock("cu_guanin_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> GUN_METAL_BLOCK = registerBlock("cu_gun_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> HEPATIZON_BLOCK = registerBlock("cu_hepatizon_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> MANGANIN_BLOCK = registerBlock("cu_manganin_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> MELCHIOR_BLOCK = registerBlock("cu_melchior_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> MUNTZ_METAL_BLOCK = registerBlock("cu_muntz_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> NICKEL_SILVER_BLOCK = registerBlock("cu_nickel_silver_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> NORDIC_GOLD_BLOCK = registerBlock("cu_nordic_gold_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ORMOLU_BLOCK = registerBlock("cu_ormolu_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> PHOSPHOR_BRONZE_BLOCK = registerBlock("cu_phosphor_bronze_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> PINCHBECK_BLOCK = registerBlock("cu_pinchbeck_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> PRINCES_METAL_BLOCK = registerBlock("cu_princes_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> SHAKUDO_BLOCK = registerBlock("cu_shakudo_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> SILICON_BRONZE_BLOCK = registerBlock("cu_silicon_bronze_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> SPECULUM_METAL_BLOCK = registerBlock("cu_speculum_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> TOMBAC_BLOCK = registerBlock("cu_tombac_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> TUMBAGA_BLOCK = registerBlock("cu_tumbaga_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> WHITE_BRONZE_BLOCK = registerBlock("cu_white_bronze_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Gallium
+    public static final DeferredBlock<Block> AL_GA_BLOCK = registerBlock("ga_alga_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> GALFENOL_BLOCK = registerBlock("ga_galfenol_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> GALINSTAN_BLOCK = registerBlock("ga_galinstan_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Gold
+    public static final DeferredBlock<Block> COLORED_GOLD_BLOCK = registerBlock("au_colored_gold_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CROWN_GOLD_BLOCK = registerBlock("au_crown_gold_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ELECTRUM_BLOCK = registerBlock("au_electrum_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> RHODITE_BLOCK = registerBlock("au_rhodite_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ROSE_GOLD_BLOCK = registerBlock("au_rose_gold_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> WHITE_GOLD_BLOCK = registerBlock("au_white_gold_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Iron
+    public static final DeferredBlock<Block> ANTHRACITE_IRON_BLOCK = registerBlock("fe_anthracite_iron_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> BULAT_STEEL_BLOCK = registerBlock("fe_bulat_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CAST_IRON_BLOCK = registerBlock("fe_cast_iron_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CHROMOLY_BLOCK = registerBlock("fe_chromoly_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CRUCIBLE_STEEL_BLOCK = registerBlock("fe_crucible_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> DAMASCUS_STEEL_BLOCK = registerBlock("fe_damascus_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> DUCOL_BLOCK = registerBlock("fe_ducol_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ELINVAR_BLOCK = registerBlock("fe_elinvar_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> FERNICO_BLOCK = registerBlock("fe_fernico_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> FERROCHROMIUM_BLOCK = registerBlock("fe_ferrochromium_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> FERROMAGNESIUM_BLOCK = registerBlock("fe_ferromagnesium_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> FERROMANGANESE_BLOCK = registerBlock("fe_ferromanganese_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> FERROMOLYBDENUM_BLOCK = registerBlock("fe_ferromolybdenum_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> FERRONICKEL_BLOCK = registerBlock("fe_ferronickel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> FERROPHOSPHORUS_BLOCK = registerBlock("fe_ferrophosphorus_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> FERROSILICON_BLOCK = registerBlock("fe_ferrosilicon_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> FERROTITANIUM_BLOCK = registerBlock("fe_ferrotitanium_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> FERROVANADIUM_BLOCK = registerBlock("fe_ferrovanadium_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> HIGHSPEED_STEEL_BLOCK = registerBlock("fe_highspeed_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> HSLA_STEEL_BLOCK = registerBlock("fe_hsla_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> INVAR_BLOCK = registerBlock("fe_invar_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> IRON_HYDRIDE_BLOCK = registerBlock("fe_iron_hydride_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> KANTHAL_BLOCK = registerBlock("fe_kanthal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> KOVAR_BLOCK = registerBlock("fe_kovar_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> MARAGING_STEEL_BLOCK = registerBlock("fe_maraging_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> MUSHET_STEEL_BLOCK = registerBlock("fe_mushet_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> PIG_IRON_BLOCK = registerBlock("fe_pig_iron_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> REYNOLDS_FTO_BLOCK = registerBlock("fe_reynolds_fto_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> SILICON_STEEL_BLOCK = registerBlock("fe_silicon_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> SILVER_STEEL_BLOCK = registerBlock("fe_silver_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> SPIEGELEISEN_BLOCK = registerBlock("fe_spiegeleisen_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> SPRING_STEEL_BLOCK = registerBlock("fe_spring_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> STAINLESS_STEEL_BLOCK = registerBlock("fe_stainless_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> STABALLOY_BLOCK = registerBlock("fe_staballoy_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> STEEL_BLOCK = registerBlock("fe_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> TOOL_STEEL_BLOCK = registerBlock("fe_tool_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> WEATHERING_STEEL_BLOCK = registerBlock("fe_weathering_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> WOOTZ_STEEL_BLOCK = registerBlock("fe_wootz_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> WROUGHT_IRON_BLOCK = registerBlock("fe_wrought_iron_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Lead
+    public static final DeferredBlock<Block> MOLYBDOCHALKOS_BLOCK = registerBlock("pb_molybdochalkos_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> SOLDER_BLOCK = registerBlock("pb_solder_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> TERNE_BLOCK = registerBlock("pb_terne_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> TYPE_METAL_BLOCK = registerBlock("pb_type_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Magnesium
+    public static final DeferredBlock<Block> ELEKTRON_BLOCK = registerBlock("mg_elektron_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> TMGALZN_BLOCK = registerBlock("mg_tmgalzn_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Manganese
+    public static final DeferredBlock<Block> MNFZ_BLOCK = registerBlock("mn_mnfz_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> MNSZ_BLOCK = registerBlock("mn_mnsz_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Mercury (Cinnabar)
+    public static final DeferredBlock<Block> ZINC_AMALGAM_BLOCK = registerBlock("hg_zinc_amalgam_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ASHTADHATU_BLOCK = registerBlock("hg_ashtadhatu_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Nickel
+    public static final DeferredBlock<Block> ALUMEL_BLOCK = registerBlock("ni_alumel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> BRIGHTRAY_BLOCK = registerBlock("ni_brightray_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CHROMEL_BLOCK = registerBlock("ni_chromel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> COIN_SILVER_BLOCK = registerBlock("ni_coin_silver_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> COPPER_NICKEL_BLOCK = registerBlock("ni_copper_nickel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> CUPRONICKEL_BLOCK = registerBlock("ni_cupronickel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> GERMAN_SILVER_BLOCK = registerBlock("ni_german_silver_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> HASTELLOY_BLOCK = registerBlock("ni_hastelloy_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> HAUSLER_BLOCK = registerBlock("ni_hausler_alloy_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> INCONEL_BLOCK = registerBlock("ni_inconel_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> INCONEL_SES_BLOCK = registerBlock("ni_inconel_ses_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> MONEL_METAL_BLOCK = registerBlock("ni_monel_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> MU_METAL_BLOCK = registerBlock("ni_mu_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> NICKEL_CARBON_BLOCK = registerBlock("ni_nickel_carbon_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> NICKEL_HYDRIDE_BLOCK = registerBlock("ni_nickel_hydride_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> NICROSIL_BLOCK = registerBlock("ni_nicrosil_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> NIMONIC_BLOCK = registerBlock("ni_nimonic_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> NISIL_BLOCK = registerBlock("ni_nisil_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> NITINOL_BLOCK = registerBlock("ni_nitinol_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> PERMALLOY_BLOCK = registerBlock("ni_permalloy_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> SUPERMALLOY_BLOCK = registerBlock("ni_supermalloy_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Potassium
+    public static final DeferredBlock<Block> KLI_BLOCK = registerBlock("k_kli_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> NAK_BLOCK = registerBlock("k_nak_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Rhodium
+    public static final DeferredBlock<Block> PSEUDO_PALLADIUM_BLOCK = registerBlock("rh_pseudo_palladium_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Scandium
+    public static final DeferredBlock<Block> SCANDIUM_HYDRIDE_BLOCK = registerBlock("sc_scandium_hydride_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Silver
+    public static final DeferredBlock<Block> ARGENTIUM_STERLING_SILVER_BLOCK = registerBlock("ag_argentium_sterling_silver_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> BRITANNIA_SILVER_BLOCK = registerBlock("ag_britannia_silver_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> DORE_BLOCK = registerBlock("ag_dore_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> DYMALLOY_BLOCK = registerBlock("ag_dymalloy_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> GOLOID_BLOCK = registerBlock("ag_goloid_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> PLATINUM_SILVER_BLOCK = registerBlock("ag_platinum_silver_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> SHIBUICHI_BLOCK = registerBlock("ag_shibuichi_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> STERLING_SILVER_BLOCK = registerBlock("ag_sterling_silver_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> TIBETAN_SILVER_BLOCK = registerBlock("ag_tibetan_silver_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Tin
+    public static final DeferredBlock<Block> BABBITT_BLOCK = registerBlock("sn_babbitt_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> BRITANNIUM_BLOCK = registerBlock("sn_britannium_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> PEWTER_BLOCK = registerBlock("sn_pewter_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> QUEENS_METAL_BLOCK = registerBlock("sn_queens_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Titanium
+    public static final DeferredBlock<Block> BETA_C_BLOCK = registerBlock("ti_betac_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> GUM_METAL_BLOCK = registerBlock("ti_gum_metal_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> SAL_FV_BLOCK = registerBlock("ti_salfv_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> TITANIUM_GOLD_BLOCK = registerBlock("ti_titanium_gold_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> TITANIUM_HYDRIDE_BLOCK = registerBlock("ti_titanium_hydride_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> TITANIUM_NITRIDE_BLOCK = registerBlock("ti_titanium_nitride_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //Zirconium
+    public static final DeferredBlock<Block> ZIRCALOY_BLOCK = registerBlock("zr_zircaloy_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     //Nature - Trees
     public static final DeferredBlock<Block> BLACK_ASH_LOG = registerBlock("black_ash_log",
@@ -475,6 +866,10 @@ public class ModBlocks {
     //Bush
     public static final DeferredBlock<Block> GOOSEBERRY_BUSH = BLOCKS.register("gooseberry_bush",
             () -> new GooseberryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
+
+    //Technology
+    public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal",
+            ()-> new PedestalBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

@@ -172,8 +172,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RAW_VANADIUM_BLOCK.get())
                 .add(ModBlocks.RAW_YTTRIUM_BLOCK.get())
                 .add(ModBlocks.RAW_ZINC_BLOCK.get())
-                .add(ModBlocks.RAW_ZIRCONIUM_BLOCK.get())
-                .add(ModBlocks.METALLURGIC_FURNACE.get());
+                .add(ModBlocks.RAW_ZIRCONIUM_BLOCK.get());
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.ALUMINIUM_ORE.get())
@@ -293,7 +292,222 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RAW_YTTRIUM_BLOCK.get())
                 .add(ModBlocks.RAW_ZINC_BLOCK.get())
                 .add(ModBlocks.RAW_ZIRCONIUM_BLOCK.get())
-                .add(ModBlocks.METALLURGIC_FURNACE.get());
+
+        //Alloys - Aluminium
+        .add(ModBlocks.AA_BLOCK.get())
+        .add(ModBlocks.AL_LI_BLOCK.get())
+        .add(ModBlocks.ALNICO_BLOCK.get())
+        .add(ModBlocks.ALUMINIUM_SCANDIUM_BLOCK.get())
+        .add(ModBlocks.BIRMABRIGHT_BLOCK.get())
+        .add(ModBlocks.DEVARDA_BLOCK.get())
+        .add(ModBlocks.DURALUMIN_BLOCK.get())
+        .add(ModBlocks.HIDUMINIUM_BLOCK.get())
+        .add(ModBlocks.HYDRONALIUM_BLOCK.get())
+        .add(ModBlocks.ITALMA_BLOCK.get())
+        .add(ModBlocks.MAGNALIUM_BLOCK.get())
+        .add(ModBlocks.MAGNOX_BLOCK.get())
+        .add(ModBlocks.NAMBE_BLOCK.get())
+        .add(ModBlocks.NITIAL_BLOCK.get())
+        .add(ModBlocks.SILUMIN_BLOCK.get())
+        .add(ModBlocks.Y_ALLOY_BLOCK.get())
+        .add(ModBlocks.ZAMAK_BLOCK.get())
+
+        //Beryllium
+        .add(ModBlocks.LOCKALLOY_BLOCK.get())
+
+        //Bismuth
+        .add(ModBlocks.BISMANOL_BLOCK.get())
+        .add(ModBlocks.CERROBEND_BLOCK.get())
+        .add(ModBlocks.CERROSAFE_BLOCK.get())
+        .add(ModBlocks.FIELDS_METAL_BLOCK.get())
+        .add(ModBlocks.ROSE_METAL_BLOCK.get())
+        .add(ModBlocks.WOODS_METAL_BLOCK.get())
+
+        //Chromium
+        .add(ModBlocks.CHROMIUM_HYDRIDE_BLOCK.get())
+        .add(ModBlocks.CRNISZWTI_BLOCK.get())
+        .add(ModBlocks.NICHROME_BLOCK.get())
+
+        //Cobalt
+        .add(ModBlocks.ELGILOY_BLOCK.get())
+        .add(ModBlocks.MEGALLIUM_BLOCK.get())
+        .add(ModBlocks.STELLITE_BLOCK.get())
+        .add(ModBlocks.TALONITE_BLOCK.get())
+        .add(ModBlocks.ULTIMET_BLOCK.get())
+        .add(ModBlocks.VITALLIUM_BLOCK.get())
+
+        //Copper
+        .add(ModBlocks.ALUMINIUM_BRONZE_BLOCK.get())
+        .add(ModBlocks.ARSENICAL_COPPER_BLOCK.get())
+        .add(ModBlocks.BELL_METAL_BLOCK.get())
+        .add(ModBlocks.BERYLLIUM_COPPER_BLOCK.get())
+        .add(ModBlocks.BILLON_BLOCK.get())
+        .add(ModBlocks.BRASS_BLOCK.get())
+        .add(ModBlocks.BRONZE_BLOCK.get())
+        .add(ModBlocks.CALAMINE_BRASS_BLOCK.get())
+        .add(ModBlocks.CHINESE_SILVER_BLOCK.get())
+        .add(ModBlocks.CONSTANTAN_BLOCK.get())
+        .add(ModBlocks.COPPER_HYDRIDE_BLOCK.get())
+        .add(ModBlocks.COPPER_TUNGSTEN_BLOCK.get())
+        .add(ModBlocks.CORINTHIAN_BRONZE_BLOCK.get())
+        .add(ModBlocks.CUNIFE_BLOCK.get())
+        .add(ModBlocks.CUAG_BLOCK.get())
+        .add(ModBlocks.CYMBAL_ALLOY_BLOCK.get())
+        .add(ModBlocks.DUTCH_METAL_BLOCK.get())
+        .add(ModBlocks.FLORENTINE_BRONZE_BLOCK.get())
+        .add(ModBlocks.GILDING_METAL_BLOCK.get())
+        .add(ModBlocks.GLUCYDUR_BLOCK.get())
+        .add(ModBlocks.GUANIN_BLOCK.get())
+        .add(ModBlocks.GUN_METAL_BLOCK.get())
+        .add(ModBlocks.HEPATIZON_BLOCK.get())
+        .add(ModBlocks.MANGANIN_BLOCK.get())
+        .add(ModBlocks.MELCHIOR_BLOCK.get())
+        .add(ModBlocks.MUNTZ_METAL_BLOCK.get())
+        .add(ModBlocks.NICKEL_SILVER_BLOCK.get())
+        .add(ModBlocks.NORDIC_GOLD_BLOCK.get())
+        .add(ModBlocks.ORMOLU_BLOCK.get())
+        .add(ModBlocks.PHOSPHOR_BRONZE_BLOCK.get())
+        .add(ModBlocks.PINCHBECK_BLOCK.get())
+        .add(ModBlocks.PRINCES_METAL_BLOCK.get())
+        .add(ModBlocks.SHAKUDO_BLOCK.get())
+        .add(ModBlocks.SILICON_BRONZE_BLOCK.get())
+        .add(ModBlocks.SPECULUM_METAL_BLOCK.get())
+        .add(ModBlocks.TOMBAC_BLOCK.get())
+        .add(ModBlocks.TUMBAGA_BLOCK.get())
+        .add(ModBlocks.WHITE_BRONZE_BLOCK.get())
+
+        //Gallium
+        .add(ModBlocks.AL_GA_BLOCK.get())
+        .add(ModBlocks.GALFENOL_BLOCK.get())
+        .add(ModBlocks.GALINSTAN_BLOCK.get())
+
+        //Gold
+        .add(ModBlocks.COLORED_GOLD_BLOCK.get())
+        .add(ModBlocks.CROWN_GOLD_BLOCK.get())
+        .add(ModBlocks.ELECTRUM_BLOCK.get())
+        .add(ModBlocks.RHODITE_BLOCK.get())
+        .add(ModBlocks.ROSE_GOLD_BLOCK.get())
+        .add(ModBlocks.WHITE_GOLD_BLOCK.get())
+
+        //Iron
+        .add(ModBlocks.ANTHRACITE_IRON_BLOCK.get())
+        .add(ModBlocks.BULAT_STEEL_BLOCK.get())
+        .add(ModBlocks.CAST_IRON_BLOCK.get())
+        .add(ModBlocks.CHROMOLY_BLOCK.get())
+        .add(ModBlocks.CRUCIBLE_STEEL_BLOCK.get())
+        .add(ModBlocks.DAMASCUS_STEEL_BLOCK.get())
+        .add(ModBlocks.DUCOL_BLOCK.get())
+        .add(ModBlocks.ELINVAR_BLOCK.get())
+        .add(ModBlocks.FERNICO_BLOCK.get())
+        .add(ModBlocks.FERROCHROMIUM_BLOCK.get())
+        .add(ModBlocks.FERROMAGNESIUM_BLOCK.get())
+        .add(ModBlocks.FERROMANGANESE_BLOCK.get())
+        .add(ModBlocks.FERROMOLYBDENUM_BLOCK.get())
+        .add(ModBlocks.FERRONICKEL_BLOCK.get())
+        .add(ModBlocks.FERROPHOSPHORUS_BLOCK.get())
+        .add(ModBlocks.FERROSILICON_BLOCK.get())
+        .add(ModBlocks.FERROTITANIUM_BLOCK.get())
+        .add(ModBlocks.FERROVANADIUM_BLOCK.get())
+        .add(ModBlocks.HIGHSPEED_STEEL_BLOCK.get())
+        .add(ModBlocks.HSLA_STEEL_BLOCK.get())
+        .add(ModBlocks.INVAR_BLOCK.get())
+        .add(ModBlocks.IRON_HYDRIDE_BLOCK.get())
+        .add(ModBlocks.KANTHAL_BLOCK.get())
+        .add(ModBlocks.KOVAR_BLOCK.get())
+        .add(ModBlocks.MARAGING_STEEL_BLOCK.get())
+        .add(ModBlocks.MUSHET_STEEL_BLOCK.get())
+        .add(ModBlocks.PIG_IRON_BLOCK.get())
+        .add(ModBlocks.REYNOLDS_FTO_BLOCK.get())
+        .add(ModBlocks.SILICON_STEEL_BLOCK.get())
+        .add(ModBlocks.SILVER_STEEL_BLOCK.get())
+        .add(ModBlocks.SPIEGELEISEN_BLOCK.get())
+        .add(ModBlocks.SPRING_STEEL_BLOCK.get())
+        .add(ModBlocks.STAINLESS_STEEL_BLOCK.get())
+        .add(ModBlocks.STABALLOY_BLOCK.get())
+        .add(ModBlocks.STEEL_BLOCK.get())
+        .add(ModBlocks.TOOL_STEEL_BLOCK.get())
+        .add(ModBlocks.WEATHERING_STEEL_BLOCK.get())
+        .add(ModBlocks.WOOTZ_STEEL_BLOCK.get())
+        .add(ModBlocks.WROUGHT_IRON_BLOCK.get())
+
+        //Lead
+        .add(ModBlocks.MOLYBDOCHALKOS_BLOCK.get())
+        .add(ModBlocks.SOLDER_BLOCK.get())
+        .add(ModBlocks.TERNE_BLOCK.get())
+        .add(ModBlocks.TYPE_METAL_BLOCK.get())
+
+        //Magnesium
+        .add(ModBlocks.ELEKTRON_BLOCK.get())
+        .add(ModBlocks.TMGALZN_BLOCK.get())
+
+        //Manganese
+        .add(ModBlocks.MNFZ_BLOCK.get())
+        .add(ModBlocks.MNSZ_BLOCK.get())
+
+        //Mercury
+        .add(ModBlocks.ZINC_AMALGAM_BLOCK.get())
+        .add(ModBlocks.ASHTADHATU_BLOCK.get())
+
+        //Nickel
+        .add(ModBlocks.ALUMEL_BLOCK.get())
+        .add(ModBlocks.BRIGHTRAY_BLOCK.get())
+        .add(ModBlocks.CHROMEL_BLOCK.get())
+        .add(ModBlocks.COIN_SILVER_BLOCK.get())
+        .add(ModBlocks.COPPER_NICKEL_BLOCK.get())
+        .add(ModBlocks.CUPRONICKEL_BLOCK.get())
+        .add(ModBlocks.GERMAN_SILVER_BLOCK.get())
+        .add(ModBlocks.HASTELLOY_BLOCK.get())
+        .add(ModBlocks.HAUSLER_BLOCK.get())
+        .add(ModBlocks.INCONEL_BLOCK.get())
+        .add(ModBlocks.INCONEL_SES_BLOCK.get())
+        .add(ModBlocks.MONEL_METAL_BLOCK.get())
+        .add(ModBlocks.MU_METAL_BLOCK.get())
+        .add(ModBlocks.NICKEL_CARBON_BLOCK.get())
+        .add(ModBlocks.NICKEL_HYDRIDE_BLOCK.get())
+        .add(ModBlocks.NICROSIL_BLOCK.get())
+        .add(ModBlocks.NIMONIC_BLOCK.get())
+        .add(ModBlocks.NISIL_BLOCK.get())
+        .add(ModBlocks.NITINOL_BLOCK.get())
+        .add(ModBlocks.PERMALLOY_BLOCK.get())
+        .add(ModBlocks.SUPERMALLOY_BLOCK.get())
+
+        //Potassium
+        .add(ModBlocks.KLI_BLOCK.get())
+        .add(ModBlocks.NAK_BLOCK.get())
+
+        //Rhodium
+        .add(ModBlocks.PSEUDO_PALLADIUM_BLOCK.get())
+
+        //Scandium
+        .add(ModBlocks.SCANDIUM_HYDRIDE_BLOCK.get())
+
+        //Silver
+        .add(ModBlocks.ARGENTIUM_STERLING_SILVER_BLOCK.get())
+        .add(ModBlocks.BRITANNIA_SILVER_BLOCK.get())
+        .add(ModBlocks.DORE_BLOCK.get())
+        .add(ModBlocks.DYMALLOY_BLOCK.get())
+        .add(ModBlocks.GOLOID_BLOCK.get())
+        .add(ModBlocks.PLATINUM_SILVER_BLOCK.get())
+        .add(ModBlocks.SHIBUICHI_BLOCK.get())
+        .add(ModBlocks.STERLING_SILVER_BLOCK.get())
+        .add(ModBlocks.TIBETAN_SILVER_BLOCK.get())
+
+        //Tin
+        .add(ModBlocks.BABBITT_BLOCK.get())
+        .add(ModBlocks.BRITANNIUM_BLOCK.get())
+        .add(ModBlocks.PEWTER_BLOCK.get())
+        .add(ModBlocks.QUEENS_METAL_BLOCK.get())
+
+        //Titanium
+        .add(ModBlocks.BETA_C_BLOCK.get())
+        .add(ModBlocks.GUM_METAL_BLOCK.get())
+        .add(ModBlocks.SAL_FV_BLOCK.get())
+        .add(ModBlocks.TITANIUM_GOLD_BLOCK.get())
+        .add(ModBlocks.TITANIUM_HYDRIDE_BLOCK.get())
+        .add(ModBlocks.TITANIUM_NITRIDE_BLOCK.get())
+
+        //Zirconium
+        .add(ModBlocks.ZIRCALOY_BLOCK.get());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.ARSENIC_ORE.get())

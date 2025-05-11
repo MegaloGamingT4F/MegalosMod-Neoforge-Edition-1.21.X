@@ -247,6 +247,224 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.RAW_ZINC_BLOCK.get());
         dropSelf(ModBlocks.RAW_ZIRCONIUM_BLOCK.get());
 
+        //Alloys
+        //Alloys - Aluminium
+        dropSelf(ModBlocks.AA_BLOCK.get());
+        dropSelf(ModBlocks.AL_LI_BLOCK.get());
+        dropSelf(ModBlocks.ALNICO_BLOCK.get());
+        dropSelf(ModBlocks.ALUMINIUM_SCANDIUM_BLOCK.get());
+        dropSelf(ModBlocks.BIRMABRIGHT_BLOCK.get());
+        dropSelf(ModBlocks.DEVARDA_BLOCK.get());
+        dropSelf(ModBlocks.DURALUMIN_BLOCK.get());
+        dropSelf(ModBlocks.HIDUMINIUM_BLOCK.get());
+        dropSelf(ModBlocks.HYDRONALIUM_BLOCK.get());
+        dropSelf(ModBlocks.ITALMA_BLOCK.get());
+        dropSelf(ModBlocks.MAGNALIUM_BLOCK.get());
+        dropSelf(ModBlocks.MAGNOX_BLOCK.get());
+        dropSelf(ModBlocks.NAMBE_BLOCK.get());
+        dropSelf(ModBlocks.NITIAL_BLOCK.get());
+        dropSelf(ModBlocks.SILUMIN_BLOCK.get());
+        dropSelf(ModBlocks.Y_ALLOY_BLOCK.get());
+        dropSelf(ModBlocks.ZAMAK_BLOCK.get());
+
+        //Beryllium
+        dropSelf(ModBlocks.LOCKALLOY_BLOCK.get());
+
+        //Bismuth
+        dropSelf(ModBlocks.BISMANOL_BLOCK.get());
+        dropSelf(ModBlocks.CERROBEND_BLOCK.get());
+        dropSelf(ModBlocks.CERROSAFE_BLOCK.get());
+        dropSelf(ModBlocks.FIELDS_METAL_BLOCK.get());
+        dropSelf(ModBlocks.ROSE_METAL_BLOCK.get());
+        dropSelf(ModBlocks.WOODS_METAL_BLOCK.get());
+
+        //Chromium
+        dropSelf(ModBlocks.CHROMIUM_HYDRIDE_BLOCK.get());
+        dropSelf(ModBlocks.CRNISZWTI_BLOCK.get());
+        dropSelf(ModBlocks.NICHROME_BLOCK.get());
+
+        //Cobalt
+        dropSelf(ModBlocks.ELGILOY_BLOCK.get());
+        dropSelf(ModBlocks.MEGALLIUM_BLOCK.get());
+        dropSelf(ModBlocks.STELLITE_BLOCK.get());
+        dropSelf(ModBlocks.TALONITE_BLOCK.get());
+        dropSelf(ModBlocks.ULTIMET_BLOCK.get());
+        dropSelf(ModBlocks.VITALLIUM_BLOCK.get());
+
+        //Copper
+        dropSelf(ModBlocks.ALUMINIUM_BRONZE_BLOCK.get());
+        dropSelf(ModBlocks.ARSENICAL_COPPER_BLOCK.get());
+        dropSelf(ModBlocks.ARSENICAL_BRONZE_BLOCK.get());
+        dropSelf(ModBlocks.BELL_METAL_BLOCK.get());
+        dropSelf(ModBlocks.BERYLLIUM_COPPER_BLOCK.get());
+        dropSelf(ModBlocks.BILLON_BLOCK.get());
+        dropSelf(ModBlocks.BRASS_BLOCK.get());
+        dropSelf(ModBlocks.BRONZE_BLOCK.get());
+        dropSelf(ModBlocks.CALAMINE_BRASS_BLOCK.get());
+        dropSelf(ModBlocks.CHINESE_SILVER_BLOCK.get());
+        dropSelf(ModBlocks.CONSTANTAN_BLOCK.get());
+        dropSelf(ModBlocks.COPPER_HYDRIDE_BLOCK.get());
+        dropSelf(ModBlocks.COPPER_TUNGSTEN_BLOCK.get());
+        dropSelf(ModBlocks.CORINTHIAN_BRONZE_BLOCK.get());
+        dropSelf(ModBlocks.CUNIFE_BLOCK.get());
+        dropSelf(ModBlocks.CUAG_BLOCK.get());
+        dropSelf(ModBlocks.CYMBAL_ALLOY_BLOCK.get());
+        dropSelf(ModBlocks.DUTCH_METAL_BLOCK.get());
+        dropSelf(ModBlocks.FLORENTINE_BRONZE_BLOCK.get());
+        dropSelf(ModBlocks.GILDING_METAL_BLOCK.get());
+        dropSelf(ModBlocks.GLUCYDUR_BLOCK.get());
+        dropSelf(ModBlocks.GUANIN_BLOCK.get());
+        dropSelf(ModBlocks.GUN_METAL_BLOCK.get());
+        dropSelf(ModBlocks.HEPATIZON_BLOCK.get());
+        dropSelf(ModBlocks.MANGANIN_BLOCK.get());
+        dropSelf(ModBlocks.MELCHIOR_BLOCK.get());
+        dropSelf(ModBlocks.MUNTZ_METAL_BLOCK.get());
+        dropSelf(ModBlocks.NICKEL_SILVER_BLOCK.get());
+        dropSelf(ModBlocks.NORDIC_GOLD_BLOCK.get());
+        dropSelf(ModBlocks.ORMOLU_BLOCK.get());
+        dropSelf(ModBlocks.PHOSPHOR_BRONZE_BLOCK.get());
+        dropSelf(ModBlocks.PINCHBECK_BLOCK.get());
+        dropSelf(ModBlocks.PRINCES_METAL_BLOCK.get());
+        dropSelf(ModBlocks.SHAKUDO_BLOCK.get());
+        dropSelf(ModBlocks.SILICON_BRONZE_BLOCK.get());
+        dropSelf(ModBlocks.SPECULUM_METAL_BLOCK.get());
+        dropSelf(ModBlocks.TOMBAC_BLOCK.get());
+        dropSelf(ModBlocks.TUMBAGA_BLOCK.get());
+        dropSelf(ModBlocks.WHITE_BRONZE_BLOCK.get());
+
+        //Gallium
+        dropSelf(ModBlocks.AL_GA_BLOCK.get());
+        dropSelf(ModBlocks.GALFENOL_BLOCK.get());
+        dropSelf(ModBlocks.GALINSTAN_BLOCK.get());
+
+        //Gold
+        dropSelf(ModBlocks.COLORED_GOLD_BLOCK.get());
+        dropSelf(ModBlocks.CROWN_GOLD_BLOCK.get());
+        dropSelf(ModBlocks.ELECTRUM_BLOCK.get());
+        dropSelf(ModBlocks.RHODITE_BLOCK.get());
+        dropSelf(ModBlocks.ROSE_GOLD_BLOCK.get());
+        dropSelf(ModBlocks.WHITE_GOLD_BLOCK.get());
+
+        //Iron
+        dropSelf(ModBlocks.ANTHRACITE_IRON_BLOCK.get());
+        dropSelf(ModBlocks.BULAT_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.CAST_IRON_BLOCK.get());
+        dropSelf(ModBlocks.CHROMOLY_BLOCK.get());
+        dropSelf(ModBlocks.CRUCIBLE_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.DAMASCUS_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.DUCOL_BLOCK.get());
+        dropSelf(ModBlocks.ELINVAR_BLOCK.get());
+        dropSelf(ModBlocks.FERNICO_BLOCK.get());
+        dropSelf(ModBlocks.FERROCHROMIUM_BLOCK.get());
+        dropSelf(ModBlocks.FERROMAGNESIUM_BLOCK.get());
+        dropSelf(ModBlocks.FERROMANGANESE_BLOCK.get());
+        dropSelf(ModBlocks.FERROMOLYBDENUM_BLOCK.get());
+        dropSelf(ModBlocks.FERRONICKEL_BLOCK.get());
+        dropSelf(ModBlocks.FERROPHOSPHORUS_BLOCK.get());
+        dropSelf(ModBlocks.FERROSILICON_BLOCK.get());
+        dropSelf(ModBlocks.FERROTITANIUM_BLOCK.get());
+        dropSelf(ModBlocks.FERROVANADIUM_BLOCK.get());
+        dropSelf(ModBlocks.HIGHSPEED_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.HSLA_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.INVAR_BLOCK.get());
+        dropSelf(ModBlocks.IRON_HYDRIDE_BLOCK.get());
+        dropSelf(ModBlocks.KANTHAL_BLOCK.get());
+        dropSelf(ModBlocks.KOVAR_BLOCK.get());
+        dropSelf(ModBlocks.MARAGING_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.MUSHET_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.PIG_IRON_BLOCK.get());
+        dropSelf(ModBlocks.REYNOLDS_FTO_BLOCK.get());
+        dropSelf(ModBlocks.SILICON_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.SILVER_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.SPIEGELEISEN_BLOCK.get());
+        dropSelf(ModBlocks.SPRING_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.STAINLESS_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.STABALLOY_BLOCK.get());
+        dropSelf(ModBlocks.STEEL_BLOCK.get());
+        dropSelf(ModBlocks.TOOL_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.WEATHERING_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.WOOTZ_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.WROUGHT_IRON_BLOCK.get());
+
+        //Lead
+        dropSelf(ModBlocks.MOLYBDOCHALKOS_BLOCK.get());
+        dropSelf(ModBlocks.SOLDER_BLOCK.get());
+        dropSelf(ModBlocks.TERNE_BLOCK.get());
+        dropSelf(ModBlocks.TYPE_METAL_BLOCK.get());
+
+        //Magnesium
+        dropSelf(ModBlocks.ELEKTRON_BLOCK.get());
+        dropSelf(ModBlocks.TMGALZN_BLOCK.get());
+
+        //Manganese
+        dropSelf(ModBlocks.MNFZ_BLOCK.get());
+        dropSelf(ModBlocks.MNSZ_BLOCK.get());
+
+        //Mercury
+        dropSelf(ModBlocks.ZINC_AMALGAM_BLOCK.get());
+        dropSelf(ModBlocks.ASHTADHATU_BLOCK.get());
+
+        //Nickel
+        dropSelf(ModBlocks.ALUMEL_BLOCK.get());
+        dropSelf(ModBlocks.BRIGHTRAY_BLOCK.get());
+        dropSelf(ModBlocks.CHROMEL_BLOCK.get());
+        dropSelf(ModBlocks.COIN_SILVER_BLOCK.get());
+        dropSelf(ModBlocks.COPPER_NICKEL_BLOCK.get());
+        dropSelf(ModBlocks.CUPRONICKEL_BLOCK.get());
+        dropSelf(ModBlocks.GERMAN_SILVER_BLOCK.get());
+        dropSelf(ModBlocks.HASTELLOY_BLOCK.get());
+        dropSelf(ModBlocks.HAUSLER_BLOCK.get());
+        dropSelf(ModBlocks.INCONEL_BLOCK.get());
+        dropSelf(ModBlocks.INCONEL_SES_BLOCK.get());
+        dropSelf(ModBlocks.MONEL_METAL_BLOCK.get());
+        dropSelf(ModBlocks.MU_METAL_BLOCK.get());
+        dropSelf(ModBlocks.NICKEL_CARBON_BLOCK.get());
+        dropSelf(ModBlocks.NICKEL_HYDRIDE_BLOCK.get());
+        dropSelf(ModBlocks.NICROSIL_BLOCK.get());
+        dropSelf(ModBlocks.NIMONIC_BLOCK.get());
+        dropSelf(ModBlocks.NISIL_BLOCK.get());
+        dropSelf(ModBlocks.NITINOL_BLOCK.get());
+        dropSelf(ModBlocks.PERMALLOY_BLOCK.get());
+        dropSelf(ModBlocks.SUPERMALLOY_BLOCK.get());
+
+        //Potassium
+        dropSelf(ModBlocks.KLI_BLOCK.get());
+        dropSelf(ModBlocks.NAK_BLOCK.get());
+
+        //Rhodium
+        dropSelf(ModBlocks.PSEUDO_PALLADIUM_BLOCK.get());
+
+        //Scandium
+        dropSelf(ModBlocks.SCANDIUM_HYDRIDE_BLOCK.get());
+
+        //Silver
+        dropSelf(ModBlocks.ARGENTIUM_STERLING_SILVER_BLOCK.get());
+        dropSelf(ModBlocks.BRITANNIA_SILVER_BLOCK.get());
+        dropSelf(ModBlocks.DORE_BLOCK.get());
+        dropSelf(ModBlocks.DYMALLOY_BLOCK.get());
+        dropSelf(ModBlocks.GOLOID_BLOCK.get());
+        dropSelf(ModBlocks.PLATINUM_SILVER_BLOCK.get());
+        dropSelf(ModBlocks.SHIBUICHI_BLOCK.get());
+        dropSelf(ModBlocks.STERLING_SILVER_BLOCK.get());
+        dropSelf(ModBlocks.TIBETAN_SILVER_BLOCK.get());
+
+        //Tin
+        dropSelf(ModBlocks.BABBITT_BLOCK.get());
+        dropSelf(ModBlocks.BRITANNIUM_BLOCK.get());
+        dropSelf(ModBlocks.PEWTER_BLOCK.get());
+        dropSelf(ModBlocks.QUEENS_METAL_BLOCK.get());
+
+        //Titanium
+        dropSelf(ModBlocks.BETA_C_BLOCK.get());
+        dropSelf(ModBlocks.GUM_METAL_BLOCK.get());
+        dropSelf(ModBlocks.SAL_FV_BLOCK.get());
+        dropSelf(ModBlocks.TITANIUM_GOLD_BLOCK.get());
+        dropSelf(ModBlocks.TITANIUM_HYDRIDE_BLOCK.get());
+        dropSelf(ModBlocks.TITANIUM_NITRIDE_BLOCK.get());
+
+        //Zirconium
+        dropSelf(ModBlocks.ZIRCALOY_BLOCK.get());
+
         LootItemCondition.Builder bhutItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(BhutJolokiaChilliCropBlock.AGE, 6));
         LootItemCondition.Builder birdsItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.BIRDS_EYE_CHILLI_CROP.get())

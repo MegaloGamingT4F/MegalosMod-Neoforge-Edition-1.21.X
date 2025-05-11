@@ -183,6 +183,223 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RAW_ZINC_BLOCK);
         blockWithItem(ModBlocks.RAW_ZIRCONIUM_BLOCK);
 
+        //Alloys - Aluminium
+        blockWithItem(ModBlocks.AA_BLOCK);
+        blockWithItem(ModBlocks.AL_LI_BLOCK);
+        blockWithItem(ModBlocks.ALNICO_BLOCK);
+        blockWithItem(ModBlocks.ALUMINIUM_SCANDIUM_BLOCK);
+        blockWithItem(ModBlocks.BIRMABRIGHT_BLOCK);
+        blockWithItem(ModBlocks.DEVARDA_BLOCK);
+        blockWithItem(ModBlocks.DURALUMIN_BLOCK);
+        blockWithItem(ModBlocks.HIDUMINIUM_BLOCK);
+        blockWithItem(ModBlocks.HYDRONALIUM_BLOCK);
+        blockWithItem(ModBlocks.ITALMA_BLOCK);
+        blockWithItem(ModBlocks.MAGNALIUM_BLOCK);
+        blockWithItem(ModBlocks.MAGNOX_BLOCK);
+        blockWithItem(ModBlocks.NAMBE_BLOCK);
+        blockWithItem(ModBlocks.NITIAL_BLOCK);
+        blockWithItem(ModBlocks.SILUMIN_BLOCK);
+        blockWithItem(ModBlocks.Y_ALLOY_BLOCK);
+        blockWithItem(ModBlocks.ZAMAK_BLOCK);
+
+        //Beryllium
+        blockWithItem(ModBlocks.LOCKALLOY_BLOCK);
+
+        //Bismuth
+        blockWithItem(ModBlocks.BISMANOL_BLOCK);
+        blockWithItem(ModBlocks.CERROBEND_BLOCK);
+        blockWithItem(ModBlocks.CERROSAFE_BLOCK);
+        blockWithItem(ModBlocks.FIELDS_METAL_BLOCK);
+        blockWithItem(ModBlocks.ROSE_METAL_BLOCK);
+        blockWithItem(ModBlocks.WOODS_METAL_BLOCK);
+
+        //Chromium
+        blockWithItem(ModBlocks.CHROMIUM_HYDRIDE_BLOCK);
+        blockWithItem(ModBlocks.CRNISZWTI_BLOCK);
+        blockWithItem(ModBlocks.NICHROME_BLOCK);
+
+        //Cobalt
+        blockWithItem(ModBlocks.ELGILOY_BLOCK);
+        blockWithItem(ModBlocks.MEGALLIUM_BLOCK);
+        blockWithItem(ModBlocks.STELLITE_BLOCK);
+        blockWithItem(ModBlocks.TALONITE_BLOCK);
+        blockWithItem(ModBlocks.ULTIMET_BLOCK);
+        blockWithItem(ModBlocks.VITALLIUM_BLOCK);
+
+        //Copper
+        blockWithItem(ModBlocks.ALUMINIUM_BRONZE_BLOCK);
+        blockWithItem(ModBlocks.ARSENICAL_COPPER_BLOCK);
+        blockWithItem(ModBlocks.ARSENICAL_BRONZE_BLOCK);
+        blockWithItem(ModBlocks.BELL_METAL_BLOCK);
+        blockWithItem(ModBlocks.BERYLLIUM_COPPER_BLOCK);
+        blockWithItem(ModBlocks.BILLON_BLOCK);
+        blockWithItem(ModBlocks.BRASS_BLOCK);
+        blockWithItem(ModBlocks.BRONZE_BLOCK);
+        blockWithItem(ModBlocks.CALAMINE_BRASS_BLOCK);
+        blockWithItem(ModBlocks.CHINESE_SILVER_BLOCK);
+        blockWithItem(ModBlocks.CONSTANTAN_BLOCK);
+        blockWithItem(ModBlocks.COPPER_HYDRIDE_BLOCK);
+        blockWithItem(ModBlocks.COPPER_TUNGSTEN_BLOCK);
+        blockWithItem(ModBlocks.CORINTHIAN_BRONZE_BLOCK);
+        blockWithItem(ModBlocks.CUNIFE_BLOCK);
+        blockWithItem(ModBlocks.CUAG_BLOCK);
+        blockWithItem(ModBlocks.CYMBAL_ALLOY_BLOCK);
+        blockWithItem(ModBlocks.DUTCH_METAL_BLOCK);
+        blockWithItem(ModBlocks.FLORENTINE_BRONZE_BLOCK);
+        blockWithItem(ModBlocks.GILDING_METAL_BLOCK);
+        blockWithItem(ModBlocks.GLUCYDUR_BLOCK);
+        blockWithItem(ModBlocks.GUANIN_BLOCK);
+        blockWithItem(ModBlocks.GUN_METAL_BLOCK);
+        blockWithItem(ModBlocks.HEPATIZON_BLOCK);
+        blockWithItem(ModBlocks.MANGANIN_BLOCK);
+        blockWithItem(ModBlocks.MELCHIOR_BLOCK);
+        blockWithItem(ModBlocks.MUNTZ_METAL_BLOCK);
+        blockWithItem(ModBlocks.NICKEL_SILVER_BLOCK);
+        blockWithItem(ModBlocks.NORDIC_GOLD_BLOCK);
+        blockWithItem(ModBlocks.ORMOLU_BLOCK);
+        blockWithItem(ModBlocks.PHOSPHOR_BRONZE_BLOCK);
+        blockWithItem(ModBlocks.PINCHBECK_BLOCK);
+        blockWithItem(ModBlocks.PRINCES_METAL_BLOCK);
+        blockWithItem(ModBlocks.SHAKUDO_BLOCK);
+        blockWithItem(ModBlocks.SILICON_BRONZE_BLOCK);
+        blockWithItem(ModBlocks.SPECULUM_METAL_BLOCK);
+        blockWithItem(ModBlocks.TOMBAC_BLOCK);
+        blockWithItem(ModBlocks.TUMBAGA_BLOCK);
+        blockWithItem(ModBlocks.WHITE_BRONZE_BLOCK);
+
+        //Gallium
+        blockWithItem(ModBlocks.AL_GA_BLOCK);
+        blockWithItem(ModBlocks.GALFENOL_BLOCK);
+        blockWithItem(ModBlocks.GALINSTAN_BLOCK);
+
+        //Gold
+        blockWithItem(ModBlocks.COLORED_GOLD_BLOCK);
+        blockWithItem(ModBlocks.CROWN_GOLD_BLOCK);
+        blockWithItem(ModBlocks.ELECTRUM_BLOCK);
+        blockWithItem(ModBlocks.RHODITE_BLOCK);
+        blockWithItem(ModBlocks.ROSE_GOLD_BLOCK);
+        blockWithItem(ModBlocks.WHITE_GOLD_BLOCK);
+
+        //Iron
+        blockWithItem(ModBlocks.ANTHRACITE_IRON_BLOCK);
+        blockWithItem(ModBlocks.BULAT_STEEL_BLOCK);
+        blockWithItem(ModBlocks.CAST_IRON_BLOCK);
+        blockWithItem(ModBlocks.CHROMOLY_BLOCK);
+        blockWithItem(ModBlocks.CRUCIBLE_STEEL_BLOCK);
+        blockWithItem(ModBlocks.DAMASCUS_STEEL_BLOCK);
+        blockWithItem(ModBlocks.DUCOL_BLOCK);
+        blockWithItem(ModBlocks.ELINVAR_BLOCK);
+        blockWithItem(ModBlocks.FERNICO_BLOCK);
+        blockWithItem(ModBlocks.FERROCHROMIUM_BLOCK);
+        blockWithItem(ModBlocks.FERROMAGNESIUM_BLOCK);
+        blockWithItem(ModBlocks.FERROMANGANESE_BLOCK);
+        blockWithItem(ModBlocks.FERROMOLYBDENUM_BLOCK);
+        blockWithItem(ModBlocks.FERRONICKEL_BLOCK);
+        blockWithItem(ModBlocks.FERROPHOSPHORUS_BLOCK);
+        blockWithItem(ModBlocks.FERROSILICON_BLOCK);
+        blockWithItem(ModBlocks.FERROTITANIUM_BLOCK);
+        blockWithItem(ModBlocks.FERROVANADIUM_BLOCK);
+        blockWithItem(ModBlocks.HIGHSPEED_STEEL_BLOCK);
+        blockWithItem(ModBlocks.HSLA_STEEL_BLOCK);
+        blockWithItem(ModBlocks.INVAR_BLOCK);
+        blockWithItem(ModBlocks.IRON_HYDRIDE_BLOCK);
+        blockWithItem(ModBlocks.KANTHAL_BLOCK);
+        blockWithItem(ModBlocks.KOVAR_BLOCK);
+        blockWithItem(ModBlocks.MARAGING_STEEL_BLOCK);
+        blockWithItem(ModBlocks.MUSHET_STEEL_BLOCK);
+        blockWithItem(ModBlocks.PIG_IRON_BLOCK);
+        blockWithItem(ModBlocks.REYNOLDS_FTO_BLOCK);
+        blockWithItem(ModBlocks.SILICON_STEEL_BLOCK);
+        blockWithItem(ModBlocks.SILVER_STEEL_BLOCK);
+        blockWithItem(ModBlocks.SPIEGELEISEN_BLOCK);
+        blockWithItem(ModBlocks.SPRING_STEEL_BLOCK);
+        blockWithItem(ModBlocks.STAINLESS_STEEL_BLOCK);
+        blockWithItem(ModBlocks.STABALLOY_BLOCK);
+        blockWithItem(ModBlocks.STEEL_BLOCK);
+        blockWithItem(ModBlocks.TOOL_STEEL_BLOCK);
+        blockWithItem(ModBlocks.WEATHERING_STEEL_BLOCK);
+        blockWithItem(ModBlocks.WOOTZ_STEEL_BLOCK);
+        blockWithItem(ModBlocks.WROUGHT_IRON_BLOCK);
+
+        //Lead
+        blockWithItem(ModBlocks.MOLYBDOCHALKOS_BLOCK);
+        blockWithItem(ModBlocks.SOLDER_BLOCK);
+        blockWithItem(ModBlocks.TERNE_BLOCK);
+        blockWithItem(ModBlocks.TYPE_METAL_BLOCK);
+
+        //Magnesium
+        blockWithItem(ModBlocks.ELEKTRON_BLOCK);
+        blockWithItem(ModBlocks.TMGALZN_BLOCK);
+
+        //Manganese
+        blockWithItem(ModBlocks.MNFZ_BLOCK);
+        blockWithItem(ModBlocks.MNSZ_BLOCK);
+
+        //Mercury
+        blockWithItem(ModBlocks.ZINC_AMALGAM_BLOCK);
+        blockWithItem(ModBlocks.ASHTADHATU_BLOCK);
+
+        //Nickel
+        blockWithItem(ModBlocks.ALUMEL_BLOCK);
+        blockWithItem(ModBlocks.BRIGHTRAY_BLOCK);
+        blockWithItem(ModBlocks.CHROMEL_BLOCK);
+        blockWithItem(ModBlocks.COIN_SILVER_BLOCK);
+        blockWithItem(ModBlocks.COPPER_NICKEL_BLOCK);
+        blockWithItem(ModBlocks.CUPRONICKEL_BLOCK);
+        blockWithItem(ModBlocks.GERMAN_SILVER_BLOCK);
+        blockWithItem(ModBlocks.HASTELLOY_BLOCK);
+        blockWithItem(ModBlocks.HAUSLER_BLOCK);
+        blockWithItem(ModBlocks.INCONEL_BLOCK);
+        blockWithItem(ModBlocks.INCONEL_SES_BLOCK);
+        blockWithItem(ModBlocks.MONEL_METAL_BLOCK);
+        blockWithItem(ModBlocks.MU_METAL_BLOCK);
+        blockWithItem(ModBlocks.NICKEL_CARBON_BLOCK);
+        blockWithItem(ModBlocks.NICKEL_HYDRIDE_BLOCK);
+        blockWithItem(ModBlocks.NICROSIL_BLOCK);
+        blockWithItem(ModBlocks.NIMONIC_BLOCK);
+        blockWithItem(ModBlocks.NISIL_BLOCK);
+        blockWithItem(ModBlocks.NITINOL_BLOCK);
+        blockWithItem(ModBlocks.PERMALLOY_BLOCK);
+        blockWithItem(ModBlocks.SUPERMALLOY_BLOCK);
+
+        //Potassium
+        blockWithItem(ModBlocks.KLI_BLOCK);
+        blockWithItem(ModBlocks.NAK_BLOCK);
+
+        //Rhodium
+        blockWithItem(ModBlocks.PSEUDO_PALLADIUM_BLOCK);
+
+        //Scandium
+        blockWithItem(ModBlocks.SCANDIUM_HYDRIDE_BLOCK);
+
+        //Silver
+        blockWithItem(ModBlocks.ARGENTIUM_STERLING_SILVER_BLOCK);
+        blockWithItem(ModBlocks.BRITANNIA_SILVER_BLOCK);
+        blockWithItem(ModBlocks.DORE_BLOCK);
+        blockWithItem(ModBlocks.DYMALLOY_BLOCK);
+        blockWithItem(ModBlocks.GOLOID_BLOCK);
+        blockWithItem(ModBlocks.PLATINUM_SILVER_BLOCK);
+        blockWithItem(ModBlocks.SHIBUICHI_BLOCK);
+        blockWithItem(ModBlocks.STERLING_SILVER_BLOCK);
+        blockWithItem(ModBlocks.TIBETAN_SILVER_BLOCK);
+
+        //Tin
+        blockWithItem(ModBlocks.BABBITT_BLOCK);
+        blockWithItem(ModBlocks.BRITANNIUM_BLOCK);
+        blockWithItem(ModBlocks.PEWTER_BLOCK);
+        blockWithItem(ModBlocks.QUEENS_METAL_BLOCK);
+
+        //Titanium
+        blockWithItem(ModBlocks.BETA_C_BLOCK);
+        blockWithItem(ModBlocks.GUM_METAL_BLOCK);
+        blockWithItem(ModBlocks.SAL_FV_BLOCK);
+        blockWithItem(ModBlocks.TITANIUM_GOLD_BLOCK);
+        blockWithItem(ModBlocks.TITANIUM_HYDRIDE_BLOCK);
+        blockWithItem(ModBlocks.TITANIUM_NITRIDE_BLOCK);
+
+        //Zirconium
+        blockWithItem(ModBlocks.ZIRCALOY_BLOCK);
+
         //Tree - Black Ash
         blockItem(ModBlocks.BLACK_ASH_LOG);
         blockItem(ModBlocks.BLACK_ASH_WOOD);

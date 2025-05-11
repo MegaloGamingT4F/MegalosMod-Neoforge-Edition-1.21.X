@@ -2,8 +2,10 @@ package net.megalogaminguk.megalosmod;
 
 import net.megalogaminguk.megalosmod.block.ModBlocks;
 import net.megalogaminguk.megalosmod.block.entity.ModBlockEntities;
+import net.megalogaminguk.megalosmod.block.entity.renderer.PedestalBlockEntityRenderer;
 import net.megalogaminguk.megalosmod.item.ModItems;
 import net.megalogaminguk.megalosmod.tabs.ModCreativeModeTabs;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.api.distmarker.Dist;
@@ -64,6 +66,11 @@ public class MegalosMod
         public static void onClientSetup(FMLClientSetupEvent event)
         {
 
+        }
+
+        @SubscribeEvent
+        public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
+            event.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL_BE.get(), PedestalBlockEntityRenderer::new);
         }
     }
 }

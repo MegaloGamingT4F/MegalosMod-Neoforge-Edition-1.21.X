@@ -18,9 +18,9 @@ public class ModCreativeModeTabs
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MegalosMod.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> METALLURGY_CORE_TAB = CREATIVE_MODE_TAB.register("metallurgy_core_tab",
+    public static final Supplier<CreativeModeTab> METALLURGY_CORE_TAB = CREATIVE_MODE_TAB.register("metallurgy_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ALUMINIUM_ORE))
-                    .title(Component.translatable("creativetab.megalosmod.metallurgy_core_tab"))
+                    .title(Component.translatable("creativetab.megalosmod.metallurgy_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         //Block
                         output.accept(ModBlocks.ALUMINIUM_ORE);
@@ -452,22 +452,799 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.RAW_ZIRCONIUM.get());
                     }).build());
 
-    public static final Supplier<CreativeModeTab> METALLURGY_ALLOYS_TAB = CREATIVE_MODE_TAB.register("metallurgy_alloys_tab",
+    public static final Supplier<CreativeModeTab> METALLURGY_ALLOYS_TAB = CREATIVE_MODE_TAB.register("alloys_tab",
         () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AA_INGOT.get()))
-                .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "metallurgy_core_tab"))
-                .title(Component.translatable("creativetab.megalosmod.metallurgy_alloys_tab"))
+                .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "metallurgy_tab"))
+                .title(Component.translatable("creativetab.megalosmod.alloys_tab"))
                 .displayItems((itemDisplayParameters, output) -> {
                     //Block
-                    output.accept(ModBlocks.METALLURGIC_FURNACE.get());
-                    //Item
-                    output.accept(ModItems.AA_INGOT);
-                    output.accept(ModItems.AA_NUGGET);
-                    output.accept(ModItems.AA_DUST);
+                    output.accept(ModBlocks.AA_BLOCK.get());
+                    output.accept(ModBlocks.AL_LI_BLOCK.get());
+                    output.accept(ModBlocks.ALNICO_BLOCK.get());
+                    output.accept(ModBlocks.ALUMINIUM_SCANDIUM_BLOCK.get());
+                    output.accept(ModBlocks.BIRMABRIGHT_BLOCK.get());
+                    output.accept(ModBlocks.DEVARDA_BLOCK.get());
+                    output.accept(ModBlocks.DURALUMIN_BLOCK.get());
+                    output.accept(ModBlocks.HIDUMINIUM_BLOCK.get());
+                    output.accept(ModBlocks.HYDRONALIUM_BLOCK.get());
+                    output.accept(ModBlocks.ITALMA_BLOCK.get());
+                    output.accept(ModBlocks.MAGNALIUM_BLOCK.get());
+                    output.accept(ModBlocks.MAGNOX_BLOCK.get());
+                    output.accept(ModBlocks.NAMBE_BLOCK.get());
+                    output.accept(ModBlocks.NITIAL_BLOCK.get());
+                    output.accept(ModBlocks.SILUMIN_BLOCK.get());
+                    output.accept(ModBlocks.Y_ALLOY_BLOCK.get());
+                    output.accept(ModBlocks.ZAMAK_BLOCK.get());
+
+                    output.accept(ModBlocks.LOCKALLOY_BLOCK.get());
+
+                    output.accept(ModBlocks.BISMANOL_BLOCK.get());
+                    output.accept(ModBlocks.CERROBEND_BLOCK.get());
+                    output.accept(ModBlocks.CERROSAFE_BLOCK.get());
+                    output.accept(ModBlocks.FIELDS_METAL_BLOCK.get());
+                    output.accept(ModBlocks.ROSE_METAL_BLOCK.get());
+                    output.accept(ModBlocks.WOODS_METAL_BLOCK.get());
+
+                    output.accept(ModBlocks.CHROMIUM_HYDRIDE_BLOCK.get());
+                    output.accept(ModBlocks.CRNISZWTI_BLOCK.get());
+                    output.accept(ModBlocks.NICHROME_BLOCK.get());
+
+                    output.accept(ModBlocks.ELGILOY_BLOCK.get());
+                    output.accept(ModBlocks.MEGALLIUM_BLOCK.get());
+                    output.accept(ModBlocks.STELLITE_BLOCK.get());
+                    output.accept(ModBlocks.TALONITE_BLOCK.get());
+                    output.accept(ModBlocks.ULTIMET_BLOCK.get());
+                    output.accept(ModBlocks.VITALLIUM_BLOCK.get());
+
+                    output.accept(ModBlocks.ALUMINIUM_BRONZE_BLOCK.get());
+                    output.accept(ModBlocks.ARSENICAL_BRONZE_BLOCK.get());
+                    output.accept(ModBlocks.ARSENICAL_COPPER_BLOCK.get());
+                    output.accept(ModBlocks.BELL_METAL_BLOCK.get());
+                    output.accept(ModBlocks.BERYLLIUM_COPPER_BLOCK.get());
+                    output.accept(ModBlocks.BILLON_BLOCK.get());
+                    output.accept(ModBlocks.BRASS_BLOCK.get());
+                    output.accept(ModBlocks.BRONZE_BLOCK.get());
+                    output.accept(ModBlocks.CALAMINE_BRASS_BLOCK.get());
+                    output.accept(ModBlocks.CHINESE_SILVER_BLOCK.get());
+                    output.accept(ModBlocks.CONSTANTAN_BLOCK.get());
+                    output.accept(ModBlocks.COPPER_HYDRIDE_BLOCK.get());
+                    output.accept(ModBlocks.COPPER_TUNGSTEN_BLOCK.get());
+                    output.accept(ModBlocks.CORINTHIAN_BRONZE_BLOCK.get());
+                    output.accept(ModBlocks.CUNIFE_BLOCK.get());
+                    output.accept(ModBlocks.CUAG_BLOCK.get());
+                    output.accept(ModBlocks.CYMBAL_ALLOY_BLOCK.get());
+                    output.accept(ModBlocks.DUTCH_METAL_BLOCK.get());
+                    output.accept(ModBlocks.FLORENTINE_BRONZE_BLOCK.get());
+                    output.accept(ModBlocks.GILDING_METAL_BLOCK.get());
+                    output.accept(ModBlocks.GLUCYDUR_BLOCK.get());
+                    output.accept(ModBlocks.GUANIN_BLOCK.get());
+                    output.accept(ModBlocks.GUN_METAL_BLOCK.get());
+                    output.accept(ModBlocks.HEPATIZON_BLOCK.get());
+                    output.accept(ModBlocks.MANGANIN_BLOCK.get());
+                    output.accept(ModBlocks.MELCHIOR_BLOCK.get());
+                    output.accept(ModBlocks.MUNTZ_METAL_BLOCK.get());
+                    output.accept(ModBlocks.NICKEL_SILVER_BLOCK.get());
+                    output.accept(ModBlocks.NORDIC_GOLD_BLOCK.get());
+                    output.accept(ModBlocks.ORMOLU_BLOCK.get());
+                    output.accept(ModBlocks.PHOSPHOR_BRONZE_BLOCK.get());
+                    output.accept(ModBlocks.PINCHBECK_BLOCK.get());
+                    output.accept(ModBlocks.PRINCES_METAL_BLOCK.get());
+                    output.accept(ModBlocks.SHAKUDO_BLOCK.get());
+                    output.accept(ModBlocks.SILICON_BRONZE_BLOCK.get());
+                    output.accept(ModBlocks.SPECULUM_METAL_BLOCK.get());
+                    output.accept(ModBlocks.TOMBAC_BLOCK.get());
+                    output.accept(ModBlocks.TUMBAGA_BLOCK.get());
+                    output.accept(ModBlocks.WHITE_BRONZE_BLOCK.get());
+
+                    output.accept(ModBlocks.AL_GA_BLOCK.get());
+                    output.accept(ModBlocks.GALFENOL_BLOCK.get());
+                    output.accept(ModBlocks.GALINSTAN_BLOCK.get());
+
+                    output.accept(ModBlocks.COLORED_GOLD_BLOCK.get());
+                    output.accept(ModBlocks.CROWN_GOLD_BLOCK.get());
+                    output.accept(ModBlocks.ELECTRUM_BLOCK.get());
+                    output.accept(ModBlocks.RHODITE_BLOCK.get());
+                    output.accept(ModBlocks.ROSE_GOLD_BLOCK.get());
+                    output.accept(ModBlocks.WHITE_GOLD_BLOCK.get());
+
+                    output.accept(ModBlocks.ANTHRACITE_IRON_BLOCK.get());
+                    output.accept(ModBlocks.BULAT_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.CAST_IRON_BLOCK.get());
+                    output.accept(ModBlocks.CHROMOLY_BLOCK.get());
+                    output.accept(ModBlocks.CRUCIBLE_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.DAMASCUS_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.DUCOL_BLOCK.get());
+                    output.accept(ModBlocks.ELINVAR_BLOCK.get());
+                    output.accept(ModBlocks.FERNICO_BLOCK.get());
+                    output.accept(ModBlocks.FERROCHROMIUM_BLOCK.get());
+                    output.accept(ModBlocks.FERROMAGNESIUM_BLOCK.get());
+                    output.accept(ModBlocks.FERROMANGANESE_BLOCK.get());
+                    output.accept(ModBlocks.FERROMOLYBDENUM_BLOCK.get());
+                    output.accept(ModBlocks.FERRONICKEL_BLOCK.get());
+                    output.accept(ModBlocks.FERROPHOSPHORUS_BLOCK.get());
+                    output.accept(ModBlocks.FERROSILICON_BLOCK.get());
+                    output.accept(ModBlocks.FERROTITANIUM_BLOCK.get());
+                    output.accept(ModBlocks.FERROVANADIUM_BLOCK.get());
+                    output.accept(ModBlocks.HIGHSPEED_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.HSLA_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.INVAR_BLOCK.get());
+                    output.accept(ModBlocks.IRON_HYDRIDE_BLOCK.get());
+                    output.accept(ModBlocks.KANTHAL_BLOCK.get());
+                    output.accept(ModBlocks.KOVAR_BLOCK.get());
+                    output.accept(ModBlocks.MARAGING_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.MUSHET_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.PIG_IRON_BLOCK.get());
+                    output.accept(ModBlocks.REYNOLDS_FTO_BLOCK.get());
+                    output.accept(ModBlocks.SILICON_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.SILVER_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.SPIEGELEISEN_BLOCK.get());
+                    output.accept(ModBlocks.SPRING_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.STAINLESS_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.STABALLOY_BLOCK.get());
+                    output.accept(ModBlocks.STEEL_BLOCK.get());
+                    output.accept(ModBlocks.TOOL_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.WEATHERING_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.WOOTZ_STEEL_BLOCK.get());
+                    output.accept(ModBlocks.WROUGHT_IRON_BLOCK.get());
+
+                    output.accept(ModBlocks.MOLYBDOCHALKOS_BLOCK.get());
+                    output.accept(ModBlocks.SOLDER_BLOCK.get());
+                    output.accept(ModBlocks.TERNE_BLOCK.get());
+                    output.accept(ModBlocks.TYPE_METAL_BLOCK.get());
+
+                    output.accept(ModBlocks.ELEKTRON_BLOCK.get());
+                    output.accept(ModBlocks.TMGALZN_BLOCK.get());
+
+                    output.accept(ModBlocks.MNFZ_BLOCK.get());
+                    output.accept(ModBlocks.MNSZ_BLOCK.get());
+
+                    output.accept(ModBlocks.ZINC_AMALGAM_BLOCK.get());
+                    output.accept(ModBlocks.ASHTADHATU_BLOCK.get());
+
+                    output.accept(ModBlocks.ALUMEL_BLOCK.get());
+                    output.accept(ModBlocks.BRIGHTRAY_BLOCK.get());
+                    output.accept(ModBlocks.CHROMEL_BLOCK.get());
+                    output.accept(ModBlocks.COIN_SILVER_BLOCK.get());
+                    output.accept(ModBlocks.COPPER_NICKEL_BLOCK.get());
+                    output.accept(ModBlocks.CUPRONICKEL_BLOCK.get());
+                    output.accept(ModBlocks.GERMAN_SILVER_BLOCK.get());
+                    output.accept(ModBlocks.HASTELLOY_BLOCK.get());
+                    output.accept(ModBlocks.HAUSLER_BLOCK.get());
+                    output.accept(ModBlocks.INCONEL_BLOCK.get());
+                    output.accept(ModBlocks.INCONEL_SES_BLOCK.get());
+                    output.accept(ModBlocks.MONEL_METAL_BLOCK.get());
+                    output.accept(ModBlocks.MU_METAL_BLOCK.get());
+                    output.accept(ModBlocks.NICKEL_CARBON_BLOCK.get());
+                    output.accept(ModBlocks.NICKEL_HYDRIDE_BLOCK.get());
+                    output.accept(ModBlocks.NICROSIL_BLOCK.get());
+                    output.accept(ModBlocks.NIMONIC_BLOCK.get());
+                    output.accept(ModBlocks.NISIL_BLOCK.get());
+                    output.accept(ModBlocks.NITINOL_BLOCK.get());
+                    output.accept(ModBlocks.PERMALLOY_BLOCK.get());
+                    output.accept(ModBlocks.SUPERMALLOY_BLOCK.get());
+
+                    output.accept(ModBlocks.KLI_BLOCK.get());
+                    output.accept(ModBlocks.NAK_BLOCK.get());
+
+                    output.accept(ModBlocks.PSEUDO_PALLADIUM_BLOCK.get());
+
+                    output.accept(ModBlocks.SCANDIUM_HYDRIDE_BLOCK.get());
+
+                    output.accept(ModBlocks.ARGENTIUM_STERLING_SILVER_BLOCK.get());
+                    output.accept(ModBlocks.BRITANNIA_SILVER_BLOCK.get());
+                    output.accept(ModBlocks.DORE_BLOCK.get());
+                    output.accept(ModBlocks.DYMALLOY_BLOCK.get());
+                    output.accept(ModBlocks.GOLOID_BLOCK.get());
+                    output.accept(ModBlocks.PLATINUM_SILVER_BLOCK.get());
+                    output.accept(ModBlocks.SHIBUICHI_BLOCK.get());
+                    output.accept(ModBlocks.STERLING_SILVER_BLOCK.get());
+                    output.accept(ModBlocks.TIBETAN_SILVER_BLOCK.get());
+
+                    output.accept(ModBlocks.BABBITT_BLOCK.get());
+                    output.accept(ModBlocks.BRITANNIUM_BLOCK.get());
+                    output.accept(ModBlocks.PEWTER_BLOCK.get());
+                    output.accept(ModBlocks.QUEENS_METAL_BLOCK.get());
+
+                    output.accept(ModBlocks.BETA_C_BLOCK.get());
+                    output.accept(ModBlocks.GUM_METAL_BLOCK.get());
+                    output.accept(ModBlocks.SAL_FV_BLOCK.get());
+                    output.accept(ModBlocks.TITANIUM_GOLD_BLOCK.get());
+                    output.accept(ModBlocks.TITANIUM_HYDRIDE_BLOCK.get());
+                    output.accept(ModBlocks.TITANIUM_NITRIDE_BLOCK.get());
+
+                    output.accept(ModBlocks.ZIRCALOY_BLOCK.get());
+
+                    output.accept(ModItems.AA_INGOT.get());
+                    output.accept(ModItems.AL_LI_INGOT.get());
+                    output.accept(ModItems.ALNICO_INGOT.get());
+                    output.accept(ModItems.ALUMINIUM_SCANDIUM_INGOT.get());
+                    output.accept(ModItems.BIRMABRIGHT_INGOT.get());
+                    output.accept(ModItems.DEVARDA_INGOT.get());
+                    output.accept(ModItems.DURALUMIN_INGOT.get());
+                    output.accept(ModItems.HIDUMINIUM_INGOT.get());
+                    output.accept(ModItems.HYDRONALIUM_INGOT.get());
+                    output.accept(ModItems.ITALMA_INGOT.get());
+                    output.accept(ModItems.MAGNALIUM_INGOT.get());
+                    output.accept(ModItems.MAGNOX_INGOT.get());
+                    output.accept(ModItems.NAMBE_INGOT.get());
+                    output.accept(ModItems.NITIAL_INGOT.get());
+                    output.accept(ModItems.SILUMIN_INGOT.get());
+                    output.accept(ModItems.Y_ALLOY_INGOT.get());
+                    output.accept(ModItems.ZAMAK_INGOT.get());
+
+                    output.accept(ModItems.LOCKALLOY_INGOT.get());
+
+                    output.accept(ModItems.BISMANOL_INGOT.get());
+                    output.accept(ModItems.CERROBEND_INGOT.get());
+                    output.accept(ModItems.CERROSAFE_INGOT.get());
+                    output.accept(ModItems.FIELDS_METAL_INGOT.get());
+                    output.accept(ModItems.ROSE_METAL_INGOT.get());
+                    output.accept(ModItems.WOODS_METAL_INGOT.get());
+
+                    output.accept(ModItems.CHROMIUM_HYDRIDE_INGOT.get());
+                    output.accept(ModItems.CRNISZWTI_INGOT.get());
+                    output.accept(ModItems.NICHROME_INGOT.get());
+
+                    output.accept(ModItems.ELGILOY_INGOT.get());
+                    output.accept(ModItems.MEGALLIUM_INGOT.get());
+                    output.accept(ModItems.STELLITE_INGOT.get());
+                    output.accept(ModItems.TALONITE_INGOT.get());
+                    output.accept(ModItems.ULTIMET_INGOT.get());
+                    output.accept(ModItems.VITALLIUM_INGOT.get());
+
+                    output.accept(ModItems.ALUMINIUM_BRONZE_INGOT.get());
+                    output.accept(ModItems.ARSENICAL_BRONZE_INGOT.get());
+                    output.accept(ModItems.ARSENICAL_COPPER_INGOT.get());
+                    output.accept(ModItems.BELL_METAL_INGOT.get());
+                    output.accept(ModItems.BERYLLIUM_COPPER_INGOT.get());
+                    output.accept(ModItems.BILLON_INGOT.get());
+                    output.accept(ModItems.BRASS_INGOT.get());
+                    output.accept(ModItems.BRONZE_INGOT.get());
+                    output.accept(ModItems.CALAMINE_BRASS_INGOT.get());
+                    output.accept(ModItems.CHINESE_SILVER_INGOT.get());
+                    output.accept(ModItems.CONSTANTAN_INGOT.get());
+                    output.accept(ModItems.COPPER_HYDRIDE_INGOT.get());
+                    output.accept(ModItems.COPPER_TUNGSTEN_INGOT.get());
+                    output.accept(ModItems.CORINTHIAN_BRONZE_INGOT.get());
+                    output.accept(ModItems.CUNIFE_INGOT.get());
+                    output.accept(ModItems.CUAG_INGOT.get());
+                    output.accept(ModItems.CYMBAL_ALLOY_INGOT.get());
+                    output.accept(ModItems.DUTCH_METAL_INGOT.get());
+                    output.accept(ModItems.FLORENTINE_BRONZE_INGOT.get());
+                    output.accept(ModItems.GILDING_METAL_INGOT.get());
+                    output.accept(ModItems.GLUCYDUR_INGOT.get());
+                    output.accept(ModItems.GUANIN_INGOT.get());
+                    output.accept(ModItems.GUN_METAL_INGOT.get());
+                    output.accept(ModItems.HEPATIZON_INGOT.get());
+                    output.accept(ModItems.MANGANIN_INGOT.get());
+                    output.accept(ModItems.MELCHIOR_INGOT.get());
+                    output.accept(ModItems.MUNTZ_METAL_INGOT.get());
+                    output.accept(ModItems.NICKEL_SILVER_INGOT.get());
+                    output.accept(ModItems.NORDIC_GOLD_INGOT.get());
+                    output.accept(ModItems.ORMOLU_INGOT.get());
+                    output.accept(ModItems.PHOSPHOR_BRONZE_INGOT.get());
+                    output.accept(ModItems.PINCHBECK_INGOT.get());
+                    output.accept(ModItems.PRINCES_METAL_INGOT.get());
+                    output.accept(ModItems.SHAKUDO_INGOT.get());
+                    output.accept(ModItems.SILICON_BRONZE_INGOT.get());
+                    output.accept(ModItems.SPECULUM_METAL_INGOT.get());
+                    output.accept(ModItems.TOMBAC_INGOT.get());
+                    output.accept(ModItems.TUMBAGA_INGOT.get());
+                    output.accept(ModItems.WHITE_BRONZE_INGOT.get());
+
+                    output.accept(ModItems.AL_GA_INGOT.get());
+                    output.accept(ModItems.GALFENOL_INGOT.get());
+                    output.accept(ModItems.GALINSTAN_INGOT.get());
+
+                    output.accept(ModItems.COLORED_GOLD_INGOT.get());
+                    output.accept(ModItems.CROWN_GOLD_INGOT.get());
+                    output.accept(ModItems.ELECTRUM_INGOT.get());
+                    output.accept(ModItems.RHODITE_INGOT.get());
+                    output.accept(ModItems.ROSE_GOLD_INGOT.get());
+                    output.accept(ModItems.WHITE_GOLD_INGOT.get());
+
+                    output.accept(ModItems.ANTHRACITE_IRON_INGOT.get());
+                    output.accept(ModItems.BULAT_STEEL_INGOT.get());
+                    output.accept(ModItems.CAST_IRON_INGOT.get());
+                    output.accept(ModItems.CHROMOLY_INGOT.get());
+                    output.accept(ModItems.CRUCIBLE_STEEL_INGOT.get());
+                    output.accept(ModItems.DAMASCUS_STEEL_INGOT.get());
+                    output.accept(ModItems.DUCOL_INGOT.get());
+                    output.accept(ModItems.ELINVAR_INGOT.get());
+                    output.accept(ModItems.FERNICO_INGOT.get());
+                    output.accept(ModItems.FERROCHROMIUM_INGOT.get());
+                    output.accept(ModItems.FERROMAGNESIUM_INGOT.get());
+                    output.accept(ModItems.FERROMANGANESE_INGOT.get());
+                    output.accept(ModItems.FERROMOLYBDENUM_INGOT.get());
+                    output.accept(ModItems.FERRONICKEL_INGOT.get());
+                    output.accept(ModItems.FERROPHOSPHORUS_INGOT.get());
+                    output.accept(ModItems.FERROSILICON_INGOT.get());
+                    output.accept(ModItems.FERROTITANIUM_INGOT.get());
+                    output.accept(ModItems.FERROVANADIUM_INGOT.get());
+                    output.accept(ModItems.HIGHSPEED_STEEL_INGOT.get());
+                    output.accept(ModItems.HSLA_STEEL_INGOT.get());
+                    output.accept(ModItems.INVAR_INGOT.get());
+                    output.accept(ModItems.IRON_HYDRIDE_INGOT.get());
+                    output.accept(ModItems.KANTHAL_INGOT.get());
+                    output.accept(ModItems.KOVAR_INGOT.get());
+                    output.accept(ModItems.MARAGING_STEEL_INGOT.get());
+                    output.accept(ModItems.MUSHET_STEEL_INGOT.get());
+                    output.accept(ModItems.PIG_IRON_INGOT.get());
+                    output.accept(ModItems.REYNOLDS_FTO_INGOT.get());
+                    output.accept(ModItems.SILICON_STEEL_INGOT.get());
+                    output.accept(ModItems.SILVER_STEEL_INGOT.get());
+                    output.accept(ModItems.SPIEGELEISEN_INGOT.get());
+                    output.accept(ModItems.SPRING_STEEL_INGOT.get());
+                    output.accept(ModItems.STAINLESS_STEEL_INGOT.get());
+                    output.accept(ModItems.STABALLOY_INGOT.get());
+                    output.accept(ModItems.STEEL_INGOT.get());
+                    output.accept(ModItems.TOOL_STEEL_INGOT.get());
+                    output.accept(ModItems.WEATHERING_STEEL_INGOT.get());
+                    output.accept(ModItems.WOOTZ_STEEL_INGOT.get());
+                    output.accept(ModItems.WROUGHT_IRON_INGOT.get());
+
+                    output.accept(ModItems.MOLYBDOCHALKOS_INGOT.get());
+                    output.accept(ModItems.SOLDER_INGOT.get());
+                    output.accept(ModItems.TERNE_INGOT.get());
+                    output.accept(ModItems.TYPE_METAL_INGOT.get());
+
+                    output.accept(ModItems.ELEKTRON_INGOT.get());
+                    output.accept(ModItems.TMGALZN_INGOT.get());
+
+                    output.accept(ModItems.MNFZ_INGOT.get());
+                    output.accept(ModItems.MNSZ_INGOT.get());
+
+                    output.accept(ModItems.ZINC_AMALGAM_INGOT.get());
+                    output.accept(ModItems.ASHTADHATU_INGOT.get());
+
+                    output.accept(ModItems.ALUMEL_INGOT.get());
+                    output.accept(ModItems.BRIGHTRAY_INGOT.get());
+                    output.accept(ModItems.CHROMEL_INGOT.get());
+                    output.accept(ModItems.COIN_SILVER_INGOT.get());
+                    output.accept(ModItems.COPPER_NICKEL_INGOT.get());
+                    output.accept(ModItems.CUPRONICKEL_INGOT.get());
+                    output.accept(ModItems.GERMAN_SILVER_INGOT.get());
+                    output.accept(ModItems.HASTELLOY_INGOT.get());
+                    output.accept(ModItems.HAUSLER_INGOT.get());
+                    output.accept(ModItems.INCONEL_INGOT.get());
+                    output.accept(ModItems.INCONEL_SES_INGOT.get());
+                    output.accept(ModItems.MONEL_METAL_INGOT.get());
+                    output.accept(ModItems.MU_METAL_INGOT.get());
+                    output.accept(ModItems.NICKEL_CARBON_INGOT.get());
+                    output.accept(ModItems.NICKEL_HYDRIDE_INGOT.get());
+                    output.accept(ModItems.NICROSIL_INGOT.get());
+                    output.accept(ModItems.NIMONIC_INGOT.get());
+                    output.accept(ModItems.NISIL_INGOT.get());
+                    output.accept(ModItems.NITINOL_INGOT.get());
+                    output.accept(ModItems.PERMALLOY_INGOT.get());
+                    output.accept(ModItems.SUPERMALLOY_INGOT.get());
+
+                    output.accept(ModItems.KLI_INGOT.get());
+                    output.accept(ModItems.NAK_INGOT.get());
+
+                    output.accept(ModItems.PSEUDO_PALLADIUM_INGOT.get());
+
+                    output.accept(ModItems.SCANDIUM_HYDRIDE_INGOT.get());
+
+                    output.accept(ModItems.ARGENTIUM_STERLING_SILVER_INGOT.get());
+                    output.accept(ModItems.BRITANNIA_SILVER_INGOT.get());
+                    output.accept(ModItems.DORE_INGOT.get());
+                    output.accept(ModItems.DYMALLOY_INGOT.get());
+                    output.accept(ModItems.GOLOID_INGOT.get());
+                    output.accept(ModItems.PLATINUM_SILVER_INGOT.get());
+                    output.accept(ModItems.SHIBUICHI_INGOT.get());
+                    output.accept(ModItems.STERLING_SILVER_INGOT.get());
+                    output.accept(ModItems.TIBETAN_SILVER_INGOT.get());
+
+                    output.accept(ModItems.BABBITT_INGOT.get());
+                    output.accept(ModItems.BRITANNIUM_INGOT.get());
+                    output.accept(ModItems.PEWTER_INGOT.get());
+                    output.accept(ModItems.QUEENS_METAL_INGOT.get());
+
+                    output.accept(ModItems.BETA_C_INGOT.get());
+                    output.accept(ModItems.GUM_METAL_INGOT.get());
+                    output.accept(ModItems.SAL_FV_INGOT.get());
+                    output.accept(ModItems.TITANIUM_GOLD_INGOT.get());
+                    output.accept(ModItems.TITANIUM_HYDRIDE_INGOT.get());
+                    output.accept(ModItems.TITANIUM_NITRIDE_INGOT.get());
+
+                    output.accept(ModItems.ZIRCALOY_INGOT.get());
+                    output.accept(ModItems.AA_NUGGET.get());
+                    output.accept(ModItems.AL_LI_NUGGET.get());
+                    output.accept(ModItems.ALNICO_NUGGET.get());
+                    output.accept(ModItems.ALUMINIUM_SCANDIUM_NUGGET.get());
+                    output.accept(ModItems.BIRMABRIGHT_NUGGET.get());
+                    output.accept(ModItems.DEVARDA_NUGGET.get());
+                    output.accept(ModItems.DURALUMIN_NUGGET.get());
+                    output.accept(ModItems.HIDUMINIUM_NUGGET.get());
+                    output.accept(ModItems.HYDRONALIUM_NUGGET.get());
+                    output.accept(ModItems.ITALMA_NUGGET.get());
+                    output.accept(ModItems.MAGNALIUM_NUGGET.get());
+                    output.accept(ModItems.MAGNOX_NUGGET.get());
+                    output.accept(ModItems.NAMBE_NUGGET.get());
+                    output.accept(ModItems.NITIAL_NUGGET.get());
+                    output.accept(ModItems.SILUMIN_NUGGET.get());
+                    output.accept(ModItems.Y_ALLOY_NUGGET.get());
+                    output.accept(ModItems.ZAMAK_NUGGET.get());
+
+                    output.accept(ModItems.LOCKALLOY_NUGGET.get());
+
+                    output.accept(ModItems.BISMANOL_NUGGET.get());
+                    output.accept(ModItems.CERROBEND_NUGGET.get());
+                    output.accept(ModItems.CERROSAFE_NUGGET.get());
+                    output.accept(ModItems.FIELDS_METAL_NUGGET.get());
+                    output.accept(ModItems.ROSE_METAL_NUGGET.get());
+                    output.accept(ModItems.WOODS_METAL_NUGGET.get());
+
+                    output.accept(ModItems.CHROMIUM_HYDRIDE_NUGGET.get());
+                    output.accept(ModItems.CRNISZWTI_NUGGET.get());
+                    output.accept(ModItems.NICHROME_NUGGET.get());
+
+                    output.accept(ModItems.ELGILOY_NUGGET.get());
+                    output.accept(ModItems.MEGALLIUM_NUGGET.get());
+                    output.accept(ModItems.STELLITE_NUGGET.get());
+                    output.accept(ModItems.TALONITE_NUGGET.get());
+                    output.accept(ModItems.ULTIMET_NUGGET.get());
+                    output.accept(ModItems.VITALLIUM_NUGGET.get());
+
+                    output.accept(ModItems.ALUMINIUM_BRONZE_NUGGET.get());
+                    output.accept(ModItems.ARSENICAL_BRONZE_NUGGET.get());
+                    output.accept(ModItems.ARSENICAL_COPPER_NUGGET.get());
+                    output.accept(ModItems.BELL_METAL_NUGGET.get());
+                    output.accept(ModItems.BERYLLIUM_COPPER_NUGGET.get());
+                    output.accept(ModItems.BILLON_NUGGET.get());
+                    output.accept(ModItems.BRASS_NUGGET.get());
+                    output.accept(ModItems.BRONZE_NUGGET.get());
+                    output.accept(ModItems.CALAMINE_BRASS_NUGGET.get());
+                    output.accept(ModItems.CHINESE_SILVER_NUGGET.get());
+                    output.accept(ModItems.CONSTANTAN_NUGGET.get());
+                    output.accept(ModItems.COPPER_HYDRIDE_NUGGET.get());
+                    output.accept(ModItems.COPPER_TUNGSTEN_NUGGET.get());
+                    output.accept(ModItems.CORINTHIAN_BRONZE_NUGGET.get());
+                    output.accept(ModItems.CUNIFE_NUGGET.get());
+                    output.accept(ModItems.CUAG_NUGGET.get());
+                    output.accept(ModItems.CYMBAL_ALLOY_NUGGET.get());
+                    output.accept(ModItems.DUTCH_METAL_NUGGET.get());
+                    output.accept(ModItems.FLORENTINE_BRONZE_NUGGET.get());
+                    output.accept(ModItems.GILDING_METAL_NUGGET.get());
+                    output.accept(ModItems.GLUCYDUR_NUGGET.get());
+                    output.accept(ModItems.GUANIN_NUGGET.get());
+                    output.accept(ModItems.GUN_METAL_NUGGET.get());
+                    output.accept(ModItems.HEPATIZON_NUGGET.get());
+                    output.accept(ModItems.MANGANIN_NUGGET.get());
+                    output.accept(ModItems.MELCHIOR_NUGGET.get());
+                    output.accept(ModItems.MUNTZ_METAL_NUGGET.get());
+                    output.accept(ModItems.NICKEL_SILVER_NUGGET.get());
+                    output.accept(ModItems.NORDIC_GOLD_NUGGET.get());
+                    output.accept(ModItems.ORMOLU_NUGGET.get());
+                    output.accept(ModItems.PHOSPHOR_BRONZE_NUGGET.get());
+                    output.accept(ModItems.PINCHBECK_NUGGET.get());
+                    output.accept(ModItems.PRINCES_METAL_NUGGET.get());
+                    output.accept(ModItems.SHAKUDO_NUGGET.get());
+                    output.accept(ModItems.SILICON_BRONZE_NUGGET.get());
+                    output.accept(ModItems.SPECULUM_METAL_NUGGET.get());
+                    output.accept(ModItems.TOMBAC_NUGGET.get());
+                    output.accept(ModItems.TUMBAGA_NUGGET.get());
+                    output.accept(ModItems.WHITE_BRONZE_NUGGET.get());
+
+                    output.accept(ModItems.AL_GA_NUGGET.get());
+                    output.accept(ModItems.GALFENOL_NUGGET.get());
+                    output.accept(ModItems.GALINSTAN_NUGGET.get());
+
+                    output.accept(ModItems.COLORED_GOLD_NUGGET.get());
+                    output.accept(ModItems.CROWN_GOLD_NUGGET.get());
+                    output.accept(ModItems.ELECTRUM_NUGGET.get());
+                    output.accept(ModItems.RHODITE_NUGGET.get());
+                    output.accept(ModItems.ROSE_GOLD_NUGGET.get());
+                    output.accept(ModItems.WHITE_GOLD_NUGGET.get());
+
+                    output.accept(ModItems.ANTHRACITE_IRON_NUGGET.get());
+                    output.accept(ModItems.BULAT_STEEL_NUGGET.get());
+                    output.accept(ModItems.CAST_IRON_NUGGET.get());
+                    output.accept(ModItems.CHROMOLY_NUGGET.get());
+                    output.accept(ModItems.CRUCIBLE_STEEL_NUGGET.get());
+                    output.accept(ModItems.DAMASCUS_STEEL_NUGGET.get());
+                    output.accept(ModItems.DUCOL_NUGGET.get());
+                    output.accept(ModItems.ELINVAR_NUGGET.get());
+                    output.accept(ModItems.FERNICO_NUGGET.get());
+                    output.accept(ModItems.FERROCHROMIUM_NUGGET.get());
+                    output.accept(ModItems.FERROMAGNESIUM_NUGGET.get());
+                    output.accept(ModItems.FERROMANGANESE_NUGGET.get());
+                    output.accept(ModItems.FERROMOLYBDENUM_NUGGET.get());
+                    output.accept(ModItems.FERRONICKEL_NUGGET.get());
+                    output.accept(ModItems.FERROPHOSPHORUS_NUGGET.get());
+                    output.accept(ModItems.FERROSILICON_NUGGET.get());
+                    output.accept(ModItems.FERROTITANIUM_NUGGET.get());
+                    output.accept(ModItems.FERROVANADIUM_NUGGET.get());
+                    output.accept(ModItems.HIGHSPEED_STEEL_NUGGET.get());
+                    output.accept(ModItems.HSLA_STEEL_NUGGET.get());
+                    output.accept(ModItems.INVAR_NUGGET.get());
+                    output.accept(ModItems.IRON_HYDRIDE_NUGGET.get());
+                    output.accept(ModItems.KANTHAL_NUGGET.get());
+                    output.accept(ModItems.KOVAR_NUGGET.get());
+                    output.accept(ModItems.MARAGING_STEEL_NUGGET.get());
+                    output.accept(ModItems.MUSHET_STEEL_NUGGET.get());
+                    output.accept(ModItems.PIG_IRON_NUGGET.get());
+                    output.accept(ModItems.REYNOLDS_FTO_NUGGET.get());
+                    output.accept(ModItems.SILICON_STEEL_NUGGET.get());
+                    output.accept(ModItems.SILVER_STEEL_NUGGET.get());
+                    output.accept(ModItems.SPIEGELEISEN_NUGGET.get());
+                    output.accept(ModItems.SPRING_STEEL_NUGGET.get());
+                    output.accept(ModItems.STAINLESS_STEEL_NUGGET.get());
+                    output.accept(ModItems.STABALLOY_NUGGET.get());
+                    output.accept(ModItems.STEEL_NUGGET.get());
+                    output.accept(ModItems.TOOL_STEEL_NUGGET.get());
+                    output.accept(ModItems.WEATHERING_STEEL_NUGGET.get());
+                    output.accept(ModItems.WOOTZ_STEEL_NUGGET.get());
+                    output.accept(ModItems.WROUGHT_IRON_NUGGET.get());
+
+                    output.accept(ModItems.MOLYBDOCHALKOS_NUGGET.get());
+                    output.accept(ModItems.SOLDER_NUGGET.get());
+                    output.accept(ModItems.TERNE_NUGGET.get());
+                    output.accept(ModItems.TYPE_METAL_NUGGET.get());
+
+                    output.accept(ModItems.ELEKTRON_NUGGET.get());
+                    output.accept(ModItems.TMGALZN_NUGGET.get());
+
+                    output.accept(ModItems.MNFZ_NUGGET.get());
+                    output.accept(ModItems.MNSZ_NUGGET.get());
+
+                    output.accept(ModItems.ZINC_AMALGAM_NUGGET.get());
+                    output.accept(ModItems.ASHTADHATU_NUGGET.get());
+
+                    output.accept(ModItems.ALUMEL_NUGGET.get());
+                    output.accept(ModItems.BRIGHTRAY_NUGGET.get());
+                    output.accept(ModItems.CHROMEL_NUGGET.get());
+                    output.accept(ModItems.COIN_SILVER_NUGGET.get());
+                    output.accept(ModItems.COPPER_NICKEL_NUGGET.get());
+                    output.accept(ModItems.CUPRONICKEL_NUGGET.get());
+                    output.accept(ModItems.GERMAN_SILVER_NUGGET.get());
+                    output.accept(ModItems.HASTELLOY_NUGGET.get());
+                    output.accept(ModItems.HAUSLER_NUGGET.get());
+                    output.accept(ModItems.INCONEL_NUGGET.get());
+                    output.accept(ModItems.INCONEL_SES_NUGGET.get());
+                    output.accept(ModItems.MONEL_METAL_NUGGET.get());
+                    output.accept(ModItems.MU_METAL_NUGGET.get());
+                    output.accept(ModItems.NICKEL_CARBON_NUGGET.get());
+                    output.accept(ModItems.NICKEL_HYDRIDE_NUGGET.get());
+                    output.accept(ModItems.NICROSIL_NUGGET.get());
+                    output.accept(ModItems.NIMONIC_NUGGET.get());
+                    output.accept(ModItems.NISIL_NUGGET.get());
+                    output.accept(ModItems.NITINOL_NUGGET.get());
+                    output.accept(ModItems.PERMALLOY_NUGGET.get());
+                    output.accept(ModItems.SUPERMALLOY_NUGGET.get());
+
+                    output.accept(ModItems.KLI_NUGGET.get());
+                    output.accept(ModItems.NAK_NUGGET.get());
+
+                    output.accept(ModItems.PSEUDO_PALLADIUM_NUGGET.get());
+
+                    output.accept(ModItems.SCANDIUM_HYDRIDE_NUGGET.get());
+
+                    output.accept(ModItems.ARGENTIUM_STERLING_SILVER_NUGGET.get());
+                    output.accept(ModItems.BRITANNIA_SILVER_NUGGET.get());
+                    output.accept(ModItems.DORE_NUGGET.get());
+                    output.accept(ModItems.DYMALLOY_NUGGET.get());
+                    output.accept(ModItems.GOLOID_NUGGET.get());
+                    output.accept(ModItems.PLATINUM_SILVER_NUGGET.get());
+                    output.accept(ModItems.SHIBUICHI_NUGGET.get());
+                    output.accept(ModItems.STERLING_SILVER_NUGGET.get());
+                    output.accept(ModItems.TIBETAN_SILVER_NUGGET.get());
+
+                    output.accept(ModItems.BABBITT_NUGGET.get());
+                    output.accept(ModItems.BRITANNIUM_NUGGET.get());
+                    output.accept(ModItems.PEWTER_NUGGET.get());
+                    output.accept(ModItems.QUEENS_METAL_NUGGET.get());
+
+                    output.accept(ModItems.BETA_C_NUGGET.get());
+                    output.accept(ModItems.GUM_METAL_NUGGET.get());
+                    output.accept(ModItems.SAL_FV_NUGGET.get());
+                    output.accept(ModItems.TITANIUM_GOLD_NUGGET.get());
+                    output.accept(ModItems.TITANIUM_HYDRIDE_NUGGET.get());
+                    output.accept(ModItems.TITANIUM_NITRIDE_NUGGET.get());
+
+                    output.accept(ModItems.ZIRCALOY_NUGGET.get());
+
+                    output.accept(ModItems.AA_DUST.get());
+                    output.accept(ModItems.AL_LI_DUST.get());
+                    output.accept(ModItems.ALNICO_DUST.get());
+                    output.accept(ModItems.ALUMINIUM_SCANDIUM_DUST.get());
+                    output.accept(ModItems.BIRMABRIGHT_DUST.get());
+                    output.accept(ModItems.DEVARDA_DUST.get());
+                    output.accept(ModItems.DURALUMIN_DUST.get());
+                    output.accept(ModItems.HIDUMINIUM_DUST.get());
+                    output.accept(ModItems.HYDRONALIUM_DUST.get());
+                    output.accept(ModItems.ITALMA_DUST.get());
+                    output.accept(ModItems.MAGNALIUM_DUST.get());
+                    output.accept(ModItems.MAGNOX_DUST.get());
+                    output.accept(ModItems.NAMBE_DUST.get());
+                    output.accept(ModItems.NITIAL_DUST.get());
+                    output.accept(ModItems.SILUMIN_DUST.get());
+                    output.accept(ModItems.Y_ALLOY_DUST.get());
+                    output.accept(ModItems.ZAMAK_DUST.get());
+
+                    output.accept(ModItems.LOCKALLOY_DUST.get());
+
+                    output.accept(ModItems.BISMANOL_DUST.get());
+                    output.accept(ModItems.CERROBEND_DUST.get());
+                    output.accept(ModItems.CERROSAFE_DUST.get());
+                    output.accept(ModItems.FIELDS_METAL_DUST.get());
+                    output.accept(ModItems.ROSE_METAL_DUST.get());
+                    output.accept(ModItems.WOODS_METAL_DUST.get());
+
+                    output.accept(ModItems.CHROMIUM_HYDRIDE_DUST.get());
+                    output.accept(ModItems.CRNISZWTI_DUST.get());
+                    output.accept(ModItems.NICHROME_DUST.get());
+
+                    output.accept(ModItems.ELGILOY_DUST.get());
+                    output.accept(ModItems.MEGALLIUM_DUST.get());
+                    output.accept(ModItems.STELLITE_DUST.get());
+                    output.accept(ModItems.TALONITE_DUST.get());
+                    output.accept(ModItems.ULTIMET_DUST.get());
+                    output.accept(ModItems.VITALLIUM_DUST.get());
+
+                    output.accept(ModItems.ALUMINIUM_BRONZE_DUST.get());
+                    output.accept(ModItems.ARSENICAL_BRONZE_DUST.get());
+                    output.accept(ModItems.ARSENICAL_COPPER_DUST.get());
+                    output.accept(ModItems.BELL_METAL_DUST.get());
+                    output.accept(ModItems.BERYLLIUM_COPPER_DUST.get());
+                    output.accept(ModItems.BILLON_DUST.get());
+                    output.accept(ModItems.BRASS_DUST.get());
+                    output.accept(ModItems.BRONZE_DUST.get());
+                    output.accept(ModItems.CALAMINE_BRASS_DUST.get());
+                    output.accept(ModItems.CHINESE_SILVER_DUST.get());
+                    output.accept(ModItems.CONSTANTAN_DUST.get());
+                    output.accept(ModItems.COPPER_HYDRIDE_DUST.get());
+                    output.accept(ModItems.COPPER_TUNGSTEN_DUST.get());
+                    output.accept(ModItems.CORINTHIAN_BRONZE_DUST.get());
+                    output.accept(ModItems.CUNIFE_DUST.get());
+                    output.accept(ModItems.CUAG_DUST.get());
+                    output.accept(ModItems.CYMBAL_ALLOY_DUST.get());
+                    output.accept(ModItems.DUTCH_METAL_DUST.get());
+                    output.accept(ModItems.FLORENTINE_BRONZE_DUST.get());
+                    output.accept(ModItems.GILDING_METAL_DUST.get());
+                    output.accept(ModItems.GLUCYDUR_DUST.get());
+                    output.accept(ModItems.GUANIN_DUST.get());
+                    output.accept(ModItems.GUN_METAL_DUST.get());
+                    output.accept(ModItems.HEPATIZON_DUST.get());
+                    output.accept(ModItems.MANGANIN_DUST.get());
+                    output.accept(ModItems.MELCHIOR_DUST.get());
+                    output.accept(ModItems.MUNTZ_METAL_DUST.get());
+                    output.accept(ModItems.NICKEL_SILVER_DUST.get());
+                    output.accept(ModItems.NORDIC_GOLD_DUST.get());
+                    output.accept(ModItems.ORMOLU_DUST.get());
+                    output.accept(ModItems.PHOSPHOR_BRONZE_DUST.get());
+                    output.accept(ModItems.PINCHBECK_DUST.get());
+                    output.accept(ModItems.PRINCES_METAL_DUST.get());
+                    output.accept(ModItems.SHAKUDO_DUST.get());
+                    output.accept(ModItems.SILICON_BRONZE_DUST.get());
+                    output.accept(ModItems.SPECULUM_METAL_DUST.get());
+                    output.accept(ModItems.TOMBAC_DUST.get());
+                    output.accept(ModItems.TUMBAGA_DUST.get());
+                    output.accept(ModItems.WHITE_BRONZE_DUST.get());
+
+                    output.accept(ModItems.AL_GA_DUST.get());
+                    output.accept(ModItems.GALFENOL_DUST.get());
+                    output.accept(ModItems.GALINSTAN_DUST.get());
+
+                    output.accept(ModItems.COLORED_GOLD_DUST.get());
+                    output.accept(ModItems.CROWN_GOLD_DUST.get());
+                    output.accept(ModItems.ELECTRUM_DUST.get());
+                    output.accept(ModItems.RHODITE_DUST.get());
+                    output.accept(ModItems.ROSE_GOLD_DUST.get());
+                    output.accept(ModItems.WHITE_GOLD_DUST.get());
+
+                    output.accept(ModItems.ANTHRACITE_IRON_DUST.get());
+                    output.accept(ModItems.BULAT_STEEL_DUST.get());
+                    output.accept(ModItems.CAST_IRON_DUST.get());
+                    output.accept(ModItems.CHROMOLY_DUST.get());
+                    output.accept(ModItems.CRUCIBLE_STEEL_DUST.get());
+                    output.accept(ModItems.DAMASCUS_STEEL_DUST.get());
+                    output.accept(ModItems.DUCOL_DUST.get());
+                    output.accept(ModItems.ELINVAR_DUST.get());
+                    output.accept(ModItems.FERNICO_DUST.get());
+                    output.accept(ModItems.FERROCHROMIUM_DUST.get());
+                    output.accept(ModItems.FERROMAGNESIUM_DUST.get());
+                    output.accept(ModItems.FERROMANGANESE_DUST.get());
+                    output.accept(ModItems.FERROMOLYBDENUM_DUST.get());
+                    output.accept(ModItems.FERRONICKEL_DUST.get());
+                    output.accept(ModItems.FERROPHOSPHORUS_DUST.get());
+                    output.accept(ModItems.FERROSILICON_DUST.get());
+                    output.accept(ModItems.FERROTITANIUM_DUST.get());
+                    output.accept(ModItems.FERROVANADIUM_DUST.get());
+                    output.accept(ModItems.HIGHSPEED_STEEL_DUST.get());
+                    output.accept(ModItems.HSLA_STEEL_DUST.get());
+                    output.accept(ModItems.INVAR_DUST.get());
+                    output.accept(ModItems.IRON_HYDRIDE_DUST.get());
+                    output.accept(ModItems.KANTHAL_DUST.get());
+                    output.accept(ModItems.KOVAR_DUST.get());
+                    output.accept(ModItems.MARAGING_STEEL_DUST.get());
+                    output.accept(ModItems.MUSHET_STEEL_DUST.get());
+                    output.accept(ModItems.PIG_IRON_DUST.get());
+                    output.accept(ModItems.REYNOLDS_FTO_DUST.get());
+                    output.accept(ModItems.SILICON_STEEL_DUST.get());
+                    output.accept(ModItems.SILVER_STEEL_DUST.get());
+                    output.accept(ModItems.SPIEGELEISEN_DUST.get());
+                    output.accept(ModItems.SPRING_STEEL_DUST.get());
+                    output.accept(ModItems.STAINLESS_STEEL_DUST.get());
+                    output.accept(ModItems.STABALLOY_DUST.get());
+                    output.accept(ModItems.STEEL_DUST.get());
+                    output.accept(ModItems.TOOL_STEEL_DUST.get());
+                    output.accept(ModItems.WEATHERING_STEEL_DUST.get());
+                    output.accept(ModItems.WOOTZ_STEEL_DUST.get());
+                    output.accept(ModItems.WROUGHT_IRON_DUST.get());
+
+                    output.accept(ModItems.MOLYBDOCHALKOS_DUST.get());
+                    output.accept(ModItems.SOLDER_DUST.get());
+                    output.accept(ModItems.TERNE_DUST.get());
+                    output.accept(ModItems.TYPE_METAL_DUST.get());
+
+                    output.accept(ModItems.ELEKTRON_DUST.get());
+                    output.accept(ModItems.TMGALZN_DUST.get());
+
+                    output.accept(ModItems.MNFZ_DUST.get());
+                    output.accept(ModItems.MNSZ_DUST.get());
+
+                    output.accept(ModItems.ZINC_AMALGAM_DUST.get());
+                    output.accept(ModItems.ASHTADHATU_DUST.get());
+
+                    output.accept(ModItems.ALUMEL_DUST.get());
+                    output.accept(ModItems.BRIGHTRAY_DUST.get());
+                    output.accept(ModItems.CHROMEL_DUST.get());
+                    output.accept(ModItems.COIN_SILVER_DUST.get());
+                    output.accept(ModItems.COPPER_NICKEL_DUST.get());
+                    output.accept(ModItems.CUPRONICKEL_DUST.get());
+                    output.accept(ModItems.GERMAN_SILVER_DUST.get());
+                    output.accept(ModItems.HASTELLOY_DUST.get());
+                    output.accept(ModItems.HAUSLER_DUST.get());
+                    output.accept(ModItems.INCONEL_DUST.get());
+                    output.accept(ModItems.INCONEL_SES_DUST.get());
+                    output.accept(ModItems.MONEL_METAL_DUST.get());
+                    output.accept(ModItems.MU_METAL_DUST.get());
+                    output.accept(ModItems.NICKEL_CARBON_DUST.get());
+                    output.accept(ModItems.NICKEL_HYDRIDE_DUST.get());
+                    output.accept(ModItems.NICROSIL_DUST.get());
+                    output.accept(ModItems.NIMONIC_DUST.get());
+                    output.accept(ModItems.NISIL_DUST.get());
+                    output.accept(ModItems.NITINOL_DUST.get());
+                    output.accept(ModItems.PERMALLOY_DUST.get());
+                    output.accept(ModItems.SUPERMALLOY_DUST.get());
+
+                    output.accept(ModItems.KLI_DUST.get());
+                    output.accept(ModItems.NAK_DUST.get());
+
+                    output.accept(ModItems.PSEUDO_PALLADIUM_DUST.get());
+
+                    output.accept(ModItems.SCANDIUM_HYDRIDE_DUST.get());
+
+                    output.accept(ModItems.ARGENTIUM_STERLING_SILVER_DUST.get());
+                    output.accept(ModItems.BRITANNIA_SILVER_DUST.get());
+                    output.accept(ModItems.DORE_DUST.get());
+                    output.accept(ModItems.DYMALLOY_DUST.get());
+                    output.accept(ModItems.GOLOID_DUST.get());
+                    output.accept(ModItems.PLATINUM_SILVER_DUST.get());
+                    output.accept(ModItems.SHIBUICHI_DUST.get());
+                    output.accept(ModItems.STERLING_SILVER_DUST.get());
+                    output.accept(ModItems.TIBETAN_SILVER_DUST.get());
+
+                    output.accept(ModItems.BABBITT_DUST.get());
+                    output.accept(ModItems.BRITANNIUM_DUST.get());
+                    output.accept(ModItems.PEWTER_DUST.get());
+                    output.accept(ModItems.QUEENS_METAL_DUST.get());
+
+                    output.accept(ModItems.BETA_C_DUST.get());
+                    output.accept(ModItems.GUM_METAL_DUST.get());
+                    output.accept(ModItems.SAL_FV_DUST.get());
+                    output.accept(ModItems.TITANIUM_GOLD_DUST.get());
+                    output.accept(ModItems.TITANIUM_HYDRIDE_DUST.get());
+                    output.accept(ModItems.TITANIUM_NITRIDE_DUST.get());
+
+                    output.accept(ModItems.ZIRCALOY_DUST.get());
                 }).build());
 
     public static final Supplier<CreativeModeTab> HOPLOLOGY_TAB = CREATIVE_MODE_TAB.register("hoplology_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FABRIC_GRIP.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "metallurgy_alloys_tab"))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TITANIUM_SWORD.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "alloys_tab"))
                     .title(Component.translatable("creativetab.megalosmod.hoplology_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         //Aluminium
@@ -540,7 +1317,7 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.TITANIUM_BOOTS.get());
                     }).build());
 
-    public static final Supplier<CreativeModeTab> NATURE_CROPS_TAB = CREATIVE_MODE_TAB.register("nature_crops_tab",
+    public static final Supplier<CreativeModeTab> NATURE_CROPS_TAB = CREATIVE_MODE_TAB.register("nature_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BHUT_JOLOKIA_CHILLI_SEEDS.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "hoplology_tab"))
                     .title(Component.translatable("creativetab.megalosmod.nature_tab"))
@@ -588,6 +1365,15 @@ public class ModCreativeModeTabs
                         //output.accept(ModItems.SILING_LABUYO_CHILLI_SEEDS);
                         //output.accept(ModItems.TABASCO_CHILLI_SEEDS);
                         //output.accept(ModItems.TRINIDAD_SCORPION_CHILLI_SEEDS);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> TECHNOLOGY_TAB = CREATIVE_MODE_TAB.register("technology_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.PEDESTAL.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "nature_tab"))
+                    .title(Component.translatable("creativetab.megalosmod.technology_tab"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        //Tech - Block
+                        output.accept(ModBlocks.PEDESTAL.get());
                     }).build());
 
     public static void register(IEventBus eventBus){

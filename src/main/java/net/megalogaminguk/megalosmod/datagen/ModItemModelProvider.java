@@ -317,14 +317,659 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.TITANIUM_LEGGINGS);
         trimmedArmorItem(ModItems.TITANIUM_BOOTS);
 
-        //Alloys - Ingot
+        //Alloys - Ingots
+        //Aluminium
         basicItem(ModItems.AA_INGOT.get());
+        basicItem(ModItems.AL_LI_INGOT.get());
+        basicItem(ModItems.ALNICO_INGOT.get());
+        basicItem(ModItems.ALUMINIUM_SCANDIUM_INGOT.get());
+        basicItem(ModItems.BIRMABRIGHT_INGOT.get());
+        basicItem(ModItems.DEVARDA_INGOT.get());
+        basicItem(ModItems.DURALUMIN_INGOT.get());
+        basicItem(ModItems.HIDUMINIUM_INGOT.get());
+        basicItem(ModItems.HYDRONALIUM_INGOT.get());
+        basicItem(ModItems.ITALMA_INGOT.get());
+        basicItem(ModItems.MAGNALIUM_INGOT.get());
+        basicItem(ModItems.MAGNOX_INGOT.get());
+        basicItem(ModItems.NAMBE_INGOT.get());
+        basicItem(ModItems.NITIAL_INGOT.get());
+        basicItem(ModItems.SILUMIN_INGOT.get());
+        basicItem(ModItems.Y_ALLOY_INGOT.get());
+        basicItem(ModItems.ZAMAK_INGOT.get());
+
+        //Beryllium
+        basicItem(ModItems.LOCKALLOY_INGOT.get());
+
+        //Bismuth
+        basicItem(ModItems.BISMANOL_INGOT.get());
+        basicItem(ModItems.CERROBEND_INGOT.get());
+        basicItem(ModItems.CERROSAFE_INGOT.get());
+        basicItem(ModItems.FIELDS_METAL_INGOT.get());
+        basicItem(ModItems.ROSE_METAL_INGOT.get());
+        basicItem(ModItems.WOODS_METAL_INGOT.get());
+
+        //Chromium
+        basicItem(ModItems.CHROMIUM_HYDRIDE_INGOT.get());
+        basicItem(ModItems.CRNISZWTI_INGOT.get());
+        basicItem(ModItems.NICHROME_INGOT.get());
+
+        //Cobalt
+        basicItem(ModItems.ELGILOY_INGOT.get());
+        basicItem(ModItems.MEGALLIUM_INGOT.get());
+        basicItem(ModItems.STELLITE_INGOT.get());
+        basicItem(ModItems.TALONITE_INGOT.get());
+        basicItem(ModItems.ULTIMET_INGOT.get());
+        basicItem(ModItems.VITALLIUM_INGOT.get());
+
+        //Copper
+        basicItem(ModItems.ALUMINIUM_BRONZE_INGOT.get());
+        basicItem(ModItems.ARSENICAL_BRONZE_INGOT.get());
+        basicItem(ModItems.ARSENICAL_COPPER_INGOT.get());
+        basicItem(ModItems.BELL_METAL_INGOT.get());
+        basicItem(ModItems.BERYLLIUM_COPPER_INGOT.get());
+        basicItem(ModItems.BILLON_INGOT.get());
+        basicItem(ModItems.BRASS_INGOT.get());
+        basicItem(ModItems.BRONZE_INGOT.get());
+        basicItem(ModItems.CALAMINE_BRASS_INGOT.get());
+        basicItem(ModItems.CHINESE_SILVER_INGOT.get());
+        basicItem(ModItems.CONSTANTAN_INGOT.get());
+        basicItem(ModItems.COPPER_HYDRIDE_INGOT.get());
+        basicItem(ModItems.COPPER_TUNGSTEN_INGOT.get());
+        basicItem(ModItems.CORINTHIAN_BRONZE_INGOT.get());
+        basicItem(ModItems.CUNIFE_INGOT.get());
+        basicItem(ModItems.CUAG_INGOT.get());
+        basicItem(ModItems.CYMBAL_ALLOY_INGOT.get());
+        basicItem(ModItems.DUTCH_METAL_INGOT.get());
+        basicItem(ModItems.FLORENTINE_BRONZE_INGOT.get());
+        basicItem(ModItems.GILDING_METAL_INGOT.get());
+        basicItem(ModItems.GLUCYDUR_INGOT.get());
+        basicItem(ModItems.GUANIN_INGOT.get());
+        basicItem(ModItems.GUN_METAL_INGOT.get());
+        basicItem(ModItems.HEPATIZON_INGOT.get());
+        basicItem(ModItems.MANGANIN_INGOT.get());
+        basicItem(ModItems.MELCHIOR_INGOT.get());
+        basicItem(ModItems.MUNTZ_METAL_INGOT.get());
+        basicItem(ModItems.NICKEL_SILVER_INGOT.get());
+        basicItem(ModItems.NORDIC_GOLD_INGOT.get());
+        basicItem(ModItems.ORMOLU_INGOT.get());
+        basicItem(ModItems.PHOSPHOR_BRONZE_INGOT.get());
+        basicItem(ModItems.PINCHBECK_INGOT.get());
+        basicItem(ModItems.PRINCES_METAL_INGOT.get());
+        basicItem(ModItems.SHAKUDO_INGOT.get());
+        basicItem(ModItems.SILICON_BRONZE_INGOT.get());
+        basicItem(ModItems.SPECULUM_METAL_INGOT.get());
+        basicItem(ModItems.TOMBAC_INGOT.get());
+        basicItem(ModItems.TUMBAGA_INGOT.get());
+        basicItem(ModItems.WHITE_BRONZE_INGOT.get());
+
+        //Gallium
+        basicItem(ModItems.AL_GA_INGOT.get());
+        basicItem(ModItems.GALFENOL_INGOT.get());
+        basicItem(ModItems.GALINSTAN_INGOT.get());
+
+        //Gold
+        basicItem(ModItems.COLORED_GOLD_INGOT.get());
+        basicItem(ModItems.CROWN_GOLD_INGOT.get());
+        basicItem(ModItems.ELECTRUM_INGOT.get());
+        basicItem(ModItems.RHODITE_INGOT.get());
+        basicItem(ModItems.ROSE_GOLD_INGOT.get());
+        basicItem(ModItems.WHITE_GOLD_INGOT.get());
+
+        //Iron
+        basicItem(ModItems.ANTHRACITE_IRON_INGOT.get());
+        basicItem(ModItems.BULAT_STEEL_INGOT.get());
+        basicItem(ModItems.CAST_IRON_INGOT.get());
+        basicItem(ModItems.CHROMOLY_INGOT.get());
+        basicItem(ModItems.CRUCIBLE_STEEL_INGOT.get());
+        basicItem(ModItems.DAMASCUS_STEEL_INGOT.get());
+        basicItem(ModItems.DUCOL_INGOT.get());
+        basicItem(ModItems.ELINVAR_INGOT.get());
+        basicItem(ModItems.FERNICO_INGOT.get());
+        basicItem(ModItems.FERROCHROMIUM_INGOT.get());
+        basicItem(ModItems.FERROMAGNESIUM_INGOT.get());
+        basicItem(ModItems.FERROMANGANESE_INGOT.get());
+        basicItem(ModItems.FERROMOLYBDENUM_INGOT.get());
+        basicItem(ModItems.FERRONICKEL_INGOT.get());
+        basicItem(ModItems.FERROPHOSPHORUS_INGOT.get());
+        basicItem(ModItems.FERROSILICON_INGOT.get());
+        basicItem(ModItems.FERROTITANIUM_INGOT.get());
+        basicItem(ModItems.FERROVANADIUM_INGOT.get());
+        basicItem(ModItems.HIGHSPEED_STEEL_INGOT.get());
+        basicItem(ModItems.HSLA_STEEL_INGOT.get());
+        basicItem(ModItems.INVAR_INGOT.get());
+        basicItem(ModItems.IRON_HYDRIDE_INGOT.get());
+        basicItem(ModItems.KANTHAL_INGOT.get());
+        basicItem(ModItems.KOVAR_INGOT.get());
+        basicItem(ModItems.MARAGING_STEEL_INGOT.get());
+        basicItem(ModItems.MUSHET_STEEL_INGOT.get());
+        basicItem(ModItems.PIG_IRON_INGOT.get());
+        basicItem(ModItems.REYNOLDS_FTO_INGOT.get());
+        basicItem(ModItems.SILICON_STEEL_INGOT.get());
+        basicItem(ModItems.SILVER_STEEL_INGOT.get());
+        basicItem(ModItems.SPIEGELEISEN_INGOT.get());
+        basicItem(ModItems.SPRING_STEEL_INGOT.get());
+        basicItem(ModItems.STAINLESS_STEEL_INGOT.get());
+        basicItem(ModItems.STABALLOY_INGOT.get());
+        basicItem(ModItems.STEEL_INGOT.get());
+        basicItem(ModItems.TOOL_STEEL_INGOT.get());
+        basicItem(ModItems.WEATHERING_STEEL_INGOT.get());
+        basicItem(ModItems.WOOTZ_STEEL_INGOT.get());
+        basicItem(ModItems.WROUGHT_IRON_INGOT.get());
+
+        //Lead
+        basicItem(ModItems.MOLYBDOCHALKOS_INGOT.get());
+        basicItem(ModItems.SOLDER_INGOT.get());
+        basicItem(ModItems.TERNE_INGOT.get());
+        basicItem(ModItems.TYPE_METAL_INGOT.get());
+
+        //Magnesium
+        basicItem(ModItems.ELEKTRON_INGOT.get());
+        basicItem(ModItems.TMGALZN_INGOT.get());
+
+        //Manganese
+        basicItem(ModItems.MNFZ_INGOT.get());
+        basicItem(ModItems.MNSZ_INGOT.get());
+
+        //Mercury
+        basicItem(ModItems.ZINC_AMALGAM_INGOT.get());
+        basicItem(ModItems.ASHTADHATU_INGOT.get());
+
+        //Nickel
+        basicItem(ModItems.ALUMEL_INGOT.get());
+        basicItem(ModItems.BRIGHTRAY_INGOT.get());
+        basicItem(ModItems.CHROMEL_INGOT.get());
+        basicItem(ModItems.COIN_SILVER_INGOT.get());
+        basicItem(ModItems.COPPER_NICKEL_INGOT.get());
+        basicItem(ModItems.CUPRONICKEL_INGOT.get());
+        basicItem(ModItems.GERMAN_SILVER_INGOT.get());
+        basicItem(ModItems.HASTELLOY_INGOT.get());
+        basicItem(ModItems.HAUSLER_INGOT.get());
+        basicItem(ModItems.INCONEL_INGOT.get());
+        basicItem(ModItems.INCONEL_SES_INGOT.get());
+        basicItem(ModItems.MONEL_METAL_INGOT.get());
+        basicItem(ModItems.MU_METAL_INGOT.get());
+        basicItem(ModItems.NICKEL_CARBON_INGOT.get());
+        basicItem(ModItems.NICKEL_HYDRIDE_INGOT.get());
+        basicItem(ModItems.NICROSIL_INGOT.get());
+        basicItem(ModItems.NIMONIC_INGOT.get());
+        basicItem(ModItems.NISIL_INGOT.get());
+        basicItem(ModItems.NITINOL_INGOT.get());
+        basicItem(ModItems.PERMALLOY_INGOT.get());
+        basicItem(ModItems.SUPERMALLOY_INGOT.get());
+
+        //Potassium
+        basicItem(ModItems.KLI_INGOT.get());
+        basicItem(ModItems.NAK_INGOT.get());
+
+        //Rhodium
+        basicItem(ModItems.PSEUDO_PALLADIUM_INGOT.get());
+
+        //Scandium
+        basicItem(ModItems.SCANDIUM_HYDRIDE_INGOT.get());
+
+        //Silver
+        basicItem(ModItems.ARGENTIUM_STERLING_SILVER_INGOT.get());
+        basicItem(ModItems.BRITANNIA_SILVER_INGOT.get());
+        basicItem(ModItems.DORE_INGOT.get());
+        basicItem(ModItems.DYMALLOY_INGOT.get());
+        basicItem(ModItems.GOLOID_INGOT.get());
+        basicItem(ModItems.PLATINUM_SILVER_INGOT.get());
+        basicItem(ModItems.SHIBUICHI_INGOT.get());
+        basicItem(ModItems.STERLING_SILVER_INGOT.get());
+        basicItem(ModItems.TIBETAN_SILVER_INGOT.get());
+
+        //Tin
+        basicItem(ModItems.BABBITT_INGOT.get());
+        basicItem(ModItems.BRITANNIUM_INGOT.get());
+        basicItem(ModItems.PEWTER_INGOT.get());
+        basicItem(ModItems.QUEENS_METAL_INGOT.get());
+
+        //Titanium
+        basicItem(ModItems.BETA_C_INGOT.get());
+        basicItem(ModItems.GUM_METAL_INGOT.get());
+        basicItem(ModItems.SAL_FV_INGOT.get());
+        basicItem(ModItems.TITANIUM_GOLD_INGOT.get());
+        basicItem(ModItems.TITANIUM_HYDRIDE_INGOT.get());
+        basicItem(ModItems.TITANIUM_NITRIDE_INGOT.get());
+
+        //Zirconium
+        basicItem(ModItems.ZIRCALOY_INGOT.get());
 
         //Alloys - Nugget
+        //Aluminium
         basicItem(ModItems.AA_NUGGET.get());
+        basicItem(ModItems.AL_LI_NUGGET.get());
+        basicItem(ModItems.ALNICO_NUGGET.get());
+        basicItem(ModItems.ALUMINIUM_SCANDIUM_NUGGET.get());
+        basicItem(ModItems.BIRMABRIGHT_NUGGET.get());
+        basicItem(ModItems.DEVARDA_NUGGET.get());
+        basicItem(ModItems.DURALUMIN_NUGGET.get());
+        basicItem(ModItems.HIDUMINIUM_NUGGET.get());
+        basicItem(ModItems.HYDRONALIUM_NUGGET.get());
+        basicItem(ModItems.ITALMA_NUGGET.get());
+        basicItem(ModItems.MAGNALIUM_NUGGET.get());
+        basicItem(ModItems.MAGNOX_NUGGET.get());
+        basicItem(ModItems.NAMBE_NUGGET.get());
+        basicItem(ModItems.NITIAL_NUGGET.get());
+        basicItem(ModItems.SILUMIN_NUGGET.get());
+        basicItem(ModItems.Y_ALLOY_NUGGET.get());
+        basicItem(ModItems.ZAMAK_NUGGET.get());
+
+        //Beryllium
+        basicItem(ModItems.LOCKALLOY_NUGGET.get());
+
+        //Bismuth
+        basicItem(ModItems.BISMANOL_NUGGET.get());
+        basicItem(ModItems.CERROBEND_NUGGET.get());
+        basicItem(ModItems.CERROSAFE_NUGGET.get());
+        basicItem(ModItems.FIELDS_METAL_NUGGET.get());
+        basicItem(ModItems.ROSE_METAL_NUGGET.get());
+        basicItem(ModItems.WOODS_METAL_NUGGET.get());
+
+        //Chromium
+        basicItem(ModItems.CHROMIUM_HYDRIDE_NUGGET.get());
+        basicItem(ModItems.CRNISZWTI_NUGGET.get());
+        basicItem(ModItems.NICHROME_NUGGET.get());
+
+        //Cobalt
+        basicItem(ModItems.ELGILOY_NUGGET.get());
+        basicItem(ModItems.MEGALLIUM_NUGGET.get());
+        basicItem(ModItems.STELLITE_NUGGET.get());
+        basicItem(ModItems.TALONITE_NUGGET.get());
+        basicItem(ModItems.ULTIMET_NUGGET.get());
+        basicItem(ModItems.VITALLIUM_NUGGET.get());
+
+        //Copper
+        basicItem(ModItems.ALUMINIUM_BRONZE_NUGGET.get());
+        basicItem(ModItems.ARSENICAL_BRONZE_NUGGET.get());
+        basicItem(ModItems.ARSENICAL_COPPER_NUGGET.get());
+        basicItem(ModItems.BELL_METAL_NUGGET.get());
+        basicItem(ModItems.BERYLLIUM_COPPER_NUGGET.get());
+        basicItem(ModItems.BILLON_NUGGET.get());
+        basicItem(ModItems.BRASS_NUGGET.get());
+        basicItem(ModItems.BRONZE_NUGGET.get());
+        basicItem(ModItems.CALAMINE_BRASS_NUGGET.get());
+        basicItem(ModItems.CHINESE_SILVER_NUGGET.get());
+        basicItem(ModItems.CONSTANTAN_NUGGET.get());
+        basicItem(ModItems.COPPER_HYDRIDE_NUGGET.get());
+        basicItem(ModItems.COPPER_TUNGSTEN_NUGGET.get());
+        basicItem(ModItems.CORINTHIAN_BRONZE_NUGGET.get());
+        basicItem(ModItems.CUNIFE_NUGGET.get());
+        basicItem(ModItems.CUAG_NUGGET.get());
+        basicItem(ModItems.CYMBAL_ALLOY_NUGGET.get());
+        basicItem(ModItems.DUTCH_METAL_NUGGET.get());
+        basicItem(ModItems.FLORENTINE_BRONZE_NUGGET.get());
+        basicItem(ModItems.GILDING_METAL_NUGGET.get());
+        basicItem(ModItems.GLUCYDUR_NUGGET.get());
+        basicItem(ModItems.GUANIN_NUGGET.get());
+        basicItem(ModItems.GUN_METAL_NUGGET.get());
+        basicItem(ModItems.HEPATIZON_NUGGET.get());
+        basicItem(ModItems.MANGANIN_NUGGET.get());
+        basicItem(ModItems.MELCHIOR_NUGGET.get());
+        basicItem(ModItems.MUNTZ_METAL_NUGGET.get());
+        basicItem(ModItems.NICKEL_SILVER_NUGGET.get());
+        basicItem(ModItems.NORDIC_GOLD_NUGGET.get());
+        basicItem(ModItems.ORMOLU_NUGGET.get());
+        basicItem(ModItems.PHOSPHOR_BRONZE_NUGGET.get());
+        basicItem(ModItems.PINCHBECK_NUGGET.get());
+        basicItem(ModItems.PRINCES_METAL_NUGGET.get());
+        basicItem(ModItems.SHAKUDO_NUGGET.get());
+        basicItem(ModItems.SILICON_BRONZE_NUGGET.get());
+        basicItem(ModItems.SPECULUM_METAL_NUGGET.get());
+        basicItem(ModItems.TOMBAC_NUGGET.get());
+        basicItem(ModItems.TUMBAGA_NUGGET.get());
+        basicItem(ModItems.WHITE_BRONZE_NUGGET.get());
+
+        //Gallium
+        basicItem(ModItems.AL_GA_NUGGET.get());
+        basicItem(ModItems.GALFENOL_NUGGET.get());
+        basicItem(ModItems.GALINSTAN_NUGGET.get());
+
+        //Gold
+        basicItem(ModItems.COLORED_GOLD_NUGGET.get());
+        basicItem(ModItems.CROWN_GOLD_NUGGET.get());
+        basicItem(ModItems.ELECTRUM_NUGGET.get());
+        basicItem(ModItems.RHODITE_NUGGET.get());
+        basicItem(ModItems.ROSE_GOLD_NUGGET.get());
+        basicItem(ModItems.WHITE_GOLD_NUGGET.get());
+
+        //Iron
+        basicItem(ModItems.ANTHRACITE_IRON_NUGGET.get());
+        basicItem(ModItems.BULAT_STEEL_NUGGET.get());
+        basicItem(ModItems.CAST_IRON_NUGGET.get());
+        basicItem(ModItems.CHROMOLY_NUGGET.get());
+        basicItem(ModItems.CRUCIBLE_STEEL_NUGGET.get());
+        basicItem(ModItems.DAMASCUS_STEEL_NUGGET.get());
+        basicItem(ModItems.DUCOL_NUGGET.get());
+        basicItem(ModItems.ELINVAR_NUGGET.get());
+        basicItem(ModItems.FERNICO_NUGGET.get());
+        basicItem(ModItems.FERROCHROMIUM_NUGGET.get());
+        basicItem(ModItems.FERROMAGNESIUM_NUGGET.get());
+        basicItem(ModItems.FERROMANGANESE_NUGGET.get());
+        basicItem(ModItems.FERROMOLYBDENUM_NUGGET.get());
+        basicItem(ModItems.FERRONICKEL_NUGGET.get());
+        basicItem(ModItems.FERROPHOSPHORUS_NUGGET.get());
+        basicItem(ModItems.FERROSILICON_NUGGET.get());
+        basicItem(ModItems.FERROTITANIUM_NUGGET.get());
+        basicItem(ModItems.FERROVANADIUM_NUGGET.get());
+        basicItem(ModItems.HIGHSPEED_STEEL_NUGGET.get());
+        basicItem(ModItems.HSLA_STEEL_NUGGET.get());
+        basicItem(ModItems.INVAR_NUGGET.get());
+        basicItem(ModItems.IRON_HYDRIDE_NUGGET.get());
+        basicItem(ModItems.KANTHAL_NUGGET.get());
+        basicItem(ModItems.KOVAR_NUGGET.get());
+        basicItem(ModItems.MARAGING_STEEL_NUGGET.get());
+        basicItem(ModItems.MUSHET_STEEL_NUGGET.get());
+        basicItem(ModItems.PIG_IRON_NUGGET.get());
+        basicItem(ModItems.REYNOLDS_FTO_NUGGET.get());
+        basicItem(ModItems.SILICON_STEEL_NUGGET.get());
+        basicItem(ModItems.SILVER_STEEL_NUGGET.get());
+        basicItem(ModItems.SPIEGELEISEN_NUGGET.get());
+        basicItem(ModItems.SPRING_STEEL_NUGGET.get());
+        basicItem(ModItems.STAINLESS_STEEL_NUGGET.get());
+        basicItem(ModItems.STABALLOY_NUGGET.get());
+        basicItem(ModItems.STEEL_NUGGET.get());
+        basicItem(ModItems.TOOL_STEEL_NUGGET.get());
+        basicItem(ModItems.WEATHERING_STEEL_NUGGET.get());
+        basicItem(ModItems.WOOTZ_STEEL_NUGGET.get());
+        basicItem(ModItems.WROUGHT_IRON_NUGGET.get());
+
+        //Lead
+        basicItem(ModItems.MOLYBDOCHALKOS_NUGGET.get());
+        basicItem(ModItems.SOLDER_NUGGET.get());
+        basicItem(ModItems.TERNE_NUGGET.get());
+        basicItem(ModItems.TYPE_METAL_NUGGET.get());
+
+        //Magnesium
+        basicItem(ModItems.ELEKTRON_NUGGET.get());
+        basicItem(ModItems.TMGALZN_NUGGET.get());
+
+        //Manganese
+        basicItem(ModItems.MNFZ_NUGGET.get());
+        basicItem(ModItems.MNSZ_NUGGET.get());
+
+        //Mercury
+        basicItem(ModItems.ZINC_AMALGAM_NUGGET.get());
+        basicItem(ModItems.ASHTADHATU_NUGGET.get());
+
+        //Nickel
+        basicItem(ModItems.ALUMEL_NUGGET.get());
+        basicItem(ModItems.BRIGHTRAY_NUGGET.get());
+        basicItem(ModItems.CHROMEL_NUGGET.get());
+        basicItem(ModItems.COIN_SILVER_NUGGET.get());
+        basicItem(ModItems.COPPER_NICKEL_NUGGET.get());
+        basicItem(ModItems.CUPRONICKEL_NUGGET.get());
+        basicItem(ModItems.GERMAN_SILVER_NUGGET.get());
+        basicItem(ModItems.HASTELLOY_NUGGET.get());
+        basicItem(ModItems.HAUSLER_NUGGET.get());
+        basicItem(ModItems.INCONEL_NUGGET.get());
+        basicItem(ModItems.INCONEL_SES_NUGGET.get());
+        basicItem(ModItems.MONEL_METAL_NUGGET.get());
+        basicItem(ModItems.MU_METAL_NUGGET.get());
+        basicItem(ModItems.NICKEL_CARBON_NUGGET.get());
+        basicItem(ModItems.NICKEL_HYDRIDE_NUGGET.get());
+        basicItem(ModItems.NICROSIL_NUGGET.get());
+        basicItem(ModItems.NIMONIC_NUGGET.get());
+        basicItem(ModItems.NISIL_NUGGET.get());
+        basicItem(ModItems.NITINOL_NUGGET.get());
+        basicItem(ModItems.PERMALLOY_NUGGET.get());
+        basicItem(ModItems.SUPERMALLOY_NUGGET.get());
+
+        //Potassium
+        basicItem(ModItems.KLI_NUGGET.get());
+        basicItem(ModItems.NAK_NUGGET.get());
+
+        //Rhodium
+        basicItem(ModItems.PSEUDO_PALLADIUM_NUGGET.get());
+
+        //Scandium
+        basicItem(ModItems.SCANDIUM_HYDRIDE_NUGGET.get());
+
+        //Silver
+        basicItem(ModItems.ARGENTIUM_STERLING_SILVER_NUGGET.get());
+        basicItem(ModItems.BRITANNIA_SILVER_NUGGET.get());
+        basicItem(ModItems.DORE_NUGGET.get());
+        basicItem(ModItems.DYMALLOY_NUGGET.get());
+        basicItem(ModItems.GOLOID_NUGGET.get());
+        basicItem(ModItems.PLATINUM_SILVER_NUGGET.get());
+        basicItem(ModItems.SHIBUICHI_NUGGET.get());
+        basicItem(ModItems.STERLING_SILVER_NUGGET.get());
+        basicItem(ModItems.TIBETAN_SILVER_NUGGET.get());
+
+        //Tin
+        basicItem(ModItems.BABBITT_NUGGET.get());
+        basicItem(ModItems.BRITANNIUM_NUGGET.get());
+        basicItem(ModItems.PEWTER_NUGGET.get());
+        basicItem(ModItems.QUEENS_METAL_NUGGET.get());
+
+        //Titanium
+        basicItem(ModItems.BETA_C_NUGGET.get());
+        basicItem(ModItems.GUM_METAL_NUGGET.get());
+        basicItem(ModItems.SAL_FV_NUGGET.get());
+        basicItem(ModItems.TITANIUM_GOLD_NUGGET.get());
+        basicItem(ModItems.TITANIUM_HYDRIDE_NUGGET.get());
+        basicItem(ModItems.TITANIUM_NITRIDE_NUGGET.get());
+
+        //Zirconium
+        basicItem(ModItems.ZIRCALOY_NUGGET.get());
 
         //Alloys - Dust
+        //Aluminium
         basicItem(ModItems.AA_DUST.get());
+        basicItem(ModItems.AL_LI_DUST.get());
+        basicItem(ModItems.ALNICO_DUST.get());
+        basicItem(ModItems.ALUMINIUM_SCANDIUM_DUST.get());
+        basicItem(ModItems.BIRMABRIGHT_DUST.get());
+        basicItem(ModItems.DEVARDA_DUST.get());
+        basicItem(ModItems.DURALUMIN_DUST.get());
+        basicItem(ModItems.HIDUMINIUM_DUST.get());
+        basicItem(ModItems.HYDRONALIUM_DUST.get());
+        basicItem(ModItems.ITALMA_DUST.get());
+        basicItem(ModItems.MAGNALIUM_DUST.get());
+        basicItem(ModItems.MAGNOX_DUST.get());
+        basicItem(ModItems.NAMBE_DUST.get());
+        basicItem(ModItems.NITIAL_DUST.get());
+        basicItem(ModItems.SILUMIN_DUST.get());
+        basicItem(ModItems.Y_ALLOY_DUST.get());
+        basicItem(ModItems.ZAMAK_DUST.get());
+
+        //Beryllium
+        basicItem(ModItems.LOCKALLOY_DUST.get());
+
+        //Bismuth
+        basicItem(ModItems.BISMANOL_DUST.get());
+        basicItem(ModItems.CERROBEND_DUST.get());
+        basicItem(ModItems.CERROSAFE_DUST.get());
+        basicItem(ModItems.FIELDS_METAL_DUST.get());
+        basicItem(ModItems.ROSE_METAL_DUST.get());
+        basicItem(ModItems.WOODS_METAL_DUST.get());
+
+        //Chromium
+        basicItem(ModItems.CHROMIUM_HYDRIDE_DUST.get());
+        basicItem(ModItems.CRNISZWTI_DUST.get());
+        basicItem(ModItems.NICHROME_DUST.get());
+
+        //Cobalt
+        basicItem(ModItems.ELGILOY_DUST.get());
+        basicItem(ModItems.MEGALLIUM_DUST.get());
+        basicItem(ModItems.STELLITE_DUST.get());
+        basicItem(ModItems.TALONITE_DUST.get());
+        basicItem(ModItems.ULTIMET_DUST.get());
+        basicItem(ModItems.VITALLIUM_DUST.get());
+
+        //Copper
+        basicItem(ModItems.ALUMINIUM_BRONZE_DUST.get());
+        basicItem(ModItems.ARSENICAL_BRONZE_DUST.get());
+        basicItem(ModItems.ARSENICAL_COPPER_DUST.get());
+        basicItem(ModItems.BELL_METAL_DUST.get());
+        basicItem(ModItems.BERYLLIUM_COPPER_DUST.get());
+        basicItem(ModItems.BILLON_DUST.get());
+        basicItem(ModItems.BRASS_DUST.get());
+        basicItem(ModItems.BRONZE_DUST.get());
+        basicItem(ModItems.CALAMINE_BRASS_DUST.get());
+        basicItem(ModItems.CHINESE_SILVER_DUST.get());
+        basicItem(ModItems.CONSTANTAN_DUST.get());
+        basicItem(ModItems.COPPER_HYDRIDE_DUST.get());
+        basicItem(ModItems.COPPER_TUNGSTEN_DUST.get());
+        basicItem(ModItems.CORINTHIAN_BRONZE_DUST.get());
+        basicItem(ModItems.CUNIFE_DUST.get());
+        basicItem(ModItems.CUAG_DUST.get());
+        basicItem(ModItems.CYMBAL_ALLOY_DUST.get());
+        basicItem(ModItems.DUTCH_METAL_DUST.get());
+        basicItem(ModItems.FLORENTINE_BRONZE_DUST.get());
+        basicItem(ModItems.GILDING_METAL_DUST.get());
+        basicItem(ModItems.GLUCYDUR_DUST.get());
+        basicItem(ModItems.GUANIN_DUST.get());
+        basicItem(ModItems.GUN_METAL_DUST.get());
+        basicItem(ModItems.HEPATIZON_DUST.get());
+        basicItem(ModItems.MANGANIN_DUST.get());
+        basicItem(ModItems.MELCHIOR_DUST.get());
+        basicItem(ModItems.MUNTZ_METAL_DUST.get());
+        basicItem(ModItems.NICKEL_SILVER_DUST.get());
+        basicItem(ModItems.NORDIC_GOLD_DUST.get());
+        basicItem(ModItems.ORMOLU_DUST.get());
+        basicItem(ModItems.PHOSPHOR_BRONZE_DUST.get());
+        basicItem(ModItems.PINCHBECK_DUST.get());
+        basicItem(ModItems.PRINCES_METAL_DUST.get());
+        basicItem(ModItems.SHAKUDO_DUST.get());
+        basicItem(ModItems.SILICON_BRONZE_DUST.get());
+        basicItem(ModItems.SPECULUM_METAL_DUST.get());
+        basicItem(ModItems.TOMBAC_DUST.get());
+        basicItem(ModItems.TUMBAGA_DUST.get());
+        basicItem(ModItems.WHITE_BRONZE_DUST.get());
+
+        //Gallium
+        basicItem(ModItems.AL_GA_DUST.get());
+        basicItem(ModItems.GALFENOL_DUST.get());
+        basicItem(ModItems.GALINSTAN_DUST.get());
+
+        //Gold
+        basicItem(ModItems.COLORED_GOLD_DUST.get());
+        basicItem(ModItems.CROWN_GOLD_DUST.get());
+        basicItem(ModItems.ELECTRUM_DUST.get());
+        basicItem(ModItems.RHODITE_DUST.get());
+        basicItem(ModItems.ROSE_GOLD_DUST.get());
+        basicItem(ModItems.WHITE_GOLD_DUST.get());
+
+        //Iron
+        basicItem(ModItems.ANTHRACITE_IRON_DUST.get());
+        basicItem(ModItems.BULAT_STEEL_DUST.get());
+        basicItem(ModItems.CAST_IRON_DUST.get());
+        basicItem(ModItems.CHROMOLY_DUST.get());
+        basicItem(ModItems.CRUCIBLE_STEEL_DUST.get());
+        basicItem(ModItems.DAMASCUS_STEEL_DUST.get());
+        basicItem(ModItems.DUCOL_DUST.get());
+        basicItem(ModItems.ELINVAR_DUST.get());
+        basicItem(ModItems.FERNICO_DUST.get());
+        basicItem(ModItems.FERROCHROMIUM_DUST.get());
+        basicItem(ModItems.FERROMAGNESIUM_DUST.get());
+        basicItem(ModItems.FERROMANGANESE_DUST.get());
+        basicItem(ModItems.FERROMOLYBDENUM_DUST.get());
+        basicItem(ModItems.FERRONICKEL_DUST.get());
+        basicItem(ModItems.FERROPHOSPHORUS_DUST.get());
+        basicItem(ModItems.FERROSILICON_DUST.get());
+        basicItem(ModItems.FERROTITANIUM_DUST.get());
+        basicItem(ModItems.FERROVANADIUM_DUST.get());
+        basicItem(ModItems.HIGHSPEED_STEEL_DUST.get());
+        basicItem(ModItems.HSLA_STEEL_DUST.get());
+        basicItem(ModItems.INVAR_DUST.get());
+        basicItem(ModItems.IRON_HYDRIDE_DUST.get());
+        basicItem(ModItems.KANTHAL_DUST.get());
+        basicItem(ModItems.KOVAR_DUST.get());
+        basicItem(ModItems.MARAGING_STEEL_DUST.get());
+        basicItem(ModItems.MUSHET_STEEL_DUST.get());
+        basicItem(ModItems.PIG_IRON_DUST.get());
+        basicItem(ModItems.REYNOLDS_FTO_DUST.get());
+        basicItem(ModItems.SILICON_STEEL_DUST.get());
+        basicItem(ModItems.SILVER_STEEL_DUST.get());
+        basicItem(ModItems.SPIEGELEISEN_DUST.get());
+        basicItem(ModItems.SPRING_STEEL_DUST.get());
+        basicItem(ModItems.STAINLESS_STEEL_DUST.get());
+        basicItem(ModItems.STABALLOY_DUST.get());
+        basicItem(ModItems.STEEL_DUST.get());
+        basicItem(ModItems.TOOL_STEEL_DUST.get());
+        basicItem(ModItems.WEATHERING_STEEL_DUST.get());
+        basicItem(ModItems.WOOTZ_STEEL_DUST.get());
+        basicItem(ModItems.WROUGHT_IRON_DUST.get());
+
+        //Lead
+        basicItem(ModItems.MOLYBDOCHALKOS_DUST.get());
+        basicItem(ModItems.SOLDER_DUST.get());
+        basicItem(ModItems.TERNE_DUST.get());
+        basicItem(ModItems.TYPE_METAL_DUST.get());
+
+        //Magnesium
+        basicItem(ModItems.ELEKTRON_DUST.get());
+        basicItem(ModItems.TMGALZN_DUST.get());
+
+        //Manganese
+        basicItem(ModItems.MNFZ_DUST.get());
+        basicItem(ModItems.MNSZ_DUST.get());
+
+        //Mercury
+        basicItem(ModItems.ZINC_AMALGAM_DUST.get());
+        basicItem(ModItems.ASHTADHATU_DUST.get());
+
+        //Nickel
+        basicItem(ModItems.ALUMEL_DUST.get());
+        basicItem(ModItems.BRIGHTRAY_DUST.get());
+        basicItem(ModItems.CHROMEL_DUST.get());
+        basicItem(ModItems.COIN_SILVER_DUST.get());
+        basicItem(ModItems.COPPER_NICKEL_DUST.get());
+        basicItem(ModItems.CUPRONICKEL_DUST.get());
+        basicItem(ModItems.GERMAN_SILVER_DUST.get());
+        basicItem(ModItems.HASTELLOY_DUST.get());
+        basicItem(ModItems.HAUSLER_DUST.get());
+        basicItem(ModItems.INCONEL_DUST.get());
+        basicItem(ModItems.INCONEL_SES_DUST.get());
+        basicItem(ModItems.MONEL_METAL_DUST.get());
+        basicItem(ModItems.MU_METAL_DUST.get());
+        basicItem(ModItems.NICKEL_CARBON_DUST.get());
+        basicItem(ModItems.NICKEL_HYDRIDE_DUST.get());
+        basicItem(ModItems.NICROSIL_DUST.get());
+        basicItem(ModItems.NIMONIC_DUST.get());
+        basicItem(ModItems.NISIL_DUST.get());
+        basicItem(ModItems.NITINOL_DUST.get());
+        basicItem(ModItems.PERMALLOY_DUST.get());
+        basicItem(ModItems.SUPERMALLOY_DUST.get());
+
+        //Potassium
+        basicItem(ModItems.KLI_DUST.get());
+        basicItem(ModItems.NAK_DUST.get());
+
+        //Rhodium
+        basicItem(ModItems.PSEUDO_PALLADIUM_DUST.get());
+
+        //Scandium
+        basicItem(ModItems.SCANDIUM_HYDRIDE_DUST.get());
+
+        //Silver
+        basicItem(ModItems.ARGENTIUM_STERLING_SILVER_DUST.get());
+        basicItem(ModItems.BRITANNIA_SILVER_DUST.get());
+        basicItem(ModItems.DORE_DUST.get());
+        basicItem(ModItems.DYMALLOY_DUST.get());
+        basicItem(ModItems.GOLOID_DUST.get());
+        basicItem(ModItems.PLATINUM_SILVER_DUST.get());
+        basicItem(ModItems.SHIBUICHI_DUST.get());
+        basicItem(ModItems.STERLING_SILVER_DUST.get());
+        basicItem(ModItems.TIBETAN_SILVER_DUST.get());
+
+        //Tin
+        basicItem(ModItems.BABBITT_DUST.get());
+        basicItem(ModItems.BRITANNIUM_DUST.get());
+        basicItem(ModItems.PEWTER_DUST.get());
+        basicItem(ModItems.QUEENS_METAL_DUST.get());
+
+        //Titanium
+        basicItem(ModItems.BETA_C_DUST.get());
+        basicItem(ModItems.GUM_METAL_DUST.get());
+        basicItem(ModItems.SAL_FV_DUST.get());
+        basicItem(ModItems.TITANIUM_GOLD_DUST.get());
+        basicItem(ModItems.TITANIUM_HYDRIDE_DUST.get());
+        basicItem(ModItems.TITANIUM_NITRIDE_DUST.get());
+
+        //Zirconium
+        basicItem(ModItems.ZIRCALOY_DUST.get());
 
         //Nature - Bush
         basicItem(ModItems.GOOSEBERRY_BERRIES.get());

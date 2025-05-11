@@ -426,27 +426,22 @@
   "item.megalosmod.al_silumin_ingot": "Silumin Ingot",
   "item.megalosmod.al_yalloy_ingot": "Y Alloy Ingot",
   "item.megalosmod.al_zamak_ingot": "Zamak Ingot",
-
   "item.megalosmod.be_lockalloy_ingot": "Lockalloy Ingot",
-
   "item.megalosmod.bi_bismanol_ingot": "Bismanol Ingot",
   "item.megalosmod.bi_cerrosafe_ingot": "Cerrosafe Ingot",
   "item.megalosmod.bi_cerrobend_ingot": "Cerrobend Ingot",
   "item.megalosmod.bi_fields_metal_ingot": "Field's Metal Ingot",
   "item.megalosmod.bi_rose_metal_ingot": "Rose Metal Ingot",
   "item.megalosmod.bi_woods_metal_ingot": "Wood's Metal Ingot",
-
   "item.megalosmod.cr_chromium_hydride_ingot": "Chrome Hydride Ingot",
   "item.megalosmod.cr_crniszwti_ingot": "CrNi60WTi Ingot",
   "item.megalosmod.cr_nichrome_ingot": "Nichrome Ingot",
-
   "item.megalosmod.co_elgiloy_ingot": "Elgiloy Ingot",
   "item.megalosmod.co_megallium_ingot": "Megallium Ingot",
   "item.megalosmod.co_stellite_ingot": "Stellite Ingot",
   "item.megalosmod.co_talonite_ingot": "Talonite Ingot",
   "item.megalosmod.co_ultimet_ingot": "Ultimet Ingot",
   "item.megalosmod.co_vitallium_ingot": "Vitallium Ingot",
-
   "item.megalosmod.cu_aluminium_bronze_ingot": "Aluminium Bronze Ingot",
   "item.megalosmod.cu_arsenical_bronze_ingot": "Arsenical Bronze Ingot",
   "item.megalosmod.cu_arsenical_copper_ingot": "Arsenical Copper Ingot",
@@ -486,18 +481,15 @@
   "item.megalosmod.cu_tombac_ingot": "Tombac Ingot",
   "item.megalosmod.cu_tumbaga_ingot": "Tumbaga Ingot",
   "item.megalosmod.cu_white_bronze_ingot": "White Bronze Ingot",
-
   "item.megalosmod.ga_alga_ingot": "Al Ga Ingot",
   "item.megalosmod.ga_galfenol_ingot": "Galfenol Ingot",
   "item.megalosmod.ga_galinstan_ingot": "Galinstan Ingot",
-
   "item.megalosmod.au_colored_gold_ingot": "Colored Gold Ingot",
   "item.megalosmod.au_crown_gold_ingot": "Crown Gold Ingot",
   "item.megalosmod.au_electrum_ingot": "Electrum Ingot",
   "item.megalosmod.au_rhodite_ingot": "Rhodite Ingot",
   "item.megalosmod.au_rose_gold_ingot": "Rose Gold Ingot",
   "item.megalosmod.au_white_gold_ingot": "White Gold Ingot",
-
   "item.megalosmod.fe_anthracite_iron_ingot": "Anthracite Iron Ingot",
   "item.megalosmod.fe_bulat_steel_ingot": "Bulat Steel Ingot",
   "item.megalosmod.fe_cast_iron_ingot": "Cast Iron Ingot",
@@ -537,21 +529,16 @@
   "item.megalosmod.fe_weathering_steel_ingot": "Weathering Steel Ingot",
   "item.megalosmod.fe_wootz_steel_ingot": "Wootz Steel Ingot",
   "item.megalosmod.fe_wrought_iron_ingot": "Wrought Iron Ingot",
-
   "item.megalosmod.pb_molybdochalkos_ingot": "Molybdochalkos Ingot",
   "item.megalosmod.pb_solder_ingot": "Solder Ingot",
   "item.megalosmod.pb_terne_ingot": "Terne Ingot",
   "item.megalosmod.pb_type_metal_ingot": "Type Metal Ingot",
-
   "item.megalosmod.mg_elektron_ingot": "Elektron Ingot",
   "item.megalosmod.mg_tmgalzn_ingot": "T-Mg-Al-Zn Ingot",
-
   "item.megalosmod.mn_mnfz_ingot": "MN40 Ingot",
   "item.megalosmod.mn_mnsz_ingot": "MN70 Ingot",
-
   "item.megalosmod.hg_zinc_amalgam_ingot": "Zinc Amalgam Ingot",
   "item.megalosmod.hg_ashtadhatu_ingot": "Ashtadhatu Ingot",
-
   "item.megalosmod.ni_alumel_ingot": "Alumel Ingot",
   "item.megalosmod.ni_brightray_ingot": "Brightray Ingot",
   "item.megalosmod.ni_chromel_ingot": "Cromel Ingot",
@@ -573,14 +560,10 @@
   "item.megalosmod.ni_mu_metal_ingot": "Mu-Metal Ingot",
   "item.megalosmod.ni_permalloy_ingot": "Permalloy Ingot",
   "item.megalosmod.ni_supermalloy_ingot": "Supermalloy Ingot",
-
   "item.megalosmod.k_nak_ingot": "NaK Ingot",
   "item.megalosmod.k_kli_ingot": "KLi Ingot",
-
   "item.megalosmod.rh_pseudo_palladium_ingot": "Pseudo-Palladium Ingot",
-
   "item.megalosmod.sc_scandium_hydride_ingot": "Scandium Hydride Ingot",
-
   "item.megalosmod.ag_argentium_sterling_silver_ingot": "Argentium Sterling Silver Ingot",
   "item.megalosmod.ag_britannia_silver_ingot": "Britannia Silver Ingot",
   "item.megalosmod.ag_dore_ingot": "Dore Ingot",
@@ -590,19 +573,16 @@
   "item.megalosmod.ag_shibuichi_ingot": "Shibuichi Ingot",
   "item.megalosmod.ag_sterling_silver_ingot": "Sterling Silver Ingot",
   "item.megalosmod.ag_tibetan_silver_ingot": "Tibetan Silver Ingot",
-
   "item.megalosmod.ti_salfv_ingot": "Ti-6Al-4V Ingot",
   "item.megalosmod.ti_betac_ingot": "Beta C Ingot",
   "item.megalosmod.ti_gum_metal_ingot": "Gum Metal Ingot",
   "item.megalosmod.ti_titanium_hydride_ingot": "Titanium Hydride Ingot",
   "item.megalosmod.ti_titanium_nitride_ingot": "Titanium Nitride Ingot",
   "item.megalosmod.ti_titanium_gold_ingot": "Titanium Gold Ingot",
-
   "item.megalosmod.sn_babbitt_ingot": "Babbitt Ingot",
   "item.megalosmod.sn_britannium_ingot": "Britannium Ingot",
   "item.megalosmod.sn_pewter_ingot": "Pewter Ingot",
   "item.megalosmod.sn_queens_metal_ingot": "Queen's Metal Ingot",
-
   "item.megalosmod.zr_zircaloy_ingot": "Zircaloy Ingot",
 
   "item.megalosmod.al_aa_nugget": "AA-8000 Nugget",
@@ -1325,10 +1305,13 @@
   "block.megalosmod.black_ash_leaves": "Black Ash Leaves",
   "block.megalosmod.black_ash_sapling": "Black Ash Sapling",
 
+  "block.megalosmod.pedestal": "Pedestal",
   "block.megalosmod.metallurgic_furnace": "Metallurgic Furnace",
+  "block.megalosmod.butchers_block": "Butchers Block",
 
-  "creativetab.megalosmod.metallurgy_core_tab": "Megalo's Mod - Metallurgy Core",
-  "creativetab.megalosmod.metallurgy_alloys_tab": "Megalo's Mod - Metallurgy Alloys",
+  "creativetab.megalosmod.metallurgy_tab": "Megalo's Mod - Metallurgy Core",
+  "creativetab.megalosmod.alloys_tab": "Megalo's Mod - Metallurgy Alloys",
   "creativetab.megalosmod.hoplology_tab": "Megalo's Mod - Hoplology",
-  "creativetab.megalosmod.nature_tab": "Megalo's Mod - Nature"
+  "creativetab.megalosmod.nature_tab": "Megalo's Mod - Nature",
+  "creativetab.megalosmod.technology_tab": "Megalo's Mod - Technology"
 }
