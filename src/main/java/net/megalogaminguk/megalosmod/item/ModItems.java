@@ -180,6 +180,35 @@ public class ModItems {
 
     public static final DeferredItem<Item> ZIRCONIUM_DUST = ITEMS.register("zirconium_dust", () -> new Item(new Item.Properties()));
 
+    //Gastronomy - Meat - Carcass
+    public static final DeferredItem<Item> BEEF_CARCASS = ITEMS.register("beef_carcass", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUTTON_CARCASS = ITEMS.register("mutton_carcass", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PORK_CARCASS = ITEMS.register("pork_carcass", () -> new Item(new Item.Properties()));
+
+    //Cuts of Beef
+    public static final DeferredItem<Item> BEEF_CHUCK = ITEMS.register("beef_chuck", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BEEF_RIB = ITEMS.register("beef_rib", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BEEF_LOIN = ITEMS.register("beef_loin", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BEEF_ROUND = ITEMS.register("beef_round", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BEEF_FLANK = ITEMS.register("beef_flank", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BEEF_PLATE = ITEMS.register("beef_plate", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BEEF_BRISKET = ITEMS.register("beef_brisket", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BEEF_SHANK = ITEMS.register("beef_shank", () -> new Item(new Item.Properties()));
+
+    //Cuts of Mutton
+    public static final DeferredItem<Item> MUTTON_NECK = ITEMS.register("mutton_neck", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUTTON_SHOULDER = ITEMS.register("mutton_shoulder", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUTTON_LOIN = ITEMS.register("mutton_loin", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUTTON_LEG = ITEMS.register("mutton_leg", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUTTON_BREAST = ITEMS.register("mutton_breast", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUTTON_SHANK = ITEMS.register("mutton_shank", () -> new Item(new Item.Properties()));
+
+    //Cuts of Pork
+    public static final DeferredItem<Item> PORK_SHOULDER = ITEMS.register("pork_shoulder", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PORK_LOIN = ITEMS.register("pork_loin", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PORK_BELLY = ITEMS.register("pork_belly", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PORK_LEG = ITEMS.register("pork_leg", () -> new Item(new Item.Properties()));
+
     //Metallurgy - Raw Blocks
     public static final DeferredItem<Item> RAW_ALUMINIUM = ITEMS.register("raw_aluminium", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_ANTIMONY = ITEMS.register("raw_antimony", () -> new Item(new Item.Properties()));
