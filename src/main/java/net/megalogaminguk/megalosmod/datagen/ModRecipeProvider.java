@@ -1815,6 +1815,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.ALUMINIUM_DUST.get()), has(ModItems.ALUMINIUM_DUST.get()))
                 .save(pRecipeOutput);
 
+        //Technology Shaped Recipes
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PEDESTAL.get())
+                .pattern(" i ")
+                .pattern("iii")
+                .pattern("sss")
+                .define('i', Items.IRON_INGOT)
+                .define('s', ModItems.STEEL_INGOT.get())
+                .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
+                .save(pRecipeOutput);
+
         //Shapeless Recipes
         //Aluminium
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALUMINIUM_INGOT.get(), 9)
@@ -1921,6 +1931,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.RAW_BERYLLIUM_BLOCK.get()), has(ModBlocks.RAW_BERYLLIUM_BLOCK.get()))
                 .save(pRecipeOutput, MegalosMod.MOD_ID + ":raw_beryllium_shapeless");
 
+        //Bismuth
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BISMUTH_INGOT.get(), 9)
+                .requires(ModBlocks.BISMUTH_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.BISMUTH_BLOCK.get()), has(ModBlocks.BISMUTH_BLOCK.get()))
+                .save(pRecipeOutput, MegalosMod.MOD_ID + ":bismuth_ingot_shapeless");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BISMUTH_NUGGET.get(), 9)
+                .requires(ModItems.BISMUTH_INGOT.get())
+                .unlockedBy(getHasName(ModItems.BISMUTH_INGOT.get()), has(ModItems.BISMUTH_INGOT.get()))
+                .save(pRecipeOutput, MegalosMod.MOD_ID + ":bismuth_nugget_shapeless");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BISMUTH_DUST.get(), 9)
+                .requires(ModItems.BISMUTH_NUGGET.get())
+                .unlockedBy(getHasName(ModItems.BISMUTH_NUGGET.get()), has(ModItems.BISMUTH_NUGGET.get()))
+                .save(pRecipeOutput, MegalosMod.MOD_ID + ":bismuth_dust_shapeless");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_BISMUTH.get(), 9)
+                .requires(ModBlocks.RAW_BISMUTH_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.RAW_BISMUTH_BLOCK.get()), has(ModBlocks.RAW_BISMUTH_BLOCK.get()))
+                .save(pRecipeOutput, MegalosMod.MOD_ID + ":raw_bismuth_shapeless");
+
         //Cadmium
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CADMIUM_INGOT.get(), 9)
                 .requires(ModBlocks.CADMIUM_BLOCK.get())
@@ -1984,6 +2015,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.RAW_CALCIUM_BLOCK.get()), has(ModBlocks.RAW_CALCIUM_BLOCK.get()))
                 .save(pRecipeOutput, MegalosMod.MOD_ID + ":raw_calcium_shapeless");
 
+        //Chromium
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CHROMIUM_INGOT.get(), 9)
+                .requires(ModBlocks.CHROMIUM_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.CHROMIUM_BLOCK.get()), has(ModBlocks.CHROMIUM_BLOCK.get()))
+                .save(pRecipeOutput, MegalosMod.MOD_ID + ":chromium_ingot_shapeless");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CHROMIUM_NUGGET.get(), 9)
+                .requires(ModItems.CHROMIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.CHROMIUM_INGOT.get()), has(ModItems.CHROMIUM_INGOT.get()))
+                .save(pRecipeOutput, MegalosMod.MOD_ID + ":chromium_nugget_shapeless");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CHROMIUM_DUST.get(), 9)
+                .requires(ModItems.CHROMIUM_NUGGET.get())
+                .unlockedBy(getHasName(ModItems.CHROMIUM_NUGGET.get()), has(ModItems.CHROMIUM_NUGGET.get()))
+                .save(pRecipeOutput, MegalosMod.MOD_ID + ":chromium_dust_shapeless");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_CHROMIUM.get(), 9)
+                .requires(ModBlocks.RAW_CHROMIUM_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.RAW_CHROMIUM_BLOCK.get()), has(ModBlocks.RAW_CHROMIUM_BLOCK.get()))
+                .save(pRecipeOutput, MegalosMod.MOD_ID + ":raw_chromium_shapeless");
+
         //Cinnabar
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CINNABAR_INGOT.get(), 9)
                 .requires(ModBlocks.CINNABAR_BLOCK.get())
@@ -2037,7 +2089,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.GALLIUM_INGOT.get()), has(ModItems.GALLIUM_INGOT.get()))
                 .save(pRecipeOutput, MegalosMod.MOD_ID + ":gallium_nugget_shapeless");
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GERMANIUM_DUST.get(), 9)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GALLIUM_DUST.get(), 9)
                 .requires(ModItems.GALLIUM_NUGGET.get())
                 .unlockedBy(getHasName(ModItems.GALLIUM_NUGGET.get()), has(ModItems.GALLIUM_NUGGET.get()))
                 .save(pRecipeOutput, MegalosMod.MOD_ID + ":gallium_dust_shapeless");
@@ -2934,8 +2986,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(pRecipeOutput, STRONTIUM_SMELTABLES,RecipeCategory.MISC, ModItems.STRONTIUM_INGOT.get(),0.25f,100,"strontium");
         oreBlasting(pRecipeOutput, TANTALUM_SMELTABLES,RecipeCategory.MISC, ModItems.TANTALUM_INGOT.get(),0.25f,100,"tantalum");
 
-        oreBlasting(pRecipeOutput, TELLURIUM_SMELTABLES,RecipeCategory.MISC, ModItems.TECHNETIUM_INGOT.get(),0.25f,100,"technetium");
-        oreBlasting(pRecipeOutput, TECHNETIUM_SMELTABLES,RecipeCategory.MISC, ModItems.TELLURIUM_INGOT.get(),0.25f,100,"tellurium");
+        oreBlasting(pRecipeOutput, TECHNETIUM_SMELTABLES,RecipeCategory.MISC, ModItems.TECHNETIUM_INGOT.get(),0.25f,100,"technetium");
+        oreBlasting(pRecipeOutput, TELLURIUM_SMELTABLES,RecipeCategory.MISC, ModItems.TELLURIUM_INGOT.get(),0.25f,100,"tellurium");
         oreBlasting(pRecipeOutput, THALLIUM_SMELTABLES,RecipeCategory.MISC, ModItems.THALLIUM_INGOT.get(),0.25f,100,"thallium");
         oreBlasting(pRecipeOutput, TIN_SMELTABLES,RecipeCategory.MISC, ModItems.TIN_INGOT.get(),0.25f,100,"tin");
         oreBlasting(pRecipeOutput, TITANIUM_SMELTABLES,RecipeCategory.MISC, ModItems.TITANIUM_INGOT.get(),0.25f,100,"titanium");

@@ -557,7 +557,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.BLACK_ASH_LOG.get())
                 .add(ModBlocks.BLACK_ASH_WOOD.get())
                 .add(ModBlocks.STRIPPED_BLACK_ASH_LOG.get())
-                .add(ModBlocks.STRIPPED_BLACK_ASH_WOOD.get());
+                .add(ModBlocks.STRIPPED_BLACK_ASH_WOOD.get())
+                .add(ModBlocks.MAPLE_SVCAMORE_LOG.get())
+                .add(ModBlocks.MAPLE_SYCAMORE_WOOD.get())
+                .add(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get())
+                .add(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get());
 
     }
 }

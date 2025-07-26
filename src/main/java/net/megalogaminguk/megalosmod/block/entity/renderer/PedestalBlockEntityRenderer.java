@@ -17,7 +17,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LightLayer;
 
 public class PedestalBlockEntityRenderer implements BlockEntityRenderer<PedestalBlockEntity> {
-    public PedestalBlockEntityRenderer(BlockEntityRendererProvider.Context context){
+    public PedestalBlockEntityRenderer(BlockEntityRendererProvider.Context context) {
 
     }
 

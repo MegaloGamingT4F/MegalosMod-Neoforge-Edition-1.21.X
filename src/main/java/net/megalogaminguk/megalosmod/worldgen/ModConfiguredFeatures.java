@@ -91,6 +91,7 @@ public class ModConfiguredFeatures {
 
     //Nature - Tree
     public static final ResourceKey<ConfiguredFeature<?, ?>> BLACK_ASH_KEY = registerKey("black_ash");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> MAPLE_SYCAMORE_KEY = registerKey("maple_sycamore");
 
     //Nature - Bush
     public static final ResourceKey<ConfiguredFeature<?, ?>> GOOSEBERRY_BUSH_KEY = registerKey("gooseberry_bush");
@@ -171,6 +172,14 @@ public class ModConfiguredFeatures {
                 new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(3), 3),
 
                         new TwoLayersFeatureSize(1,0,2)).build());
+
+        register(context, MAPLE_SYCAMORE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(ModBlocks.MAPLE_SVCAMORE_LOG.get()),
+                new ForkingTrunkPlacer(4,4,3),
+
+                BlockStateProvider.simple(ModBlocks.MAPLE_SYCAMORE_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(3), 3),
+
+                new TwoLayersFeatureSize(1,0,2)).build());
 
         register(context, GOOSEBERRY_BUSH_KEY, Feature.RANDOM_PATCH,
                 FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,

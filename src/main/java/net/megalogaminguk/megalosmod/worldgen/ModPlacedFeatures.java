@@ -75,6 +75,7 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> YTTRIUM_ORE_PLACED_KEY = registerKey("yttrium_ore_placed");
 
     public static final ResourceKey<PlacedFeature> BLACK_ASH_PLACED_KEY = registerKey("black_ash_placed");
+    public static final ResourceKey<PlacedFeature> MAPLE_SYCAMORE_PLACED_KEY = registerKey("maple_sycamore_placed");
     public static final ResourceKey<PlacedFeature> GOOSEBERRY_BUSH_PLACED_KEY = registerKey("gooseberry_bush_placed");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
@@ -284,6 +285,9 @@ public class ModPlacedFeatures {
         register(context, BLACK_ASH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BLACK_ASH_KEY),
                         VegetationPlacements.treePlacement(PlacementUtils.countExtra(4, 0.1f, 2),
                                 ModBlocks.BLACK_ASH_SAPLING.get()));
+        register(context, MAPLE_SYCAMORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MAPLE_SYCAMORE_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(4, 0.1f, 2),
+                        ModBlocks.BLACK_ASH_SAPLING.get()));
 
         //Nature - Bush
         register(context, GOOSEBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.GOOSEBERRY_BUSH_KEY),

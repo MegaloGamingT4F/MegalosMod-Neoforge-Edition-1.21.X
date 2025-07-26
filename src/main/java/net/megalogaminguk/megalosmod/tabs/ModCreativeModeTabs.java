@@ -213,14 +213,14 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.BERYLLIUM_INGOT.get());
 
                         output.accept(ModItems.BISMUTH_INGOT.get());
-                        output.accept(ModItems.CADMIUM_DUST.get());
+                        output.accept(ModItems.CADMIUM_INGOT.get());
                         output.accept(ModItems.CAESIUM_INGOT.get());
                         output.accept(ModItems.CALCIUM_INGOT.get());
                         output.accept(ModItems.CHROMIUM_INGOT.get());
 
                         output.accept(ModItems.CINNABAR_INGOT.get());
                         output.accept(ModItems.COBALT_INGOT.get());
-                        output.accept(ModItems.GALLIUM_DUST.get());
+                        output.accept(ModItems.GALLIUM_INGOT.get());
                         output.accept(ModItems.GERMANIUM_INGOT.get());
                         output.accept(ModItems.HAFNIUM_INGOT.get());
 
@@ -274,14 +274,14 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.BERYLLIUM_NUGGET.get());
 
                         output.accept(ModItems.BISMUTH_NUGGET.get());
-                        output.accept(ModItems.CADMIUM_DUST.get());
+                        output.accept(ModItems.CADMIUM_NUGGET.get());
                         output.accept(ModItems.CAESIUM_NUGGET.get());
                         output.accept(ModItems.CALCIUM_NUGGET.get());
                         output.accept(ModItems.CHROMIUM_NUGGET.get());
 
                         output.accept(ModItems.CINNABAR_NUGGET.get());
                         output.accept(ModItems.COBALT_NUGGET.get());
-                        output.accept(ModItems.GALLIUM_DUST.get());
+                        output.accept(ModItems.GALLIUM_NUGGET.get());
                         output.accept(ModItems.GERMANIUM_NUGGET.get());
                         output.accept(ModItems.HAFNIUM_NUGGET.get());
 
@@ -1323,6 +1323,7 @@ public class ModCreativeModeTabs
                     .title(Component.translatable("creativetab.megalosmod.nature_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         //Nature - Tree
+                        //Ash
                         output.accept(ModBlocks.BLACK_ASH_LOG.get());
                         output.accept(ModBlocks.BLACK_ASH_WOOD.get());
                         output.accept(ModBlocks.STRIPPED_BLACK_ASH_LOG.get());
@@ -1332,6 +1333,17 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.BLACK_ASH_SAPLING.get());
 
                         output.accept(ModBlocks.BLACK_ASH_LEAVES.get());
+
+                        //Maple
+                        output.accept(ModBlocks.MAPLE_SVCAMORE_LOG.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get());
+
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_PLANKS.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_SAPLING.get());
+
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_LEAVES.get());
 
                         //Nature - Bush
                         output.accept(ModItems.GOOSEBERRY_BERRIES);
@@ -1374,6 +1386,35 @@ public class ModCreativeModeTabs
                     .displayItems((itemDisplayParameters, output) -> {
                         //Tech - Block
                         output.accept(ModBlocks.PEDESTAL.get());
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> GASTRONOMY_TAB = CREATIVE_MODE_TAB.register("gastronomy_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BEEF_CARCASS.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "technology_tab"))
+                    .title(Component.translatable("creativetab.megalosmod.gastronomy_tab"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        //Gastronomy - Meat
+                        output.accept(ModItems.BEEF_CARCASS.get());
+                        output.accept(ModItems.BEEF_BRISKET.get());
+                        output.accept(ModItems.BEEF_CHUCK.get());
+                        output.accept(ModItems.BEEF_FLANK.get());
+                        output.accept(ModItems.BEEF_LOIN.get());
+                        output.accept(ModItems.BEEF_PLATE.get());
+                        output.accept(ModItems.BEEF_RIB.get());
+                        output.accept(ModItems.BEEF_ROUND.get());
+                        output.accept(ModItems.BEEF_SHANK.get());
+                        output.accept(ModItems.MUTTON_CARCASS.get());
+                        output.accept(ModItems.MUTTON_BREAST.get());
+                        output.accept(ModItems.MUTTON_LEG.get());
+                        output.accept(ModItems.MUTTON_LOIN.get());
+                        output.accept(ModItems.MUTTON_NECK.get());
+                        output.accept(ModItems.MUTTON_SHANK.get());
+                        output.accept(ModItems.MUTTON_SHOULDER.get());
+                        output.accept(ModItems.PORK_CARCASS.get());
+                        output.accept(ModItems.PORK_BELLY.get());
+                        output.accept(ModItems.PORK_LEG.get());
+                        output.accept(ModItems.PORK_LOIN.get());
+                        output.accept(ModItems.PORK_SHOULDER.get());
                     }).build());
 
     public static void register(IEventBus eventBus){

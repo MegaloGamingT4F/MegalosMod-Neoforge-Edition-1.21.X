@@ -774,16 +774,31 @@ public class ModBlocks {
     public static final DeferredBlock<Block> ZIRCALOY_BLOCK = registerBlock("zr_zircaloy_block",
             () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
-    //Nature - Trees
+    //Nature - Trees - Log
     public static final DeferredBlock<Block> BLACK_ASH_LOG = registerBlock("black_ash_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> MAPLE_SVCAMORE_LOG = registerBlock("maple_sycamore_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+
+    //Nature - Trees - Wood
     public static final DeferredBlock<Block> BLACK_ASH_WOOD = registerBlock("black_ash_wood",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
+    public static final DeferredBlock<Block> MAPLE_SYCAMORE_WOOD = registerBlock("maple_sycamore_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
+
+    //Nature - Trees - Stripped Log
     public static final DeferredBlock<Block> STRIPPED_BLACK_ASH_LOG = registerBlock("stripped_black_ash_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_MAPLE_SYCAMORE_LOG = registerBlock("stripped_maple_sycamore_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+
+    //Nature - Trees - Stripped Wood
     public static final DeferredBlock<Block> STRIPPED_BLACK_ASH_WOOD = registerBlock("stripped_black_ash_wood",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_WOOD)));
+    public static final DeferredBlock<Block> STRIPPED_MAPLE_SYCAMORE_WOOD = registerBlock("stripped_maple_sycamore_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_WOOD)));
 
+    //Nature - Trees - Planks
     public static final DeferredBlock<Block> BLACK_ASH_PLANKS = registerBlock("black_ash_planks",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)) {
                 @Override
@@ -801,7 +816,25 @@ public class ModBlocks {
                     return 5;
                 }
             });
+    public static final DeferredBlock<Block> MAPLE_SYCAMORE_PLANKS = registerBlock("maple_sycamore_planks",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
 
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 5;
+                }
+            });
+
+    //Nature - Trees - Leaves
     public static final DeferredBlock<Block> BLACK_ASH_LEAVES = registerBlock("black_ash_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
                 @Override
@@ -820,8 +853,29 @@ public class ModBlocks {
                 }
             });
 
+    public static final DeferredBlock<Block> MAPLE_SYCAMORE_LEAVES = registerBlock("maple_sycamore_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+
+    //Nature - Trees - Saplings
     public static final DeferredBlock<Block> BLACK_ASH_SAPLING = registerBlock("black_ash_sapling",
             () -> new SaplingBlock(ModTreeGrowers.BLACK_ASH, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+    public static final DeferredBlock<Block> MAPLE_SYCAMORE_SAPLING = registerBlock("maple_sycamore_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.MAPLE_SYCAMORE, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
     //Nature - Crop Blocks
     public static final DeferredBlock<Block> BHUT_JOLOKIA_CHILLI_CROP = BLOCKS.register("chilli_bhut_jolokia_crop",

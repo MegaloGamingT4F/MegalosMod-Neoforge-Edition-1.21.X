@@ -976,6 +976,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //Nature - Sapling
         saplingItem(ModBlocks.BLACK_ASH_SAPLING);
+        saplingItem(ModBlocks.MAPLE_SYCAMORE_SAPLING);
 
         //Nature - Crop
         basicItem(ModItems.BHUT_JOLOKIA_CHILLI.get());
@@ -1006,6 +1007,35 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.SILING_LABUYO_CHILLI_SEEDS.get());
         basicItem(ModItems.TABASCO_CHILLI_SEEDS.get());
         basicItem(ModItems.TRINIDAD_SCORPION_CHILLI_SEEDS.get());
+
+        //Gastronomy - Meat Carcass
+        basicItem(ModItems.BEEF_CARCASS.get());
+        basicItem(ModItems.MUTTON_CARCASS.get());
+        basicItem(ModItems.PORK_CARCASS.get());
+
+        //Beef
+        basicItem(ModItems.BEEF_CHUCK.get());
+        basicItem(ModItems.BEEF_RIB.get());
+        basicItem(ModItems.BEEF_LOIN.get());
+        basicItem(ModItems.BEEF_ROUND.get());
+        basicItem(ModItems.BEEF_FLANK.get());
+        basicItem(ModItems.BEEF_PLATE.get());
+        basicItem(ModItems.BEEF_BRISKET.get());
+        basicItem(ModItems.BEEF_SHANK.get());
+
+        //Mutton
+        basicItem(ModItems.MUTTON_NECK.get());
+        basicItem(ModItems.MUTTON_SHOULDER.get());
+        basicItem(ModItems.MUTTON_LOIN.get());
+        basicItem(ModItems.MUTTON_LEG.get());
+        basicItem(ModItems.MUTTON_BREAST.get());
+        basicItem(ModItems.MUTTON_SHANK.get());
+
+        //Pork
+        basicItem(ModItems.PORK_SHOULDER.get());
+        basicItem(ModItems.PORK_LOIN.get());
+        basicItem(ModItems.PORK_BELLY.get());
+        basicItem(ModItems.PORK_LEG.get());
     }
 
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item){

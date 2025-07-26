@@ -416,6 +416,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
         logBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_BLACK_ASH_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_BLACK_ASH_WOOD.get()), blockTexture(ModBlocks.STRIPPED_BLACK_ASH_LOG.get()), blockTexture(ModBlocks.STRIPPED_BLACK_ASH_LOG.get()));
 
+        blockItem(ModBlocks.MAPLE_SVCAMORE_LOG);
+        blockItem(ModBlocks.MAPLE_SYCAMORE_WOOD);
+        blockItem(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG);
+        blockItem(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD);
+
+        blockWithItem(ModBlocks.MAPLE_SYCAMORE_PLANKS);
+
+        leavesBlock(ModBlocks.MAPLE_SYCAMORE_LEAVES);
+        saplingBlock(ModBlocks.MAPLE_SYCAMORE_SAPLING);
+
+        logBlock(((RotatedPillarBlock) ModBlocks.MAPLE_SVCAMORE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.MAPLE_SYCAMORE_WOOD.get()), blockTexture(ModBlocks.MAPLE_SVCAMORE_LOG.get()), blockTexture(ModBlocks.MAPLE_SVCAMORE_LOG.get()));
+        logBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get()), blockTexture(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get()), blockTexture(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get()));
+
         makeCrop(((CropBlock) ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get()), "chilli_bhut_jolokia_crop_stage", "chilli_bhut_jolokia_crop_stage");
         makeBush(((SweetBerryBushBlock) ModBlocks.GOOSEBERRY_BUSH.get()), "gooseberry_berry_bush_stage", "gooseberry_berry_bush_stage");
     }

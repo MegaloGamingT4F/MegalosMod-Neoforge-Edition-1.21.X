@@ -75,6 +75,7 @@ public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_YTTRIUM_ORE = registerKey("add_yttrium_ore");
 
     public static final ResourceKey<BiomeModifier> ADD_TREE_BLACK_ASH = registerKey("add_tree_black_ash");
+    public static final ResourceKey<BiomeModifier> ADD_TREE_MAPLE_SYCAMORE = registerKey("add_tree_maple_sycamore");
 
     public static final ResourceKey<BiomeModifier> ADD_GOOSEBERRY_BUSH = registerKey("add_gooseberry_bush");
 
@@ -290,6 +291,10 @@ public class ModBiomeModifiers {
         context.register(ADD_TREE_BLACK_ASH, new BiomeModifiers.AddFeaturesBiomeModifier(
                 HolderSet.direct(biomes.getOrThrow(Biomes.FOREST), biomes.getOrThrow(Biomes.FLOWER_FOREST)),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.BLACK_ASH_PLACED_KEY)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+        context.register(ADD_TREE_MAPLE_SYCAMORE, new BiomeModifiers.AddFeaturesBiomeModifier(
+                HolderSet.direct(biomes.getOrThrow(Biomes.MEADOW)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.MAPLE_SYCAMORE_PLACED_KEY)),
                 GenerationStep.Decoration.VEGETAL_DECORATION));
 
         context.register(ADD_GOOSEBERRY_BUSH, new BiomeModifiers.AddFeaturesBiomeModifier(

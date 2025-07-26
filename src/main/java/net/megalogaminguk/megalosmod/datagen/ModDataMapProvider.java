@@ -20,6 +20,7 @@ public class ModDataMapProvider extends DataMapProvider {
                 //Nature - Crops
 
                 //Nature - Seeds
-                .add(ModItems.BHUT_JOLOKIA_CHILLI_SEEDS.getId(), new Compostable(0.25f), false);
+                .add(ModItems.BHUT_JOLOKIA_CHILLI_SEEDS.getId(), new Compostable(0.25f), false)
+                .add(ModItems.BHUT_JOLOKIA_CHILLI.getId(), new Compostable(0.45f), false);
     }
 }

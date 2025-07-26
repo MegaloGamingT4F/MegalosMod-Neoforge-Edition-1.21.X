@@ -465,6 +465,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         //Zirconium
         dropSelf(ModBlocks.ZIRCALOY_BLOCK.get());
 
+        //Technology
+        dropSelf(ModBlocks.PEDESTAL.get());
+
         LootItemCondition.Builder bhutItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(BhutJolokiaChilliCropBlock.AGE, 6));
         LootItemCondition.Builder birdsItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.BIRDS_EYE_CHILLI_CROP.get())
@@ -546,6 +549,16 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         this.add(ModBlocks.BLACK_ASH_LEAVES.get(), block ->
                 createLeavesDrops(block, ModBlocks.BLACK_ASH_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        this.dropSelf(ModBlocks.MAPLE_SVCAMORE_LOG.get());
+        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get());
+        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_SAPLING.get());
+        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_PLANKS.get());
+
+        this.add(ModBlocks.MAPLE_SYCAMORE_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.MAPLE_SYCAMORE_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
