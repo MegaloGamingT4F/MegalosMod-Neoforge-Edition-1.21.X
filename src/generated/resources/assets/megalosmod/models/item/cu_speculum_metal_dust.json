@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "megalosmod:item/cu_speculum_metal_dust"
+  }
+}

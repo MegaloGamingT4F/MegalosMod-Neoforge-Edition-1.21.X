@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "megalosmod:block/cu_bell_metal_block"
+  }
+}

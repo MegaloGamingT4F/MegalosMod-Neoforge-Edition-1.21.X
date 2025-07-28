@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "megalosmod:item/cr_chromium_hydride_nugget"
+  }
+}

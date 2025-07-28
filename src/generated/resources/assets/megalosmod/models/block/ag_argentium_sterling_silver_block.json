@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "megalosmod:block/ag_argentium_sterling_silver_block"
+  }
+}
