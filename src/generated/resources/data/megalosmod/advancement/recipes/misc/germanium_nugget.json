@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_germanium_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:germanium_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:germanium_nugget"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_germanium_dust"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:germanium_nugget"
+    ]
+  }
+}

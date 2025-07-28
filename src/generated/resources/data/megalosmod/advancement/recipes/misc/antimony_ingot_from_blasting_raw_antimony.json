@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_antimony": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:raw_antimony"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:antimony_ingot_from_blasting_raw_antimony"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_antimony"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:antimony_ingot_from_blasting_raw_antimony"
+    ]
+  }
+}

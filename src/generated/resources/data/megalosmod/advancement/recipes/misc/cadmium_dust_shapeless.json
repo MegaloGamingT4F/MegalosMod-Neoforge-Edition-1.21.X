@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cadmium_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:cadmium_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:cadmium_dust_shapeless"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cadmium_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:cadmium_dust_shapeless"
+    ]
+  }
+}

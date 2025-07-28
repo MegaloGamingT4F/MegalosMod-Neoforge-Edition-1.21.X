@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_germanium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:germanium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:germanium_ingot_from_blasting_germanium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_germanium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:germanium_ingot_from_blasting_germanium_ore"
+    ]
+  }
+}

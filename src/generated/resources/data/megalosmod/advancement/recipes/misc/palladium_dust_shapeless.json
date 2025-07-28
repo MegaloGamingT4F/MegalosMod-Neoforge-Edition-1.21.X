@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_palladium_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:palladium_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:palladium_dust_shapeless"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_palladium_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:palladium_dust_shapeless"
+    ]
+  }
+}

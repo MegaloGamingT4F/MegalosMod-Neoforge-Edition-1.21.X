@@ -1,0 +1,5 @@
+// 1.21.1	2025-07-28T19:26:15.5734024	Global Loot Modifiers : megalosmod
+4b69d5717e04f5a0143a80f3326b59de669ecd54 data/megalosmod/loot_modifiers/beef_carcass_from_cow_drops.json
+2bcc8d39153f83f1174d4755d1e56523196005d1 data/megalosmod/loot_modifiers/mutton_carcass_from_sheep_drops.json
+d0dfd66a2dff87372236e12e39baea2a015fe5f9 data/megalosmod/loot_modifiers/pork_carcass_from_pig_drops.json
+b3f4846d073ec30a0b2edd9069aa4be46d0740b7 data/neoforge/loot_modifiers/global_loot_modifiers.json

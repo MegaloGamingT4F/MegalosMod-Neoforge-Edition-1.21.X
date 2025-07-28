@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_arsenic_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:arsenic_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:arsenic_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_arsenic_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:arsenic_ingot"
+    ]
+  }
+}

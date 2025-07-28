@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cinnabar_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:cinnabar_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:cinnabar_dust_shapeless"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cinnabar_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:cinnabar_dust_shapeless"
+    ]
+  }
+}

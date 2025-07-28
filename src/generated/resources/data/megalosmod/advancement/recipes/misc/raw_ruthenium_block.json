@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_ruthenium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:raw_ruthenium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:raw_ruthenium_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_ruthenium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:raw_ruthenium_block"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_platinum_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:platinum_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:platinum_ingot_shapeless"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_platinum_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:platinum_ingot_shapeless"
+    ]
+  }
+}

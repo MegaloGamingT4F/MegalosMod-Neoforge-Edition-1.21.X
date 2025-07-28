@@ -1,0 +1,8 @@
+{
+  "entries": [
+    "megalosmod:beef_carcass_from_cow_drops",
+    "megalosmod:mutton_carcass_from_sheep_drops",
+    "megalosmod:pork_carcass_from_pig_drops"
+  ],
+  "replace": false
+}

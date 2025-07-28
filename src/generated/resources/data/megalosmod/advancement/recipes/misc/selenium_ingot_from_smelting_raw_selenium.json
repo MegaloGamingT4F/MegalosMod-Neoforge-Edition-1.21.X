@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_selenium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:raw_selenium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:selenium_ingot_from_smelting_raw_selenium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_selenium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:selenium_ingot_from_smelting_raw_selenium"
+    ]
+  }
+}

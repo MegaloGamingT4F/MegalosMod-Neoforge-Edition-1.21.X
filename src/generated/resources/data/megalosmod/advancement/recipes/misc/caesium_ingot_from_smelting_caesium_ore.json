@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_caesium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:caesium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:caesium_ingot_from_smelting_caesium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_caesium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:caesium_ingot_from_smelting_caesium_ore"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_potassium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:potassium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:potassium_ingot_from_smelting_potassium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_potassium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:potassium_ingot_from_smelting_potassium_ore"
+    ]
+  }
+}

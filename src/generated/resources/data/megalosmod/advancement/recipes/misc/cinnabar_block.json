@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cinnabar_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:cinnabar_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:cinnabar_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cinnabar_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:cinnabar_block"
+    ]
+  }
+}

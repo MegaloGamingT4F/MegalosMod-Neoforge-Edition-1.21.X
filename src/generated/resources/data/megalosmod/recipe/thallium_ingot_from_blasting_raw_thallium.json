@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "thallium",
+  "ingredient": {
+    "item": "megalosmod:raw_thallium"
+  },
+  "result": {
+    "count": 1,
+    "id": "megalosmod:thallium_ingot"
+  }
+}

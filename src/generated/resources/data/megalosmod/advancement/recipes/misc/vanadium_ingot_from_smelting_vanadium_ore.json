@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:vanadium_ingot_from_smelting_vanadium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vanadium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:vanadium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vanadium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:vanadium_ingot_from_smelting_vanadium_ore"
+    ]
+  }
+}

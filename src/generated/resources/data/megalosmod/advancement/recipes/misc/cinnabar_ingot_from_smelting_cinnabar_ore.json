@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cinnabar_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:cinnabar_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:cinnabar_ingot_from_smelting_cinnabar_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cinnabar_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:cinnabar_ingot_from_smelting_cinnabar_ore"
+    ]
+  }
+}

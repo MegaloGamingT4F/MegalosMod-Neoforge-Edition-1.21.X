@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_caesium_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:caesium_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:caesium_nugget"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_caesium_dust"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:caesium_nugget"
+    ]
+  }
+}

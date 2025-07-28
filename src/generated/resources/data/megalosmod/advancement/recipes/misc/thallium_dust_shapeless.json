@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_thallium_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosmod:thallium_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosmod:thallium_dust_shapeless"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_thallium_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosmod:thallium_dust_shapeless"
+    ]
+  }
+}
