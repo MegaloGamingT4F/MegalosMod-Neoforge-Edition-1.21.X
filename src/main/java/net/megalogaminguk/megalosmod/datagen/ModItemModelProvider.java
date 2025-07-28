@@ -1012,6 +1012,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.BEEF_CARCASS.get());
         basicItem(ModItems.MUTTON_CARCASS.get());
         basicItem(ModItems.PORK_CARCASS.get());
+        basicItem(ModItems.HORSE_CARCASS.get());
+        basicItem(ModItems.FROG_CARCASS.get());
+        basicItem(ModItems.GOAT_CARCASS.get());
+        basicItem(ModItems.SQUID_CARCASS.get());
+        basicItem(ModItems.TURTLE_CARCASS.get());
 
         //Beef
         basicItem(ModItems.BEEF_CHUCK.get());
@@ -1036,6 +1041,48 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.PORK_LOIN.get());
         basicItem(ModItems.PORK_BELLY.get());
         basicItem(ModItems.PORK_LEG.get());
+
+        //Chicken
+        basicItem(ModItems.CHICKEN_LEG.get());
+        basicItem(ModItems.CHICKEN_BREAST.get());
+        basicItem(ModItems.CHICKEN_WING.get());
+        basicItem(ModItems.CHICKEN_THIGH.get());
+        basicItem(ModItems.CHICKEN_DRUMSTICK.get());
+
+        //Horse
+        basicItem(ModItems.HORSE_SHOULDER.get());
+        basicItem(ModItems.HORSE_BREAST.get());
+        basicItem(ModItems.HORSE_RIB.get());
+        basicItem(ModItems.HORSE_PLATE.get());
+        basicItem(ModItems.HORSE_LOIN.get());
+        basicItem(ModItems.HORSE_FLANK.get());
+        basicItem(ModItems.HORSE_RUMP.get());
+        basicItem(ModItems.HORSE_ROUND.get());
+        basicItem(ModItems.HORSE_LEG.get());
+
+        //Frog
+        basicItem(ModItems.FROG_LEGS.get());
+
+        //Frog
+        basicItem(ModItems.GOAT_NECK.get());
+        basicItem(ModItems.GOAT_SHOULDER.get());
+        basicItem(ModItems.GOAT_BREAST.get());
+        basicItem(ModItems.GOAT_RACK.get());
+        basicItem(ModItems.GOAT_SHANK.get());
+        basicItem(ModItems.GOAT_LOIN.get());
+        basicItem(ModItems.GOAT_FLANK.get());
+        basicItem(ModItems.GOAT_LEG.get());
+
+        //Squid
+        basicItem(ModItems.SQUID_MANTLE.get());
+        basicItem(ModItems.SQUID_TENTACLES.get());
+        basicItem(ModItems.SQUID_INK.get());
+
+        //Turtle
+        basicItem(ModItems.TURTLE_NECK.get());
+        basicItem(ModItems.TURTLE_BACK.get());
+        basicItem(ModItems.TURTLE_LEG.get());
+        basicItem(ModItems.TURTLE_TAIL.get());
     }
 
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item){

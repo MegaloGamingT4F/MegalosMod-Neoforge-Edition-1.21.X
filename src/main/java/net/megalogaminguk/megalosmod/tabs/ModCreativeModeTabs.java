@@ -1393,7 +1393,7 @@ public class ModCreativeModeTabs
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "technology_tab"))
                     .title(Component.translatable("creativetab.megalosmod.gastronomy_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        //Gastronomy - Meat
+                        //Beef
                         output.accept(ModItems.BEEF_CARCASS.get());
                         output.accept(ModItems.BEEF_BRISKET.get());
                         output.accept(ModItems.BEEF_CHUCK.get());
@@ -1403,6 +1403,8 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.BEEF_RIB.get());
                         output.accept(ModItems.BEEF_ROUND.get());
                         output.accept(ModItems.BEEF_SHANK.get());
+
+                        //Mutton
                         output.accept(ModItems.MUTTON_CARCASS.get());
                         output.accept(ModItems.MUTTON_BREAST.get());
                         output.accept(ModItems.MUTTON_LEG.get());
@@ -1410,11 +1412,54 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.MUTTON_NECK.get());
                         output.accept(ModItems.MUTTON_SHANK.get());
                         output.accept(ModItems.MUTTON_SHOULDER.get());
+
+                        //Pork
                         output.accept(ModItems.PORK_CARCASS.get());
                         output.accept(ModItems.PORK_BELLY.get());
                         output.accept(ModItems.PORK_LEG.get());
                         output.accept(ModItems.PORK_LOIN.get());
                         output.accept(ModItems.PORK_SHOULDER.get());
+
+                        //Horse
+                        output.accept(ModItems.HORSE_CARCASS.get());
+                        output.accept(ModItems.HORSE_BREAST.get());
+                        output.accept(ModItems.HORSE_FLANK.get());
+                        output.accept(ModItems.HORSE_LEG.get());
+                        output.accept(ModItems.HORSE_LOIN.get());
+                        output.accept(ModItems.HORSE_PLATE.get());
+                        output.accept(ModItems.HORSE_RIB.get());
+                        output.accept(ModItems.HORSE_ROUND.get());
+                        output.accept(ModItems.HORSE_RUMP.get());
+                        output.accept(ModItems.HORSE_SHOULDER.get());
+
+                        //Frog
+                        output.accept(ModItems.FROG_CARCASS.get());
+                        output.accept(ModItems.FROG_LEGS.get());
+
+                        //Goat
+                        output.accept(ModItems.GOAT_CARCASS.get());
+                        output.accept(ModItems.GOAT_BREAST.get());
+                        output.accept(ModItems.GOAT_FLANK.get());
+                        output.accept(ModItems.GOAT_LEG.get());
+                        output.accept(ModItems.GOAT_LOIN.get());
+                        output.accept(ModItems.GOAT_NECK.get());
+                        output.accept(ModItems.GOAT_RACK.get());
+                        output.accept(ModItems.GOAT_SHANK.get());
+                        output.accept(ModItems.GOAT_SHOULDER.get());
+
+                        //Squid
+                        output.accept(ModItems.SQUID_CARCASS.get());
+                        output.accept(ModItems.SQUID_INK.get());
+                        output.accept(ModItems.SQUID_MANTLE.get());
+                        output.accept(ModItems.SQUID_TENTACLES.get());
+
+                        //Turtle
+                        output.accept(ModItems.TURTLE_CARCASS.get());
+                        output.accept(ModItems.TURTLE_BACK.get());
+                        output.accept(ModItems.TURTLE_LEG.get());
+                        output.accept(ModItems.TURTLE_NECK.get());
+                        output.accept(ModItems.TURTLE_TAIL.get());
+
                     }).build());
 
     public static void register(IEventBus eventBus){

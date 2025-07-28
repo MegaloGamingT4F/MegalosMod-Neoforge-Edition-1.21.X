@@ -4,6 +4,7 @@ import net.megalogaminguk.megalosmod.block.ModBlocks;
 import net.megalogaminguk.megalosmod.block.entity.ModBlockEntities;
 import net.megalogaminguk.megalosmod.block.entity.renderer.PedestalBlockEntityRenderer;
 import net.megalogaminguk.megalosmod.item.ModItems;
+import net.megalogaminguk.megalosmod.loot.ModLootModifiers;
 import net.megalogaminguk.megalosmod.tabs.ModCreativeModeTabs;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import org.slf4j.Logger;
@@ -42,8 +43,12 @@ public class MegalosMod
 
         ModBlockEntities.register(modEventBus);
 
+        ModLootModifiers.register(modEventBus);
+
+        //add item to vanilla creative tabs
         modEventBus.addListener(this::addCreative);
 
+        //Config
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 

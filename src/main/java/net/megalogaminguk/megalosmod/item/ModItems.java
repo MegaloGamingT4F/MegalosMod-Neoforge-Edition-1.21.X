@@ -184,6 +184,11 @@ public class ModItems {
     public static final DeferredItem<Item> BEEF_CARCASS = ITEMS.register("beef_carcass", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MUTTON_CARCASS = ITEMS.register("mutton_carcass", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PORK_CARCASS = ITEMS.register("pork_carcass", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HORSE_CARCASS = ITEMS.register("horse_carcass", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FROG_CARCASS = ITEMS.register("frog_carcass", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOAT_CARCASS = ITEMS.register("goat_carcass", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SQUID_CARCASS = ITEMS.register("squid_carcass", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TURTLE_CARCASS = ITEMS.register("turtle_carcass", () -> new Item(new Item.Properties()));
 
     //Cuts of Beef
     public static final DeferredItem<Item> BEEF_CHUCK = ITEMS.register("beef_chuck", () -> new Item(new Item.Properties()));
@@ -208,6 +213,48 @@ public class ModItems {
     public static final DeferredItem<Item> PORK_LOIN = ITEMS.register("pork_loin", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PORK_BELLY = ITEMS.register("pork_belly", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PORK_LEG = ITEMS.register("pork_leg", () -> new Item(new Item.Properties()));
+
+    //Cuts of Chicken
+    public static final DeferredItem<Item> CHICKEN_LEG = ITEMS.register("chicken_leg", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHICKEN_BREAST = ITEMS.register("chicken_breast", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHICKEN_WING = ITEMS.register("chicken_wing", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHICKEN_THIGH = ITEMS.register("chicken_thigh", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHICKEN_DRUMSTICK = ITEMS.register("chicken_drumstick", () -> new Item(new Item.Properties()));
+
+    //Cuts of Horse
+    public static final DeferredItem<Item> HORSE_SHOULDER = ITEMS.register("horse_shoulder", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HORSE_BREAST = ITEMS.register("horse_breast", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HORSE_RIB = ITEMS.register("horse_rib", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HORSE_PLATE = ITEMS.register("horse_plate", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HORSE_LOIN = ITEMS.register("horse_loin", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HORSE_FLANK = ITEMS.register("horse_flank", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HORSE_RUMP = ITEMS.register("horse_rump", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HORSE_ROUND = ITEMS.register("horse_round", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HORSE_LEG = ITEMS.register("horse_leg", () -> new Item(new Item.Properties()));
+
+    //Cuts of Frog
+    public static final DeferredItem<Item> FROG_LEGS = ITEMS.register("frog_legs", () -> new Item(new Item.Properties()));
+
+    //Cuts of Goat
+    public static final DeferredItem<Item> GOAT_NECK = ITEMS.register("goat_neck", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOAT_SHOULDER = ITEMS.register("goat_shoulder", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOAT_BREAST = ITEMS.register("goat_breast", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOAT_RACK = ITEMS.register("goat_rack", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOAT_SHANK = ITEMS.register("goat_shank", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOAT_LOIN = ITEMS.register("goat_loin", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOAT_FLANK = ITEMS.register("goat_flank", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOAT_LEG = ITEMS.register("goat_leg", () -> new Item(new Item.Properties()));
+
+    //Cuts of Squid
+    public static final DeferredItem<Item> SQUID_MANTLE = ITEMS.register("squid_mantle", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SQUID_TENTACLES = ITEMS.register("squid_tentacles", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SQUID_INK = ITEMS.register("squid_ink", () -> new Item(new Item.Properties()));
+
+    //Cuts of Turtle
+    public static final DeferredItem<Item> TURTLE_NECK = ITEMS.register("turtle_neck", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TURTLE_BACK = ITEMS.register("turtle_back", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TURTLE_LEG = ITEMS.register("turtle_leg", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TURTLE_TAIL = ITEMS.register("turtle_tail", () -> new Item(new Item.Properties()));
 
     //Metallurgy - Raw Blocks
     public static final DeferredItem<Item> RAW_ALUMINIUM = ITEMS.register("raw_aluminium", () -> new Item(new Item.Properties()));
