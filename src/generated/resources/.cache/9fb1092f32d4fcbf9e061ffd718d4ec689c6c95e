@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-26T21:54:31.2806407	Recipes
+// 1.21.1	2025-08-03T00:24:29.0123142	Recipes
 adaeb951b1bd72f6630fd2d1a7a8071c5ace82b7 data/megalosmod/advancement/recipes/misc/aluminium_block.json
 e6ee0d6ebb4d9f8a386625d1decfd059b85a85ec data/megalosmod/advancement/recipes/misc/aluminium_dust_shapeless.json
 d822162c2606bb2be6976f71c7ac3dcf04328e2f data/megalosmod/advancement/recipes/misc/aluminium_ingot.json
@@ -9,7 +9,6 @@ c0718937e796d1a3ec65418c5a54777e9f640d53 data/megalosmod/advancement/recipes/mis
 d59ac49e1020e27bb1a14f727eb975950ddbdd2e data/megalosmod/advancement/recipes/misc/aluminium_ingot_shapeless.json
 c139c4feff8242898df48ca9a539490a27518585 data/megalosmod/advancement/recipes/misc/aluminium_nugget.json
 fa9ad259464fab9b4f1a6a29b3244a5f867b7d6a data/megalosmod/advancement/recipes/misc/aluminium_nugget_shapeless.json
-d1889c3f1e0e328094bc4ef7d7704543e05d4acf data/megalosmod/advancement/recipes/misc/al_aa_dust.json
 756d1f0c207f428366d78a4a05b754aea6793a5e data/megalosmod/advancement/recipes/misc/antimony_block.json
 40c25c1ea729e8c08926fbcc5329792d5c03ec82 data/megalosmod/advancement/recipes/misc/antimony_dust_shapeless.json
 14599ca93765b36f7af26841beedcf90e0217fd6 data/megalosmod/advancement/recipes/misc/antimony_ingot.json
@@ -614,7 +613,6 @@ c553a365fc73fc07cf80e2d4fa8b1722ada27446 data/megalosmod/recipe/aluminium_block.
 a7fd22f10e605bd23d4cc4c060c7a911e04d8678 data/megalosmod/recipe/aluminium_ingot_shapeless.json
 eb86ba47500845960ff57bc01c336bc0750d9c51 data/megalosmod/recipe/aluminium_nugget.json
 4cef8164f4918b98baf1065deab8a22870ba22d4 data/megalosmod/recipe/aluminium_nugget_shapeless.json
-362522bc52d211e09d9764e1021ed2495783ea82 data/megalosmod/recipe/al_aa_dust.json
 f08fb1512fc24e16278ac24778f2a1a4bc7836f2 data/megalosmod/recipe/antimony_block.json
 a1e2383ebdcdd564d8a6e034b68587e3fe6fbc05 data/megalosmod/recipe/antimony_dust_shapeless.json
 2bc8b5cdef7e18d39073a481297e538b7bc23da4 data/megalosmod/recipe/antimony_ingot.json

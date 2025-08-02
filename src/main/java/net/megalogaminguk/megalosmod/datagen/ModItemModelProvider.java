@@ -198,6 +198,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ZINC_DUST.get());
         basicItem(ModItems.ZIRCONIUM_DUST.get());
 
+        basicItem(ModItems.COAL_DUST.get());
+        basicItem(ModItems.IRON_DUST.get());
+        basicItem(ModItems.GOLD_DUST.get());
+
         //Raw
         basicItem(ModItems.RAW_ALUMINIUM.get());
         basicItem(ModItems.RAW_ANTIMONY.get());

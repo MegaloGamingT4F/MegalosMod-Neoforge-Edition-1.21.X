@@ -1,7 +1,12 @@
 {
   "entries": [
+    "megalosmod:turtle_carcass_from_turtle_drops",
+    "megalosmod:goat_carcass_from_goat_drops",
     "megalosmod:beef_carcass_from_cow_drops",
+    "megalosmod:horse_carcass_from_horse_drops",
     "megalosmod:mutton_carcass_from_sheep_drops",
+    "megalosmod:squid_carcass_from_squid_drops",
+    "megalosmod:frog_carcass_from_frog_drops",
     "megalosmod:pork_carcass_from_pig_drops"
   ],
   "replace": false

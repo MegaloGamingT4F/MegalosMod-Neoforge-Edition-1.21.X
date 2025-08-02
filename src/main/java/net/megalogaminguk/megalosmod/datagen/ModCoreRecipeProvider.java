@@ -14,8 +14,8 @@ import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
-public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
-    public ModRecipeProvider(PackOutput pOutput, CompletableFuture<HolderLookup.Provider> pRegistries) {
+public class ModCoreRecipeProvider extends RecipeProvider implements IConditionBuilder {
+    public ModCoreRecipeProvider(PackOutput pOutput, CompletableFuture<HolderLookup.Provider> pRegistries) {
         super(pOutput, pRegistries);
     }
 
@@ -1802,19 +1802,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.WHITE_WOOL), has(Items.WHITE_WOOL))
                 .save(pRecipeOutput);
 
-        //Alloys Shaped Recipes
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AA_DUST.get())
-                .pattern("aaa")
-                .pattern("aaz")
-                .pattern("tms")
-                .define('a', ModItems.ALUMINIUM_DUST.get())
-                .define('z', ModItems.ZINC_DUST.get())
-                .define('t', ModItems.TITANIUM_DUST.get())
-                .define('m', ModItems.MANGANESE_DUST.get())
-                .define('s', ModItems.SILICON_DUST.get())
-                .unlockedBy(getHasName(ModItems.ALUMINIUM_DUST.get()), has(ModItems.ALUMINIUM_DUST.get()))
-                .save(pRecipeOutput);
-
         //Technology Shaped Recipes
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PEDESTAL.get())
                 .pattern(" i ")
@@ -2875,6 +2862,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.RAW_ZIRCONIUM_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.RAW_ZIRCONIUM_BLOCK.get()), has(ModBlocks.RAW_ZIRCONIUM_BLOCK.get()))
                 .save(pRecipeOutput, MegalosMod.MOD_ID + ":raw_zirconium_shapeless");
+
+
+
+
+//Tool Parts
+//Tools and Weapons
+
+// Armour
 
         //Smelting
         oreSmelting(pRecipeOutput, ALUMINIUM_SMELTABLES,RecipeCategory.MISC, ModItems.ALUMINIUM_INGOT.get(),0.25f,200,"aluminium");

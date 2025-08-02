@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-28T19:26:15.5546794	Item Models: megalosmod
+// 1.21.1	2025-08-02T00:07:04.0452016	Item Models: megalosmod
 9d8eab47b634f46c4e0f0e66e87b95f8349c2c30 assets/megalosmod/models/item/ag_argentium_sterling_silver_dust.json
 ac34252b385c2ed64e44dc25c2d3f9ad3c941611 assets/megalosmod/models/item/ag_argentium_sterling_silver_ingot.json
 18efc725bbe631c79760c5b1750174f8b0be4400 assets/megalosmod/models/item/ag_argentium_sterling_silver_nugget.json
@@ -248,6 +248,7 @@ f38dff33ded251c17f025b8eee80abcd92f9c80b assets/megalosmod/models/item/chilli_si
 23ff9d9dc4d99431dfe6ca7ac955bcd4583fb980 assets/megalosmod/models/item/cinnabar_dust.json
 86e8623451328e66d2fc735878c2f111d197f8c9 assets/megalosmod/models/item/cinnabar_ingot.json
 f8ab077fa283dc4e768424578ad654a7bd5bf62c assets/megalosmod/models/item/cinnabar_nugget.json
+800a7a31063264df64d9a268083ed08a77020ff8 assets/megalosmod/models/item/coal_dust.json
 ed715dc967feb60801e0c63aecd5406c2119e400 assets/megalosmod/models/item/cobalt_dust.json
 cdb6d16666a9591f65f87aea88c2372b8a8a4e12 assets/megalosmod/models/item/cobalt_ingot.json
 274ae4b85d58a1af8ccf02323e0d97a77fa75cfb assets/megalosmod/models/item/cobalt_nugget.json
@@ -541,6 +542,7 @@ ef1dc473301b22f45b1c22fdda0c608eda63aa66 assets/megalosmod/models/item/goat_leg.
 fa0e1d575ef83d8e2bee6911ba1ca28f944dbc20 assets/megalosmod/models/item/goat_rack.json
 f9ea9c82ad28f6943aea77e07853db5f03df6953 assets/megalosmod/models/item/goat_shank.json
 636bea53720f50fddff4bed783d0a8a6b57a2b47 assets/megalosmod/models/item/goat_shoulder.json
+f5b5fcc17183f1c71b43d6393798d506b87d2609 assets/megalosmod/models/item/gold_dust.json
 646ca3a1b814ad76f783ba9d3e9757dc3750a519 assets/megalosmod/models/item/gooseberry_berry.json
 48e460624e726e5aaecd495ec29889db1a0a78b0 assets/megalosmod/models/item/hafnium_dust.json
 8fd555acc24497de8b5daec2ac530ebb98933d7e assets/megalosmod/models/item/hafnium_ingot.json
@@ -567,6 +569,7 @@ d33e23ceb182869afe38ed74a6535756c30cb063 assets/megalosmod/models/item/indium_nu
 d2f5de7c0704d4d7b602513b3f57531eb467ba24 assets/megalosmod/models/item/iridium_dust.json
 8db9c77a0c82241047ac8fb47839ce0c7c1ee7c0 assets/megalosmod/models/item/iridium_ingot.json
 4e79bf4174a396efa8463b313638f40514a89ff4 assets/megalosmod/models/item/iridium_nugget.json
+5ca72ec495732790b468fd7e49bfe9f67460aeda assets/megalosmod/models/item/iron_dust.json
 d21d500389b89fca76752cc4a39ef6c92fe60db1 assets/megalosmod/models/item/k_kli_dust.json
 645c1add81f1c61ee95ca22855a313cbc56759c1 assets/megalosmod/models/item/k_kli_ingot.json
 991844490b6f78b65a05e98280c507eb880cdd9e assets/megalosmod/models/item/k_kli_nugget.json

@@ -21,6 +21,7 @@ public class ModCreativeModeTabs
     public static final Supplier<CreativeModeTab> METALLURGY_CORE_TAB = CREATIVE_MODE_TAB.register("metallurgy_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ALUMINIUM_ORE))
                     .title(Component.translatable("creativetab.megalosmod.metallurgy_tab"))
+                    .withTabsAfter(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "alloys_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         //Block
                         output.accept(ModBlocks.ALUMINIUM_ORE);
@@ -455,6 +456,7 @@ public class ModCreativeModeTabs
     public static final Supplier<CreativeModeTab> METALLURGY_ALLOYS_TAB = CREATIVE_MODE_TAB.register("alloys_tab",
         () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AA_INGOT.get()))
                 .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "metallurgy_tab"))
+                .withTabsAfter(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "hoplology_tab"))
                 .title(Component.translatable("creativetab.megalosmod.alloys_tab"))
                 .displayItems((itemDisplayParameters, output) -> {
                     //Block
@@ -1245,6 +1247,7 @@ public class ModCreativeModeTabs
     public static final Supplier<CreativeModeTab> HOPLOLOGY_TAB = CREATIVE_MODE_TAB.register("hoplology_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TITANIUM_SWORD.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "alloys_tab"))
+                    .withTabsAfter(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "nature_tab"))
                     .title(Component.translatable("creativetab.megalosmod.hoplology_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         //Aluminium
@@ -1320,68 +1323,76 @@ public class ModCreativeModeTabs
     public static final Supplier<CreativeModeTab> NATURE_CROPS_TAB = CREATIVE_MODE_TAB.register("nature_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BHUT_JOLOKIA_CHILLI_SEEDS.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "hoplology_tab"))
+                    .withTabsAfter(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "technology_tab"))
                     .title(Component.translatable("creativetab.megalosmod.nature_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         //Nature - Tree
-                        //Ash
+                        //Log
                         output.accept(ModBlocks.BLACK_ASH_LOG.get());
-                        output.accept(ModBlocks.BLACK_ASH_WOOD.get());
-                        output.accept(ModBlocks.STRIPPED_BLACK_ASH_LOG.get());
-                        output.accept(ModBlocks.STRIPPED_BLACK_ASH_WOOD.get());
-
-                        output.accept(ModBlocks.BLACK_ASH_PLANKS.get());
-                        output.accept(ModBlocks.BLACK_ASH_SAPLING.get());
-
-                        output.accept(ModBlocks.BLACK_ASH_LEAVES.get());
-
-                        //Maple
                         output.accept(ModBlocks.MAPLE_SVCAMORE_LOG.get());
+
+                        //Wood
                         output.accept(ModBlocks.MAPLE_SYCAMORE_WOOD.get());
+                        output.accept(ModBlocks.BLACK_ASH_WOOD.get());
+
+                        //Stripped Log
+                        output.accept(ModBlocks.STRIPPED_BLACK_ASH_LOG.get());
                         output.accept(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get());
+
+                        //Stripped Wood
+                        output.accept(ModBlocks.STRIPPED_BLACK_ASH_WOOD.get());
                         output.accept(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get());
 
+                        //Planks
+                        output.accept(ModBlocks.BLACK_ASH_PLANKS.get());
                         output.accept(ModBlocks.MAPLE_SYCAMORE_PLANKS.get());
+
+                        //Sapling
+                        output.accept(ModBlocks.BLACK_ASH_SAPLING.get());
                         output.accept(ModBlocks.MAPLE_SYCAMORE_SAPLING.get());
 
+                        //Leaves
+                        output.accept(ModBlocks.BLACK_ASH_LEAVES.get());
                         output.accept(ModBlocks.MAPLE_SYCAMORE_LEAVES.get());
 
                         //Nature - Bush
                         output.accept(ModItems.GOOSEBERRY_BERRIES);
 
-                        //Nature - Crop
-                        output.accept(ModItems.BHUT_JOLOKIA_CHILLI);
-                        //output.accept(ModItems.BIRDS_EYE_CHILLI);
-                        //output.accept(ModItems.CAROLINA_REAPER_CHILLI);
-                        //output.accept(ModItems.CAYENNE_CHILLI);
-                        //output.accept(ModItems.HABANERO_CHILLI);
-                        //output.accept(ModItems.JALAPENO_CHILLI);
-                        //output.accept(ModItems.NAGA_GHOST_CHILLI);
-                        //output.accept(ModItems.PADRON_CHILLI);
-                        //output.accept(ModItems.POBLANO_CHILLI);
-                        //output.accept(ModItems.SCOTCH_BONNET_CHILLI);
-                        //output.accept(ModItems.SILING_LABUYO_CHILLI);
-                        //output.accept(ModItems.TABASCO_CHILLI);
-                        //output.accept(ModItems.TRINIDAD_SCORPION_CHILLI);
-
                         //Nature - Seeds
                         output.accept(ModItems.BHUT_JOLOKIA_CHILLI_SEEDS);
-                        //output.accept(ModItems.BIRDS_EYE_CHILLI_SEEDS);
-                        //output.accept(ModItems.CAROLINA_REAPER_CHILLI_SEEDS);
-                        //output.accept(ModItems.CAYENNE_CHILLI_SEEDS);
-                        //output.accept(ModItems.HABANERO_CHILLI_SEEDS);
-                        //output.accept(ModItems.JALAPENO_CHILLI_SEEDS);
-                        //output.accept(ModItems.NAGA_GHOST_CHILLI_SEEDS);
-                        //output.accept(ModItems.PADRON_CHILLI_SEEDS);
-                        //output.accept(ModItems.POBLANO_CHILLI_SEEDS);
-                        //output.accept(ModItems.SCOTCH_BONNET_CHILLI);
-                        //output.accept(ModItems.SILING_LABUYO_CHILLI_SEEDS);
-                        //output.accept(ModItems.TABASCO_CHILLI_SEEDS);
-                        //output.accept(ModItems.TRINIDAD_SCORPION_CHILLI_SEEDS);
+                        output.accept(ModItems.BIRDS_EYE_CHILLI_SEEDS);
+                        output.accept(ModItems.CAROLINA_REAPER_CHILLI_SEEDS);
+                        output.accept(ModItems.CAYENNE_CHILLI_SEEDS);
+                        output.accept(ModItems.HABANERO_CHILLI_SEEDS);
+                        output.accept(ModItems.JALAPENO_CHILLI_SEEDS);
+                        output.accept(ModItems.NAGA_GHOST_CHILLI_SEEDS);
+                        output.accept(ModItems.PADRON_CHILLI_SEEDS);
+                        output.accept(ModItems.POBLANO_CHILLI_SEEDS);
+                        output.accept(ModItems.SCOTCH_BONNET_CHILLI_SEEDS);
+                        output.accept(ModItems.SILING_LABUYO_CHILLI_SEEDS);
+                        output.accept(ModItems.TABASCO_CHILLI_SEEDS);
+                        output.accept(ModItems.TRINIDAD_SCORPION_CHILLI_SEEDS);
+
+                        //Nature - Crop
+                        output.accept(ModItems.BHUT_JOLOKIA_CHILLI);
+                        output.accept(ModItems.BIRDS_EYE_CHILLI);
+                        output.accept(ModItems.CAROLINA_REAPER_CHILLI);
+                        output.accept(ModItems.CAYENNE_CHILLI);
+                        output.accept(ModItems.HABANERO_CHILLI);
+                        output.accept(ModItems.JALAPENO_CHILLI);
+                        output.accept(ModItems.NAGA_GHOST_CHILLI);
+                        output.accept(ModItems.PADRON_CHILLI);
+                        output.accept(ModItems.POBLANO_CHILLI);
+                        output.accept(ModItems.SCOTCH_BONNET_CHILLI);
+                        output.accept(ModItems.SILING_LABUYO_CHILLI);
+                        output.accept(ModItems.TABASCO_CHILLI);
+                        output.accept(ModItems.TRINIDAD_SCORPION_CHILLI);
                     }).build());
 
     public static final Supplier<CreativeModeTab> TECHNOLOGY_TAB = CREATIVE_MODE_TAB.register("technology_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.PEDESTAL.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "nature_tab"))
+                    .withTabsAfter(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "gastronomy_tab"))
                     .title(Component.translatable("creativetab.megalosmod.technology_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         //Tech - Block
@@ -1419,6 +1430,13 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.PORK_LEG.get());
                         output.accept(ModItems.PORK_LOIN.get());
                         output.accept(ModItems.PORK_SHOULDER.get());
+
+                        //Chicken
+                        output.accept(ModItems.CHICKEN_LEG.get());
+                        output.accept(ModItems.CHICKEN_BREAST.get());
+                        output.accept(ModItems.CHICKEN_WING.get());
+                        output.accept(ModItems.CHICKEN_THIGH.get());
+                        output.accept(ModItems.CHICKEN_DRUMSTICK.get());
 
                         //Horse
                         output.accept(ModItems.HORSE_CARCASS.get());

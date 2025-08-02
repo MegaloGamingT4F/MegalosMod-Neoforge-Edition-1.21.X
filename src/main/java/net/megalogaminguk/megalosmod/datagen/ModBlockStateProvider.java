@@ -4,6 +4,7 @@ import net.megalogaminguk.megalosmod.MegalosMod;
 import net.megalogaminguk.megalosmod.block.ModBlocks;
 import net.megalogaminguk.megalosmod.block.custom.nature.bush.GooseberryBushBlock;
 import net.megalogaminguk.megalosmod.block.custom.nature.crop.chilli.BhutJolokiaChilliCropBlock;
+import net.megalogaminguk.megalosmod.block.custom.nature.crop.chilli.BirdsEyeChilliCropBlock;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -431,10 +432,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
         logBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get()), blockTexture(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get()), blockTexture(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get()));
 
-        makeCrop(((CropBlock) ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get()), "chilli_bhut_jolokia_crop_stage", "chilli_bhut_jolokia_crop_stage");
         makeBush(((SweetBerryBushBlock) ModBlocks.GOOSEBERRY_BUSH.get()), "gooseberry_berry_bush_stage", "gooseberry_berry_bush_stage");
+
+        makeBhutCrop(((CropBlock) ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get()), "chilli_bhut_jolokia_crop_stage", "chilli_bhut_jolokia_crop_stage");
+        makeBirdsCrop(((CropBlock) ModBlocks.BIRDS_EYE_CHILLI_CROP.get()), "chilli_birds_eye_crop_stage", "chilli_birds_eye_crop_stage");
     }
 
+    //Bush
     public void makeBush(SweetBerryBushBlock block, String modelName, String textureName) {
         Function<BlockState, ConfiguredModel[]> function = state -> states(state, modelName, textureName);
 
@@ -449,17 +453,33 @@ public class ModBlockStateProvider extends BlockStateProvider {
         return models;
     }
 
-    public void makeCrop(CropBlock block, String modelName, String textureName) {
-        Function<BlockState, ConfiguredModel[]> function = state -> states(state, block, modelName, textureName);
+    //Bhut Jolokia Crop
+    public void makeBhutCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> bhutStates(state, block, modelName, textureName);
 
         getVariantBuilder(block).forAllStates(function);
     }
 
-    private ConfiguredModel[] states(BlockState state, CropBlock block, String modelName, String textureName) {
+    private ConfiguredModel[] bhutStates(BlockState state, CropBlock block, String modelName, String textureName) {
         ConfiguredModel[] models = new ConfiguredModel[1];
 
         models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((BhutJolokiaChilliCropBlock) block).getAgeProperty()),
         ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((BhutJolokiaChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
+        return models;
+    }
+
+    //Bird's Eye Crop
+    public void makeBirdsCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> birdsStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] birdsStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((BirdsEyeChilliCropBlock) block).getAgeProperty()),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((BirdsEyeChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
         return models;
     }
 
