@@ -3,8 +3,7 @@ package net.megalogaminguk.megalosmod.datagen;
 import net.megalogaminguk.megalosmod.MegalosMod;
 import net.megalogaminguk.megalosmod.block.ModBlocks;
 import net.megalogaminguk.megalosmod.block.custom.nature.bush.GooseberryBushBlock;
-import net.megalogaminguk.megalosmod.block.custom.nature.crop.chilli.BhutJolokiaChilliCropBlock;
-import net.megalogaminguk.megalosmod.block.custom.nature.crop.chilli.BirdsEyeChilliCropBlock;
+import net.megalogaminguk.megalosmod.block.custom.nature.crop.chilli.*;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -436,6 +435,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         makeBhutCrop(((CropBlock) ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get()), "chilli_bhut_jolokia_crop_stage", "chilli_bhut_jolokia_crop_stage");
         makeBirdsCrop(((CropBlock) ModBlocks.BIRDS_EYE_CHILLI_CROP.get()), "chilli_birds_eye_crop_stage", "chilli_birds_eye_crop_stage");
+        makeCarolinaCrop(((CropBlock) ModBlocks.CAROLINA_REAPER_CHILLI_CROP.get()), "chilli_carolina_reaper_crop_stage", "chilli_carolina_reaper_crop_stage");
+        makeCayenneCrop(((CropBlock) ModBlocks.CAYENNE_CHILLI_CROP.get()), "chilli_cayenne_crop_stage", "chilli_cayenne_crop_stage");
+        makeHabaneroCrop(((CropBlock) ModBlocks.HABANERO_CHILLI_CROP.get()), "chilli_habanero_crop_stage", "chilli_habanero_crop_stage");
+        makeJalapenoCrop(((CropBlock) ModBlocks.JALAPENO_CHILLI_CROP.get()), "chilli_jalapeno_crop_stage", "chilli_jalapeno_crop_stage");
+        makeNagaGhostCrop(((CropBlock) ModBlocks.NAGA_GHOST_CHILLI_CROP.get()), "chilli_naga_ghost_crop_stage", "chilli_bhut_jolokia_crop_stage");
+        makePadronCrop(((CropBlock) ModBlocks.PADRON_CHILLI_CROP.get()), "chilli_padron_crop_stage", "chilli_padron_crop_stage");
+        makePoblanoCrop(((CropBlock) ModBlocks.POBLANO_CHILLI_CROP.get()), "chilli_poblano_crop_stage", "chilli_poblano_crop_stage");
+        makeScotchCrop(((CropBlock) ModBlocks.SCOTCH_BONNET_CHILLI_CROP.get()), "chilli_scotch_bonnet_crop_stage", "chilli_scotch_bonnet_crop_stage");
+        makeSilingCrop(((CropBlock) ModBlocks.SILING_LABUYO_CHILLI_CROP.get()), "chilli_siling_labuyo_crop_stage", "chilli_siling_labuyo_crop_stage");
+        makeTabascoCrop(((CropBlock) ModBlocks.TABASCO_CHILLI_CROP.get()), "chilli_tabasco_crop_stage", "chilli_tabasco_crop_stage");
+        makeTrinidadCrop(((CropBlock) ModBlocks.TRINIDAD_SCORPION_CHILLI_CROP.get()), "chilli_trinidad_scorpion_crop_stage", "chilli_trinidad_scorpion_crop_stage");
     }
 
     //Bush
@@ -480,6 +490,171 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((BirdsEyeChilliCropBlock) block).getAgeProperty()),
                 ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((BirdsEyeChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
+        return models;
+    }
+
+    //Carolina Reaper Crop
+    public void makeCarolinaCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> carolinaStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] carolinaStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((CarolinaReaperChilliCropBlock) block).getAgeProperty()),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((CarolinaReaperChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
+        return models;
+    }
+
+    //Cayenne Crop
+    public void makeCayenneCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> cayenneStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] cayenneStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((CayenneChilliCropBlock) block).getAgeProperty()),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((CayenneChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
+        return models;
+    }
+
+    //Habanero Crop
+    public void makeHabaneroCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> habaneroStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] habaneroStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((HabaneroChilliCropBlock) block).getAgeProperty()),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((HabaneroChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
+        return models;
+    }
+
+    //Jalapeno Crop
+    public void makeJalapenoCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> jalapenoStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] jalapenoStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((JalapenoChilliCropBlock) block).getAgeProperty()),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((JalapenoChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
+        return models;
+    }
+
+    //Naga Ghost Crop
+    public void makeNagaGhostCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> nagaGhostStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] nagaGhostStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((NagaGhostChilliCropBlock) block).getAgeProperty()),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((NagaGhostChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
+        return models;
+    }
+
+    //Padron Crop
+    public void makePadronCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> padronStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] padronStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((PadronChilliCropBlock) block).getAgeProperty()),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((PadronChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
+        return models;
+    }
+
+    //Poblano Crop
+    public void makePoblanoCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> poblanoStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] poblanoStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((PoblanoChilliCropBlock) block).getAgeProperty()),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((PoblanoChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
+        return models;
+    }
+
+    //Scotch Bonnet Crop
+    public void makeScotchCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> scotchStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] scotchStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((ScotchBonnetChilliCropBlock) block).getAgeProperty()),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((ScotchBonnetChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
+        return models;
+    }
+
+    //Siling Labuyo Crop
+    public void makeSilingCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> silingStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] silingStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((SilingLabuyoChilliCropBlock) block).getAgeProperty()),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((SilingLabuyoChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
+        return models;
+    }
+
+    //Tabasco Crop
+    public void makeTabascoCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> tabascoStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] tabascoStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((TabascoChilliCropBlock) block).getAgeProperty()),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((TabascoChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
+        return models;
+    }
+
+    //Trinidad Crop
+    public void makeTrinidadCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> trinidadStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] trinidadStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((TrinidadScorpionChilliCropBlock) block).getAgeProperty()),
+                ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "block/" + textureName + state.getValue(((TrinidadScorpionChilliCropBlock) block).getAgeProperty()))).renderType("cutout"));
         return models;
     }
 
