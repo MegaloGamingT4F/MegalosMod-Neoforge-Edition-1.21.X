@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "megalosmod:tantalum_nugget"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:tantalum_dust"
+  }
+}

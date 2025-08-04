@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosmod:arsenic_dust"
+    },
+    "c": {
+      "item": "megalosmod:copper_dust"
+    },
+    "g": {
+      "item": "megalosmod:gold_dust"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "gcg",
+    "gag"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:ag_shibuichi_dust"
+  }
+}

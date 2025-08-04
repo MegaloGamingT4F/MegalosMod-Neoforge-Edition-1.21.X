@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "m": {
+      "item": "megalosmod:molybdenum_dust"
+    },
+    "s": {
+      "item": "megalosmod:fe_steel_dust"
+    },
+    "t": {
+      "item": "megalosmod:titanium_dust"
+    }
+  },
+  "pattern": [
+    "sms",
+    "sts",
+    "sms"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:fe_staballoy_dust"
+  }
+}

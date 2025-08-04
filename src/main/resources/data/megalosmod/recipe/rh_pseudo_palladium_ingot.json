@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "item": "megalosmod:rh_pseudo_palladium_nugget"
+    }
+  },
+  "pattern": [
+    "rrr",
+    "rrr",
+    "rrr"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:rh_pseudo_palladium_ingot"
+  }
+}

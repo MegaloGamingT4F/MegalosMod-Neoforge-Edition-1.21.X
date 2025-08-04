@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "t": {
+      "item": "megalosmod:gold_dust"
+    },
+    "w": {
+      "item": "minecraft:potion"
+    }
+  },
+  "pattern": [
+    "ttt",
+    "twt",
+    "ttt"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:ti_titanium_hydride_dust"
+  }
+}

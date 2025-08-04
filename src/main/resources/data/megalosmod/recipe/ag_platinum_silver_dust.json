@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "p": {
+      "item": "megalosmod:platinum_dust"
+    },
+    "s": {
+      "item": "megalosmod:silver_dust"
+    }
+  },
+  "pattern": [
+    "sss",
+    "sss",
+    "sps"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:ag_platinum_silver_dust"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosmod:cobalt_dust"
+    },
+    "i": {
+      "item": "megalosmod:iron_dust"
+    },
+    "n": {
+      "item": "megalosmod:nickel_dust"
+    }
+  },
+  "pattern": [
+    "cin",
+    "cin",
+    "cin"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:fe_fernico_dust"
+  }
+}

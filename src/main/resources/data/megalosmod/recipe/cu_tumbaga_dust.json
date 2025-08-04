@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosmod:cobalt_dust"
+    },
+    "t": {
+      "item": "megalosmod:tungsten_dust"
+    },
+    "x": {
+      "item": "megalosmod:chromium_dust"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "tct",
+    "xxx"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:cu_tumbaga_dust"
+  }
+}

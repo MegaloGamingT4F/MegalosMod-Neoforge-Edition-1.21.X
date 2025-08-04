@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosmod:antimony_dust"
+    },
+    "l": {
+      "item": "megalosmod:lead_dust"
+    },
+    "t": {
+      "item": "megalosmod:tin_dust"
+    }
+  },
+  "pattern": [
+    "ttt",
+    "lta",
+    "atl"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:pb_solder_dust"
+  }
+}

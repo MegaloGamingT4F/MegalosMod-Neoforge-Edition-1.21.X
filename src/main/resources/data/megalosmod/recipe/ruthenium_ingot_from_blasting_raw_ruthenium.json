@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "ruthenium",
+  "ingredient": {
+    "item": "megalosmod:raw_ruthenium"
+  },
+  "result": {
+    "count": 1,
+    "id": "megalosmod:ruthenium_ingot"
+  }
+}

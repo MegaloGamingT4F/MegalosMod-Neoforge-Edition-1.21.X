@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "p": {
+      "item": "megalosmod:potassium_dust"
+    },
+    "s": {
+      "item": "megalosmod:sodium_dust"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "sss",
+    "ppp"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:k_nak_dust"
+  }
+}

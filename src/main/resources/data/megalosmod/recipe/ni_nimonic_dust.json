@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosmod:aluminium_dust"
+    },
+    "c": {
+      "item": "megalosmod:chromium_dust"
+    },
+    "n": {
+      "item": "megalosmod:nickel_dust"
+    },
+    "t": {
+      "item": "megalosmod:titanium_dust"
+    }
+  },
+  "pattern": [
+    "nnn",
+    "ctc",
+    "can"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:ni_nimonic_dust"
+  }
+}

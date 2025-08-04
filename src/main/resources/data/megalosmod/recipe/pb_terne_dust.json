@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "l": {
+      "item": "megalosmod:lead_dust"
+    },
+    "t": {
+      "item": "megalosmod:tin_dust"
+    }
+  },
+  "pattern": [
+    "lll",
+    "llt",
+    "ttt"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:pb_terne_dust"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "m": {
+      "item": "megalosmod:manganese_dust"
+    },
+    "s": {
+      "item": "megalosmod:fe_steel_dust"
+    },
+    "t": {
+      "item": "megalosmod:tungsten_dust"
+    }
+  },
+  "pattern": [
+    "sss",
+    "tst",
+    "sms"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:fe_mushet_steel_dust"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosmod:antimony_dust"
+    },
+    "b": {
+      "item": "megalosmod:bismuth_dust"
+    },
+    "l": {
+      "item": "megalosmod:lead_dust"
+    },
+    "t": {
+      "item": "megalosmod:tin_dust"
+    }
+  },
+  "pattern": [
+    "ttt",
+    "alb",
+    "ttt"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:sn_queens_metal_dust"
+  }
+}

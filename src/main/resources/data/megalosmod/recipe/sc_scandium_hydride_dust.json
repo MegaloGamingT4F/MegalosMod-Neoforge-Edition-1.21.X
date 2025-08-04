@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "item": "megalosmod:scandium_dust"
+    },
+    "w": {
+      "item": "minecraft:potion"
+    }
+  },
+  "pattern": [
+    "sss",
+    "sws",
+    "sss"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:sc_scandium_hydride_dust"
+  }
+}

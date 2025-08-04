@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "megalosmod:gold_dust"
+    },
+    "r": {
+      "item": "megalosmod:rhodium_dust"
+    }
+  },
+  "pattern": [
+    "grg",
+    "rgr",
+    "grg"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:au_rhodite_dust"
+  }
+}

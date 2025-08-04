@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "m": {
+      "item": "megalosmod:hg_zinc_amalgam_nugget"
+    }
+  },
+  "pattern": [
+    "mmm",
+    "mmm",
+    "mmm"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:hg_zinc_amalgam_ingot"
+  }
+}

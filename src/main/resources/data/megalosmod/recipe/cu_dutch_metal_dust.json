@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "megalosmod:cu_brass_dust"
+    },
+    "z": {
+      "item": "megalosmod:zinc_dust"
+    }
+  },
+  "pattern": [
+    "bzb",
+    "zzz",
+    "bbb"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:cu_dutch_metal_dust"
+  }
+}

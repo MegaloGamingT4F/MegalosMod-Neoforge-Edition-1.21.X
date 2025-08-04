@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosmod:chromium_dust"
+    },
+    "n": {
+      "item": "megalosmod:nickel_dust"
+    }
+  },
+  "pattern": [
+    "nnn",
+    "nnn",
+    "ncc"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:ni_brightray_dust"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosmod:copper_dust"
+    },
+    "g": {
+      "item": "megalosmod:gold_dust"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "cgc",
+    "cgc"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:au_rose_gold_dust"
+  }
+}

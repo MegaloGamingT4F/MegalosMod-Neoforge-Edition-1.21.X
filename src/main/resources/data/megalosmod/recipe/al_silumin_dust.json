@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosmod:aluminium_dust"
+    },
+    "c": {
+      "item": "megalosmod:copper_dust"
+    },
+    "i": {
+      "item": "megalosmod:iron_dust"
+    },
+    "m": {
+      "item": "megalosmod:manganese_dust"
+    },
+    "x": {
+      "item": "megalosmod:magnesium_dust"
+    }
+  },
+  "pattern": [
+    "mcx",
+    "aaa",
+    "iai"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:al_silumin_dust"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosmod:aluminium_dust"
+    },
+    "m": {
+      "item": "megalosmod:magnesium_dust"
+    },
+    "s": {
+      "item": "megalosmod:silver_dust"
+    },
+    "y": {
+      "item": "megalosmod:yttrium_dust"
+    }
+  },
+  "pattern": [
+    "ymm",
+    "mam",
+    "mms"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:mg_elektron_dust"
+  }
+}

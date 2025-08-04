@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "item": "megalosmod:rhodium_dust"
+    },
+    "s": {
+      "item": "megalosmod:silver_dust"
+    }
+  },
+  "pattern": [
+    "rrs",
+    "rsr",
+    "srr"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:rh_pseudo_palladium_dust"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosmod:coal_dust"
+    },
+    "i": {
+      "item": "megalosmod:iron_dust"
+    },
+    "p": {
+      "item": "megalosmod:fe_pig_iron_dust"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "ipc",
+    "ipc"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:fe_crucible_steel_dust"
+  }
+}

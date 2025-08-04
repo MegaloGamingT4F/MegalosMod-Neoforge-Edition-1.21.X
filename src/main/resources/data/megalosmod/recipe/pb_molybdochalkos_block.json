@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "l": {
+      "item": "megalosmod:pb_molybdochalkos_ingot"
+    }
+  },
+  "pattern": [
+    "lll",
+    "lll",
+    "lll"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:pb_molybdochalkos_block"
+  }
+}

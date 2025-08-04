@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosmod:copper_dust"
+    },
+    "g": {
+      "item": "megalosmod:gold_dust"
+    },
+    "n": {
+      "item": "megalosmod:nickel_dust"
+    },
+    "z": {
+      "item": "megalosmod:zinc_dust"
+    }
+  },
+  "pattern": [
+    "ngg",
+    "ggg",
+    "cgz"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:au_white_gold_dust"
+  }
+}

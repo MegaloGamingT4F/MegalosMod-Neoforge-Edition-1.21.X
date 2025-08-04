@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosmod:copper_dust"
+    },
+    "g": {
+      "item": "megalosmod:gold_dust"
+    },
+    "s": {
+      "item": "megalosmod:silver_dust"
+    }
+  },
+  "pattern": [
+    "css",
+    "sss",
+    "ssg"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:ag_goloid_dust"
+  }
+}

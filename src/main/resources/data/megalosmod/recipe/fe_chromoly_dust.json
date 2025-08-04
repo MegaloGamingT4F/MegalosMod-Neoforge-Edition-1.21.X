@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosmod:coal_dust"
+    },
+    "h": {
+      "item": "megalosmod:chromium_dust"
+    },
+    "i": {
+      "item": "megalosmod:iron_dust"
+    },
+    "m": {
+      "item": "megalosmod:molybdenum_dust"
+    },
+    "v": {
+      "item": "megalosmod:vanadium_dust"
+    }
+  },
+  "pattern": [
+    "iii",
+    "icm",
+    "ihv"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:fe_chromoly_dust"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosmod:copper_dust"
+    },
+    "m": {
+      "item": "megalosmod:manganese_dust"
+    },
+    "n": {
+      "item": "megalosmod:nickel_dust"
+    },
+    "t": {
+      "item": "megalosmod:tin_dust"
+    }
+  },
+  "pattern": [
+    "cmc",
+    "tnt",
+    "cmc"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:ni_hausler_alloy_dust"
+  }
+}

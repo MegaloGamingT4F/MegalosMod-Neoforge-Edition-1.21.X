@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosmod:cobalt_dust"
+    },
+    "i": {
+      "item": "megalosmod:iron_dust"
+    },
+    "n": {
+      "item": "megalosmod:nickel_dust"
+    },
+    "s": {
+      "item": "megalosmod:silicon_dust"
+    },
+    "t": {
+      "item": "megalosmod:tungsten_dust"
+    },
+    "x": {
+      "item": "megalosmod:coal_dust"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "tcx",
+    "nis"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:cu_muntz_metal_dust"
+  }
+}

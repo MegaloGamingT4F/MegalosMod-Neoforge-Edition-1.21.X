@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "megalosmod:fabric_strap"
+    },
+    "L": {
+      "item": "minecraft:feather"
+    }
+  },
+  "pattern": [
+    "LFL",
+    "FLF",
+    "LFL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosmod:armour_padding"
+  }
+}

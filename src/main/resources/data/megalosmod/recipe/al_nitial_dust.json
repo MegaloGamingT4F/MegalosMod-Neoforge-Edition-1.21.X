@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosmod:aluminium_dust"
+    },
+    "n": {
+      "item": "megalosmod:nickel_dust"
+    },
+    "t": {
+      "item": "megalosmod:titanium_dust"
+    }
+  },
+  "pattern": [
+    "nan",
+    "nnn",
+    "ttt"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:al_nitial_dust"
+  }
+}

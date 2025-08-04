@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "megalosmod:cu_bronze_dust"
+    },
+    "t": {
+      "item": "megalosmod:tin_dust"
+    },
+    "z": {
+      "item": "megalosmod:zinc_dust"
+    }
+  },
+  "pattern": [
+    "zbb",
+    "tbt",
+    "bbz"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:cu_gun_metal_dust"
+  }
+}

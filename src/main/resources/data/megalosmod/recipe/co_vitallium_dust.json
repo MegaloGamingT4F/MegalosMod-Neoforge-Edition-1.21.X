@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosmod:cobalt_dust"
+    },
+    "i": {
+      "item": "megalosmod:iron_dust"
+    },
+    "m": {
+      "item": "megalosmod:molybdenum_dust"
+    },
+    "n": {
+      "item": "megalosmod:nickel_dust"
+    },
+    "x": {
+      "item": "megalosmod:chromium_dust"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "icm",
+    "xxn"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:co_vitallium_dust"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosmod:chromium_dust"
+    },
+    "m": {
+      "item": "megalosmod:molybdenum_dust"
+    },
+    "n": {
+      "item": "megalosmod:nickel_dust"
+    },
+    "x": {
+      "item": "megalosmod:niobium_dust"
+    }
+  },
+  "pattern": [
+    "nmn",
+    "ncn",
+    "nxn"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:ni_inconel_dust"
+  }
+}

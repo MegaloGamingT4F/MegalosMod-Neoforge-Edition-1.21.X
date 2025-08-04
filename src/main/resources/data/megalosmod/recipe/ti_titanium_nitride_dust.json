@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "minecraft:gunpowder"
+    },
+    "t": {
+      "item": "megalosmod:titanium_dust"
+    }
+  },
+  "pattern": [
+    "ttt",
+    "tgt",
+    "ttt"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:ti_titanium_nitride_dust"
+  }
+}

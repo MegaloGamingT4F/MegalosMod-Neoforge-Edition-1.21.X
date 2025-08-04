@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosmod:chromium_dust"
+    },
+    "t": {
+      "item": "megalosmod:titanium_dust"
+    },
+    "w": {
+      "item": "minecraft:potion"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "twt",
+    "ccc"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:cr_chromium_hydride_dust"
+  }
+}

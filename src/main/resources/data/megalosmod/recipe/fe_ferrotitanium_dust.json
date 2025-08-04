@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "item": "megalosmod:iron_dust"
+    },
+    "t": {
+      "item": "megalosmod:titanium_dust"
+    }
+  },
+  "pattern": [
+    "iii",
+    "iti",
+    "iii"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:fe_ferrotitanium_dust"
+  }
+}

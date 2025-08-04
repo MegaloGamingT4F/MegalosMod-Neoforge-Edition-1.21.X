@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "megalosmod:cu_bronze_dust"
+    },
+    "g": {
+      "item": "megalosmod:gold_dust"
+    },
+    "s": {
+      "item": "megalosmod:silver_dust"
+    }
+  },
+  "pattern": [
+    "bbb",
+    "sbb",
+    "ggb"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:cu_guanin_dust"
+  }
+}

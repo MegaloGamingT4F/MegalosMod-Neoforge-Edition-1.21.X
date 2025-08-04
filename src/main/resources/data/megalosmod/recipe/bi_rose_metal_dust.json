@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "megalosmod:bismuth_dust"
+    },
+    "l": {
+      "item": "megalosmod:lead_dust"
+    },
+    "t": {
+      "item": "megalosmod:tin_dust"
+    }
+  },
+  "pattern": [
+    "btb",
+    "lbl",
+    "btb"
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:bi_rose_metal_dust"
+  }
+}
