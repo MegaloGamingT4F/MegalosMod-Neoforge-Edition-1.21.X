@@ -1,10 +1,10 @@
-// 1.21.1	2025-05-30T22:22:38.8583538	Tags for minecraft:item mod id megalosmod
-d820a921d7e424a7f37e28337648262c14798203 data/megalosmod/tags/item/fuel.json
-195f4bb905f4fe17d4db4bafda26523b8417e52b data/minecraft/tags/item/axes.json
-0c7f72219aef5782090bf380b7882b49d75cbd79 data/minecraft/tags/item/hoes.json
+// 1.21.1	2025-08-04T21:13:46.2422612	Tags for minecraft:item mod id megalosmod
+b6476034bd093756ca2ce9f27f7313de62fc1bea data/megalosmod/tags/item/fuel.json
+5c5b8083476bdd28c3ace0650ca6d2fa3eb1b676 data/minecraft/tags/item/axes.json
+cd5c05ebb671bb453af05269462ba5b1df9f2a67 data/minecraft/tags/item/hoes.json
 22172e42cc87e49a66b568ca170604a34b6d56bf data/minecraft/tags/item/logs_that_burn.json
-bb451c8173b05f0dfe914c4f70c2eb74aabfb7fd data/minecraft/tags/item/pickaxes.json
+0ba6e78d4e06dc819f3b2144ab19fccadae227d6 data/minecraft/tags/item/pickaxes.json
 08386564d931a3ce3c81626545d2c3dbf918d412 data/minecraft/tags/item/planks.json
-1aa2b0e25b9d6540aaf061a6dc96f39cd850a020 data/minecraft/tags/item/shovels.json
-f4349298eb026004400322407dd07bc2905675bf data/minecraft/tags/item/swords.json
-ff0100babbc76acfb7d2fb860e5471a546b2acb2 data/minecraft/tags/item/trimmable_armor.json
+73ad9c929cd684a095b3fd495b2a5840325c8a9b data/minecraft/tags/item/shovels.json
+18641fa480404bbea75a2f5ecf1d39c8c9df13f9 data/minecraft/tags/item/swords.json
+66447eb58119b142a577cdb95164c52d56e9e20c data/minecraft/tags/item/trimmable_armor.json

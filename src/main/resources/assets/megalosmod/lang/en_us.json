@@ -266,6 +266,15 @@
   "item.megalosmod.silver_plate":"Silver Armour Plate",
   "item.megalosmod.silver_hilt":"Silver-Pommeled Hilt",
 
+  "item.megalosmod.technetium_blade":"Technetium Blade",
+  "item.megalosmod.technetium_axehead":"Technetium Axe Head",
+  "item.megalosmod.technetium_guard":"Technetium Rain-Guard",
+  "item.megalosmod.technetium_shovelhead":"Technetium Shovel Head",
+  "item.megalosmod.technetium_pick":"Technetium Pick",
+  "item.megalosmod.technetium_pommel":"Technetium Pommel",
+  "item.megalosmod.technetium_plate":"Technetium Armour Plate",
+  "item.megalosmod.technetium_hilt":"Technetium-Pommeled Hilt",
+
   "item.megalosmod.titanium_blade":"Titanium Blade",
   "item.megalosmod.titanium_axehead":"Titanium Axe Head",
   "item.megalosmod.titanium_shovelhead":"Titanium Shovel Head",
@@ -296,6 +305,17 @@
   "item.megalosmod.silver_chestplate": "Silver Chestplate",
   "item.megalosmod.silver_leggings": "Silver Leggings",
   "item.megalosmod.silver_boots": "Silver Boots",
+
+  "item.megalosmod.technetium_axe": "Technetium Axe",
+  "item.megalosmod.technetium_hoe": "Technetium Hoe",
+  "item.megalosmod.technetium_pickaxe": "Technetium Pickaxe",
+  "item.megalosmod.technetium_shovel": "Technetium Shovel",
+  "item.megalosmod.technetium_sword": "Technetium Sword",
+
+  "item.megalosmod.technetium_helmet": "Technetium Helmet",
+  "item.megalosmod.technetium_chestplate": "Technetium Chestplate",
+  "item.megalosmod.technetium_leggings": "Technetium Leggings",
+  "item.megalosmod.technetium_boots": "Technetium Boots",
 
   "item.megalosmod.titanium_axe": "Titanium Axe",
   "item.megalosmod.titanium_hoe": "Titanium Hoe",
@@ -1316,7 +1336,7 @@
 
   "block.megalosmod.pedestal": "Pedestal",
   "block.megalosmod.metallurgic_furnace": "Metallurgic Furnace",
-  "block.megalosmod.butchers_block": "Butchers Block",
+  "block.megalosmod.butchers_block": "Butcher's Block",
 
   "item.megalosmod.beef_carcass": "Beef Carcass",
   "item.megalosmod.mutton_carcass": "Mutton Carcass",

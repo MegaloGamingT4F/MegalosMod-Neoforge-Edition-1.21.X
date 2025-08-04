@@ -258,6 +258,73 @@ public class ModItems {
     public static final DeferredItem<Item> TURTLE_LEG = ITEMS.register("turtle_leg", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> TURTLE_TAIL = ITEMS.register("turtle_tail", () -> new Item(new Item.Properties()));
 
+    //Cooked Cuts of Beef
+    public static final DeferredItem<Item> COOKED_BEEF_CHUCK = ITEMS.register("cooked_beef_chuck", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_BEEF_RIB = ITEMS.register("cooked_beef_rib", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_BEEF_LOIN = ITEMS.register("cooked_beef_loin", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_BEEF_ROUND = ITEMS.register("cooked_beef_round", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_BEEF_FLANK = ITEMS.register("cooked_beef_flank", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_BEEF_PLATE = ITEMS.register("cooked_beef_plate", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_BEEF_BRISKET = ITEMS.register("cooked_beef_brisket", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_BEEF_SHANK = ITEMS.register("cooked_beef_shank", () -> new Item(new Item.Properties()));
+
+    //Cooked Cuts of Mutton
+    public static final DeferredItem<Item> COOKED_MUTTON_NECK = ITEMS.register("cooked_mutton_neck", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_MUTTON_SHOULDER = ITEMS.register("cooked_mutton_shoulder", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_MUTTON_LOIN = ITEMS.register("cooked_mutton_loin", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_MUTTON_LEG = ITEMS.register("cooked_mutton_leg", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_MUTTON_BREAST = ITEMS.register("cooked_mutton_breast", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_MUTTON_SHANK = ITEMS.register("cooked_mutton_shank", () -> new Item(new Item.Properties()));
+
+    //Cooked Cuts of Pork
+    public static final DeferredItem<Item> COOKED_PORK_SHOULDER = ITEMS.register("cooked_pork_shoulder", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_PORK_LOIN = ITEMS.register("cooked_pork_loin", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_PORK_BELLY = ITEMS.register("cooked_pork_belly", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_PORK_LEG = ITEMS.register("cooked_pork_leg", () -> new Item(new Item.Properties()));
+
+    //Cooked Cuts of Chicken
+    public static final DeferredItem<Item> COOKED_CHICKEN_LEG = ITEMS.register("cooked_chicken_leg", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_CHICKEN_BREAST = ITEMS.register("cooked_chicken_breast", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_CHICKEN_WING = ITEMS.register("cooked_chicken_wing", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_CHICKEN_THIGH = ITEMS.register("cooked_chicken_thigh", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_CHICKEN_DRUMSTICK = ITEMS.register("cooked_chicken_drumstick", () -> new Item(new Item.Properties()));
+
+    //Cooked Cuts of Horse
+    public static final DeferredItem<Item> COOKED_HORSE_SHOULDER = ITEMS.register("cooked_horse_shoulder", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_HORSE_BREAST = ITEMS.register("cooked_horse_breast", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_HORSE_RIB = ITEMS.register("cooked_horse_rib", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_HORSE_PLATE = ITEMS.register("cooked_horse_plate", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_HORSE_LOIN = ITEMS.register("cooked_horse_loin", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_HORSE_FLANK = ITEMS.register("cooked_horse_flank", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_HORSE_RUMP = ITEMS.register("cooked_horse_rump", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_HORSE_ROUND = ITEMS.register("cooked_horse_round", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_HORSE_LEG = ITEMS.register("cooked_horse_leg", () -> new Item(new Item.Properties()));
+
+    //Cooked Cuts of Frog
+    public static final DeferredItem<Item> COOKED_FROG_LEGS = ITEMS.register("cooked_frog_legs", () -> new Item(new Item.Properties()));
+
+    //Cooked Cuts of Goat
+    public static final DeferredItem<Item> COOKED_GOAT_NECK = ITEMS.register("cooked_goat_neck", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_GOAT_SHOULDER = ITEMS.register("cooked_goat_shoulder", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_GOAT_BREAST = ITEMS.register("cooked_goat_breast", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_GOAT_RACK = ITEMS.register("cooked_goat_rack", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_GOAT_SHANK = ITEMS.register("cooked_goat_shank", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_GOAT_LOIN = ITEMS.register("cooked_goat_loin", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_GOAT_FLANK = ITEMS.register("cooked_goat_flank", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_GOAT_LEG = ITEMS.register("cooked_goat_leg", () -> new Item(new Item.Properties()));
+
+    //Cooked Cuts of Squid
+    public static final DeferredItem<Item> COOKED_SQUID_MANTLE = ITEMS.register("cooked_squid_mantle", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_SQUID_TENTACLES = ITEMS.register("cooked_squid_tentacles", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_SQUID_INK = ITEMS.register("cooked_squid_ink", () -> new Item(new Item.Properties()));
+
+    //Cooked Cuts of Turtle
+    public static final DeferredItem<Item> COOKED_TURTLE_NECK = ITEMS.register("cooked_turtle_neck", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_TURTLE_BACK = ITEMS.register("cooked_turtle_back", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_TURTLE_LEG = ITEMS.register("cooked_turtle_leg", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COOKED_TURTLE_TAIL = ITEMS.register("cooked_turtle_tail", () -> new Item(new Item.Properties()));
+
+
     //Metallurgy - Raw Blocks
     public static final DeferredItem<Item> RAW_ALUMINIUM = ITEMS.register("raw_aluminium", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_ANTIMONY = ITEMS.register("raw_antimony", () -> new Item(new Item.Properties()));
@@ -1521,6 +1588,22 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.SILVER, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.SILVER, 0F, -3.0f))));
 
+    public static final DeferredItem<SwordItem> TECHNETIUM_SWORD = ITEMS.register("technetium_sword",
+            () -> new SwordItem(ModToolTiers.TECHNETIUM, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.SILVER, 5, -2.4f))));
+    public static final DeferredItem<PickaxeItem> TECHNETIUM_PICKAXE = ITEMS.register("technetium_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.TECHNETIUM, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.SILVER, 1.0F, -2.8f))));
+    public static final DeferredItem<ShovelItem> TECHNETIUM_SHOVEL = ITEMS.register("technetium_shovel",
+            () -> new ShovelItem(ModToolTiers.TECHNETIUM, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.SILVER, 1.5F, -3.0f))));
+    public static final DeferredItem<AxeItem> TECHNETIUM_AXE = ITEMS.register("technetium_axe",
+            () -> new AxeItem(ModToolTiers.TECHNETIUM, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.SILVER, 6.0F, -3.2f))));
+    public static final DeferredItem<HoeItem> TECHNETIUM_HOE = ITEMS.register("technetium_hoe",
+            () -> new HoeItem(ModToolTiers.TECHNETIUM, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.SILVER, 0F, -3.0f))));
+
     public static final DeferredItem<SwordItem> TITANIUM_SWORD = ITEMS.register("titanium_sword",
             () -> new SwordItem(ModToolTiers.TITANIUM, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.TITANIUM, 5, -2.4f))));
@@ -1565,6 +1648,19 @@ public class ModItems {
             ()-> new ArmorItem(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
 
+    //Silver
+    public static final DeferredItem<ArmorItem> TECHNETIUM_HELMET = ITEMS.register("technetium_helmet",
+            ()-> new ArmorItem(ModArmorMaterials.TECHNETIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+    public static final DeferredItem<ArmorItem> TECHNETIUM_CHESTPLATE = ITEMS.register("technetium_chestplate",
+            ()-> new ArmorItem(ModArmorMaterials.TECHNETIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))));
+    public static final DeferredItem<ArmorItem> TECHNETIUM_LEGGINGS = ITEMS.register("technetium_leggings",
+            ()-> new ArmorItem(ModArmorMaterials.TECHNETIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(18))));
+    public static final DeferredItem<ArmorItem> TECHNETIUM_BOOTS = ITEMS.register("technetium_boots",
+            ()-> new ArmorItem(ModArmorMaterials.TECHNETIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
     //Titanium
     public static final DeferredItem<ArmorItem> TITANIUM_HELMET = ITEMS.register("titanium_helmet",
             ()-> new ArmorItem(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
@@ -1614,6 +1710,23 @@ public class ModItems {
     public static final DeferredItem<Item> SILVER_PLATE = ITEMS.register("silver_plate",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> TECHNETIUM_AXEHEAD = ITEMS.register("technetium_axehead",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TECHNETIUM_BLADE = ITEMS.register("technetium_blade",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TECHNETIUM_GUARD = ITEMS.register("technetium_guard",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TECHNETIUM_HILT = ITEMS.register("technetium_hilt",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TECHNETIUM_SHOVELHEAD = ITEMS.register("technetium_shovelhead",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TECHNETIUM_POMMEL = ITEMS.register("technetium_pommel",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TECHNETIUM_PICK = ITEMS.register("technetium_pick",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TECHNETIUM_PLATE = ITEMS.register("technetium_plate",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> TITANIUM_AXEHEAD = ITEMS.register("titanium_axehead",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> TITANIUM_BLADE = ITEMS.register("titanium_blade",
@@ -1634,6 +1747,10 @@ public class ModItems {
     public static final DeferredItem<Item> FABRIC_STRAP = ITEMS.register("fabric_strap",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> FABRIC_GRIP = ITEMS.register("fabric_grip",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> LEATHER_STRAP = ITEMS.register("leather_strap",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> LEATHER_GRIP = ITEMS.register("leather_grip",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ARMOUR_PADDING = ITEMS.register("armour_padding",
             () -> new Item(new Item.Properties()));

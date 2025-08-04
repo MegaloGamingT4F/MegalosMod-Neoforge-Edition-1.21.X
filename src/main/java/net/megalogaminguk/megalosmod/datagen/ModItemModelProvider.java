@@ -260,6 +260,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         //Metallurgy - Hoplology
         basicItem(ModItems.FABRIC_GRIP.get());
         basicItem(ModItems.FABRIC_STRAP.get());
+        basicItem(ModItems.LEATHER_GRIP.get());
+        basicItem(ModItems.LEATHER_STRAP.get());
 
         basicItem(ModItems.ALUMINIUM_AXEHEAD.get());
         basicItem(ModItems.ALUMINIUM_BLADE.get());
@@ -278,6 +280,15 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.SILVER_POMMEL.get());
         basicItem(ModItems.SILVER_PICK.get());
         basicItem(ModItems.SILVER_PLATE.get());
+
+        basicItem(ModItems.TECHNETIUM_AXEHEAD.get());
+        basicItem(ModItems.TECHNETIUM_BLADE.get());
+        basicItem(ModItems.TECHNETIUM_GUARD.get());
+        basicItem(ModItems.TECHNETIUM_HILT.get());
+        basicItem(ModItems.TECHNETIUM_SHOVELHEAD.get());
+        basicItem(ModItems.TECHNETIUM_POMMEL.get());
+        basicItem(ModItems.TECHNETIUM_PICK.get());
+        basicItem(ModItems.TECHNETIUM_PLATE.get());
 
         basicItem(ModItems.TITANIUM_AXEHEAD.get());
         basicItem(ModItems.TITANIUM_BLADE.get());
@@ -300,6 +311,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.SILVER_AXE);
         handheldItem(ModItems.SILVER_HOE);
 
+        handheldItem(ModItems.TECHNETIUM_SWORD);
+        handheldItem(ModItems.TECHNETIUM_PICKAXE);
+        handheldItem(ModItems.TECHNETIUM_SHOVEL);
+        handheldItem(ModItems.TECHNETIUM_AXE);
+        handheldItem(ModItems.TECHNETIUM_HOE);
+
         handheldItem(ModItems.TITANIUM_SWORD);
         handheldItem(ModItems.TITANIUM_PICKAXE);
         handheldItem(ModItems.TITANIUM_SHOVEL);
@@ -315,6 +332,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.SILVER_CHESTPLATE);
         trimmedArmorItem(ModItems.SILVER_LEGGINGS);
         trimmedArmorItem(ModItems.SILVER_BOOTS);
+
+        trimmedArmorItem(ModItems.TECHNETIUM_HELMET);
+        trimmedArmorItem(ModItems.TECHNETIUM_CHESTPLATE);
+        trimmedArmorItem(ModItems.TECHNETIUM_LEGGINGS);
+        trimmedArmorItem(ModItems.TECHNETIUM_BOOTS);
 
         trimmedArmorItem(ModItems.TITANIUM_HELMET);
         trimmedArmorItem(ModItems.TITANIUM_CHESTPLATE);
@@ -1087,6 +1109,72 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.TURTLE_BACK.get());
         basicItem(ModItems.TURTLE_LEG.get());
         basicItem(ModItems.TURTLE_TAIL.get());
+
+        //Cooked Beef
+        basicItem(ModItems.COOKED_BEEF_CHUCK.get());
+        basicItem(ModItems.COOKED_BEEF_RIB.get());
+        basicItem(ModItems.COOKED_BEEF_LOIN.get());
+        basicItem(ModItems.COOKED_BEEF_ROUND.get());
+        basicItem(ModItems.COOKED_BEEF_FLANK.get());
+        basicItem(ModItems.COOKED_BEEF_PLATE.get());
+        basicItem(ModItems.COOKED_BEEF_BRISKET.get());
+        basicItem(ModItems.COOKED_BEEF_SHANK.get());
+
+        //Cooked Mutton
+        basicItem(ModItems.COOKED_MUTTON_NECK.get());
+        basicItem(ModItems.COOKED_MUTTON_SHOULDER.get());
+        basicItem(ModItems.COOKED_MUTTON_LOIN.get());
+        basicItem(ModItems.COOKED_MUTTON_LEG.get());
+        basicItem(ModItems.COOKED_MUTTON_BREAST.get());
+        basicItem(ModItems.COOKED_MUTTON_SHANK.get());
+
+        //Cooked Pork
+        basicItem(ModItems.COOKED_PORK_SHOULDER.get());
+        basicItem(ModItems.COOKED_PORK_LOIN.get());
+        basicItem(ModItems.COOKED_PORK_BELLY.get());
+        basicItem(ModItems.COOKED_PORK_LEG.get());
+
+        //Cooked Chicken
+        basicItem(ModItems.COOKED_CHICKEN_LEG.get());
+        basicItem(ModItems.COOKED_CHICKEN_BREAST.get());
+        basicItem(ModItems.COOKED_CHICKEN_WING.get());
+        basicItem(ModItems.COOKED_CHICKEN_THIGH.get());
+        basicItem(ModItems.COOKED_CHICKEN_DRUMSTICK.get());
+
+        //Cooked Horse
+        basicItem(ModItems.COOKED_HORSE_SHOULDER.get());
+        basicItem(ModItems.COOKED_HORSE_BREAST.get());
+        basicItem(ModItems.COOKED_HORSE_RIB.get());
+        basicItem(ModItems.COOKED_HORSE_PLATE.get());
+        basicItem(ModItems.COOKED_HORSE_LOIN.get());
+        basicItem(ModItems.COOKED_HORSE_FLANK.get());
+        basicItem(ModItems.COOKED_HORSE_RUMP.get());
+        basicItem(ModItems.COOKED_HORSE_ROUND.get());
+        basicItem(ModItems.COOKED_HORSE_LEG.get());
+
+        //Cooked Frog
+        basicItem(ModItems.COOKED_FROG_LEGS.get());
+
+        //Cooked Frog
+        basicItem(ModItems.COOKED_GOAT_NECK.get());
+        basicItem(ModItems.COOKED_GOAT_SHOULDER.get());
+        basicItem(ModItems.COOKED_GOAT_BREAST.get());
+        basicItem(ModItems.COOKED_GOAT_RACK.get());
+        basicItem(ModItems.COOKED_GOAT_SHANK.get());
+        basicItem(ModItems.COOKED_GOAT_LOIN.get());
+        basicItem(ModItems.COOKED_GOAT_FLANK.get());
+        basicItem(ModItems.COOKED_GOAT_LEG.get());
+
+        //Cooked Squid
+        basicItem(ModItems.COOKED_SQUID_MANTLE.get());
+        basicItem(ModItems.COOKED_SQUID_TENTACLES.get());
+        basicItem(ModItems.COOKED_SQUID_INK.get());
+
+        //Cooked Turtle
+        basicItem(ModItems.COOKED_TURTLE_NECK.get());
+        basicItem(ModItems.COOKED_TURTLE_BACK.get());
+        basicItem(ModItems.COOKED_TURTLE_LEG.get());
+        basicItem(ModItems.COOKED_TURTLE_TAIL.get());
     }
 
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item){

@@ -538,6 +538,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.NEEDS_SILVER_TOOL)
                 .addTag(BlockTags.NEEDS_STONE_TOOL);
 
+        tag(ModTags.Blocks.NEEDS_TECHNETIUM_TOOL)
+                .addTag(BlockTags.NEEDS_STONE_TOOL);
+
         tag(ModTags.Blocks.NEEDS_TITANIUM_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
@@ -548,6 +551,10 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.INCORRECT_FOR_SILVER_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_STONE_TOOL)
                 .remove(ModTags.Blocks.NEEDS_ALUMINIUM_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_TECHNETIUM_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_STONE_TOOL)
+                .remove(ModTags.Blocks.NEEDS_TECHNETIUM_TOOL);
 
         tag(ModTags.Blocks.INCORRECT_FOR_TITANIUM_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)

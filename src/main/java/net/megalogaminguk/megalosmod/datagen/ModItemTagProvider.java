@@ -28,26 +28,31 @@ public class ModItemTagProvider extends ItemTagsProvider {
         tag(ItemTags.SWORDS)
                 .add(ModItems.ALUMINIUM_SWORD.get())
                 .add(ModItems.SILVER_SWORD.get())
+                .add(ModItems.TECHNETIUM_SWORD.get())
                 .add(ModItems.TITANIUM_SWORD.get());
 
         tag(ItemTags.PICKAXES)
                 .add(ModItems.ALUMINIUM_PICKAXE.get())
                 .add(ModItems.SILVER_PICKAXE.get())
+                .add(ModItems.TECHNETIUM_PICKAXE.get())
                 .add(ModItems.TITANIUM_PICKAXE.get());
 
         tag(ItemTags.SHOVELS)
                 .add(ModItems.ALUMINIUM_SHOVEL.get())
                 .add(ModItems.SILVER_SHOVEL.get())
+                .add(ModItems.TECHNETIUM_SHOVEL.get())
                 .add(ModItems.TITANIUM_SHOVEL.get());
 
         tag(ItemTags.AXES)
                 .add(ModItems.ALUMINIUM_AXE.get())
                 .add(ModItems.SILVER_AXE.get())
+                .add(ModItems.TECHNETIUM_AXE.get())
                 .add(ModItems.TITANIUM_AXE.get());
 
         tag(ItemTags.HOES)
                 .add(ModItems.ALUMINIUM_HOE.get())
                 .add(ModItems.SILVER_HOE.get())
+                .add(ModItems.TECHNETIUM_HOE.get())
                 .add(ModItems.TITANIUM_HOE.get());
 
         this.tag(ItemTags.TRIMMABLE_ARMOR)
@@ -60,6 +65,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.SILVER_CHESTPLATE.get())
                 .add(ModItems.SILVER_LEGGINGS.get())
                 .add(ModItems.SILVER_BOOTS.get())
+
+                .add(ModItems.TECHNETIUM_HELMET.get())
+                .add(ModItems.TECHNETIUM_CHESTPLATE.get())
+                .add(ModItems.TECHNETIUM_LEGGINGS.get())
+                .add(ModItems.TECHNETIUM_BOOTS.get())
 
                 .add(ModItems.TITANIUM_HELMET.get())
                 .add(ModItems.TITANIUM_CHESTPLATE.get())
@@ -83,7 +93,7 @@ public class ModItemTagProvider extends ItemTagsProvider {
         this.tag(ModTags.Items.FUEL_ITEMS)
                 .add(Items.COAL)
                 .add(Items.COAL_BLOCK)
-                .add(Items.COAL);
+                .add(Items.CHARCOAL);
 
     }
 }

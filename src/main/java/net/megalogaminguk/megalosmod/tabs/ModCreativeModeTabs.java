@@ -1267,6 +1267,13 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.SILVER_AXE.get());
                         output.accept(ModItems.SILVER_HOE.get());
 
+                        //Technetium
+                        output.accept(ModItems.TECHNETIUM_SWORD.get());
+                        output.accept(ModItems.TECHNETIUM_PICKAXE.get());
+                        output.accept(ModItems.TECHNETIUM_SHOVEL.get());
+                        output.accept(ModItems.TECHNETIUM_AXE.get());
+                        output.accept(ModItems.TECHNETIUM_HOE.get());
+
                         //Titanium
                         output.accept(ModItems.TITANIUM_SWORD.get());
                         output.accept(ModItems.TITANIUM_PICKAXE.get());
@@ -1294,6 +1301,15 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.SILVER_PICK.get());
                         output.accept(ModItems.SILVER_PLATE.get());
 
+                        output.accept(ModItems.TECHNETIUM_AXEHEAD.get());
+                        output.accept(ModItems.TECHNETIUM_BLADE.get());
+                        output.accept(ModItems.TECHNETIUM_GUARD.get());
+                        output.accept(ModItems.TECHNETIUM_HILT.get());
+                        output.accept(ModItems.TECHNETIUM_SHOVELHEAD.get());
+                        output.accept(ModItems.TECHNETIUM_POMMEL.get());
+                        output.accept(ModItems.TECHNETIUM_PICK.get());
+                        output.accept(ModItems.TECHNETIUM_PLATE.get());
+
                         output.accept(ModItems.TITANIUM_AXEHEAD.get());
                         output.accept(ModItems.TITANIUM_BLADE.get());
                         output.accept(ModItems.TITANIUM_GUARD.get());
@@ -1305,6 +1321,8 @@ public class ModCreativeModeTabs
 
                         output.accept(ModItems.FABRIC_GRIP.get());
                         output.accept(ModItems.FABRIC_STRAP.get());
+                        output.accept(ModItems.LEATHER_GRIP.get());
+                        output.accept(ModItems.LEATHER_STRAP.get());
                         output.accept(ModItems.ARMOUR_PADDING.get());
 
                         output.accept(ModItems.ALUMINIUM_HELMET.get());
@@ -1316,6 +1334,11 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.SILVER_CHESTPLATE.get());
                         output.accept(ModItems.SILVER_LEGGINGS.get());
                         output.accept(ModItems.SILVER_BOOTS.get());
+
+                        output.accept(ModItems.TECHNETIUM_HELMET.get());
+                        output.accept(ModItems.TECHNETIUM_CHESTPLATE.get());
+                        output.accept(ModItems.TECHNETIUM_LEGGINGS.get());
+                        output.accept(ModItems.TECHNETIUM_BOOTS.get());
 
                         output.accept(ModItems.TITANIUM_HELMET.get());
                         output.accept(ModItems.TITANIUM_CHESTPLATE.get());

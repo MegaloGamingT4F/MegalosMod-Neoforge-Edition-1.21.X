@@ -12,9 +12,11 @@ public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> NEEDS_ALUMINIUM_TOOL = createTag("needs_aluminium_tool");
         public static final TagKey<Block> NEEDS_SILVER_TOOL = createTag("needs_silver_tool");
+        public static final TagKey<Block> NEEDS_TECHNETIUM_TOOL = createTag("needs_technetium_tool");
         public static final TagKey<Block> NEEDS_TITANIUM_TOOL = createTag("needs_titanium_tool");
         public static final TagKey<Block> INCORRECT_FOR_ALUMINIUM_TOOL = createTag("incorrect_for_aluminium_tool");
         public static final TagKey<Block> INCORRECT_FOR_SILVER_TOOL = createTag("incorrect_for_silver_tool");
+        public static final TagKey<Block> INCORRECT_FOR_TECHNETIUM_TOOL = createTag("incorrect_for_technetium_tool");
         public static final TagKey<Block> INCORRECT_FOR_TITANIUM_TOOL = createTag("incorrect_for_titanium_tool");
 
         private static TagKey<Block> createTag(String name){
