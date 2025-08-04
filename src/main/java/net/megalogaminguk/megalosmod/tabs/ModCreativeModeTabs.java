@@ -342,53 +342,56 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.CHROMIUM_DUST.get());
 
                         output.accept(ModItems.CINNABAR_DUST.get());
+                        output.accept(ModItems.COAL_DUST.get());
                         output.accept(ModItems.COBALT_DUST.get());
                         output.accept(ModItems.COPPER_DUST.get());
                         output.accept(ModItems.GALLIUM_DUST.get());
-                        output.accept(ModItems.GERMANIUM_DUST.get());
 
+                        output.accept(ModItems.GERMANIUM_DUST.get());
+                        output.accept(ModItems.GOLD_DUST.get());
                         output.accept(ModItems.HAFNIUM_DUST.get());
                         output.accept(ModItems.INDIUM_DUST.get());
                         output.accept(ModItems.IRIDIUM_DUST.get());
+
+                        output.accept(ModItems.IRON_DUST.get());
                         output.accept(ModItems.LEAD_DUST.get());
                         output.accept(ModItems.LITHIUM_DUST.get());
-
                         output.accept(ModItems.MAGNESIUM_DUST.get());
                         output.accept(ModItems.MANGANESE_DUST.get());
+
                         output.accept(ModItems.MOLYBDENUM_DUST.get());
                         output.accept(ModItems.NICKEL_DUST.get());
                         output.accept(ModItems.NIOBIUM_DUST.get());
-
                         output.accept(ModItems.OSMIUM_DUST.get());
                         output.accept(ModItems.PALLADIUM_DUST.get());
+
                         output.accept(ModItems.PHOSPHORUS_DUST.get());
                         output.accept(ModItems.PLATINUM_DUST.get());
                         output.accept(ModItems.POTASSIUM_DUST.get());
-
                         output.accept(ModItems.RHENIUM_DUST.get());
                         output.accept(ModItems.RHODIUM_DUST.get());
+
                         output.accept(ModItems.RUBIDIUM_DUST.get());
                         output.accept(ModItems.RUTHENIUM_DUST.get());
                         output.accept(ModItems.SCANDIUM_DUST.get());
-
                         output.accept(ModItems.SELENIUM_DUST.get());
                         output.accept(ModItems.SILICON_DUST.get());
+
                         output.accept(ModItems.SILVER_DUST.get());
                         output.accept(ModItems.SODIUM_DUST.get());
                         output.accept(ModItems.STRONTIUM_DUST.get());
-
                         output.accept(ModItems.TANTALUM_DUST.get());
                         output.accept(ModItems.TECHNETIUM_DUST.get());
+
                         output.accept(ModItems.TELLURIUM_DUST.get());
                         output.accept(ModItems.THALLIUM_DUST.get());
                         output.accept(ModItems.TIN_DUST.get());
-
                         output.accept(ModItems.TITANIUM_DUST.get());
                         output.accept(ModItems.TUNGSTEN_DUST.get());
+
                         output.accept(ModItems.VANADIUM_DUST.get());
                         output.accept(ModItems.YTTRIUM_DUST.get());
                         output.accept(ModItems.ZINC_DUST.get());
-
                         output.accept(ModItems.ZIRCONIUM_DUST.get());
 
                         //Raw

@@ -1596,6 +1596,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ALUMINIUM_PLATE = ITEMS.register("aluminium_plate",
             () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> SILVER_AXEHEAD = ITEMS.register("silver_axehead",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SILVER_BLADE = ITEMS.register("silver_blade",
@@ -1612,6 +1613,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SILVER_PLATE = ITEMS.register("silver_plate",
             () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> TITANIUM_AXEHEAD = ITEMS.register("titanium_axehead",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> TITANIUM_BLADE = ITEMS.register("titanium_blade",
