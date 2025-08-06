@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "megalosmod:titanium_ingot"
+    }
+    "p": {
+      "item": "megalosmod:armour_padding"
+    }
+    "s": {
+      "item": "megalosmod:fabric_strap"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "ppp",
+    "sss"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosmod:titanium_plate"
+  }
+}
