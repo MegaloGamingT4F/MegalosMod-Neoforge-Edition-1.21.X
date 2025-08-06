@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "F": {
+    "X": {
       "item": "megalosmod:fabric_strap"
-    },
-    "S": {
+    }
+    "s": {
       "item": "minecraft:stick"
     }
   },
   "pattern": [
-    " FS",
-    "FSF",
-    "SF "
+    "XsX",
+    "XsX",
+    "XsX"
   ],
   "result": {
     "count": 1,

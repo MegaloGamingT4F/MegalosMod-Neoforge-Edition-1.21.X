@@ -1,21 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "F": {
-      "item": "minecraft:flint"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
+  "ingredients": [
+    {
+      "item": "minecraft:wool"
     }
-  },
-  "pattern": [
-    "WWW",
-    "WFW",
-    "WWW"
   ],
   "result": {
-    "count": 1,
+    "count": 9,
     "id": "megalosmod:fabric_strap"
   }
 }

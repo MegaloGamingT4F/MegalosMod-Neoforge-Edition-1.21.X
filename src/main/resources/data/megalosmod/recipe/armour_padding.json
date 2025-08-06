@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "F": {
+    "x": {
       "item": "megalosmod:fabric_strap"
-    },
-    "L": {
-      "item": "minecraft:feather"
+    }
+    "x": {
+      "item": "megalosmod:leather_strap"
     }
   },
   "pattern": [
-    "LFL",
-    "FLF",
-    "LFL"
+    "xlx",
+    "lxl",
+    "xlx"
   ],
   "result": {
     "count": 1,
