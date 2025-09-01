@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosmod:ag_dore_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:ag_dore_ingot"
+  }
+}

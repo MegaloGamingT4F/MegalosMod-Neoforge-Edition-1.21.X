@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosmod:co_vitallium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:co_vitallium_ingot"
+  }
+}

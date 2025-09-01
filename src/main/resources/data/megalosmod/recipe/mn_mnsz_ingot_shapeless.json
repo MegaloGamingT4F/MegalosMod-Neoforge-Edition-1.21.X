@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosmod:mn_mnsz_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:mn_mnsz_ingot"
+  }
+}

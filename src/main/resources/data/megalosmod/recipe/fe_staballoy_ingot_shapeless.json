@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosmod:fe_staballoy_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:fe_staballoy_ingot"
+  }
+}

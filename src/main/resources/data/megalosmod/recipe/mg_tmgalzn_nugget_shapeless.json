@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosmod:mg_tmgalzn_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:mg_tmgalzn_nugget"
+  }
+}

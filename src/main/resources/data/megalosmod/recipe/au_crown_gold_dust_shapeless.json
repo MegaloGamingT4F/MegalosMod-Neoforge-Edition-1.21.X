@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosmod:au_crown_gold_nugget"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:au_crown_gold_dust"
+  }
+}

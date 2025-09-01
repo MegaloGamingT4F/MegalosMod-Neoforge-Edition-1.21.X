@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosmod:zr_zircaloy_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:zr_zircaloy_ingot"
+  }
+}

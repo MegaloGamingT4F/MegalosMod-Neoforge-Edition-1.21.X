@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosmod:cu_copper_hydride_nugget"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:cu_copper_hydride_dust"
+  }
+}

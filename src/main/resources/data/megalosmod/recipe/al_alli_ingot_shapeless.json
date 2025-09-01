@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosmod:al_alli_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:al_alli_ingot"
+  }
+}

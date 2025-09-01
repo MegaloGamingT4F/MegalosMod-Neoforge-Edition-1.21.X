@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosmod:bi_fields_metal_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:bi_fields_metal_nugget"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosmod:cu_copper_tungsten_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosmod:cu_copper_tungsten_ingot"
+  }
+}
