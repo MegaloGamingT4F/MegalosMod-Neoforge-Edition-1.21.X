@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-03T23:05:21.3755606	Block States: megalosmod
+// 1.21.1	2025-09-03T20:59:35.0517659	Block States: megalosmod
 50cae99c4ef277b40cab7aa51d793d2b03dc161e assets/megalosmod/blockstates/ag_argentium_sterling_silver_block.json
 ac3adccff69d8f30a5f2882d5f2826d054ba6b02 assets/megalosmod/blockstates/ag_britannia_silver_block.json
 4aabb4ccad63431294b302f7a1a36605c69b9892 assets/megalosmod/blockstates/ag_dore_block.json
@@ -198,6 +198,7 @@ b3a891a1f8c48f77f3d411e90003408bc6b19d47 assets/megalosmod/blockstates/maple_syc
 e3dd784a1852a1303e2d9a2186eac05200ace121 assets/megalosmod/blockstates/maple_sycamore_planks.json
 ffb8d018fce6e92e5936749908ec722549465f6c assets/megalosmod/blockstates/maple_sycamore_sapling.json
 8c596249b6dc9fc5feb366b0b84d9847cf4372e2 assets/megalosmod/blockstates/maple_sycamore_wood.json
+6bbfdc872c828629abc5ce8cbae816d250df4397 assets/megalosmod/blockstates/metallurgic_furnace.json
 b6aedf704cebbe0665d8d16ea67ef370cfe1c1b1 assets/megalosmod/blockstates/mg_elektron_block.json
 04bafdd6f28e48daaae6601768925de937c579ee assets/megalosmod/blockstates/mg_tmgalzn_block.json
 8dc58e04d4bcaa7110c7b4f8bf796d8d26b44c69 assets/megalosmod/blockstates/mn_mnfz_block.json
@@ -636,6 +637,7 @@ b65d23d036c39dac5da53e42b6c79dc9a06d785b assets/megalosmod/models/block/maple_sy
 6335fb6ab7542aa35dab06a65e79ee0d819d6e03 assets/megalosmod/models/block/maple_sycamore_sapling.json
 74ed40b5bdcd7df97871c8909ff11c7c6cbc47b1 assets/megalosmod/models/block/maple_sycamore_wood.json
 2624bd804bcc04e50538c1e5406b404be5be81dd assets/megalosmod/models/block/maple_sycamore_wood_horizontal.json
+9117f7637ab4184fd700d650146506b4bb7a7994 assets/megalosmod/models/block/metallurgic_furnace.json
 073bd165ae8c9f99ffb05e4835f8f39ecd12a266 assets/megalosmod/models/block/mg_elektron_block.json
 4b21cf0107a0bfbce13f06c211db93bf7f89d9be assets/megalosmod/models/block/mg_tmgalzn_block.json
 3d63912ea64e025b0604c89cd0a50adcae12eb82 assets/megalosmod/models/block/mn_mnfz_block.json
@@ -977,6 +979,7 @@ e00f9d9cb68035dda6a4753e55ded951e53b58a4 assets/megalosmod/models/item/maple_syc
 4e0a36f296e647fd02e9d13ae3eb272878afe9ba assets/megalosmod/models/item/maple_sycamore_log.json
 3391d414d97d104d39fc71243d0dbdc7bdca2701 assets/megalosmod/models/item/maple_sycamore_planks.json
 3c9686e91955018aa8fbbac222e482cfab8e9fca assets/megalosmod/models/item/maple_sycamore_wood.json
+4b21d53de496f8032b26031fd9167bbe7e945685 assets/megalosmod/models/item/metallurgic_furnace.json
 0a12b1d93dc9a3f38ab72bffdfab57952740a083 assets/megalosmod/models/item/mg_elektron_block.json
 0629dee17087c451fa6dc5d3518b7f6971194bf8 assets/megalosmod/models/item/mg_tmgalzn_block.json
 c577b4d9e66d9914487b5405fd43012ac85507b0 assets/megalosmod/models/item/mn_mnfz_block.json

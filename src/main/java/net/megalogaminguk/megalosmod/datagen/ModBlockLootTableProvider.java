@@ -467,6 +467,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         //Technology
         dropSelf(ModBlocks.PEDESTAL.get());
+        dropSelf(ModBlocks.METALURGIC_FURNACE.get());
 
         LootItemCondition.Builder bhutItemConditionBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.BHUT_JOLOKIA_CHILLI_CROP.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(BhutJolokiaChilliCropBlock.AGE, 6));

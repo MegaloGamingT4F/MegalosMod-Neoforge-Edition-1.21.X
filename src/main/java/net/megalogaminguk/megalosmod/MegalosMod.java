@@ -5,8 +5,11 @@ import net.megalogaminguk.megalosmod.block.entity.ModBlockEntities;
 import net.megalogaminguk.megalosmod.block.entity.renderer.PedestalBlockEntityRenderer;
 import net.megalogaminguk.megalosmod.item.ModItems;
 import net.megalogaminguk.megalosmod.loot.ModLootModifiers;
+import net.megalogaminguk.megalosmod.screen.ModMenuTypes;
+import net.megalogaminguk.megalosmod.screen.custom.MetallurgicFurnaceScreen;
 import net.megalogaminguk.megalosmod.tabs.ModCreativeModeTabs;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -41,9 +44,10 @@ public class MegalosMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        ModLootModifiers.register(modEventBus);
         ModBlockEntities.register(modEventBus);
 
-        ModLootModifiers.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
 
         //add item to vanilla creative tabs
         modEventBus.addListener(this::addCreative);
@@ -75,6 +79,11 @@ public class MegalosMod
         @SubscribeEvent
         public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
             event.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL_BE.get(), PedestalBlockEntityRenderer::new);
+        }
+
+        @SubscribeEvent
+        public static void registerScreens(RegisterMenuScreensEvent event){
+            event.register(ModMenuTypes.METALLURGIC_FURNACE_MENU.get(), MetallurgicFurnaceScreen::new);
         }
     }
 }

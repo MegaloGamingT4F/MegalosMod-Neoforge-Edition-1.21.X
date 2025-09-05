@@ -1,4 +1,4 @@
-// 1.21.1	2025-05-30T22:22:38.8593529	Loot Tables
+// 1.21.1	2025-09-03T20:59:35.0427668	Loot Tables
 ca2976f0388780f824bc954b47adbc3ee3d55cde data/megalosmod/loot_table/blocks/ag_argentium_sterling_silver_block.json
 c35affced22464a17ae4cc6d6aaab1f45bc12bbe data/megalosmod/loot_table/blocks/ag_britannia_silver_block.json
 486b74bcf2c7754338322a243babf8852adfd703 data/megalosmod/loot_table/blocks/ag_dore_block.json
@@ -198,6 +198,7 @@ eeb703c26be888addb5c95785e55b82c49a12480 data/megalosmod/loot_table/blocks/maple
 d36e22563f594ee71c4d6c57ce8e1d39bbd6fc74 data/megalosmod/loot_table/blocks/maple_sycamore_planks.json
 a93f0d547c5671ef6028b182ccb5907d1b9d6a4b data/megalosmod/loot_table/blocks/maple_sycamore_sapling.json
 518d1d3b249e4c5655526a2335b4bc6380d306ca data/megalosmod/loot_table/blocks/maple_sycamore_wood.json
+c3b17dadb771cca4bc2c6eac7efcb9f60689b8f7 data/megalosmod/loot_table/blocks/metallurgic_furnace.json
 ff53a7a1dea1f1f862ef5da731d5a3f284ae3979 data/megalosmod/loot_table/blocks/mg_elektron_block.json
 c391def94a3d0b4a9c55edef7cedfbf2d8c8bda1 data/megalosmod/loot_table/blocks/mg_tmgalzn_block.json
 4376ba4b94057cc353855142f74cd5f28203109e data/megalosmod/loot_table/blocks/mn_mnfz_block.json

@@ -4,6 +4,7 @@ import net.megalogaminguk.megalosmod.MegalosMod;
 import net.megalogaminguk.megalosmod.block.custom.misc.ModFlammableRotatedPillarBlock;
 import net.megalogaminguk.megalosmod.block.custom.nature.bush.GooseberryBushBlock;
 import net.megalogaminguk.megalosmod.block.custom.nature.crop.chilli.*;
+import net.megalogaminguk.megalosmod.block.custom.technology.MetallurgicFurnaceBlock;
 import net.megalogaminguk.megalosmod.block.custom.technology.PedestalBlock;
 import net.megalogaminguk.megalosmod.worldgen.tree.ModTreeGrowers;
 import net.megalogaminguk.megalosmod.item.ModItems;
@@ -924,6 +925,9 @@ public class ModBlocks {
     //Technology
     public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal",
             ()-> new PedestalBlock(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> METALURGIC_FURNACE = registerBlock("metallurgic_furnace",
+            ()-> new MetallurgicFurnaceBlock(BlockBehaviour.Properties.of()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

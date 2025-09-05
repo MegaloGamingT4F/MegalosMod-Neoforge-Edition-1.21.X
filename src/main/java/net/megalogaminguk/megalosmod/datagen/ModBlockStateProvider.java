@@ -400,6 +400,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         //Zirconium
         blockWithItem(ModBlocks.ZIRCALOY_BLOCK);
 
+        //Technology
+        blockWithItem(ModBlocks.METALURGIC_FURNACE);
+
         //Tree - Black Ash
         blockItem(ModBlocks.BLACK_ASH_LOG);
         blockItem(ModBlocks.BLACK_ASH_WOOD);
