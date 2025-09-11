@@ -101,7 +101,7 @@ public class MetallurgicFurnaceMenu extends AbstractContainerMenu {
     @Override
     public boolean stillValid(Player pPlayer) {
         return stillValid(ContainerLevelAccess.create(level, blockEntity.getBlockPos()),
-                pPlayer, ModBlocks.METALURGIC_FURNACE.get());
+                pPlayer, ModBlocks.METALLURGIC_FURNACE.get());
     }
 
     private void addPlayerInventory(Inventory playerInventory) {

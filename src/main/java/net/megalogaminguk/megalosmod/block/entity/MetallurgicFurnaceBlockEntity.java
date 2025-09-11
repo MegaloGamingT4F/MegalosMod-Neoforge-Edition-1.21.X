@@ -1,6 +1,9 @@
 package net.megalogaminguk.megalosmod.block.entity;
 
 import net.megalogaminguk.megalosmod.item.ModItems;
+import net.megalogaminguk.megalosmod.recipe.MetallurgicFurnaceRecipe;
+import net.megalogaminguk.megalosmod.recipe.MetallurgicFurnaceRecipeInput;
+import net.megalogaminguk.megalosmod.recipe.ModRecipes;
 import net.megalogaminguk.megalosmod.screen.custom.MetallurgicFurnaceMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
@@ -17,11 +20,14 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ContainerData;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.RecipeHolder;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.items.ItemStackHandler;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Optional;
 
 public class MetallurgicFurnaceBlockEntity extends BlockEntity implements MenuProvider {
     public final ItemStackHandler itemHandler = new ItemStackHandler(2){
@@ -121,7 +127,8 @@ public class MetallurgicFurnaceBlockEntity extends BlockEntity implements MenuPr
     }
 
     private void craftItem(){
-        ItemStack output = new ItemStack(ModItems.ALUMINIUM_INGOT.get(), 1);
+        Optional<RecipeHolder<MetallurgicFurnaceRecipe>> recipe = getCurrentRecipe();
+        ItemStack output = recipe.get().value().output();
 
         itemHandler.extractItem(INPUT_SLOT, 1, false);
         itemHandler.setStackInSlot(OUTPUT_SLOT, new ItemStack(output.getItem(),
@@ -142,10 +149,18 @@ public class MetallurgicFurnaceBlockEntity extends BlockEntity implements MenuPr
     }
 
     private boolean hasRecipe(){
-        ItemStack output = new ItemStack(ModItems.ALUMINIUM_INGOT.get(), 1);
+        Optional<RecipeHolder<MetallurgicFurnaceRecipe>> recipe = getCurrentRecipe();
+        if (recipe.isEmpty()){
+            return false;
+        }
 
-        return itemHandler.getStackInSlot(INPUT_SLOT).is(ModItems.RAW_ALUMINIUM) &&
-                canInsertAmountIntoOutputSlot(output.getCount()) && canInsertAmountIntoOutputSlot(output);
+        ItemStack output = recipe.get().value().output();
+        return canInsertAmountIntoOutputSlot(output.getCount()) && canInsertAmountIntoOutputSlot(output);
+    }
+
+    private Optional<RecipeHolder<MetallurgicFurnaceRecipe>> getCurrentRecipe(){
+        return this.level.getRecipeManager()
+                .getRecipeFor(ModRecipes.METALLURGIC_FURNACE_TYPE.get(), new MetallurgicFurnaceRecipeInput(itemHandler.getStackInSlot(INPUT_SLOT)), level);
     }
 
     private boolean canInsertAmountIntoOutputSlot(ItemStack output){

@@ -1423,7 +1423,7 @@ public class ModCreativeModeTabs
                     .displayItems((itemDisplayParameters, output) -> {
                         //Tech - Block
                         output.accept(ModBlocks.PEDESTAL.get());
-                        output.accept(ModBlocks.METALURGIC_FURNACE.get());
+                        output.accept(ModBlocks.METALLURGIC_FURNACE.get());
                     }).build());
 
     public static final Supplier<CreativeModeTab> GASTRONOMY_TAB = CREATIVE_MODE_TAB.register("gastronomy_tab",

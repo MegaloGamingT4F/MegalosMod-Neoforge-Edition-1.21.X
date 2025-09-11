@@ -5,6 +5,7 @@ import net.megalogaminguk.megalosmod.block.entity.ModBlockEntities;
 import net.megalogaminguk.megalosmod.block.entity.renderer.PedestalBlockEntityRenderer;
 import net.megalogaminguk.megalosmod.item.ModItems;
 import net.megalogaminguk.megalosmod.loot.ModLootModifiers;
+import net.megalogaminguk.megalosmod.recipe.ModRecipes;
 import net.megalogaminguk.megalosmod.screen.ModMenuTypes;
 import net.megalogaminguk.megalosmod.screen.custom.MetallurgicFurnaceScreen;
 import net.megalogaminguk.megalosmod.tabs.ModCreativeModeTabs;
@@ -48,6 +49,7 @@ public class MegalosMod
         ModBlockEntities.register(modEventBus);
 
         ModMenuTypes.register(modEventBus);
+        ModRecipes.register(modEventBus);
 
         //add item to vanilla creative tabs
         modEventBus.addListener(this::addCreative);

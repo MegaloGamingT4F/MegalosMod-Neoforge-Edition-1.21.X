@@ -926,7 +926,7 @@ public class ModBlocks {
     public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal",
             ()-> new PedestalBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
-    public static final DeferredBlock<Block> METALURGIC_FURNACE = registerBlock("metallurgic_furnace",
+    public static final DeferredBlock<Block> METALLURGIC_FURNACE = registerBlock("metallurgic_furnace",
             ()-> new MetallurgicFurnaceBlock(BlockBehaviour.Properties.of()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){

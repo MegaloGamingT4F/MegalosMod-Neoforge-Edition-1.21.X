@@ -147,6 +147,9 @@
     "megalosmod:raw_vanadium_block",
     "megalosmod:raw_yttrium_block",
     "megalosmod:raw_zinc_block",
-    "megalosmod:raw_zirconium_block"
+    "megalosmod:raw_zirconium_block",
+    "megalosmod:metallurgic_furnace",
+    "megalosmod:pedestal",
+    "megalosmod:al_aa_block"
   ]
 }

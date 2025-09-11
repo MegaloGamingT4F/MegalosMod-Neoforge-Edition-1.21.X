@@ -19,7 +19,7 @@ public class ModBlockEntities {
 
     public static final Supplier<BlockEntityType<MetallurgicFurnaceBlockEntity>> METALLURGIC_FURNACE_BE =
             BLOCK_ENTITIES.register("metallurgic_furnace_be", () -> BlockEntityType.Builder.of(
-                    MetallurgicFurnaceBlockEntity::new, ModBlocks.METALURGIC_FURNACE.get()).build(null));
+                    MetallurgicFurnaceBlockEntity::new, ModBlocks.METALLURGIC_FURNACE.get()).build(null));
 
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
