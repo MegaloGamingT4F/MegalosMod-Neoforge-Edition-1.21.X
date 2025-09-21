@@ -1355,7 +1355,7 @@ public class ModCreativeModeTabs
                         //Nature - Tree
                         //Log
                         output.accept(ModBlocks.BLACK_ASH_LOG.get());
-                        output.accept(ModBlocks.MAPLE_SVCAMORE_LOG.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_LOG.get());
 
                         //Wood
                         output.accept(ModBlocks.MAPLE_SYCAMORE_WOOD.get());
@@ -1415,9 +1415,39 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.TRINIDAD_SCORPION_CHILLI);
                     }).build());
 
+    public static final Supplier<CreativeModeTab> NATURE_DECORATIVE_TAB = CREATIVE_MODE_TAB.register("nature_decorative_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BLACK_ASH_STAIRS.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "nature_tab"))
+                    .withTabsAfter(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "technology_tab"))
+                    .title(Component.translatable("creativetab.megalosmod.decorative_tab"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        //Black Ash
+                        output.accept(ModBlocks.BLACK_ASH_STAIRS.get());
+                        output.accept(ModBlocks.BLACK_ASH_SLAB.get());
+                        output.accept(ModBlocks.BLACK_ASH_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.BLACK_ASH_BUTTON.get());
+                        output.accept(ModBlocks.BLACK_ASH_FENCE.get());
+                        output.accept(ModBlocks.BLACK_ASH_FENCE_GATE.get());
+                        output.accept(ModBlocks.BLACK_ASH_WALL.get());
+                        output.accept(ModBlocks.BLACK_ASH_DOOR.get());
+                        output.accept(ModBlocks.BLACK_ASH_TRAPDOOR.get());
+
+                        //Maple Sycamore
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_STAIRS.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_SLAB.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_BUTTON.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_FENCE.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_FENCE_GATE.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_WALL.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_DOOR.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_TRAPDOOR.get());
+
+                    }).build());
+
     public static final Supplier<CreativeModeTab> TECHNOLOGY_TAB = CREATIVE_MODE_TAB.register("technology_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.PEDESTAL.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "nature_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "nature_decorative_tab"))
                     .withTabsAfter(ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID, "gastronomy_tab"))
                     .title(Component.translatable("creativetab.megalosmod.technology_tab"))
                     .displayItems((itemDisplayParameters, output) -> {

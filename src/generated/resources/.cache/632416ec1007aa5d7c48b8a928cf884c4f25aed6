@@ -1,4 +1,4 @@
-// 1.21.1	2025-09-01T20:15:13.8623257	Item Models: megalosmod
+// 1.21.1	2025-09-17T19:36:00.1398299	Item Models: megalosmod
 9d8eab47b634f46c4e0f0e66e87b95f8349c2c30 assets/megalosmod/models/item/ag_argentium_sterling_silver_dust.json
 ac34252b385c2ed64e44dc25c2d3f9ad3c941611 assets/megalosmod/models/item/ag_argentium_sterling_silver_ingot.json
 18efc725bbe631c79760c5b1750174f8b0be4400 assets/megalosmod/models/item/ag_argentium_sterling_silver_nugget.json
@@ -201,7 +201,11 @@ d01587f4832ec4eb33f85f7e5f67263a68d7c4f8 assets/megalosmod/models/item/bi_rose_m
 686b2d1c9eea82e6bd1fe4fd73b7f4b37e47bf6c assets/megalosmod/models/item/bi_woods_metal_dust.json
 bd3c7bc4d9f216e323889b974c90e68fd5f7ce71 assets/megalosmod/models/item/bi_woods_metal_ingot.json
 688fd037e33ae0189c379a3b83dd3cfb68bda013 assets/megalosmod/models/item/bi_woods_metal_nugget.json
+9bb58fa35248333a2c572b59519bc1463b4f13f3 assets/megalosmod/models/item/black_ash_button.json
+2fef55e600b03502acc899bc0b6590ec3a5b19e9 assets/megalosmod/models/item/black_ash_door.json
+e85cbcdf7a82b7981905df4d48cf8f6a5e7d2192 assets/megalosmod/models/item/black_ash_fence.json
 e36739c5b751ad02bbb00c637f1afdb4567e3db8 assets/megalosmod/models/item/black_ash_sapling.json
+b43f4aa1fb60a588c07a320321c7ee1071f55c69 assets/megalosmod/models/item/black_ash_wall.json
 6f3d95f898f5cf4af0d32f49033f8fd726a2c118 assets/megalosmod/models/item/cadmium_dust.json
 189e28bd8c8ada7c0c01b7007636afee4cc0efae assets/megalosmod/models/item/cadmium_ingot.json
 3fa9988c7adac816e0b33f2ec7ba865fd0b11af0 assets/megalosmod/models/item/cadmium_nugget.json
@@ -638,7 +642,11 @@ c3467b913e58caa73604d2ad72f1de10211aecd4 assets/megalosmod/models/item/magnesium
 6442b4566db76e9748bb5b605da09d188825fedd assets/megalosmod/models/item/manganese_dust.json
 d87a6db5d147f36a6821c869e1e888ac68eb3dfa assets/megalosmod/models/item/manganese_ingot.json
 acec81bcf88c10c57fd20fe5e43c76cf7b661c0b assets/megalosmod/models/item/manganese_nugget.json
+5ee646a65298b4f94e8a57a151fcf943efab65b5 assets/megalosmod/models/item/maple_sycamore_button.json
+95c4469b49326d3dffcb674b502389b7104a08ed assets/megalosmod/models/item/maple_sycamore_door.json
+48810782a083a5e64ef969411c92d659225ec5dc assets/megalosmod/models/item/maple_sycamore_fence.json
 bf094065d4a2db991850f299b189554dcd96428d assets/megalosmod/models/item/maple_sycamore_sapling.json
+99f70bf7730531e3e1d734ae72e6474fcaead09e assets/megalosmod/models/item/maple_sycamore_wall.json
 b77a0531196d7c3272c71f883f79d7614f29cb36 assets/megalosmod/models/item/mg_elektron_dust.json
 324c8f0dc9d8c360ddb441bca1389ab2f243fb99 assets/megalosmod/models/item/mg_elektron_ingot.json
 14f9ae25c1531f3a7d14f2d3ea465b4d14a75856 assets/megalosmod/models/item/mg_elektron_nugget.json

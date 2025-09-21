@@ -1,9 +1,0 @@
-{
-  "type": "megalosmod:metallurgic_furnace",
-  "ingredient": {
-    "item": "megalosmod:aluminium_ore"
-  },
-  "result": {
-    "id": "megalosmod:aluminium_ingot"
-  }
-}

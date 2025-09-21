@@ -39,7 +39,7 @@ public class ModFlammableRotatedPillarBlock extends RotatedPillarBlock {
             if(state.is(ModBlocks.BLACK_ASH_LOG)) {
                 return ModBlocks.STRIPPED_BLACK_ASH_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
-            if(state.is(ModBlocks.MAPLE_SVCAMORE_LOG)) {
+            if(state.is(ModBlocks.MAPLE_SYCAMORE_LOG)) {
                 return ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
 

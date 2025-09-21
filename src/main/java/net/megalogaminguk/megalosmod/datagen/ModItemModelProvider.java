@@ -1175,6 +1175,36 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.COOKED_TURTLE_BACK.get());
         basicItem(ModItems.COOKED_TURTLE_LEG.get());
         basicItem(ModItems.COOKED_TURTLE_TAIL.get());
+
+        buttonItem(ModBlocks.BLACK_ASH_BUTTON, ModBlocks.BLACK_ASH_PLANKS);
+        buttonItem(ModBlocks.MAPLE_SYCAMORE_BUTTON, ModBlocks.MAPLE_SYCAMORE_PLANKS);
+
+        fenceItem(ModBlocks.BLACK_ASH_FENCE, ModBlocks.BLACK_ASH_PLANKS);
+        fenceItem(ModBlocks.MAPLE_SYCAMORE_FENCE, ModBlocks.MAPLE_SYCAMORE_PLANKS);
+
+        wallItem(ModBlocks.BLACK_ASH_WALL, ModBlocks.BLACK_ASH_PLANKS);
+        wallItem(ModBlocks.MAPLE_SYCAMORE_WALL, ModBlocks.MAPLE_SYCAMORE_PLANKS);
+
+        basicItem(ModBlocks.BLACK_ASH_DOOR.asItem());
+        basicItem(ModBlocks.MAPLE_SYCAMORE_DOOR.asItem());
+    }
+
+    public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock){
+        this.withExistingParent(block.getId().getPath(),mcLoc("block/button_inventory"))
+                .texture("texture", ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID,
+                        "block/" + baseBlock.getId().getPath()));
+    }
+
+    public void fenceItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock){
+        this.withExistingParent(block.getId().getPath(),mcLoc("block/fence_inventory"))
+                .texture("texture", ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID,
+                        "block/" + baseBlock.getId().getPath()));
+    }
+
+    public void wallItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock){
+        this.withExistingParent(block.getId().getPath(),mcLoc("block/wall_inventory"))
+                .texture("wall", ResourceLocation.fromNamespaceAndPath(MegalosMod.MOD_ID,
+                        "block/" + baseBlock.getId().getPath()));
     }
 
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item){

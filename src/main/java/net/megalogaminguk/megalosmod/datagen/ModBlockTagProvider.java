@@ -560,12 +560,24 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
                 .remove(ModTags.Blocks.NEEDS_TITANIUM_TOOL);
 
+        tag(BlockTags.FENCES)
+                .add(ModBlocks.BLACK_ASH_FENCE.get())
+                .add(ModBlocks.MAPLE_SYCAMORE_FENCE.get());
+
+        tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.BLACK_ASH_FENCE_GATE.get())
+                .add(ModBlocks.MAPLE_SYCAMORE_FENCE_GATE.get());
+
+        tag(BlockTags.WALLS)
+                .add(ModBlocks.BLACK_ASH_WALL.get())
+                .add(ModBlocks.MAPLE_SYCAMORE_WALL.get());
+
         this.tag(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.BLACK_ASH_LOG.get())
                 .add(ModBlocks.BLACK_ASH_WOOD.get())
                 .add(ModBlocks.STRIPPED_BLACK_ASH_LOG.get())
                 .add(ModBlocks.STRIPPED_BLACK_ASH_WOOD.get())
-                .add(ModBlocks.MAPLE_SVCAMORE_LOG.get())
+                .add(ModBlocks.MAPLE_SYCAMORE_LOG.get())
                 .add(ModBlocks.MAPLE_SYCAMORE_WOOD.get())
                 .add(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get())
                 .add(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get());

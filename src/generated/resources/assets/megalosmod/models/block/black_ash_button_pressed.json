@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "megalosmod:block/black_ash_planks"
+  }
+}

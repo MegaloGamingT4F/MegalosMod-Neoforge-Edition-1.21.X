@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "megalosmod:block/black_ash_slab"
+    },
+    "type=double": {
+      "model": "megalosmod:block/black_ash_planks"
+    },
+    "type=top": {
+      "model": "megalosmod:block/black_ash_slab_top"
+    }
+  }
+}

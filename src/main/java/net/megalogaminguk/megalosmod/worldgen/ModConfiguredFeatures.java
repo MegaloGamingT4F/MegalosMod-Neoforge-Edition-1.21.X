@@ -173,7 +173,7 @@ public class ModConfiguredFeatures {
 
                         new TwoLayersFeatureSize(1,0,2)).build());
 
-        register(context, MAPLE_SYCAMORE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(ModBlocks.MAPLE_SVCAMORE_LOG.get()),
+        register(context, MAPLE_SYCAMORE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(ModBlocks.MAPLE_SYCAMORE_LOG.get()),
                 new ForkingTrunkPlacer(4,4,3),
 
                 BlockStateProvider.simple(ModBlocks.MAPLE_SYCAMORE_LEAVES.get()),

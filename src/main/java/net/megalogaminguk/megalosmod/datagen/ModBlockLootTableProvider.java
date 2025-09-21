@@ -551,7 +551,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         this.add(ModBlocks.BLACK_ASH_LEAVES.get(), block ->
                 createLeavesDrops(block, ModBlocks.BLACK_ASH_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
 
-        this.dropSelf(ModBlocks.MAPLE_SVCAMORE_LOG.get());
+        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_LOG.get());
         this.dropSelf(ModBlocks.MAPLE_SYCAMORE_WOOD.get());
         this.dropSelf(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get());
@@ -560,6 +560,29 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         this.add(ModBlocks.MAPLE_SYCAMORE_LEAVES.get(), block ->
                 createLeavesDrops(block, ModBlocks.MAPLE_SYCAMORE_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        this.dropSelf(ModBlocks.BLACK_ASH_STAIRS.get());
+        this.add(ModBlocks.BLACK_ASH_SLAB.get(), block -> createSlabItemTable(ModBlocks.BLACK_ASH_SLAB.get()));
+        this.dropSelf(ModBlocks.BLACK_ASH_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.BLACK_ASH_BUTTON.get());
+        this.dropSelf(ModBlocks.BLACK_ASH_FENCE.get());
+        this.dropSelf(ModBlocks.BLACK_ASH_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.BLACK_ASH_WALL.get());
+        this.add(ModBlocks.BLACK_ASH_DOOR.get(),
+                block -> createDoorTable(ModBlocks.BLACK_ASH_DOOR.get()));
+        this.dropSelf(ModBlocks.BLACK_ASH_TRAPDOOR.get());
+
+        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_STAIRS.get());
+        this.add(ModBlocks.MAPLE_SYCAMORE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MAPLE_SYCAMORE_SLAB.get()));
+        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_BUTTON.get());
+        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_FENCE.get());
+        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_WALL.get());
+        this.add(ModBlocks.MAPLE_SYCAMORE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.MAPLE_SYCAMORE_DOOR.get()));
+        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_TRAPDOOR.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

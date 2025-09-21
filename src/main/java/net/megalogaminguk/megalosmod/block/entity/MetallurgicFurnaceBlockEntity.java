@@ -40,7 +40,7 @@ public class MetallurgicFurnaceBlockEntity extends BlockEntity implements MenuPr
         }
     };
 
-    private static final int INPUT_SLOT = 0;
+    private static final int INPUT_SLOT_1 = 0;
     private static final int OUTPUT_SLOT = 1;
 
     protected final ContainerData data;
@@ -130,7 +130,7 @@ public class MetallurgicFurnaceBlockEntity extends BlockEntity implements MenuPr
         Optional<RecipeHolder<MetallurgicFurnaceRecipe>> recipe = getCurrentRecipe();
         ItemStack output = recipe.get().value().output();
 
-        itemHandler.extractItem(INPUT_SLOT, 1, false);
+        itemHandler.extractItem(INPUT_SLOT_1, 1, false);
         itemHandler.setStackInSlot(OUTPUT_SLOT, new ItemStack(output.getItem(),
                 itemHandler.getStackInSlot(OUTPUT_SLOT).getCount() + output.getCount()));
     }
@@ -160,7 +160,7 @@ public class MetallurgicFurnaceBlockEntity extends BlockEntity implements MenuPr
 
     private Optional<RecipeHolder<MetallurgicFurnaceRecipe>> getCurrentRecipe(){
         return this.level.getRecipeManager()
-                .getRecipeFor(ModRecipes.METALLURGIC_FURNACE_TYPE.get(), new MetallurgicFurnaceRecipeInput(itemHandler.getStackInSlot(INPUT_SLOT)), level);
+                .getRecipeFor(ModRecipes.METALLURGIC_FURNACE_TYPE.get(), new MetallurgicFurnaceRecipeInput(itemHandler.getStackInSlot(INPUT_SLOT_1)),level);
     }
 
     private boolean canInsertAmountIntoOutputSlot(ItemStack output){

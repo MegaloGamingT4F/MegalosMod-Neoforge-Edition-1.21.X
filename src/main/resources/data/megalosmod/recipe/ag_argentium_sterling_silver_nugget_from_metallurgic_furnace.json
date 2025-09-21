@@ -1,0 +1,9 @@
+{
+  "type": "megalosmod:metallurgic_furnace_smelting",
+  "ingredient": {
+    "item": "megalosmod:ag_argentium_sterling_silver_dust"
+  },
+  "result": {
+    "id": "megalosmod:ag_argentium_sterling_silver_nugget"
+  }
+}

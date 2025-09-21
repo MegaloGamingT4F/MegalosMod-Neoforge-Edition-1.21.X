@@ -11,16 +11,18 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModRecipes {
     public static final DeferredRegister<RecipeSerializer<?>> SERIALIZERS =
             DeferredRegister.create(Registries.RECIPE_SERIALIZER, MegalosMod.MOD_ID);
+
     public static final DeferredRegister<RecipeType<?>> TYPES =
             DeferredRegister.create(Registries.RECIPE_TYPE, MegalosMod.MOD_ID);
 
     public static final DeferredHolder<RecipeSerializer<?>, RecipeSerializer<MetallurgicFurnaceRecipe>> METALLURGIC_FURNACE_SERIALIZER =
-            SERIALIZERS.register("metallurgic_furnace", MetallurgicFurnaceRecipe.Serializer::new);
+            SERIALIZERS.register("metallurgic_furnace_smelting", MetallurgicFurnaceRecipe.Serializer::new);
+
     public static final DeferredHolder<RecipeType<?>, RecipeType<MetallurgicFurnaceRecipe>> METALLURGIC_FURNACE_TYPE =
-            TYPES.register("metallurgic_furnace", () -> new RecipeType<MetallurgicFurnaceRecipe>() {
+            TYPES.register("metallurgic_furnace_smelting", () -> new RecipeType<MetallurgicFurnaceRecipe>() {
                 @Override
                 public String toString() {
-                    return "metallurgic_furnace";
+                    return "metallurgic_furnace_smelting";
                 }
             });
 

@@ -419,7 +419,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         logBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_BLACK_ASH_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_BLACK_ASH_WOOD.get()), blockTexture(ModBlocks.STRIPPED_BLACK_ASH_LOG.get()), blockTexture(ModBlocks.STRIPPED_BLACK_ASH_LOG.get()));
 
-        blockItem(ModBlocks.MAPLE_SVCAMORE_LOG);
+        blockItem(ModBlocks.MAPLE_SYCAMORE_LOG);
         blockItem(ModBlocks.MAPLE_SYCAMORE_WOOD);
         blockItem(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG);
         blockItem(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD);
@@ -429,10 +429,60 @@ public class ModBlockStateProvider extends BlockStateProvider {
         leavesBlock(ModBlocks.MAPLE_SYCAMORE_LEAVES);
         saplingBlock(ModBlocks.MAPLE_SYCAMORE_SAPLING);
 
-        logBlock(((RotatedPillarBlock) ModBlocks.MAPLE_SVCAMORE_LOG.get()));
-        axisBlock(((RotatedPillarBlock) ModBlocks.MAPLE_SYCAMORE_WOOD.get()), blockTexture(ModBlocks.MAPLE_SVCAMORE_LOG.get()), blockTexture(ModBlocks.MAPLE_SVCAMORE_LOG.get()));
+        logBlock(((RotatedPillarBlock) ModBlocks.MAPLE_SYCAMORE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.MAPLE_SYCAMORE_WOOD.get()), blockTexture(ModBlocks.MAPLE_SYCAMORE_LOG.get()), blockTexture(ModBlocks.MAPLE_SYCAMORE_LOG.get()));
         logBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get()), blockTexture(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get()), blockTexture(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get()));
+
+        //Stairs
+        stairsBlock(ModBlocks.BLACK_ASH_STAIRS.get(), blockTexture(ModBlocks.BLACK_ASH_PLANKS.get()));
+        stairsBlock(ModBlocks.MAPLE_SYCAMORE_STAIRS.get(), blockTexture(ModBlocks.MAPLE_SYCAMORE_PLANKS.get()));
+
+        //Slab
+        slabBlock(ModBlocks.BLACK_ASH_SLAB.get(), blockTexture(ModBlocks.BLACK_ASH_PLANKS.get()), blockTexture(ModBlocks.BLACK_ASH_PLANKS.get()));
+        slabBlock(ModBlocks.MAPLE_SYCAMORE_SLAB.get(), blockTexture(ModBlocks.MAPLE_SYCAMORE_PLANKS.get()), blockTexture(ModBlocks.MAPLE_SYCAMORE_PLANKS.get()));
+
+        //Button
+        buttonBlock(ModBlocks.BLACK_ASH_BUTTON.get(), blockTexture(ModBlocks.BLACK_ASH_PLANKS.get()));
+        buttonBlock(ModBlocks.MAPLE_SYCAMORE_BUTTON.get(), blockTexture(ModBlocks.MAPLE_SYCAMORE_PLANKS.get()));
+
+        //Pressure Plate
+        pressurePlateBlock(ModBlocks.BLACK_ASH_PRESSURE_PLATE.get(), blockTexture(ModBlocks.BLACK_ASH_PLANKS.get()));
+        pressurePlateBlock(ModBlocks.MAPLE_SYCAMORE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.MAPLE_SYCAMORE_PLANKS.get()));
+
+        //Fence
+        fenceBlock(ModBlocks.BLACK_ASH_FENCE.get(), blockTexture(ModBlocks.BLACK_ASH_PLANKS.get()));
+        fenceBlock(ModBlocks.MAPLE_SYCAMORE_FENCE.get(), blockTexture(ModBlocks.MAPLE_SYCAMORE_PLANKS.get()));
+
+        //Fence Gate
+        fenceGateBlock(ModBlocks.BLACK_ASH_FENCE_GATE.get(), blockTexture(ModBlocks.BLACK_ASH_PLANKS.get()));
+        fenceGateBlock(ModBlocks.MAPLE_SYCAMORE_FENCE_GATE.get(), blockTexture(ModBlocks.MAPLE_SYCAMORE_PLANKS.get()));
+
+        //Wall
+        wallBlock(ModBlocks.BLACK_ASH_WALL.get(), blockTexture(ModBlocks.BLACK_ASH_PLANKS.get()));
+        wallBlock(ModBlocks.MAPLE_SYCAMORE_WALL.get(), blockTexture(ModBlocks.MAPLE_SYCAMORE_PLANKS.get()));
+
+        //Door
+        doorBlockWithRenderType(ModBlocks.BLACK_ASH_DOOR.get(), modLoc("block/black_ash_door_bottom"),modLoc("block/black_ash_door_top"),"cutout");
+        doorBlockWithRenderType(ModBlocks.MAPLE_SYCAMORE_DOOR.get(), modLoc("block/maple_sycamore_door_bottom"),modLoc("block/maple_sycamore_door_top"),"cutout");
+
+        //Trapdoor
+        trapdoorBlockWithRenderType(ModBlocks.BLACK_ASH_TRAPDOOR.get(), modLoc("block/black_ash_trapdoor"),true,"cutout");
+        trapdoorBlockWithRenderType(ModBlocks.MAPLE_SYCAMORE_TRAPDOOR.get(), modLoc("block/maple_sycamore_trapdoor"),true,"cutout");
+
+        blockItem(ModBlocks.BLACK_ASH_STAIRS);
+        blockItem(ModBlocks.MAPLE_SYCAMORE_STAIRS);
+        blockItem(ModBlocks.BLACK_ASH_SLAB);
+        blockItem(ModBlocks.MAPLE_SYCAMORE_SLAB);
+        blockItem(ModBlocks.BLACK_ASH_PRESSURE_PLATE);
+        blockItem(ModBlocks.MAPLE_SYCAMORE_PRESSURE_PLATE);
+        blockItem(ModBlocks.BLACK_ASH_BUTTON);
+        blockItem(ModBlocks.MAPLE_SYCAMORE_BUTTON);
+        blockItem(ModBlocks.BLACK_ASH_FENCE_GATE);
+        blockItem(ModBlocks.MAPLE_SYCAMORE_FENCE_GATE);
+        blockItem(ModBlocks.BLACK_ASH_TRAPDOOR,"_bottom");
+        blockItem(ModBlocks.MAPLE_SYCAMORE_TRAPDOOR,"_bottom");
+
 
         makeBush(((SweetBerryBushBlock) ModBlocks.GOOSEBERRY_BUSH.get()), "gooseberry_berry_bush_stage", "gooseberry_berry_bush_stage");
 

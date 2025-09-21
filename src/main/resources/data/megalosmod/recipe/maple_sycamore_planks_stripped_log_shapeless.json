@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosmod:stripped_maple_sycamore_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "megalosmod:maple_sycamore_planks"
+  }
+}

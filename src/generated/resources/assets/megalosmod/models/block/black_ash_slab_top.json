@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "megalosmod:block/black_ash_planks",
+    "side": "megalosmod:block/black_ash_planks",
+    "top": "megalosmod:block/black_ash_planks"
+  }
+}

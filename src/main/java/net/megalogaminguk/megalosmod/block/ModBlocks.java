@@ -17,6 +17,8 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -778,7 +780,7 @@ public class ModBlocks {
     //Nature - Trees - Log
     public static final DeferredBlock<Block> BLACK_ASH_LOG = registerBlock("black_ash_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
-    public static final DeferredBlock<Block> MAPLE_SVCAMORE_LOG = registerBlock("maple_sycamore_log",
+    public static final DeferredBlock<Block> MAPLE_SYCAMORE_LOG = registerBlock("maple_sycamore_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
 
     //Nature - Trees - Wood
@@ -877,6 +879,63 @@ public class ModBlocks {
             () -> new SaplingBlock(ModTreeGrowers.BLACK_ASH, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
     public static final DeferredBlock<Block> MAPLE_SYCAMORE_SAPLING = registerBlock("maple_sycamore_sapling",
             () -> new SaplingBlock(ModTreeGrowers.MAPLE_SYCAMORE, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    //Nature - Doors, Stairs and Pressable items
+    //Stairs
+    public static final DeferredBlock<StairBlock> BLACK_ASH_STAIRS = registerBlock("black_ash_stairs",
+            () -> new StairBlock(ModBlocks.BLACK_ASH_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> MAPLE_SYCAMORE_STAIRS = registerBlock("maple_sycamore_stairs",
+            () -> new StairBlock(ModBlocks.MAPLE_SYCAMORE_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    //Slab
+    public static final DeferredBlock<SlabBlock> BLACK_ASH_SLAB = registerBlock("black_ash_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> MAPLE_SYCAMORE_SLAB = registerBlock("maple_sycamore_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    //Pressure Plate
+    public static final DeferredBlock<PressurePlateBlock> BLACK_ASH_PRESSURE_PLATE = registerBlock("black_ash_pressure_plate",
+            () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<PressurePlateBlock> MAPLE_SYCAMORE_PRESSURE_PLATE = registerBlock("maple_sycamore_pressure_plate",
+            () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    //Buttons
+    public static final DeferredBlock<ButtonBlock> BLACK_ASH_BUTTON = registerBlock("black_ash_button",
+            () -> new ButtonBlock(BlockSetType.OAK, 20,BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noCollission()));
+    public static final DeferredBlock<ButtonBlock> MAPLE_SYCAMORE_BUTTON = registerBlock("maple_sycamore_button",
+            () -> new ButtonBlock(BlockSetType.OAK, 20,BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noCollission()));
+
+    //Fence
+    public static final DeferredBlock<FenceBlock> BLACK_ASH_FENCE = registerBlock("black_ash_fence",
+                () -> new FenceBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<FenceBlock> MAPLE_SYCAMORE_FENCE = registerBlock("maple_sycamore_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    //Fence Gate
+    public static final DeferredBlock<FenceGateBlock> BLACK_ASH_FENCE_GATE = registerBlock("black_ash_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK,BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<FenceGateBlock> MAPLE_SYCAMORE_FENCE_GATE = registerBlock("maple_sycamore_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK,BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    //Wall
+    public static final DeferredBlock<WallBlock> BLACK_ASH_WALL = registerBlock("black_ash_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<WallBlock> MAPLE_SYCAMORE_WALL = registerBlock("maple_sycamore_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    //Door
+    public static final DeferredBlock<DoorBlock> BLACK_ASH_DOOR = registerBlock("black_ash_door",
+            () -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noOcclusion()));
+    public static final DeferredBlock<DoorBlock> MAPLE_SYCAMORE_DOOR = registerBlock("maple_sycamore_door",
+            () -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noOcclusion()));
+
+    //Trapdoor
+    public static final DeferredBlock<TrapDoorBlock> BLACK_ASH_TRAPDOOR = registerBlock("black_ash_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noOcclusion()));
+    public static final DeferredBlock<TrapDoorBlock> MAPLE_SYCAMORE_TRAPDOOR = registerBlock("maple_sycamore_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noOcclusion()));
 
     //Nature - Crop Blocks
     public static final DeferredBlock<Block> BHUT_JOLOKIA_CHILLI_CROP = BLOCKS.register("chilli_bhut_jolokia_crop",

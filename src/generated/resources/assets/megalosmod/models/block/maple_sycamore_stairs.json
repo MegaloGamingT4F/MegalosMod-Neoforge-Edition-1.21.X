@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "megalosmod:block/maple_sycamore_planks",
+    "side": "megalosmod:block/maple_sycamore_planks",
+    "top": "megalosmod:block/maple_sycamore_planks"
+  }
+}
