@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:fe_fernico_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:fe_fernico_ingot"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "g": {
+      "item": "megalosaio:gold_dust"
+    },
+    "s": {
+      "item": "megalosaio:silver_dust"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "sss",
+    "ccc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ni_coin_silver_dust"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "t": {
+      "item": "megalosaio:tungsten_dust"
+    }
+  },
+  "pattern": [
+    "cct",
+    "ctc",
+    "tcc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_copper_tungsten_dust"
+  }
+}

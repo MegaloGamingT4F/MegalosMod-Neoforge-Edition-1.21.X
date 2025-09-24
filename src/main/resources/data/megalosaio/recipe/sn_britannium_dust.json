@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:antimony_dust"
+    },
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "t": {
+      "item": "megalosaio:tin_dust"
+    }
+  },
+  "pattern": [
+    "ttt",
+    "ttt",
+    "tac"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:sn_britannium_dust"
+  }
+}

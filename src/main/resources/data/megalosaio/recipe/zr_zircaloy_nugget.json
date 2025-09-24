@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "z": {
+      "item": "megalosaio:zr_zircaloy_dust"
+    }
+  },
+  "pattern": [
+    "zzz",
+    "zzz",
+    "zzz"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:zr_zircaloy_nugget"
+  }
+}

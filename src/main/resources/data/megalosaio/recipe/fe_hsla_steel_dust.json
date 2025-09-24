@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "h": {
+      "item": "megalosaio:niobium_dust"
+    },
+    "m": {
+      "item": "megalosaio:molybdenum_dust"
+    },
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    },
+    "s": {
+      "item": "megalosaio:fe_steel_dust"
+    },
+    "v": {
+      "item": "megalosaio:vanadium_dust"
+    },
+    "x": {
+      "item": "megalosaio:chromium_dust"
+    },
+    "z": {
+      "item": "megalosaio:zirconium_dust"
+    }
+  },
+  "pattern": [
+    "vcn",
+    "sxs",
+    "hmz"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_hsla_steel_dust"
+  }
+}

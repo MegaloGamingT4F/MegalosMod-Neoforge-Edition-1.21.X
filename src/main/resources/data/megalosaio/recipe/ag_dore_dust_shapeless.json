@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:ag_dore_nugget"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:ag_dore_dust"
+  }
+}

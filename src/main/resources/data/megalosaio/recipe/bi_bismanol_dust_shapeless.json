@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:bi_bismanol_nugget"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:bi_bismanol_dust"
+  }
+}

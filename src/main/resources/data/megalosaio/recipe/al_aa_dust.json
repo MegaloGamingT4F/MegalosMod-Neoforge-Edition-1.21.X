@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "m": {
+      "item": "megalosaio:manganese_dust"
+    },
+    "s": {
+      "item": "megalosaio:silicon_dust"
+    },
+    "t": {
+      "item": "megalosaio:titanium_dust"
+    },
+    "z": {
+      "item": "megalosaio:zinc_dust"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aaz",
+    "tms"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:al_aa_dust"
+  }
+}

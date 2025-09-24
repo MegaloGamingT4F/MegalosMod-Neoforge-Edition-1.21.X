@@ -1,8 +1,0 @@
-{
-  "remove": [
-    "#megalosmod:needs_titanium_tool"
-  ],
-  "values": [
-    "#minecraft:incorrect_for_diamond_tool"
-  ]
-}

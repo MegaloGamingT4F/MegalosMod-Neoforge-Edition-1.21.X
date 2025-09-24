@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "m": {
+      "item": "megalosaio:magnesium_dust"
+    },
+    "s": {
+      "item": "megalosaio:silver_dust"
+    },
+    "y": {
+      "item": "megalosaio:yttrium_dust"
+    }
+  },
+  "pattern": [
+    "ymm",
+    "mam",
+    "mms"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:mg_elektron_dust"
+  }
+}

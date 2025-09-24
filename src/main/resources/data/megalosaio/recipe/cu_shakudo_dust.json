@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:chromium_dust"
+    },
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    }
+  },
+  "pattern": [
+    "nnn",
+    "cnc",
+    "nnn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_shakudo_dust"
+  }
+}

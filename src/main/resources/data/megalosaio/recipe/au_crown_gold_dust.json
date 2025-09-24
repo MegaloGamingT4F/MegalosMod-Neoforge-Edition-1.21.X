@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "megalosaio:gold_dust"
+    },
+    "l": {
+      "item": "megalosaio:platinum_dust"
+    },
+    "p": {
+      "item": "megalosaio:palladium_dust"
+    },
+    "s": {
+      "item": "megalosaio:silver_dust"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "ggg",
+    "lsp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:au_crown_gold_dust"
+  }
+}

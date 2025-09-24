@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "z": {
+      "item": "megalosaio:zinc_dust"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "acc",
+    "ccz"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:al_devarda_dust"
+  }
+}

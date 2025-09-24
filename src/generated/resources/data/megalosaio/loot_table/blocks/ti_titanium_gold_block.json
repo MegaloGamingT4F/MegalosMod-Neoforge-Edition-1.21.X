@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "megalosaio:ti_titanium_gold_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "megalosaio:blocks/ti_titanium_gold_block"
+}

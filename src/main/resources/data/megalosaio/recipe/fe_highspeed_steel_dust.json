@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:chromium_dust"
+    },
+    "s": {
+      "item": "megalosaio:fe_steel_dust"
+    },
+    "t": {
+      "item": "megalosaio:tungsten_dust"
+    },
+    "v": {
+      "item": "megalosaio:vanadium_dust"
+    }
+  },
+  "pattern": [
+    "svc",
+    "sts",
+    "cvc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_highspeed_steel_dust"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:bi_fields_metal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:bi_fields_metal_ingot"
+  }
+}

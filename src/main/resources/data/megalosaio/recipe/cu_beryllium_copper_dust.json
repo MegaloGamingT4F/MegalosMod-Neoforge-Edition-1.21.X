@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "megalosaio:beryllium_dust"
+    },
+    "c": {
+      "item": "megalosaio:copper_dust"
+    }
+  },
+  "pattern": [
+    "bcc",
+    "cbc",
+    "ccb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_beryllium_copper_dust"
+  }
+}

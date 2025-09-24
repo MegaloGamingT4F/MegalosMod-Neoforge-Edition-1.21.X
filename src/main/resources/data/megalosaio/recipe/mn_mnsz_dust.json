@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "m": {
+      "item": "megalosaio:manganese_dust"
+    },
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    }
+  },
+  "pattern": [
+    "mnm",
+    "nnm",
+    "mmm"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:mn_mnsz_dust"
+  }
+}

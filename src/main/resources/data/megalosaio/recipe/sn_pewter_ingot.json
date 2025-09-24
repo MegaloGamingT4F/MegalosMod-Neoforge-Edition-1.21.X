@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "t": {
+      "item": "megalosaio:sn_pewter_nugget"
+    }
+  },
+  "pattern": [
+    "ttt",
+    "ttt",
+    "ttt"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:sn_pewter_ingot"
+  }
+}

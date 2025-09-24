@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    },
+    "z": {
+      "item": "megalosaio:zinc_dust"
+    }
+  },
+  "pattern": [
+    "nzc",
+    "ncc",
+    "nzc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ag_tibetan_silver_dust"
+  }
+}

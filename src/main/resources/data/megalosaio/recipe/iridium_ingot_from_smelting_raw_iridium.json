@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "iridium",
+  "ingredient": {
+    "item": "megalosaio:raw_iridium"
+  },
+  "result": {
+    "count": 1,
+    "id": "megalosaio:iridium_ingot"
+  }
+}

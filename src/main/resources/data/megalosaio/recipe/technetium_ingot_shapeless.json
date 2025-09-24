@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "megalosaio:technetium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:technetium_ingot"
+  }
+}

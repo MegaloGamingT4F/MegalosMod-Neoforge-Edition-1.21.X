@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:cobalt_dust"
+    },
+    "m": {
+      "item": "megalosaio:molybdenum_dust"
+    },
+    "x": {
+      "item": "megalosaio:chromium_dust"
+    }
+  },
+  "pattern": [
+    "ccx",
+    "cmc",
+    "xcc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_speculum_metal_dust"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "megalosaio:gold_dust"
+    },
+    "p": {
+      "item": "megalosaio:platinum_dust"
+    },
+    "s": {
+      "item": "megalosaio:silver_dust"
+    }
+  },
+  "pattern": [
+    "gsp",
+    "sss",
+    "psg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ag_dore_dust"
+  }
+}

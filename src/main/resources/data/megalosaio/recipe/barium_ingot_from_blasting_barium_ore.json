@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "barium",
+  "ingredient": {
+    "item": "megalosaio:barium_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "megalosaio:barium_ingot"
+  }
+}

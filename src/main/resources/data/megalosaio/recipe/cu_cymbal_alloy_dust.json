@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "megalosaio:cu_bell_metal_dust"
+    },
+    "t": {
+      "item": "megalosaio:tin_dust"
+    }
+  },
+  "pattern": [
+    "btb",
+    "bbb",
+    "btb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_cymbal_alloy_dust"
+  }
+}

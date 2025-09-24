@@ -1,8 +1,8 @@
 {
   "values": [
-    "megalosmod:aluminium_shovel",
-    "megalosmod:silver_shovel",
-    "megalosmod:technetium_shovel",
-    "megalosmod:titanium_shovel"
+    "megalosaio:aluminium_shovel",
+    "megalosaio:silver_shovel",
+    "megalosaio:technetium_shovel",
+    "megalosaio:titanium_shovel"
   ]
 }

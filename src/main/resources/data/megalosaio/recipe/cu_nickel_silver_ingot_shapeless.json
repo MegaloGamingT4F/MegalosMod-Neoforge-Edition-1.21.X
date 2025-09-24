@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:cu_nickel_silver_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:cu_nickel_silver_ingot"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:coal_dust"
+    },
+    "m": {
+      "item": "megalosaio:manganese_dust"
+    },
+    "s": {
+      "item": "megalosaio:fe_steel_dust"
+    },
+    "x": {
+      "item": "megalosaio:molybdenum_dust"
+    }
+  },
+  "pattern": [
+    "sss",
+    "mxc",
+    "sss"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_reynolds_fto_dust"
+  }
+}

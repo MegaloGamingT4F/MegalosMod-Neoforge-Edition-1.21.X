@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:ni_nitinol_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:ni_nitinol_nugget"
+  }
+}

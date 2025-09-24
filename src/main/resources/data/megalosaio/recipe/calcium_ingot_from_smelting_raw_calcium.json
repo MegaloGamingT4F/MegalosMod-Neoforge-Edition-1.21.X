@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "calcium",
+  "ingredient": {
+    "item": "megalosaio:raw_calcium"
+  },
+  "result": {
+    "count": 1,
+    "id": "megalosaio:calcium_ingot"
+  }
+}

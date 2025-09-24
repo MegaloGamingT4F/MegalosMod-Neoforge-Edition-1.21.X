@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "megalosaio:zirconium_nugget"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:zirconium_dust"
+  }
+}

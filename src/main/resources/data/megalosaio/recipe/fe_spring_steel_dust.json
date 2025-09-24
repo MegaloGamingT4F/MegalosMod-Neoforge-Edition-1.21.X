@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:coal_dust"
+    },
+    "m": {
+      "item": "megalosaio:manganese_dust"
+    },
+    "p": {
+      "item": "megalosaio:phosphorus_dust"
+    },
+    "s": {
+      "item": "megalosaio:fe_steel_dust"
+    }
+  },
+  "pattern": [
+    "sss",
+    "sss",
+    "cpm"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_spring_steel_dust"
+  }
+}

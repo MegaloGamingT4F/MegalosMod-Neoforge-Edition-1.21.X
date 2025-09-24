@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "n": {
+      "item": "megalosaio:niobium_dust"
+    },
+    "t": {
+      "item": "megalosaio:titanium_dust"
+    },
+    "x": {
+      "item": "megalosaio:tungsten_dust"
+    },
+    "z": {
+      "item": "megalosaio:zinc_dust"
+    }
+  },
+  "pattern": [
+    "ttt",
+    "nxz",
+    "ttt"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ti_gum_metal_dust"
+  }
+}

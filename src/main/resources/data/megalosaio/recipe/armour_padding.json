@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "item": "megalosaio:fabric_strap"
+    }
+    "x": {
+      "item": "megalosaio:leather_strap"
+    }
+  },
+  "pattern": [
+    "xlx",
+    "lxl",
+    "xlx"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:armour_padding"
+  }
+}

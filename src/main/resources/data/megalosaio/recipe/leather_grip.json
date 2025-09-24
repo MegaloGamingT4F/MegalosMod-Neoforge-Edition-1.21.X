@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "megalosaio:leather_strap"
+    }
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "XsX",
+    "XsX",
+    "XsX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:leather_grip"
+  }
+}

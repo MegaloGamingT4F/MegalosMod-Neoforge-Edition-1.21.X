@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:cobalt_dust"
+    },
+    "i": {
+      "item": "megalosaio:iron_dust"
+    },
+    "m": {
+      "item": "megalosaio:manganese_dust"
+    },
+    "x": {
+      "item": "megalosaio:chromium_dust"
+    }
+  },
+  "pattern": [
+    "mim",
+    "imi",
+    "xic"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:mn_mnfz_dust"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:k_nak_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:k_nak_ingot"
+  }
+}

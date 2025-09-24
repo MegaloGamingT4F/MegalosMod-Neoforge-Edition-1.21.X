@@ -1,0 +1,10 @@
+// 1.21.1	2025-09-23T13:35:38.1458872	Tags for minecraft:item mod id megalosaio
+b6476034bd093756ca2ce9f27f7313de62fc1bea data/megalosaio/tags/item/fuel.json
+65a88664741e8d6324b7dce8ac62afa6db86e394 data/minecraft/tags/item/axes.json
+ddc7196f64fd69afb2be15c86e73da74fe788497 data/minecraft/tags/item/hoes.json
+c305391ed63103d290b09a382937d9cb0363ae42 data/minecraft/tags/item/logs_that_burn.json
+922339453df760b19c405119b85bb2cac841a658 data/minecraft/tags/item/pickaxes.json
+e2acc1b411f7487516096a6578144f8f7eed82f2 data/minecraft/tags/item/planks.json
+a23349cc2badba51624b44d3519897691a4ffbab data/minecraft/tags/item/shovels.json
+e81088dd03e162c963f5866bb768afb26c929c4d data/minecraft/tags/item/swords.json
+a46ada3ae543a2e73eb9d335d604167525ebc557 data/minecraft/tags/item/trimmable_armor.json

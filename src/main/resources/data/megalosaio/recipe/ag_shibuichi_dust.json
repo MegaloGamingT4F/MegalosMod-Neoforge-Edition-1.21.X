@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:arsenic_dust"
+    },
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "g": {
+      "item": "megalosaio:gold_dust"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "gcg",
+    "gag"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ag_shibuichi_dust"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:chromium_dust"
+    },
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    },
+    "t": {
+      "item": "megalosaio:titanium_dust"
+    },
+    "w": {
+      "item": "megalosaio:tungsten_dust"
+    }
+  },
+  "pattern": [
+    "ccn",
+    "nnn",
+    "nwt"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_princes_metal_dust"
+  }
+}

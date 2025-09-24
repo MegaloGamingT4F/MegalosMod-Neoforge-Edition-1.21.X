@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:al_hydronalium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:al_hydronalium_ingot"
+  }
+}

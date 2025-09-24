@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "m": {
+      "item": "megalosaio:cinnabar_dust"
+    },
+    "s": {
+      "item": "megalosaio:silver_dust"
+    },
+    "t": {
+      "item": "megalosaio:tin_dust"
+    },
+    "z": {
+      "item": "megalosaio:zinc_dust"
+    }
+  },
+  "pattern": [
+    "mmm",
+    "sts",
+    "zcz"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:hg_zinc_amalgam_dust"
+  }
+}

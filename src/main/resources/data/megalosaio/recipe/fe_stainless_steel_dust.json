@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    },
+    "s": {
+      "item": "megalosaio:fe_steel_dust"
+    }
+  },
+  "pattern": [
+    "ssc",
+    "sss",
+    "nss"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_stainless_steel_dust"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "g": {
+      "item": "megalosaio:gallium_dust"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aag",
+    "ggg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ga_alga_dust"
+  }
+}

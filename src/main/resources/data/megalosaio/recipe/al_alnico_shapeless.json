@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:al_alnico_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:al_alnico_nugget"
+  }
+}

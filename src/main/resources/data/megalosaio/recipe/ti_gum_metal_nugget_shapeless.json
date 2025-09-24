@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:ti_gum_metal_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:ti_gum_metal_nugget"
+  }
+}

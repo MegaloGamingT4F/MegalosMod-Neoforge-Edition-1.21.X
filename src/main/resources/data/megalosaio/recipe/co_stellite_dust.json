@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:cobalt_dust"
+    },
+    "i": {
+      "item": "megalosaio:iron_dust"
+    },
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    },
+    "s": {
+      "item": "megalosaio:silicon_dust"
+    },
+    "t": {
+      "item": "megalosaio:tungsten_dust"
+    },
+    "x": {
+      "item": "megalosaio:coal_dust"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "tcx",
+    "nis"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:co_stellite_dust"
+  }
+}

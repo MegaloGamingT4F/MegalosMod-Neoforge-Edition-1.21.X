@@ -1,20 +1,20 @@
 {
   "values": [
-    "megalosmod:aluminium_helmet",
-    "megalosmod:aluminium_chestplate",
-    "megalosmod:aluminium_leggings",
-    "megalosmod:aluminium_boots",
-    "megalosmod:silver_helmet",
-    "megalosmod:silver_chestplate",
-    "megalosmod:silver_leggings",
-    "megalosmod:silver_boots",
-    "megalosmod:technetium_helmet",
-    "megalosmod:technetium_chestplate",
-    "megalosmod:technetium_leggings",
-    "megalosmod:technetium_boots",
-    "megalosmod:titanium_helmet",
-    "megalosmod:titanium_chestplate",
-    "megalosmod:titanium_leggings",
-    "megalosmod:titanium_boots"
+    "megalosaio:aluminium_helmet",
+    "megalosaio:aluminium_chestplate",
+    "megalosaio:aluminium_leggings",
+    "megalosaio:aluminium_boots",
+    "megalosaio:silver_helmet",
+    "megalosaio:silver_chestplate",
+    "megalosaio:silver_leggings",
+    "megalosaio:silver_boots",
+    "megalosaio:technetium_helmet",
+    "megalosaio:technetium_chestplate",
+    "megalosaio:technetium_leggings",
+    "megalosaio:technetium_boots",
+    "megalosaio:titanium_helmet",
+    "megalosaio:titanium_chestplate",
+    "megalosaio:titanium_leggings",
+    "megalosaio:titanium_boots"
   ]
 }

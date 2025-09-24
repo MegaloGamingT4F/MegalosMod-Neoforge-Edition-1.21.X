@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "w": {
+      "item": "minecraft:potion"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "cwc",
+    "ccc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_copper_hydride_dust"
+  }
+}

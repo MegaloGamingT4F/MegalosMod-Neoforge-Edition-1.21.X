@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:coal_dust"
+    },
+    "i": {
+      "item": "megalosaio:iron_dust"
+    },
+    "m": {
+      "item": "megalosaio:manganese_dust"
+    },
+    "s": {
+      "item": "megalosaio:silicon_dust"
+    }
+  },
+  "pattern": [
+    "iii",
+    "mcs",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_spiegeleisen_dust"
+  }
+}

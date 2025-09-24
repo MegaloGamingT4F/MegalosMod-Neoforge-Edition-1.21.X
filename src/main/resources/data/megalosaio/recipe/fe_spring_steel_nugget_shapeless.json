@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:fe_spring_steel_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:fe_spring_steel_nugget"
+  }
+}

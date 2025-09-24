@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "c": {
+      "item": "megalosaio:copper_dust"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "ccc",
+    "aaa"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_aluminium_bronze_dust"
+  }
+}

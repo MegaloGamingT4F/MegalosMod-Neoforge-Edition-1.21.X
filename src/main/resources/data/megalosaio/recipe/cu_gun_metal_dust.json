@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "megalosaio:cu_bronze_dust"
+    },
+    "t": {
+      "item": "megalosaio:tin_dust"
+    },
+    "z": {
+      "item": "megalosaio:zinc_dust"
+    }
+  },
+  "pattern": [
+    "zbb",
+    "tbt",
+    "bbz"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_gun_metal_dust"
+  }
+}

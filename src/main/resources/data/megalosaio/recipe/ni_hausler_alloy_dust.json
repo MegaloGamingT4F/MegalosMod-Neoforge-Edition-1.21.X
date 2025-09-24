@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "m": {
+      "item": "megalosaio:manganese_dust"
+    },
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    },
+    "t": {
+      "item": "megalosaio:tin_dust"
+    }
+  },
+  "pattern": [
+    "cmc",
+    "tnt",
+    "cmc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ni_hausler_alloy_dust"
+  }
+}

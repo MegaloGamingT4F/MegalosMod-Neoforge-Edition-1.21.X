@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "m": {
+      "item": "megalosaio:magnesium_dust"
+    },
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    },
+    "t": {
+      "item": "megalosaio:tin_dust"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "ama",
+    "nmt"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:al_magnalium_dust"
+  }
+}

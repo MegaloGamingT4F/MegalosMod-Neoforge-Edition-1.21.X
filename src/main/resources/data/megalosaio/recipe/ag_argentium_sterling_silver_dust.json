@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "g": {
+      "item": "megalosaio:germanium_dust"
+    },
+    "s": {
+      "item": "megalosaio:silver_dust"
+    }
+  },
+  "pattern": [
+    "sss",
+    "ssc",
+    "cgg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ag_argentium_sterling_silver_dust"
+  }
+}

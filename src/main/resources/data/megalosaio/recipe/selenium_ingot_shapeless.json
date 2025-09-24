@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "megalosaio:selenium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:selenium_ingot"
+  }
+}

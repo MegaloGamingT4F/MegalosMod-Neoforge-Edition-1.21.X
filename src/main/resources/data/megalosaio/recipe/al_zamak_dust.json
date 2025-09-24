@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "m": {
+      "item": "megalosaio:magnesium_dust"
+    },
+    "z": {
+      "item": "megalosaio:zinc_dust"
+    }
+  },
+  "pattern": [
+    "zzz",
+    "zzz",
+    "mac"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:al_zamak_dust"
+  }
+}

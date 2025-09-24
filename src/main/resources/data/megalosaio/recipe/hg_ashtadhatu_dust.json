@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:antimony_dust"
+    },
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "g": {
+      "item": "megalosaio:gold_dust"
+    },
+    "l": {
+      "item": "megalosaio:lead_dust"
+    },
+    "m": {
+      "item": "megalosaio:cinnabar_dust"
+    },
+    "s": {
+      "item": "megalosaio:silver_dust"
+    },
+    "t": {
+      "item": "megalosaio:tin_dust"
+    },
+    "z": {
+      "item": "megalosaio:zinc_dust"
+    }
+  },
+  "pattern": [
+    "mma",
+    "clz",
+    "sgt"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:hg_ashtadhatu_dust"
+  }
+}

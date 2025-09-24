@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:ni_german_silver_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:ni_german_silver_ingot"
+  }
+}

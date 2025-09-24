@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "i": {
+      "item": "megalosaio:iron_dust"
+    },
+    "t": {
+      "item": "megalosaio:titanium_dust"
+    },
+    "v": {
+      "item": "megalosaio:vanadium_dust"
+    }
+  },
+  "pattern": [
+    "ttt",
+    "via",
+    "ttt"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ti_salfv_dust"
+  }
+}

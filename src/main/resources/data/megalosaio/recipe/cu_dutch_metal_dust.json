@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "megalosaio:cu_brass_dust"
+    },
+    "z": {
+      "item": "megalosaio:zinc_dust"
+    }
+  },
+  "pattern": [
+    "bzb",
+    "zzz",
+    "bbb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_dutch_metal_dust"
+  }
+}

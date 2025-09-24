@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "s": {
+      "item": "megalosaio:scandium_dust"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aas"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:al_aluminium_scandium_dust"
+  }
+}

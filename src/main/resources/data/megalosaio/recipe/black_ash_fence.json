@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "megalosaio:black_ash_planks"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "XsX",
+    "XsX"
+  ],
+  "result": {
+    "count": 2,
+    "id": "megalosaio:black_ash_fence"
+  }
+}

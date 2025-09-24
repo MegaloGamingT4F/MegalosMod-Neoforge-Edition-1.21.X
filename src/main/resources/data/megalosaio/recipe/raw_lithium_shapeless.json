@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "megalosaio:raw_lithium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:raw_lithium"
+  }
+}

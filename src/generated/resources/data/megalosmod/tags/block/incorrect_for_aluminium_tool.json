@@ -1,8 +1,0 @@
-{
-  "remove": [
-    "#megalosmod:needs_aluminium_tool"
-  ],
-  "values": [
-    "#minecraft:incorrect_for_iron_tool"
-  ]
-}

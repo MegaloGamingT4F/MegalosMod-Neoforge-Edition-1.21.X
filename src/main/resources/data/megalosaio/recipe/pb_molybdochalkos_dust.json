@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "l": {
+      "item": "megalosaio:lead_dust"
+    }
+  },
+  "pattern": [
+    "lll",
+    "lcl",
+    "lll"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:pb_molybdochalkos_dust"
+  }
+}

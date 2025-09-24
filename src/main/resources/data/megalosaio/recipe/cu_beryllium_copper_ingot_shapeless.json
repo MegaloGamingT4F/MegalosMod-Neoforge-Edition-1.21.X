@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:cu_beryllium_copper_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:cu_beryllium_copper_ingot"
+  }
+}

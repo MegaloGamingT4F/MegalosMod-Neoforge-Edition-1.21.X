@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:cu_pinchbeck_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:cu_pinchbeck_ingot"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "megalosaio:niobium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:niobium_ingot"
+  }
+}

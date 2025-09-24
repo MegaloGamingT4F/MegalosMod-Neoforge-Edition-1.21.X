@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    }
+  },
+  "pattern": [
+    "ncn",
+    "cnc",
+    "ncn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ni_copper_nickel_dust"
+  }
+}

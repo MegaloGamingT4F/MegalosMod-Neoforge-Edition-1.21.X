@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "megalosaio:gold_dust"
+    },
+    "r": {
+      "item": "megalosaio:rhodium_dust"
+    }
+  },
+  "pattern": [
+    "grg",
+    "rgr",
+    "grg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:au_rhodite_dust"
+  }
+}

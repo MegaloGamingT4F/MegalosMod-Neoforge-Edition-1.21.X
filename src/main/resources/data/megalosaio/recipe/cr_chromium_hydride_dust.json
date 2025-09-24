@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:chromium_dust"
+    },
+    "t": {
+      "item": "megalosaio:titanium_dust"
+    },
+    "w": {
+      "item": "minecraft:potion"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "twt",
+    "ccc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cr_chromium_hydride_dust"
+  }
+}

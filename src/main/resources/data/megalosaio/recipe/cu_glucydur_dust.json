@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "megalosaio:cu_bronze_dust"
+    },
+    "i": {
+      "item": "megalosaio:iron_dust"
+    },
+    "x": {
+      "item": "megalosaio:beryllium_dust"
+    }
+  },
+  "pattern": [
+    "bbb",
+    "xix",
+    "bbb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_glucydur_dust"
+  }
+}

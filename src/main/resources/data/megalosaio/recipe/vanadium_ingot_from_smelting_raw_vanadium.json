@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "vanadium",
+  "ingredient": {
+    "item": "megalosaio:raw_vanadium"
+  },
+  "result": {
+    "count": 1,
+    "id": "megalosaio:vanadium_ingot"
+  }
+}

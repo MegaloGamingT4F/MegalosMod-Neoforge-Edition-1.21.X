@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "g": {
+      "item": "megalosaio:gold_dust"
+    },
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    },
+    "z": {
+      "item": "megalosaio:zinc_dust"
+    }
+  },
+  "pattern": [
+    "ngg",
+    "ggg",
+    "cgz"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:au_white_gold_dust"
+  }
+}

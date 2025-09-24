@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:coal_dust"
+    },
+    "i": {
+      "item": "megalosaio:iron_dust"
+    }
+  },
+  "pattern": [
+    "cii",
+    "iii",
+    "iic"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_wrought_iron_dust"
+  }
+}

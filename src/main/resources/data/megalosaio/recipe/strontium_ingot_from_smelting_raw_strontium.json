@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "strontium",
+  "ingredient": {
+    "item": "megalosaio:raw_strontium"
+  },
+  "result": {
+    "count": 1,
+    "id": "megalosaio:strontium_ingot"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "b": {
+      "item": "megalosaio:beryllium_dust"
+    }
+  },
+  "pattern": [
+    "bba",
+    "bab",
+    "abb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:be_lockalloy_dust"
+  }
+}

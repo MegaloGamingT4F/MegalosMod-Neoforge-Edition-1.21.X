@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:pb_molybdochalkos_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:pb_molybdochalkos_ingot"
+  }
+}

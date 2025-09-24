@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    },
+    "w": {
+      "item": "minecraft:potion"
+    }
+  },
+  "pattern": [
+    "nnn",
+    "nwn",
+    "nnn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ni_nickel_hydride_dust"
+  }
+}

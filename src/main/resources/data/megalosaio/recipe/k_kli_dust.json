@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "l": {
+      "item": "megalosaio:lithium_dust"
+    },
+    "p": {
+      "item": "megalosaio:potassium_dust"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "lll",
+    "ppp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:k_kli_dust"
+  }
+}

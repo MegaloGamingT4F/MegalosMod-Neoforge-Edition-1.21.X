@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "megalosaio:gallium_dust"
+    },
+    "i": {
+      "item": "megalosaio:iron_dust"
+    },
+    "t": {
+      "item": "megalosaio:tin_dust"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "iti",
+    "ggg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ga_galinstan_dust"
+  }
+}

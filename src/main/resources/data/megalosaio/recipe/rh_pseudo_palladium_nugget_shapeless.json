@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:rh_pseudo_palladium_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:rh_pseudo_palladium_nugget"
+  }
+}

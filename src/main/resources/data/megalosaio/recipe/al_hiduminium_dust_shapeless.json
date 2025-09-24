@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:al_hiduminium_nugget"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:al_hiduminium_dust"
+  }
+}

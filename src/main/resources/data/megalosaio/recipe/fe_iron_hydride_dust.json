@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "item": "megalosaio:iron_dust"
+    },
+    "w": {
+      "item": "minecraft:potion"
+    }
+  },
+  "pattern": [
+    "iii",
+    "iwi",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_iron_hydride_dust"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:coal_dust"
+    },
+    "i": {
+      "item": "megalosaio:iron_dust"
+    }
+  },
+  "pattern": [
+    "ici",
+    "ici",
+    "ici"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_bulat_steel_dust"
+  }
+}

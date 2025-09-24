@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "megalosaio:cu_brass_dust"
+    },
+    "g": {
+      "item": "megalosaio:gold_dust"
+    },
+    "s": {
+      "item": "megalosaio:silver_dust"
+    }
+  },
+  "pattern": [
+    "bbb",
+    "gsg",
+    "bbb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_corinthian_bronze_dust"
+  }
+}

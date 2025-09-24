@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:coal_dust"
+    },
+    "i": {
+      "item": "megalosaio:iron_dust"
+    },
+    "s": {
+      "item": "megalosaio:silicon_dust"
+    }
+  },
+  "pattern": [
+    "iii",
+    "isi",
+    "cic"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_pig_iron_dust"
+  }
+}

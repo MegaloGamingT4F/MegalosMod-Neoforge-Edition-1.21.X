@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "X": {
+      "item": "megalosaio:maple_sycamore_planks"
+    },
+    "s": {
+      "item": "minecraft_stick"
+    }
+  },
+  "pattern": [
+    "sXs",
+    "sXs"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:maple_sycamore_fence_gate"
+  }
+}

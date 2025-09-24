@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:arsenic_dust"
+    },
+    "c": {
+      "item": "megalosaio:copper_dust"
+    }
+  },
+  "pattern": [
+    "cca",
+    "cac",
+    "acc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_arsenical_copper_dust"
+  }
+}

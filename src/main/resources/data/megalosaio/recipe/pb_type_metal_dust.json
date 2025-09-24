@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:antimony_dust"
+    },
+    "l": {
+      "item": "megalosaio:lead_dust"
+    },
+    "t": {
+      "item": "megalosaio:tin_dust"
+    }
+  },
+  "pattern": [
+    "lll",
+    "aaa",
+    "ltl"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:pb_type_metal_dust"
+  }
+}

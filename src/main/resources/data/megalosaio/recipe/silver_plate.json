@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "megalosaio:silver_ingot"
+    }
+    "p": {
+      "item": "megalosaio:armour_padding"
+    }
+    "s": {
+      "item": "megalosaio:fabric_strap"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "ppp",
+    "sss"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:silver_plate"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "silicon",
+  "ingredient": {
+    "item": "megalosaio:raw_silicon"
+  },
+  "result": {
+    "count": 1,
+    "id": "megalosaio:silicon_ingot"
+  }
+}

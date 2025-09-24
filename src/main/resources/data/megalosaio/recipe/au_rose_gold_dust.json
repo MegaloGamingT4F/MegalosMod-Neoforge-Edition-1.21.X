@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "g": {
+      "item": "megalosaio:gold_dust"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "cgc",
+    "cgc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:au_rose_gold_dust"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:black_ash_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "megalosaio:black_ash_planks"
+  }
+}

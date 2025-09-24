@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "megalosaio:bismuth_dust"
+    },
+    "i": {
+      "item": "megalosaio:indium_dust"
+    },
+    "t": {
+      "item": "megalosaio:tin_dust"
+    }
+  },
+  "pattern": [
+    "iii",
+    "bbb",
+    "ttt"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:bi_fields_metal_dust"
+  }
+}

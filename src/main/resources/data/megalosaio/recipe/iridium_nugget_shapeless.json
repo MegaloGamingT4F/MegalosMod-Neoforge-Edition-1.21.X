@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "megalosaio:iridium_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:iridium_nugget"
+  }
+}

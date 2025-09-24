@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:chromium_dust"
+    },
+    "i": {
+      "item": "megalosaio:iron_dust"
+    },
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    }
+  },
+  "pattern": [
+    "iii",
+    "iin",
+    "nnc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_elinvar_dust"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:k_kli_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:k_kli_nugget"
+  }
+}

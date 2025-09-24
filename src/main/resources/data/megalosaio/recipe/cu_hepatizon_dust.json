@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "megalosaio:copper_dust"
+    },
+    "g": {
+      "item": "megalosaio:gold_dust"
+    },
+    "s": {
+      "item": "megalosaio:silver_dust"
+    }
+  },
+  "pattern": [
+    "cgc",
+    "cgc",
+    "csc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cu_hepatizon_dust"
+  }
+}

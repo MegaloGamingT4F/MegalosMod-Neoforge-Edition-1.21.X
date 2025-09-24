@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "megalosaio:bismuth_dust"
+    },
+    "m": {
+      "item": "megalosaio:manganese_dust"
+    }
+  },
+  "pattern": [
+    "bbb",
+    "bbm",
+    "mmm"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:bi_bismanol_dust"
+  }
+}

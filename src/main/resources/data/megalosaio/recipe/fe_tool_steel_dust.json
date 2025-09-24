@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "m": {
+      "item": "megalosaio:manganese_dust"
+    },
+    "s": {
+      "item": "megalosaio:fe_steel_dust"
+    },
+    "t": {
+      "item": "megalosaio:tungsten_dust"
+    }
+  },
+  "pattern": [
+    "sts",
+    "tst",
+    "sms"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_tool_steel_dust"
+  }
+}

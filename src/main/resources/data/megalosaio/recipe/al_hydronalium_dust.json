@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "m": {
+      "item": "megalosaio:manganese_dust"
+    },
+    "x": {
+      "item": "megalosaio:magnesium_dust"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "xmx",
+    "aaa"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:al_hydronalium_dust"
+  }
+}

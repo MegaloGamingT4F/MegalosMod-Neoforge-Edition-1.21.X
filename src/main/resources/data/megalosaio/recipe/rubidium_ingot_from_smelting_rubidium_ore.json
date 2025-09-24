@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "rubidium",
+  "ingredient": {
+    "item": "megalosaio:rubidium_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "megalosaio:rubidium_ingot"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:cu_phosphor_bronze_nugget"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:cu_phosphor_bronze_dust"
+  }
+}

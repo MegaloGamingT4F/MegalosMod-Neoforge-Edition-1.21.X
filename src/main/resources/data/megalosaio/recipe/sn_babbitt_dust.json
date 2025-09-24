@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:antimony_dust"
+    },
+    "l": {
+      "item": "megalosaio:lead_dust"
+    },
+    "n": {
+      "item": "megalosaio:tin_dust"
+    },
+    "t": {
+      "item": "megalosaio:arsenic_dust"
+    }
+  },
+  "pattern": [
+    "lll",
+    "lll",
+    "atn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:sn_babbitt_dust"
+  }
+}

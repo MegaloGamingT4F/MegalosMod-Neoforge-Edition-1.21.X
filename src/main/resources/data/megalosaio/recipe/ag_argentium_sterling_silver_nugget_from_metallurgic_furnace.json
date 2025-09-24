@@ -1,0 +1,9 @@
+{
+  "type": "megalosaio:metallurgic_furnace_smelting",
+  "ingredient": {
+    "item": "megalosaio:ag_argentium_sterling_silver_dust"
+  },
+  "result": {
+    "id": "megalosaio:ag_argentium_sterling_silver_nugget"
+  }
+}

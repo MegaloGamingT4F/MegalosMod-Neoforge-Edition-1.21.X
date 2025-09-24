@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "z": {
+      "item": "megalosaio:zr_zircaloy_ingot"
+    }
+  },
+  "pattern": [
+    "zzz",
+    "zzz",
+    "zzz"
+  ],
+  "result": {
+    "id": "megalosaio:zr_zircaloy_block"
+  }
+}

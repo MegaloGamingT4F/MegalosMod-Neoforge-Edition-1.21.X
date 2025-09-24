@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "p": {
+      "item": "megalosaio:platinum_dust"
+    },
+    "s": {
+      "item": "megalosaio:silver_dust"
+    }
+  },
+  "pattern": [
+    "sss",
+    "sss",
+    "sps"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ag_platinum_silver_dust"
+  }
+}

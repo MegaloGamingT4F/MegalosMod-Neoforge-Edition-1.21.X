@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "megalosaio:beryllium_nugget"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:beryllium_dust"
+  }
+}

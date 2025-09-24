@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "c": {
+      "item": "megalosaio:chromium_dust"
+    },
+    "m": {
+      "item": "megalosaio:molybdenum_dust"
+    },
+    "t": {
+      "item": "megalosaio:titanium_dust"
+    },
+    "v": {
+      "item": "megalosaio:vanadium_dust"
+    },
+    "z": {
+      "item": "megalosaio:zinc_dust"
+    }
+  },
+  "pattern": [
+    "ttt",
+    "tma",
+    "zcv"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:ti_betac_dust"
+  }
+}

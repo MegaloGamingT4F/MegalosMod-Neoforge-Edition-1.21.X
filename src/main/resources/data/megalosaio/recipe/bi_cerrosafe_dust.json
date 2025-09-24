@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "megalosaio:bismuth_dust"
+    },
+    "c": {
+      "item": "megalosaio:cadmium_dust"
+    },
+    "l": {
+      "item": "megalosaio:lead_dust"
+    },
+    "t": {
+      "item": "megalosaio:tin_dust"
+    }
+  },
+  "pattern": [
+    "tlt",
+    "bcb",
+    "bbb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:bi_cerrosafe_dust"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "cadmium",
+  "ingredient": {
+    "item": "megalosaio:cadmium_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "megalosaio:cadmium_ingot"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "item": "megalosaio:iron_dust"
+    },
+    "v": {
+      "item": "megalosaio:vanadium_dust"
+    }
+  },
+  "pattern": [
+    "iii",
+    "ivi",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_ferrovanadium_dust"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "m": {
+      "item": "megalosaio:molybdenum_dust"
+    },
+    "n": {
+      "item": "megalosaio:nickel_dust"
+    },
+    "s": {
+      "item": "megalosaio:fe_steel_dust"
+    },
+    "t": {
+      "item": "megalosaio:titanium_dust"
+    }
+  },
+  "pattern": [
+    "sss",
+    "nsn",
+    "mta"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_maraging_steel_dust"
+  }
+}

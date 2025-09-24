@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "n": {
+      "item": "megalosaio:niobium_dust"
+    },
+    "t": {
+      "item": "megalosaio:tin_dust"
+    },
+    "z": {
+      "item": "megalosaio:zirconium_dust"
+    }
+  },
+  "pattern": [
+    "zzz",
+    "zzz",
+    "tzn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:zr_zircaloy_dust"
+  }
+}

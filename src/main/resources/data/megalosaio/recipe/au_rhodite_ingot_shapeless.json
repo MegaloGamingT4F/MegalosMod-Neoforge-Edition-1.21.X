@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      	"item": "megalosaio:au_rhodite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megalosaio:au_rhodite_ingot"
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "remove": [
-    "#megalosmod:needs_technetium_tool"
-  ],
-  "values": [
-    "#minecraft:incorrect_for_stone_tool"
-  ]
-}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "rhenium",
+  "ingredient": {
+    "item": "megalosaio:raw_rhenium"
+  },
+  "result": {
+    "count": 1,
+    "id": "megalosaio:rhenium_ingot"
+  }
+}

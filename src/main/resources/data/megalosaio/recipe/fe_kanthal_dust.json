@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_dust"
+    },
+    "c": {
+      "item": "megalosaio:chromium_dust"
+    },
+    "i": {
+      "item": "megalosaio:iron_dust"
+    }
+  },
+  "pattern": [
+    "iii",
+    "ici",
+    "cac"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:fe_kanthal_dust"
+  }
+}
