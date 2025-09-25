@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "megalosaio:ebony_planks"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BBB"
+  ],
+  "result": {
+    "count": 4,
+    "id": "megalosaio:ebony_wall"
+  }
+}

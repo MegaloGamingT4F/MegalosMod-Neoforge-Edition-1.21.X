@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_maple_sycamore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "megalosaio:maple_sycamore_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "megalosaio:maple_sycamore_door"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_maple_sycamore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "megalosaio:maple_sycamore_door"
+    ]
+  }
+}

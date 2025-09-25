@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "maple_sycamore",
+  "key": {
+    "#": {
+      "item": "megalosaio:maple_sycamore_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "megalosaio:maple_sycamore_trapdoor"
+  }
+}

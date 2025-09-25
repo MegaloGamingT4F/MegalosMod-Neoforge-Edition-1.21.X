@@ -562,15 +562,18 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.FENCES)
                 .add(ModBlocks.BLACK_ASH_FENCE.get())
-                .add(ModBlocks.MAPLE_SYCAMORE_FENCE.get());
+                .add(ModBlocks.MAPLE_SYCAMORE_FENCE.get())
+                .add(ModBlocks.EBONY_FENCE.get());
 
         tag(BlockTags.FENCE_GATES)
                 .add(ModBlocks.BLACK_ASH_FENCE_GATE.get())
-                .add(ModBlocks.MAPLE_SYCAMORE_FENCE_GATE.get());
+                .add(ModBlocks.MAPLE_SYCAMORE_FENCE_GATE.get())
+                .add(ModBlocks.EBONY_FENCE_GATE.get());
 
         tag(BlockTags.WALLS)
                 .add(ModBlocks.BLACK_ASH_WALL.get())
-                .add(ModBlocks.MAPLE_SYCAMORE_WALL.get());
+                .add(ModBlocks.MAPLE_SYCAMORE_WALL.get())
+                .add(ModBlocks.EBONY_WALL.get());
 
         tag(BlockTags.WOOL)
                 .add(ModBlocks.LIGHT_BROWN_WOOL_BLOCK.get())
@@ -592,7 +595,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.MAPLE_SYCAMORE_LOG.get())
                 .add(ModBlocks.MAPLE_SYCAMORE_WOOD.get())
                 .add(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get())
-                .add(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get());
+                .add(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get())
+                .add(ModBlocks.EBONY_LOG.get())
+                .add(ModBlocks.EBONY_WOOD.get())
+                .add(ModBlocks.STRIPPED_EBONY_LOG.get())
+                .add(ModBlocks.STRIPPED_EBONY_WOOD.get());
 
     }
 }

@@ -1,4 +1,4 @@
-// 1.21.1	2025-09-23T13:35:38.1558864	Tags for minecraft:block mod id megalosaio
+// 1.21.1	2025-09-25T18:28:52.1839796	Tags for minecraft:block mod id megalosaio
 844b329d54112accdceab7de4a59a53bb1108501 data/megalosaio/tags/block/incorrect_for_aluminium_tool.json
 7d1f5ea9cbac273f17ef412e2174be1fe83d41b9 data/megalosaio/tags/block/incorrect_for_silver_tool.json
 66eaa66b5eee4d300853d2b1136411b51ae1f61d data/megalosaio/tags/block/incorrect_for_technetium_tool.json
@@ -7,12 +7,12 @@
 781d959bb6bbea7b36ae6b2d4a71ced43fd662b9 data/megalosaio/tags/block/needs_silver_tool.json
 781d959bb6bbea7b36ae6b2d4a71ced43fd662b9 data/megalosaio/tags/block/needs_technetium_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data/megalosaio/tags/block/needs_titanium_tool.json
-f0affcd660012fe2f469f7a5eeeea7c3d182840d data/minecraft/tags/block/fences.json
-43de436b1e22ce0d52afff941afada479819ea96 data/minecraft/tags/block/fence_gates.json
-c305391ed63103d290b09a382937d9cb0363ae42 data/minecraft/tags/block/logs_that_burn.json
+7e73997f40d1394efc3c7de78a37d3c98f41753d data/minecraft/tags/block/fences.json
+11e525c03c4153f7f6aff4033581841a4f025540 data/minecraft/tags/block/fence_gates.json
+c5faf373f81d3274171c1416bbd4de4062b15052 data/minecraft/tags/block/logs_that_burn.json
 1b463e9b0ed1e2dcfdd7d3886d7aab9e66d043b1 data/minecraft/tags/block/mineable/pickaxe.json
 7fd7f5ad0fddd50b746746526c1ac5d0a7c67f73 data/minecraft/tags/block/needs_diamond_tool.json
 3076ba7a7c9e13d44554e344e37067d0705542f8 data/minecraft/tags/block/needs_iron_tool.json
 3f4c8d637e667a3b0403b9541698e3f4dfe78810 data/minecraft/tags/block/needs_stone_tool.json
-c589c6ffb35b7377adec5feb45016ee12384bc3f data/minecraft/tags/block/walls.json
+8e2984579e27ecb70e1f33e4660890bfa334d441 data/minecraft/tags/block/walls.json
 8df4c83c16d75e2b9e4c39dcab3dfb7b0e8097c1 data/minecraft/tags/block/wool.json

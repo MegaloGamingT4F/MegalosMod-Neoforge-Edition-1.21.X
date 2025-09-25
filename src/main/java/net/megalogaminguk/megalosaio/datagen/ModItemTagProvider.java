@@ -84,11 +84,16 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.MAPLE_SYCAMORE_LOG.get().asItem())
                 .add(ModBlocks.MAPLE_SYCAMORE_WOOD.get().asItem())
                 .add(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get().asItem())
-                .add(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get().asItem());
+                .add(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get().asItem())
+                .add(ModBlocks.EBONY_LOG.get().asItem())
+                .add(ModBlocks.EBONY_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_EBONY_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_EBONY_WOOD.get().asItem());
 
         this.tag(ItemTags.PLANKS)
                 .add(ModBlocks.BLACK_ASH_PLANKS.asItem())
-                .add(ModBlocks.MAPLE_SYCAMORE_PLANKS.asItem());
+                .add(ModBlocks.MAPLE_SYCAMORE_PLANKS.asItem())
+                .add(ModBlocks.EBONY_PLANKS.asItem());
 
         this.tag(ModTags.Items.FUEL_ITEMS)
                 .add(Items.COAL)

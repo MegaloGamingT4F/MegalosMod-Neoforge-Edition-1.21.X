@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "black_ash",
+  "ingredients": [
+    {
+      "item": "megalosaio:black_ash_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:black_ash_button"
+  }
+}

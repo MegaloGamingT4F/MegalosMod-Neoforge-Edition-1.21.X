@@ -7,6 +7,10 @@
     "megalosaio:maple_sycamore_log",
     "megalosaio:maple_sycamore_wood",
     "megalosaio:stripped_maple_sycamore_log",
-    "megalosaio:stripped_maple_sycamore_wood"
+    "megalosaio:stripped_maple_sycamore_wood",
+    "megalosaio:ebony_log",
+    "megalosaio:ebony_wood",
+    "megalosaio:stripped_ebony_log",
+    "megalosaio:stripped_ebony_wood"
   ]
 }
