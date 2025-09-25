@@ -3,15 +3,15 @@
   "category": "building",
   "key": {
     "X": {
-      "item": "megalosaio:black_ash_plamks"
+      "item": "megalosaio:black_ash_planks"
     }
   },
   "pattern": [
-    "XXX",
+    " X ",
     "XXX"
   ],
   "result": {
-    "count": 6,
+    "count": 4,
     "id": "megalosaio:black_ash_wall"
   }
 }

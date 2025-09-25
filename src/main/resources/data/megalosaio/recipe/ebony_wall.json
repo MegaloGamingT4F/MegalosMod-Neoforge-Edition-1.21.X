@@ -3,11 +3,11 @@
   "category": "building",
   "key": {
     "X": {
-      "item": "megalosaio:ebony_plamks"
+      "item": "megalosaio:ebony_planks"
     }
   },
   "pattern": [
-    "XXX",
+    " X ",
     "XXX"
   ],
   "result": {
