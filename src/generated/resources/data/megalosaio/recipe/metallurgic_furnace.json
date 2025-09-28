@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "megalosaio:aluminium_ingot"
+    },
+    "f": {
+      "item": "minecraft:furnace"
+    },
+    "o": {
+      "item": "megalosaio:osmium_ingot"
+    },
+    "p": {
+      "item": "megalosaio:palladium_ingot"
+    },
+    "t": {
+      "item": "megalosaio:titanium_ingot"
+    }
+  },
+  "pattern": [
+    "tat",
+    "pfp",
+    "oao"
+  ],
+  "result": {
+    "count": 1,
+    "id": "megalosaio:metallurgic_furnace"
+  }
+}

@@ -1,13 +1,13 @@
 package net.megalogaminguk.megalosaio.datagen;
 
 import net.megalogaminguk.megalosaio.block.ModBlocks;
+import net.megalogaminguk.megalosaio.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.RecipeOutput;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 
 import java.util.concurrent.CompletableFuture;
@@ -23,19 +23,71 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" B ")
                 .pattern("BBB")
                 .define('B', ModBlocks.BLACK_ASH_PLANKS.get())
-                .unlockedBy("has_bismuth", has(ModBlocks.BLACK_ASH_PLANKS)).save(recipeOutput);
+                .unlockedBy("has_black_ash", has(ModBlocks.BLACK_ASH_PLANKS)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.EBONY_WALL.get(),4)
                 .pattern(" B ")
                 .pattern("BBB")
                 .define('B', ModBlocks.EBONY_PLANKS.get())
-                .unlockedBy("has_bismuth", has(ModBlocks.EBONY_PLANKS)).save(recipeOutput);
+                .unlockedBy("has_ebony", has(ModBlocks.EBONY_PLANKS)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MAPLE_SYCAMORE_WALL.get(),4)
                 .pattern(" B ")
                 .pattern("BBB")
                 .define('B', ModBlocks.MAPLE_SYCAMORE_PLANKS.get())
-                .unlockedBy("has_bismuth", has(ModBlocks.MAPLE_SYCAMORE_PLANKS)).save(recipeOutput);
+                .unlockedBy("has_maple_sycamore", has(ModBlocks.MAPLE_SYCAMORE_PLANKS)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.METALLURGIC_FURNACE.get())
+                .pattern("tat")
+                .pattern("pfp")
+                .pattern("oao")
+                .define('a', ModItems.ALUMINIUM_INGOT.get())
+                .define('f', Blocks.FURNACE)
+                .define('o', ModItems.OSMIUM_INGOT.get())
+                .define('p', ModItems.PALLADIUM_INGOT.get())
+                .define('t', ModItems.TITANIUM_INGOT.get())
+                .unlockedBy("has_furnace", has(Blocks.FURNACE)).save(recipeOutput);
+
+        //Wool
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.DARK_BLUE_WOOL_BLOCK.get(),1)
+                        .requires(Blocks.WHITE_WOOL).requires(Items.BLACK_DYE).requires(Items.BLUE_DYE)
+                .unlockedBy("has_white_wool", has(Blocks.WHITE_WOOL)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.DARK_BROWN_WOOL_BLOCK.get(),1)
+                .requires(Blocks.WHITE_WOOL).requires(Items.BLACK_DYE).requires(Items.BROWN_DYE)
+                .unlockedBy("has_white_wool", has(Blocks.WHITE_WOOL)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.DARK_GRAY_WOOL_BLOCK.get(),1)
+                .requires(Blocks.WHITE_WOOL).requires(Items.BLACK_DYE).requires(Items.GRAY_DYE)
+                .unlockedBy("has_white_wool", has(Blocks.WHITE_WOOL)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.DARK_GREEN_WOOL_BLOCK.get(),1)
+                .requires(Blocks.WHITE_WOOL).requires(Items.BLACK_DYE).requires(Items.GREEN_DYE)
+                .unlockedBy("has_white_wool", has(Blocks.WHITE_WOOL)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.DARK_RED_WOOL_BLOCK.get(),1)
+                .requires(Blocks.WHITE_WOOL).requires(Items.BLACK_DYE).requires(Items.RED_DYE)
+                .unlockedBy("has_white_wool", has(Blocks.WHITE_WOOL)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.LIGHT_BROWN_WOOL_BLOCK.get(),1)
+                .requires(Blocks.WHITE_WOOL).requires(Items.BROWN_DYE).requires(Items.WHITE_DYE)
+                .unlockedBy("has_white_wool", has(Blocks.WHITE_WOOL)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.LIGHT_GREEN_WOOL_BLOCK.get(),1)
+                .requires(Blocks.WHITE_WOOL).requires(Items.WHITE_DYE).requires(Items.GREEN_DYE)
+                .unlockedBy("has_white_wool", has(Blocks.WHITE_WOOL)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.LIGHT_ORANGE_WOOL_BLOCK.get(),1)
+                .requires(Blocks.WHITE_WOOL).requires(Items.ORANGE_DYE).requires(Items.WHITE_DYE)
+                .unlockedBy("has_white_wool", has(Blocks.WHITE_WOOL)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.LIGHT_PURPLE_WOOL_BLOCK.get(),1)
+                .requires(Blocks.WHITE_WOOL).requires(Items.PURPLE_DYE).requires(Items.WHITE_DYE)
+                .unlockedBy("has_white_wool", has(Blocks.WHITE_WOOL)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.LIGHT_YELLOW_WOOL_BLOCK.get(),1)
+                .requires(Blocks.WHITE_WOOL).requires(Items.YELLOW_DYE).requires(Items.WHITE_DYE)
+                .unlockedBy("has_white_wool", has(Blocks.WHITE_WOOL)).save(recipeOutput);
 
         //Black Ash
         stairBuilder(ModBlocks.BLACK_ASH_STAIRS.get(), Ingredient.of(ModBlocks.BLACK_ASH_PLANKS)).group("black_ash")

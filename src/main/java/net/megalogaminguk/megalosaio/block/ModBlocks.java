@@ -779,25 +779,25 @@ public class ModBlocks {
 
     //Wool Variants
     public static final DeferredBlock<Block> LIGHT_GREEN_WOOL_BLOCK = registerBlock("light_green_wool",
-            ()-> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
+            ()-> new Block(BlockBehaviour.Properties.of().strength(0.8f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
     public static final DeferredBlock<Block> DARK_GREEN_WOOL_BLOCK = registerBlock("dark_green_wool",
-            ()-> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
+            ()-> new Block(BlockBehaviour.Properties.of().strength(0.8f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
     public static final DeferredBlock<Block> LIGHT_BROWN_WOOL_BLOCK = registerBlock("light_brown_wool",
-            ()-> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
+            ()-> new Block(BlockBehaviour.Properties.of().strength(0.8f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
     public static final DeferredBlock<Block> DARK_BROWN_WOOL_BLOCK = registerBlock("dark_brown_wool",
-            ()-> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
+            ()-> new Block(BlockBehaviour.Properties.of().strength(0.8f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
     public static final DeferredBlock<Block> DARK_RED_WOOL_BLOCK = registerBlock("dark_red_wool",
-            ()-> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
+            ()-> new Block(BlockBehaviour.Properties.of().strength(0.8f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
     public static final DeferredBlock<Block> DARK_BLUE_WOOL_BLOCK = registerBlock("dark_blue_wool",
-            ()-> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
+            ()-> new Block(BlockBehaviour.Properties.of().strength(0.8f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
     public static final DeferredBlock<Block> LIGHT_YELLOW_WOOL_BLOCK = registerBlock("light_yellow_wool",
-            ()-> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
+            ()-> new Block(BlockBehaviour.Properties.of().strength(0.8f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
     public static final DeferredBlock<Block> LIGHT_ORANGE_WOOL_BLOCK = registerBlock("light_orange_wool",
-            ()-> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
+            ()-> new Block(BlockBehaviour.Properties.of().strength(0.8f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
     public static final DeferredBlock<Block> DARK_GRAY_WOOL_BLOCK = registerBlock("dark_gray_wool",
-            ()-> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
+            ()-> new Block(BlockBehaviour.Properties.of().strength(0.8f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
     public static final DeferredBlock<Block> LIGHT_PURPLE_WOOL_BLOCK = registerBlock("light_purple_wool",
-            ()-> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
+            ()-> new Block(BlockBehaviour.Properties.of().strength(0.8f).requiresCorrectToolForDrops().sound(SoundType.WOOL)));
 
     //Nature - Trees - Log
     public static final DeferredBlock<Block> BLACK_ASH_LOG = registerBlock("black_ash_log",
