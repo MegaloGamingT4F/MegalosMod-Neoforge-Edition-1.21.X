@@ -575,6 +575,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.MAPLE_SYCAMORE_WALL.get())
                 .add(ModBlocks.EBONY_WALL.get());
 
+        tag(BlockTags.DOORS)
+                .add(ModBlocks.BLACK_ASH_DOOR.get())
+                .add(ModBlocks.EBONY_DOOR.get())
+                .add(ModBlocks.MAPLE_SYCAMORE_DOOR.get());
+
         tag(BlockTags.WOOL)
                 .add(ModBlocks.LIGHT_BROWN_WOOL_BLOCK.get())
                 .add(ModBlocks.LIGHT_GREEN_WOOL_BLOCK.get())

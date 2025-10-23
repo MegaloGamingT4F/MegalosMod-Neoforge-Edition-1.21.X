@@ -2,14 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "X": {
-      "item": "megalosaio:aluminium_ingot"
+    "g": {
+      "item": "megalosaio:aluminium_guard"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "p": {
+      "item": "megalosaio:aluminium_pommel"
     }
   },
   "pattern": [
-    "  X",
-    " X ",
-    "X  "
+    "  g",
+    " s ",
+    "p  "
   ],
   "result": {
     "count": 1,

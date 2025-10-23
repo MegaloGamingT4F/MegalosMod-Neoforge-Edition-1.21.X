@@ -2,9 +2,11 @@ package net.megalogaminguk.megalosaio.datagen;
 
 import net.megalogaminguk.megalosaio.block.ModBlocks;
 import net.megalogaminguk.megalosaio.item.ModItems;
+import net.minecraft.client.Minecraft;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Blocks;
@@ -157,6 +159,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         trapdoorBuilder(ModBlocks.MAPLE_SYCAMORE_TRAPDOOR.get(), Ingredient.of(ModBlocks.MAPLE_SYCAMORE_PLANKS.get())).group("maple_sycamore")
                 .unlockedBy("has_maple_sycamore", has(ModBlocks.MAPLE_SYCAMORE_PLANKS.get())).save(recipeOutput);
+
+        //Items
 
     }
 }

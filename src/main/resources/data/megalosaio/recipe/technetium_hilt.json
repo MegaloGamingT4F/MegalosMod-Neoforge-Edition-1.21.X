@@ -2,14 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "X": {
-      "item": "megalosaio:technetium_ingot"
+    "g": {
+      "item": "megalosaio:technetium_guard"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "p": {
+      "item": "megalosaio:technetium_pommel"
     }
   },
   "pattern": [
-    "  X",
-    " X ",
-    "X  "
+    "  g",
+    " s ",
+    "p  "
   ],
   "result": {
     "count": 1,

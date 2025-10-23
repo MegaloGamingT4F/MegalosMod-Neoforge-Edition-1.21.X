@@ -1353,85 +1353,56 @@ public class ModCreativeModeTabs
                     .title(Component.translatable("creativetab.megalosaio.nature_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         //Nature - Tree
-                        //Log
                         output.accept(ModBlocks.BLACK_ASH_LOG.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_LOG.get());
-                        output.accept(ModBlocks.EBONY_LOG.get());
-
-                        //Wood
                         output.accept(ModBlocks.BLACK_ASH_WOOD.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_WOOD.get());
-                        output.accept(ModBlocks.EBONY_WOOD.get());
-
-                        //Stripped Log
-                        output.accept(ModBlocks.STRIPPED_BLACK_ASH_LOG.get());
-                        output.accept(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get());
-                        output.accept(ModBlocks.STRIPPED_EBONY_LOG.get());
-
-                        //Stripped Wood
                         output.accept(ModBlocks.STRIPPED_BLACK_ASH_WOOD.get());
-                        output.accept(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get());
-                        output.accept(ModBlocks.STRIPPED_EBONY_WOOD.get());
-
-                        //Planks
+                        output.accept(ModBlocks.STRIPPED_BLACK_ASH_LOG.get());
                         output.accept(ModBlocks.BLACK_ASH_PLANKS.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_PLANKS.get());
-                        output.accept(ModBlocks.EBONY_PLANKS.get());
-
-                        //Sapling
                         output.accept(ModBlocks.BLACK_ASH_SAPLING.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_SAPLING.get());
-                        output.accept(ModBlocks.EBONY_SAPLING.get());
-
-                        //Leaves
                         output.accept(ModBlocks.BLACK_ASH_LEAVES.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_LEAVES.get());
-                        output.accept(ModBlocks.EBONY_LEAVES.get());
-                        
-                        //Stairs
                         output.accept(ModBlocks.BLACK_ASH_STAIRS.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_STAIRS.get());
-                        output.accept(ModBlocks.EBONY_STAIRS.get());
-
-                        //Slab
                         output.accept(ModBlocks.BLACK_ASH_SLAB.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_SLAB.get());
-                        output.accept(ModBlocks.EBONY_SLAB.get());
-
-                        //Pressure Plate
                         output.accept(ModBlocks.BLACK_ASH_PRESSURE_PLATE.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_PRESSURE_PLATE.get());
-                        output.accept(ModBlocks.EBONY_PRESSURE_PLATE.get());
-
-                        //Button
                         output.accept(ModBlocks.BLACK_ASH_BUTTON.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_BUTTON.get());
-                        output.accept(ModBlocks.EBONY_BUTTON.get());
-
-                        //Fence
                         output.accept(ModBlocks.BLACK_ASH_FENCE.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_FENCE.get());
-                        output.accept(ModBlocks.EBONY_FENCE.get());
-
-                        //Fence Gate
                         output.accept(ModBlocks.BLACK_ASH_FENCE_GATE.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_FENCE_GATE.get());
-                        output.accept(ModBlocks.EBONY_FENCE_GATE.get());
-
-                        //Wall
                         output.accept(ModBlocks.BLACK_ASH_WALL.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_WALL.get());
-                        output.accept(ModBlocks.EBONY_WALL.get());
-
-                        //Door
                         output.accept(ModBlocks.BLACK_ASH_DOOR.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_DOOR.get());
-                        output.accept(ModBlocks.EBONY_DOOR.get());
-
-                        //Trapdoor
                         output.accept(ModBlocks.BLACK_ASH_TRAPDOOR.get());
-                        output.accept(ModBlocks.MAPLE_SYCAMORE_TRAPDOOR.get());
+
+                        output.accept(ModBlocks.EBONY_LOG.get());
+                        output.accept(ModBlocks.EBONY_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_EBONY_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_EBONY_WOOD.get());
+                        output.accept(ModBlocks.EBONY_PLANKS.get());
+                        output.accept(ModBlocks.EBONY_SAPLING.get());
+                        output.accept(ModBlocks.EBONY_LEAVES.get());
+                        output.accept(ModBlocks.EBONY_STAIRS.get());
+                        output.accept(ModBlocks.EBONY_SLAB.get());
+                        output.accept(ModBlocks.EBONY_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.EBONY_BUTTON.get());
+                        output.accept(ModBlocks.EBONY_FENCE.get());
+                        output.accept(ModBlocks.EBONY_FENCE_GATE.get());
+                        output.accept(ModBlocks.EBONY_WALL.get());
+                        output.accept(ModBlocks.EBONY_DOOR.get());
                         output.accept(ModBlocks.EBONY_TRAPDOOR.get());
+
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_LOG.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_PLANKS.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_SAPLING.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_LEAVES.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_STAIRS.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_SLAB.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_BUTTON.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_FENCE.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_FENCE_GATE.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_WALL.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_DOOR.get());
+                        output.accept(ModBlocks.MAPLE_SYCAMORE_TRAPDOOR.get());
 
                         //Nature - Bush
                         output.accept(ModItems.GOOSEBERRY_BERRIES);

@@ -2,14 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "X": {
-      "item": "megalosaio:titanium_ingot"
+    "g": {
+      "item": "megalosaio:titanium_guard"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "p": {
+      "item": "megalosaio:titanium_pommel"
     }
   },
   "pattern": [
-    "  X",
-    " X ",
-    "X  "
+    "  g",
+    " s ",
+    "p  "
   ],
   "result": {
     "count": 1,
