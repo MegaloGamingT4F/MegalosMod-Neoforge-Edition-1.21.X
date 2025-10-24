@@ -553,70 +553,70 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                         .apply(ApplyBonusCount.addUniformBonusCount(registrylookup.getOrThrow(Enchantments.FORTUNE)))
                 )));
 
-        this.dropSelf(ModBlocks.BLACK_ASH_LOG.get());
-        this.dropSelf(ModBlocks.BLACK_ASH_WOOD.get());
-        this.dropSelf(ModBlocks.STRIPPED_BLACK_ASH_LOG.get());
-        this.dropSelf(ModBlocks.STRIPPED_BLACK_ASH_WOOD.get());
-        this.dropSelf(ModBlocks.BLACK_ASH_SAPLING.get());
-        this.dropSelf(ModBlocks.BLACK_ASH_PLANKS.get());
+        dropSelf(ModBlocks.BLACK_ASH_LOG.get());
+        dropSelf(ModBlocks.BLACK_ASH_WOOD.get());
+        dropSelf(ModBlocks.STRIPPED_BLACK_ASH_LOG.get());
+        dropSelf(ModBlocks.STRIPPED_BLACK_ASH_WOOD.get());
+        dropSelf(ModBlocks.BLACK_ASH_SAPLING.get());
+        dropSelf(ModBlocks.BLACK_ASH_PLANKS.get());
 
         this.add(ModBlocks.BLACK_ASH_LEAVES.get(), block ->
                 createLeavesDrops(block, ModBlocks.BLACK_ASH_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
 
-        this.dropSelf(ModBlocks.EBONY_LOG.get());
-        this.dropSelf(ModBlocks.EBONY_WOOD.get());
-        this.dropSelf(ModBlocks.STRIPPED_EBONY_LOG.get());
-        this.dropSelf(ModBlocks.STRIPPED_EBONY_WOOD.get());
-        this.dropSelf(ModBlocks.EBONY_SAPLING.get());
-        this.dropSelf(ModBlocks.EBONY_PLANKS.get());
+        dropSelf(ModBlocks.EBONY_LOG.get());
+        dropSelf(ModBlocks.EBONY_WOOD.get());
+        dropSelf(ModBlocks.STRIPPED_EBONY_LOG.get());
+        dropSelf(ModBlocks.STRIPPED_EBONY_WOOD.get());
+        dropSelf(ModBlocks.EBONY_SAPLING.get());
+        dropSelf(ModBlocks.EBONY_PLANKS.get());
 
         this.add(ModBlocks.EBONY_LEAVES.get(), block ->
                 createLeavesDrops(block, ModBlocks.EBONY_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
 
-        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_LOG.get());
-        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_WOOD.get());
-        this.dropSelf(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get());
-        this.dropSelf(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get());
-        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_SAPLING.get());
-        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_PLANKS.get());
+        dropSelf(ModBlocks.MAPLE_SYCAMORE_LOG.get());
+        dropSelf(ModBlocks.MAPLE_SYCAMORE_WOOD.get());
+        dropSelf(ModBlocks.STRIPPED_MAPLE_SYCAMORE_LOG.get());
+        dropSelf(ModBlocks.STRIPPED_MAPLE_SYCAMORE_WOOD.get());
+        dropSelf(ModBlocks.MAPLE_SYCAMORE_SAPLING.get());
+        dropSelf(ModBlocks.MAPLE_SYCAMORE_PLANKS.get());
 
         this.add(ModBlocks.MAPLE_SYCAMORE_LEAVES.get(), block ->
                 createLeavesDrops(block, ModBlocks.MAPLE_SYCAMORE_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
 
-        this.dropSelf(ModBlocks.BLACK_ASH_STAIRS.get());
-        this.add(ModBlocks.BLACK_ASH_SLAB.get(), block -> createSlabItemTable(ModBlocks.BLACK_ASH_SLAB.get()));
-        this.dropSelf(ModBlocks.BLACK_ASH_PRESSURE_PLATE.get());
-        this.dropSelf(ModBlocks.BLACK_ASH_BUTTON.get());
-        this.dropSelf(ModBlocks.BLACK_ASH_FENCE.get());
-        this.dropSelf(ModBlocks.BLACK_ASH_FENCE_GATE.get());
-        this.dropSelf(ModBlocks.BLACK_ASH_WALL.get());
+        dropSelf(ModBlocks.BLACK_ASH_STAIRS.get());
+        add(ModBlocks.BLACK_ASH_SLAB.get(), block -> createSlabItemTable(ModBlocks.BLACK_ASH_SLAB.get()));
+        dropSelf(ModBlocks.BLACK_ASH_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.BLACK_ASH_BUTTON.get());
+        dropSelf(ModBlocks.BLACK_ASH_FENCE.get());
+        dropSelf(ModBlocks.BLACK_ASH_FENCE_GATE.get());
+        dropSelf(ModBlocks.BLACK_ASH_WALL.get());
         this.add(ModBlocks.BLACK_ASH_DOOR.get(),
                 block -> createDoorTable(ModBlocks.BLACK_ASH_DOOR.get()));
-        this.dropSelf(ModBlocks.BLACK_ASH_TRAPDOOR.get());
+        dropSelf(ModBlocks.BLACK_ASH_TRAPDOOR.get());
 
-        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_STAIRS.get());
+        dropSelf(ModBlocks.MAPLE_SYCAMORE_STAIRS.get());
         this.add(ModBlocks.MAPLE_SYCAMORE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.MAPLE_SYCAMORE_SLAB.get()));
-        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_PRESSURE_PLATE.get());
-        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_BUTTON.get());
-        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_FENCE.get());
-        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_FENCE_GATE.get());
-        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_WALL.get());
+        dropSelf(ModBlocks.MAPLE_SYCAMORE_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.MAPLE_SYCAMORE_BUTTON.get());
+        dropSelf(ModBlocks.MAPLE_SYCAMORE_FENCE.get());
+        dropSelf(ModBlocks.MAPLE_SYCAMORE_FENCE_GATE.get());
+        dropSelf(ModBlocks.MAPLE_SYCAMORE_WALL.get());
         this.add(ModBlocks.MAPLE_SYCAMORE_DOOR.get(),
                 block -> createDoorTable(ModBlocks.MAPLE_SYCAMORE_DOOR.get()));
-        this.dropSelf(ModBlocks.MAPLE_SYCAMORE_TRAPDOOR.get());
+        dropSelf(ModBlocks.MAPLE_SYCAMORE_TRAPDOOR.get());
 
-        this.dropSelf(ModBlocks.EBONY_STAIRS.get());
+        dropSelf(ModBlocks.EBONY_STAIRS.get());
         this.add(ModBlocks.EBONY_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.EBONY_SLAB.get()));
-        this.dropSelf(ModBlocks.EBONY_PRESSURE_PLATE.get());
-        this.dropSelf(ModBlocks.EBONY_BUTTON.get());
-        this.dropSelf(ModBlocks.EBONY_FENCE.get());
-        this.dropSelf(ModBlocks.EBONY_FENCE_GATE.get());
-        this.dropSelf(ModBlocks.EBONY_WALL.get());
+        dropSelf(ModBlocks.EBONY_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.EBONY_BUTTON.get());
+        dropSelf(ModBlocks.EBONY_FENCE.get());
+        dropSelf(ModBlocks.EBONY_FENCE_GATE.get());
+        dropSelf(ModBlocks.EBONY_WALL.get());
         this.add(ModBlocks.EBONY_DOOR.get(),
                 block -> createDoorTable(ModBlocks.EBONY_DOOR.get()));
-        this.dropSelf(ModBlocks.EBONY_TRAPDOOR.get());
+        dropSelf(ModBlocks.EBONY_TRAPDOOR.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

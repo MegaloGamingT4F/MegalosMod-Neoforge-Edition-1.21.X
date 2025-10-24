@@ -1675,6 +1675,20 @@ public class ModItems {
             ()-> new ArmorItem(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
 
+    //Horse Armour
+    public static final DeferredItem<Item> ALUMINIUM_HORSE_ARMOR = ITEMS.register("aluminium_horse_armor",
+            ()-> new AnimalArmorItem(ModArmorMaterials.ALUMINIUM_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
+                    false, new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> SILVER_HORSE_ARMOR = ITEMS.register("silver_horse_armor",
+            ()-> new AnimalArmorItem(ModArmorMaterials.SILVER_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
+                    false, new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> TECHNETIUM_HORSE_ARMOR = ITEMS.register("technetium_horse_armor",
+            ()-> new AnimalArmorItem(ModArmorMaterials.TECHNETIUM_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
+                    false, new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> TITANIUM_HORSE_ARMOR = ITEMS.register("titanium_horse_armor",
+            ()-> new AnimalArmorItem(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
+                    false, new Item.Properties().stacksTo(1)));
+
     //Hoplology - Parts
     public static final DeferredItem<Item> ALUMINIUM_AXEHEAD = ITEMS.register("aluminium_axehead",
             () -> new Item(new Item.Properties()));

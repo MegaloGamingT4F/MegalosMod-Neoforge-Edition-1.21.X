@@ -1344,6 +1344,11 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.TITANIUM_CHESTPLATE.get());
                         output.accept(ModItems.TITANIUM_LEGGINGS.get());
                         output.accept(ModItems.TITANIUM_BOOTS.get());
+
+                        output.accept(ModItems.ALUMINIUM_HORSE_ARMOR);
+                        output.accept(ModItems.SILVER_HORSE_ARMOR);
+                        output.accept(ModItems.TECHNETIUM_HORSE_ARMOR);
+                        output.accept(ModItems.TITANIUM_HORSE_ARMOR);
                     }).build());
 
     public static final Supplier<CreativeModeTab> NATURE_CROPS_TAB = CREATIVE_MODE_TAB.register("nature_tab",

@@ -1,4 +1,4 @@
-// 1.21.1	2025-09-23T13:54:15.8741818	Item Models: megalosaio
+// 1.21.1	2025-10-24T18:16:16.6344829	Item Models: megalosaio
 09cd1b4260b4b430bc033f679ea9e12773801457 assets/megalosaio/models/item/ag_argentium_sterling_silver_dust.json
 0f7e77f58cadcb6b4c7c0cc4596f7668610e33ba assets/megalosaio/models/item/ag_argentium_sterling_silver_ingot.json
 fcf95d7be2c8b2c41d2f4e16547d33eca0a6b7ec assets/megalosaio/models/item/ag_argentium_sterling_silver_nugget.json
@@ -66,6 +66,7 @@ d99219bc55b7e4c23b2ceeec58bd398951a12ecf assets/megalosaio/models/item/aluminium
 a0415bb5e6a6ab8df9d03fc1153cb7123d96654d assets/megalosaio/models/item/aluminium_helmet_redstone_trim.json
 a663e9b4b671cac3fb8b0917e75f127ac49b0019 assets/megalosaio/models/item/aluminium_hilt.json
 9f9ee7976cd86df9d30326f9bf13dc58618f4870 assets/megalosaio/models/item/aluminium_hoe.json
+7a52b766118e1389b8e3bd6e0caa55df43601174 assets/megalosaio/models/item/aluminium_horse_armor.json
 58225d8f48b205800d002c8eb4f876011eeab398 assets/megalosaio/models/item/aluminium_ingot.json
 05a2e29225a649e82182c002179ded5e72cbdc89 assets/megalosaio/models/item/aluminium_leggings.json
 c85aae16f605b3677a7e6b61d80d7968c8f79a18 assets/megalosaio/models/item/aluminium_leggings_amethyst_trim.json
@@ -892,6 +893,7 @@ dad99ce950777a114a825cfd8284cee2c11599df assets/megalosaio/models/item/silver_he
 7347043959fcd9d8127c26be8a473085704e8e9a assets/megalosaio/models/item/silver_helmet_redstone_trim.json
 92c4eb79f47c7c6a0a15e7f4ddec9bf8f88230cd assets/megalosaio/models/item/silver_hilt.json
 3421cc820797151c29f42130d8d9756e97c38e18 assets/megalosaio/models/item/silver_hoe.json
+708107b7cc293bbe2a88bda60757f36d821d5355 assets/megalosaio/models/item/silver_horse_armor.json
 1b49ecabca6e749b9c808e2be47ca6294c35ff29 assets/megalosaio/models/item/silver_ingot.json
 235c98d6f83545cf986804ad6e6a92aec7e5594e assets/megalosaio/models/item/silver_leggings.json
 778e20539d40493c3c4960d16fd14b4a57d002a6 assets/megalosaio/models/item/silver_leggings_amethyst_trim.json
@@ -977,6 +979,7 @@ ad8b61b331b96fede42ef1726e8a0db5c64ebc10 assets/megalosaio/models/item/technetiu
 22af5c8b9d3fd01bcd3d0f1893bb18457f8d5b50 assets/megalosaio/models/item/technetium_helmet_redstone_trim.json
 4e696414a96103e19116901a5ecc7b9fba8e4db5 assets/megalosaio/models/item/technetium_hilt.json
 edfba56b0eb1600121c84f64625bb40dbbbc3d3f assets/megalosaio/models/item/technetium_hoe.json
+cbc469aabcac1d448322205b528f4d3887361882 assets/megalosaio/models/item/technetium_horse_armor.json
 33e8bcd4e4a944185294c2c017e5fc27c49b0ffd assets/megalosaio/models/item/technetium_ingot.json
 0d3448d7d2e594614e226e921397e30bdb3d8188 assets/megalosaio/models/item/technetium_leggings.json
 88e90984f09221883b1ea319881896a8cd245f16 assets/megalosaio/models/item/technetium_leggings_amethyst_trim.json
@@ -1046,6 +1049,7 @@ b1139749bff2b33423f1ad03e5d9259a031755d4 assets/megalosaio/models/item/titanium_
 63369508225154acbc4b7098584a29e3d8c4f079 assets/megalosaio/models/item/titanium_helmet_redstone_trim.json
 805c076f7a7f956991e0ce3b9053160bc7e8f773 assets/megalosaio/models/item/titanium_hilt.json
 8d16b534279e279f75172f7de057b39a9f3a2565 assets/megalosaio/models/item/titanium_hoe.json
+0482191bcba418b12fbcece4b2052211ae6bc7b5 assets/megalosaio/models/item/titanium_horse_armor.json
 255688d8b44d3e5c9c43c12b86e0bbbcef0ab4b4 assets/megalosaio/models/item/titanium_ingot.json
 f44906a762a07833e5f4ae8b72ce8313869c7d02 assets/megalosaio/models/item/titanium_leggings.json
 4d6e0eac268192714b6cef0556b3fbb04f100ffb assets/megalosaio/models/item/titanium_leggings_amethyst_trim.json

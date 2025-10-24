@@ -299,6 +299,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.TITANIUM_PICK.get());
         basicItem(ModItems.TITANIUM_PLATE.get());
 
+        basicItem(ModItems.ALUMINIUM_HORSE_ARMOR.get());
+        basicItem(ModItems.SILVER_HORSE_ARMOR.get());
+        basicItem(ModItems.TECHNETIUM_HORSE_ARMOR.get());
+        basicItem(ModItems.TITANIUM_HORSE_ARMOR.get());
+
         handheldItem(ModItems.ALUMINIUM_SWORD);
         handheldItem(ModItems.ALUMINIUM_PICKAXE);
         handheldItem(ModItems.ALUMINIUM_SHOVEL);

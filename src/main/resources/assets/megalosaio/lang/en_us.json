@@ -331,6 +331,11 @@
   "item.megalosaio.titanium_leggings": "Titanium Leggings",
   "item.megalosaio.titanium_boots": "Titanium Boots",
 
+  "item.megalosaio.aluminium_horse_armor": "Aluminium Horse Armor",
+  "item.megalosaio.silver_horse_armor": "Silver Horse Armor",
+  "item.megalosaio.technetium_horse_armor": "Technetium Horse Armor",
+  "item.megalosaio.titanium_horse_armor": "Titanium Horse Armor",
+
   "block.megalosaio.aluminium_ore": "Aluminium Ore",
   "block.megalosaio.aluminium_block": "Block of Aluminium",
   "block.megalosaio.antimony_ore": "Antimony Ore",
